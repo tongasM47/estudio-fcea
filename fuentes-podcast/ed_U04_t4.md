@@ -1,338 +1,220 @@
 # Economía Descriptiva · Unidad 4: Cuentas de producción y de generación del ingreso
 
-Material para la 1ª revisión de octubre 2026 (FCEA-UDELAR). Peso en el parcial según los parciales anteriores: 8% del puntaje, prioridad alta.
-5 de 64 preguntas en 2023-2024, pero cortas y seguras. EEB del Gobierno = CKF sale en dic-24, dic-25 y jul-26.
+Material de estudio para la 1ª revisión de octubre 2026 (FCEA-UDELAR). TODO el contenido de este documento sale exclusivamente del material de la cátedra (notas, teóricos, diapositivas, guías, ejercicios y soluciones oficiales publicados en EVA). No hay que agregar conceptos, autores, ejemplos ni criterios que no estén acá.
+
+Fuente de la cátedra: Tomo 1 ED 2026, sección 3.3.1.1 (pág. 42-51), Cuadros 1 a 4 de las cuentas; Clase Práctica 3
+
+Peso en la prueba según los parciales anteriores: 8% del puntaje, prioridad alta. 5 de 64 preguntas en 2023-2024, pero cortas y seguras. EEB del Gobierno = CKF sale en dic-24, dic-25 y jul-26.
 
 ## Explicación simple
-Una heladería vende helados por 1.000 en el año. Para hacerlos compró leche, azúcar, conos y luz por 400: eso se "gastó" dentro del proceso (consumo intermedio). Lo que la heladería creó de verdad son los 600 restantes: el valor agregado.
-La cuenta de producción es esa resta. La cuenta de generación del ingreso responde: ¿a quién le tocan esos 600? Una parte a los empleados (sueldos y aportes), otra al Estado (impuestos a la producción, menos lo que el Estado le subsidia), otra se "aparta" para reponer la máquina de helados que se va gastando (consumo de capital fijo), y lo que sobra es la ganancia del dueño (excedente neto).
+Una empresa molinera produce harina por 1.000 en el año. Para hacerla usó trigo, energía y fletes por 400: eso es consumo intermedio, valor creado por otros. Lo que la molinera agregó son los 600 restantes: su valor agregado bruto.
+La cuenta de producción es esa resta. La cuenta de generación del ingreso responde: ¿cómo se reparten esos 600 entre los que participaron en producir? Una parte a los trabajadores (remuneraciones con sus aportes), otra al Gobierno (impuestos sobre la producción menos subsidios) y lo que queda es el excedente de explotación bruto, que incluye el desgaste de las máquinas.
 
 ## Explicación para el parcial
 Cuenta de producción
 
-Empleos
- | 
-Recursos
- | 
+Describe el proceso de producción del agente productor. Se construye desde la óptica del productor.
 
-CI
-VAB (saldo)
- | 
-VBP
- | 
+Usos | Recursos | 
+Consumo Intermedio
+Valor Agregado Bruto (saldo)
+Consumo de Capital Fijo
+Valor Agregado Neto | Producción | 
 
-VAB = VBP − CI
-. El VBP de mercado se valora por las ventas más la variación de existencias de productos propios; el del gobierno (no de mercado) por sus costos (CI + RA + CKF).
+VAB = Producción − CI; VAN = Producción − (CI + CKF). El valor agregado debería medirse neto (el CKF es valor que los activos fijos traspasan a los productos), pero como el CKF es difícil de estimar el SCN 93 acepta presentarlo bruto o neto.
 
-El 
-consumo intermedio
- son bienes y servicios que se usan y se agotan en el proceso productivo dentro del período (materias primas, energía, fletes, publicidad). Los bienes durables que se usan más de un año (máquinas, vehículos, edificios, software) no son CI sino 
-FBKF
-; su desgaste anual es el 
-CKF
-.
+Se puede armar por actividades (todos los datos salen del COU) o por sectores institucionales. En la versión simplificada los Hogares no registran producción. El Resto del Mundo se incorpora desde su propia óptica: recursos = importaciones (ingreso para el RM) y usos = exportaciones (gasto para el RM). Su saldo es el saldo de bienes y servicios con el exterior = M − E = −SBC.
 
 Cuenta de generación del ingreso
 
-Empleos
- | 
-Recursos
- | 
+Muestra, desde la óptica del productor, las transacciones distributivas ligadas al proceso de producción, como un costo para el productor.
 
-RA
-Impuestos sobre la producción − subvenciones
-EEB / ingreso mixto (saldo)
- | 
-VAB
- | 
+Usos | Recursos | 
+Remuneración de Asalariados (RA)
+Impuestos − Subsidios sobre la producción
+Excedente de Explotación Bruto (saldo) | Valor Agregado Bruto | 
 
-EEB = VAB − RA − (Imp−S) = CKF + EEN. Cuando el productor es un hogar (trabajador independiente) el saldo se llama 
-ingreso mixto
-, porque mezcla remuneración del trabajo del dueño y ganancia.
+- RA: remuneración total, en dinero o en especie, que paga una empresa a un asalariado; se registra cuando se devenga. Componentes: sueldos y salarios nominales (incluyen los aportes personales) y aportes patronales. Aportes patronales y personales integran las contribuciones sociales.
 
-Remuneración de asalariados
+- Imp − S: impuestos sobre la producción netos de subsidios.
 
-RA = 
-sueldos y salarios
- (nominales, en dinero o en especie) + 
-contribuciones sociales de los empleadores
- (aportes patronales). El salario nominal ya incluye el aporte personal del trabajador, que le es descontado. Entonces:
+- Excedente de Explotación: saldo que mide el excedente o déficit generado únicamente en la producción, antes de intereses y otras rentas. EEB = CKF + EEN.
 
-- 
-Salario nominal = RA − aportes patronales.
+Para el Gobierno: sin Imp − S sobre su producción y EEBG = CKFG. En la cuenta por sectores, el RM registra como recurso y como uso el saldo de bienes y servicios con el exterior.
 
-- 
-Salario líquido (lo que cobra) = salario nominal − aportes personales = RA − patronales − personales.
+Impuestos: cuáles son sobre la producción
 
-Los aportes personales y patronales, sumados, son las 
-contribuciones sociales
- que después los hogares pagan al gobierno (BPS) en la distribución secundaria.
-
-Impuestos sobre la producción
-
-Son los que recaen sobre producir, importar o vender (IVA, IMESI, aranceles, contribución inmobiliaria sobre locales productivos). No confundir con los impuestos 
-sobre el ingreso
- (IRPF, IRAE), que van en la distribución secundaria. Las subvenciones se restan: por eso se habla de impuestos netos (Imp−S).
-
-Contribución de una rama al PIB
-
-Se mide por su 
-VAB
-, no por su producción: si la industria produce 33.000 pero compra 16.000 de insumos, su contribución al PIB es 17.000.
+Los impuestos sobre la producción y los productos son pagos obligatorios sin contrapartida vinculados al proceso productivo: sobre la producción (sobre bienes de capital o mano de obra, licencias, patente de rodados de la empresa, ambientales) y sobre los productos (IVA, IMESI, IMEBA, derechos de importación). A precios básicos se incluyen solo los primeros netos de subsidios; a precio productor, también los segundos. Los impuestos sobre el ingreso y la riqueza (IRAE, IRPF, patrimonio) no forman parte de los precios: pertenecen a la distribución.
 
 ## Cómo se resuelve en el parcial
-- 
-VAB = VBP − CI. Si no tenés VBP, sumá la fila de la rama en el COU.
-- 
-EEB = VAB − RA − (Imp−S); EEN = EEB − CKF.
-- 
-Salarios nominales = RA − aportes patronales. Líquido = nominal − aportes personales.
-- 
-Gobierno: EEN = 0, EEB = CKF.
-- 
-Ante un gasto, preguntate: ¿se agota en el año (CI) o dura más (FBKF)?
+- VAB = Producción − CI. Si no tenés la Producción, sumá la fila de la rama en el COU.
+- EEB = VAB − RA − (Imp − S); EEN = EEB − CKF.
+- Salario nominal = RA − aportes patronales. Salario líquido = salario nominal − aportes personales.
+- Gobierno: EEN = 0, EEB = CKF.
+- Cuenta por sectores con RM: recursos del RM = M, usos del RM = E, saldo = M − E.
 
 ## Trampas típicas
-- 
-Restar los aportes personales al calcular el salario nominal (solo se restan los patronales de la RA).
-- 
-Poner IRPF o IRAE como impuesto sobre la producción.
-- 
-Tratar la leche que compra una láctea como FBKF: es CI.
-- 
-Medir la contribución de una rama por su VBP.
+- Restar los aportes personales al pasar de RA a salario nominal: solo se restan los patronales.
+- Poner IRPF o IRAE como impuestos sobre la producción.
+- Olvidar que ambas cuentas se construyen desde la óptica del productor.
+- Medir la contribución de una rama al PIB por su Producción: es su VAB.
+- Poner el saldo de bienes y servicios con el exterior como E − M: en la cuenta del RM es M − E.
+- Registrar producción para los Hogares en la versión simplificada.
 
 ## Ejercicio resuelto
-La industria tuvo RA por 40.000. Los aportes personales fueron 6.000 y los patronales 8.000. ¿Cuánto fueron los salarios nominales y el salario líquido? Si su VAB fue 70.000, CKF 9.000 e Imp−S 6.000, ¿cuánto fue el EEN?
-Solución:
-Salarios nominales = RA − patronales = 40.000 − 8.000 = 
-32.000
- (incluyen los 6.000 de aporte personal).
-Salario líquido = 32.000 − 6.000 = 
-26.000
-.
-EEB = 70.000 − 40.000 − 6.000 = 24.000. EEN = 24.000 − 9.000 = 
-15.000
-.
+Letra: La actividad agropecuaria tuvo RA por 40.000, de la que 6.000 son aportes personales y 8.000 aportes patronales. ¿Cuánto fueron los salarios nominales y los líquidos? Si su VAB fue 70.000, su CKF 9.000 y sus Imp − S 6.000, ¿cuánto fueron el EEB y el EEN?
+
+Solución: Salarios nominales = RA − aportes patronales = 40.000 − 8.000 = 32.000 (incluyen los 6.000 de aportes personales).
+Salario líquido = 32.000 − 6.000 = 26.000.
+EEB = 70.000 − 40.000 − 6.000 = 24.000. EEN = 24.000 − 9.000 = 15.000.
 
 ## Cómo aparece en la prueba
-- P3 (4/4): VAB de una rama o contribución al PIB. VAB (a veces VAN) de una rama, o "la contribución de la actividad X al PIB se mide por…". En exámenes: jul-24, dic-24, jul-25 (VAN). Consejo: Contribución al PIB = VAB = VBP − CI = RA + CKF + (Imp−S) + EEN. Si falta un componente, sacalo del total de la fila (p. ej. EEN total menos el de las otras ramas).
+- P3 (4/4): VAB de una rama o contribución al PIB. VAB (a veces VAN) de una rama, o "la contribución de la actividad X al PIB se mide por…". En exámenes: jul-24, dic-24, jul-25 (VAN). Consejo: Contribución al PIB = VAB = Producción − CI = RA + CKF + (Imp − S) + EEN. Si falta un componente, sacalo del total de la fila (p. ej. EEN total menos el de las otras ramas).
 - P5 (3/4): Salarios nominales o líquidos desde la RA. Con aportes personales y patronales, pasar de RA a salario nominal o líquido, o decir qué incluye la RA del cuadro. Consejo: RA = líquido + aportes personales + aportes patronales. Nominal = RA − patronales. Líquido = RA − patronales − personales. En la cuenta de asignación, contribuciones sociales = patronales + personales.
 - P6 (3/4): EEB de una rama o del Gobierno. EEB de la industria (2023) o del Gobierno. En exámenes: dic-24, dic-25 y jul-26 (5 de las 5 pautas lo tienen explícito o implícito). Consejo: EEB = EEN + CKF. Gobierno: EEN = 0 y Imp−S = 0, así que su EEB = CKF y su VAB = RA + CKF. Si falta el CKF de una rama, sale del total de la fila CKF.
 
-## Subtema: Cuenta de producción: VBP, CI y VAB
-La cuenta de producción es la libreta de una panadería que anota solo dos cosas: cuánto vale todo el pan que hizo en el año y cuánto gastó en cosas que se "comió" el proceso (harina, luz, levadura). La diferencia es lo que la panadería realmente agregó con su trabajo y su horno. El horno en sí no se anota como gasto del año, porque dura muchos años.
+## Subtema: Cuenta de producción: Producción, CI y VAB
+Fuente de la cátedra: Tomo 1 ED 2026, sección 3.3.1.1 (pág. 42-46), Cuadros 1 y 2 de las cuentas
 
-Usos
- | 
-Recursos
- | 
+La cuenta de producción es la libreta de una empresa molinera que anota dos cosas: cuánto vale toda la harina que produjo en el año y cuánto valían los insumos que ese proceso consumió (trigo, energía, fletes). La diferencia es lo que la molinera agregó. La máquina no se anota como insumo del año, porque dura muchos años: lo que se anota es su desgaste.
 
-Consumo intermedio (CI)
-VAB (saldo)
- | 
-Valor bruto de producción (VBP)
- | 
+Usos | Recursos | 
 
- VAB = VBP - CI \qquad VAN = VAB - CKF 
+Consumo Intermedio
+Valor Agregado Bruto (saldo)
+Consumo de Capital Fijo
+Valor Agregado Neto | Producción | 
 
-- 
-VBP
-: de mercado = ventas + VE de productos propios; no de mercado = CI + RA + CKF.
+ VAB = \text{Producción} - CI \qquad VAN = \text{Producción} - (CI + CKF) 
 
-- 
-CI
-: bienes y servicios que se 
-agotan
- en el período (materias primas, energía, fletes, publicidad, semillas, fertilizantes), nacionales e importados.
+- Describe el proceso de producción desde la óptica del productor: la Producción es su "ingreso" (recurso) y el CI su "gasto" (uso).
 
-- 
-No es CI
-: bienes durables usados más de un año (máquinas, vehículos, edificios, software, servidores). Son 
-FBKF
-; su desgaste anual es el CKF.
+- CI: bienes y servicios que se utilizan y agotan en el proceso productivo (trigo, energía, fletes para la molinera; leche para la industria láctea), nacionales e importados.
 
-- 
-Tampoco son CI los salarios (RA) ni los impuestos: van en la cuenta de generación.
+- No es CI: los activos fijos, que no se agotan en un proceso (maquinaria, vehículos, edificios, programas de informática): son FBKF; su desgaste es el CKF.
 
-La cuenta de producción se puede armar por rama (con el COU) o por sector institucional (necesita datos adicionales).
+- Se arma por actividades (todos los datos salen del COU) o por sectores institucionales. En la versión simplificada los Hogares no aparecen en esta cuenta.
+
+- En la cuenta por sectores se incorpora el Resto del Mundo desde su óptica: recursos = importaciones, usos = exportaciones, saldo = saldo de bienes y servicios con el exterior (M − E).
+
 Ideas clave:
-- VAB = VBP − CI; VAN = VAB − CKF
-- CI: se agota en el período (nacional + importado)
-- Bienes durables: FBKF, no CI
-- Salarios e impuestos no son CI
-Mini ejercicio: Una láctea vendió productos por 1.000 y aumentó sus existencias de quesos en 40. Compró leche fresca por 500, energía por 60 y una envasadora por 200. ¿VBP, CI y VAB?
-Solución: VBP = 1.000 + 40 = 
-1.040
-. CI = 500 + 60 = 
-560
- (la envasadora es FBKF). VAB = 1.040 − 560 = 
-480
-.
+- VAB = Producción − CI; VAN = VAB − CKF
+- Óptica del productor: Producción es recurso, CI es uso
+- Activos fijos: FBKF, no CI
+- RM en la cuenta: recurso M, uso E, saldo M − E
+
+Ejemplo: Una industria láctea produjo por 1.040. Utilizó leche fresca por 500 y energía por 60, y compró una envasadora por 200. ¿CI y VAB?
+Resolución: CI = 500 + 60 = 560 (la envasadora es un activo fijo: FBKF). VAB = 1.040 − 560 = 480.
 
 ## Subtema: Cuenta de generación del ingreso
-Una vez que sabés cuánto agregó la panadería, la cuenta de generación te dice a quién le tocó ese pedazo: primero a los empleados (sueldos y aportes), después al Estado (impuestos por producir y vender) y lo que queda es para el dueño y para reponer el horno. Es como repartir una torta en porciones.
+Fuente de la cátedra: Tomo 1 ED 2026, sección 3.3.1.1 (pág. 47-51), Cuadros 3 y 4 de las cuentas; 1ª rev. 2019 (preg. 14)
 
-Usos
- | 
-Recursos
- | 
+Una vez que sabés cuánto agregó la molinera, la cuenta de generación te dice cómo se reparte ese valor entre los que participaron en producir: primero los trabajadores (remuneraciones con aportes), después el Gobierno (impuestos sobre la producción menos subsidios) y lo que queda es el excedente de explotación, que incluye el desgaste de las máquinas.
 
-Remuneración de asalariados (RA)
-Impuestos sobre la producción e importaciones − subvenciones
-EEB / ingreso mixto (saldo)
- | 
-VAB
- | 
+Usos | Recursos | 
 
- EEB = VAB - RA - (Imp - S) = EEN + CKF 
+Remuneración de Asalariados (RA)
+Impuestos − Subsidios sobre la producción
+Excedente de Explotación Bruto (saldo) | Valor Agregado Bruto | 
 
-- 
-El 
-VAB va del lado de los recursos
- (llega como saldo de la cuenta de producción). En 2019 la clave fue: el VAB del Gobierno "es de 350 y va del lado de los recursos".
+ EEB = VAB - RA - (Imp - S) = CKF + EEN 
 
-- 
-Cuando el productor es un hogar (independiente), el saldo se llama 
-ingreso mixto
-: mezcla la remuneración del trabajo del dueño y su ganancia.
+- Se construye desde la óptica del productor: la generación del ingreso se describe como un costo para el productor. El VAB va del lado de los recursos (1ª revisión 2019: el VAB del Gobierno "es de 350 y debe ir del lado de los recursos").
 
-- 
-Para el Gobierno: EEB = VAB − RA = CKF (no paga Imp−S y su EEN es cero).
+- El Excedente de Explotación mide el excedente o déficit generado únicamente en la producción, antes de intereses y otras rentas.
 
-- 
-Esta cuenta también sale del COU por rama (parte de abajo de cada columna).
+- Para el Gobierno: EEB = VAB − RA = CKF (no hay Imp − S sobre su producción y su EEN es cero).
+
+- Por actividades sale del COU (parte de abajo de cada columna). Por sectores, el RM registra como recurso y como uso el saldo de bienes y servicios con el exterior.
+
 Ideas clave:
-- Recurso: VAB. Usos: RA, Imp−S, EEB
-- EEB = VAB − RA − (Imp−S)
-- Hogares productores: ingreso mixto
+- Recurso: VAB. Usos: RA, Imp − S y EEB (saldo)
+- EEB = VAB − RA − (Imp − S)
+- Óptica del productor
 - Gobierno: EEB = CKF
-Mini ejercicio: Un productor rural independiente, sin empleados, vendió por 900, acumuló existencias por 50, compró insumos por 300, pagó 50 de impuestos sobre la producción y su CKF fue 100. Armá sus cuentas de producción y generación.
-Solución: VBP = 900 + 50 = 950; CI = 300; VAB = 
-650
-. Generación: RA = 0, Imp−S = 50, ingreso mixto bruto = 650 − 50 = 
-600
-; neto = 600 − 100 = 
-500
-.
+
+Ejemplo: La actividad Agropecuaria del Cuadro 2 del Tomo tiene VAB 645, RA 225, Imp − S 20 y CKF 67. Armá su cuenta de generación del ingreso.
+Resolución: Recurso: VAB 645. Usos: RA 225, Imp − S 20 y EEB = 645 − 225 − 20 = 400 (que es CKF 67 + EEN 333).
 
 ## Subtema: Remuneración de asalariados y aportes
-Cuando una empresa contrata a alguien, le cuesta más que el sueldo que la persona ve en su recibo. La empresa paga el sueldo "de recibo" (nominal) y además un aporte extra al BPS (patronal). De ese sueldo nominal, a la persona le descuentan su propio aporte (personal) y lo que le queda en la mano es el líquido. La RA es todo lo que le cuesta a la empresa: líquido + aporte personal + aporte patronal.
+Fuente de la cátedra: Tomo 1 ED 2026, sección 3.1.2 (pág. 25) y sección 3.3.1.1 (pág. 47); 1ª rev. 2019 (preg. 11) y 2023 (preg. 5)
 
-RA = \underbrace{\text{líquido} + \text{aportes personales}}_{\text{salario nominal}} + \text{aportes patronales} 
+Cuando una empresa contrata a alguien, le cuesta más que lo que la persona cobra en la mano. Del salario nominal a la persona le descuentan su aporte personal y le queda el líquido; además la empresa paga un aporte patronal. La RA es todo lo que le cuesta el trabajo a la empresa: líquido + aporte personal + aporte patronal.
 
-- 
-Salario nominal
- = RA − patronales.
+RA = \underbrace{\text{salario líquido} + \text{aportes personales}}_{\text{salario nominal}} + \text{aportes patronales} 
 
-- 
-Salario líquido
- = RA − patronales − personales.
+- La RA refleja el costo total de la mano de obra; se registra cuando se devenga.
 
-- 
-En la cuenta de asignación, los hogares reciben la RA completa (con los dos aportes). En la distribución secundaria 
-pagan
- como contribuciones sociales los aportes patronales + personales al Gobierno (BPS).
+- Salario nominal = RA − aportes patronales.
 
-- 
-La RA del COU es la pagada por los productores residentes; la RA de los hogares en la cuenta de asignación se ajusta por lo pagado a no residentes y lo cobrado del exterior.
+- Salario líquido = RA − aportes patronales − aportes personales.
+
+- Aportes patronales y personales integran las contribuciones sociales: en la cuenta de asignación y distribución las pagan los hogares y las recibe el Gobierno.
+
+- La RA del COU es la pagada por los productores residentes; la que reciben los hogares se ajusta por lo pagado a no residentes y lo cobrado al exterior.
 
 Trampa: en el salario nominal solo se restan los patronales; si restás también los personales llegás al líquido.
+
 Ideas clave:
 - RA = líquido + personales + patronales
 - Nominal = RA − patronales
 - Líquido = nominal − personales
-- Contribuciones sociales = patronales + personales (pagan los hogares)
-Mini ejercicio: La RA de una rama fue 2.500; los aportes patronales 400 y los personales 300. Calculá salario nominal, líquido y las contribuciones sociales.
-Solución: Nominal = 2.500 − 400 = 
-2.100
-. Líquido = 2.100 − 300 = 
-1.800
-. Contribuciones sociales = 400 + 300 = 
-700
-.
+- Contribuciones sociales = patronales + personales
+
+Ejemplo: La RA de una rama fue 2.500; los aportes patronales 400 y los personales 300. Calculá el salario nominal, el líquido y las contribuciones sociales.
+Resolución: Nominal = 2.500 − 400 = 2.100. Líquido = 2.100 − 300 = 1.800. Contribuciones sociales = 400 + 300 = 700.
 
 ## Subtema: CKF, EEN y EEB (y el EEB del Gobierno)
-El horno de la panadería se gasta un poco cada año. Si no apartás plata para reponerlo, un día se rompe y no podés seguir. Ese desgaste es el consumo de capital fijo. La ganancia "bruta" del dueño incluye esa plata para reponer el horno; la "neta" es lo que queda después de apartarla. El Estado no tiene ganancia, pero sus edificios y patrulleros también se gastan: por eso su excedente bruto es exactamente ese desgaste.
+Fuente de la cátedra: Tomo 1 ED 2026, sección 3.1.1 (pág. 20-22), sección 3.1.2 (pág. 23 y 26-27) y sección 3.2.6 (pág. 37-38)
 
-- 
-CKF
-: disminución del valor de los activos fijos por desgaste normal y obsolescencia en el período. Es un flujo y un costo de producción, aunque no sea una compra.
+La cosechadora que se usa para cosechar tomates se va desgastando. Ese desgaste es el consumo de capital fijo: un costo de producción, aunque no sea una compra. El excedente "bruto" incluye esa parte; el "neto" es lo que queda después de descontarla. El Gobierno no tiene excedente neto, pero sus activos también se desgastan: por eso su excedente bruto es exactamente ese desgaste.
 
-- 
- EEB = EEN + CKF . "Bruto" = antes de descontar el CKF; "neto" = después.
+- CKF: disminución, durante el período, del valor corriente del stock de activos fijos que posee y utiliza un productor, por deterioro físico, obsolescencia normal o daños accidentales normales (SCN 2008, 6.240).
 
-- 
- VAB = RA + CKF + (Imp-S) + EEN = RA + (Imp-S) + EEB .
+-  EEN = EEB - CKF . "Bruto" incluye el CKF; "neto" es después de deducirlo.
 
-- 
-Gobierno
-: EEN = 0 e Imp−S = 0, entonces  VAB_{Gob} = RA + CKF  y  EEB_{Gob} = CKF . Ese EEB aparece en el ingreso primario del Gobierno.
+-  VAB = RA + CKF + (Imp-S) + EEN = RA + (Imp-S) + EEB .
 
-- 
-Si falta el CKF (o el EEN) de una rama en el COU, sacalo del total de esa fila menos las otras ramas.
+- Gobierno: EEN = 0 y sin Imp − S, entonces  VAB_G = RA_G + CKF_G  y  EEB_G = CKF_G . Ese EEB es un recurso del Gobierno en la cuenta de asignación y distribución.
 
-Salió en dic-24, dic-25 y jul-26: el EEB del Gobierno es su CKF.
+- Relacionado:  FNKF = FBKF - CKF ; si es negativa, la economía termina el período con menos activos fijos (stock inicial + FNKF = stock final).
+
+El Tomo aclara que el CKF es una de las partidas más difíciles de estimar; por eso el SCN 93 acepta presentar los saldos en términos brutos o netos.
+
 Ideas clave:
 - EEB = EEN + CKF
-- CKF: desgaste del capital fijo en el período
+- CKF: pérdida de valor de los activos fijos por su uso
 - Gobierno: EEN = 0, EEB = CKF, VAB = RA + CKF
-- Si falta un componente, sacalo del total de la fila
-Mini ejercicio: En un COU, la columna del Gobierno tiene CI 120, RA 480 y CKF 70. La fila EEN totaliza 1.240 y el EEN de la industria es 540. ¿VAB y EEB del Gobierno? ¿EEN del agro?
-Solución: VAB Gob = 480 + 70 = 
-550
-; EEB Gob = 
-70
- (= CKF). EEN agro = 1.240 − 540 − 0 = 
-700
-.
+- FNKF = FBKF − CKF
 
-## Subtema: Impuestos netos de subvenciones y valoración
-Hay impuestos que se cobran porque producís o vendés algo (como el IVA, que está en el precio de lo que comprás) y otros que se cobran porque ganaste plata (como el IRPF de tu sueldo). En estas cuentas los primeros aparecen cuando se reparte el valor agregado; los segundos, más adelante, cuando se reparte el ingreso. Las subvenciones son lo contrario: el Estado le da plata al que produce, así que se restan.
+Ejemplo: En un COU, la columna del Gobierno tiene CI 120, RA 480 y CKF 70. La fila EEN totaliza 1.240 y el EEN de la industria es 540. ¿VAB y EEB del Gobierno? ¿EEN del agro?
+Resolución: VABG = 480 + 70 = 550; EEBG = 70 (= CKF). EEN agro = 1.240 − 540 − 0 = 700.
 
-Tipo
- | 
-Ejemplos
- | 
-Dónde va
- | 
+## Subtema: Impuestos menos subsidios y valoración
+Fuente de la cátedra: Tomo 1 ED 2026, sección 3.1.2 (pág. 24-25), nota 10 (pág. 47); 1ª rev. 2019 (preg. 46)
 
-Impuestos sobre la producción y las importaciones
- | 
-IVA, IMESI, aranceles, contribución inmobiliaria de locales productivos, patentes
- | 
-Cuenta de generación (uso de las ramas) y asignación primaria (recurso del Gobierno)
- | 
+Hay impuestos que se pagan por producir o por los productos que se venden (como el IVA o el IMESI) y otros que se pagan por los ingresos que se obtienen (como el IRPF). Los primeros están vinculados al proceso productivo y forman parte del valor agregado; los segundos no forman parte de los precios, porque tienen que ver con la distribución del ingreso. Los subsidios son lo contrario: el Gobierno le paga al que produce, así que se restan.
 
-Subvenciones
- | 
-Subsidio al boleto, a la tarifa de un servicio
- | 
-Se restan: Imp−S
- | 
+Tipo (Tomo 1) | Ejemplos | 
 
-Impuestos corrientes sobre el ingreso y la riqueza
- | 
-IRPF, IRAE, IASS, Impuesto al Patrimonio
- | 
-Distribución secundaria
- | 
+Impuestos sobre la producción | Sobre los bienes de capital o la mano de obra que usa la empresa, licencias comerciales o profesionales, patente de rodados de la empresa, impuestos ambientales | 
 
-Impuestos de capital
- | 
-Impuestos a la herencia
- | 
-Cuenta de capital
- | 
+Impuestos sobre los productos | IVA, IMESI, IMEBA, derechos de importación, impuestos a las exportaciones | 
 
-Valoración
-: a 
-precios básicos
-, lo que recibe el productor sin los impuestos sobre los productos (IVA, IMESI) pero con los otros impuestos sobre la producción netos de subvenciones. A 
-precios de productor
-, se suman los impuestos sobre los productos netos de subvenciones a los productos (sin el IVA facturado).
+Subsidios | Pagos corrientes sin contrapartida del Gobierno a las empresas (pueden influir en la producción, los precios o las remuneraciones) | 
+
+Impuestos sobre los ingresos y la riqueza | IRAE, IRPF, impuesto al patrimonio de las personas físicas, impuesto a los vehículos | 
+
+Valoración en la versión simplificada:
+
+- Precios básicos: incluyen los impuestos sobre la producción netos de subsidios a la producción. Es la valoración del curso: en el COU aparece la fila Imp − S.
+
+- Precio productor: incluyen además los impuestos sobre los productos netos de subsidios a los productos.
+
+Los impuestos sobre los ingresos y la riqueza nunca forman parte de los precios. En los datos reales de Uruguay, el Tomo muestra el ajuste por impuestos menos subsidios a los productos (377.094 millones en 2024), que el modelo simplificado no incluye.
+
 Ideas clave:
-- Imp−S: IVA, IMESI, aranceles, contribución inmobiliaria productiva
-- IRPF, IRAE, IP: distribución secundaria
-- Subvenciones restan
-- Precios básicos sin impuestos sobre los productos; de productor, con ellos
+- Sobre la producción: licencias, patente de rodados, ambientales
+- Sobre los productos: IVA, IMESI, IMEBA, derechos de importación
+- Precios básicos: con Imp − S a la producción; precio productor: también a los productos
+- IRPF, IRAE, patrimonio: no forman parte de los precios

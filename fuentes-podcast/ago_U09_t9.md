@@ -1,524 +1,261 @@
 # Administración y Gestión de las Organizaciones II · Unidad 9: Toma de decisiones: proceso, racionalidad, tipos y pensamiento integrador
 
-Material para la 1ª revisión de octubre 2026 (FCEA-UDELAR). Peso en el parcial según los parciales anteriores: 13% del puntaje, prioridad imprescindible.
-3 pts de caso en 2019, 2022 y 2024 y teórica los tres años con enunciado completo. Nunca repitió el mismo subtema en la teórica.
+Material de estudio para la 1ª revisión de octubre 2026 (FCEA-UDELAR). TODO el contenido de este documento sale exclusivamente del material de la cátedra (notas, teóricos, diapositivas, guías, ejercicios y soluciones oficiales publicados en EVA). No hay que agregar conceptos, autores, ejemplos ni criterios que no estén acá.
+
+Fuente de la cátedra: UT5 Teórico Toma de Decisiones (sec. 1 a 12) · Diapositivas UT5 · Caso Toma de Decisiones 2023 · 1ª revisión 2024 P5 y T5, 2023 T4, 2022 P6 y T5, 2019 P6 · Examen dic 2022 P7 y MO15 · Simon: UT10 (fuera de la 1ª revisión)
+
+Peso en la prueba según los parciales anteriores: 13% del puntaje, prioridad imprescindible. 3 pts de caso en 2019, 2022 y 2024 y teórica los tres años con enunciado completo. Nunca repitió el mismo subtema en la teórica.
 
 ## Explicación simple
-Elegir qué auto comprar. Si fueras perfectamente "racional", conocerías todos los autos del mundo, sus precios futuros y cuánto te va a gustar cada uno: imposible. En la vida real mirás algunos, te fijás en lo que más te importa (precio, consumo, espacio) y te quedás con el primero que "te sirve". Eso es la 
-racionalidad limitada
- de Simon: no maximizás, te 
-satisfacés
-.
-Además, no es lo mismo decidir qué comer hoy (se repite, tenés una regla) que decidir mudarte a otro país (no hay regla, es única). La primera es 
-programada
-, la segunda 
-no programada
-, y esas son las que toman los "jefes grandes".
+Elegir qué auto comprar. Si fueras perfectamente "racional", conocerías todos los autos, sus consecuencias y elegirías el mejor. En la vida real te falta (o te sobra) información, no tenés tiempo infinito y no sabés todo: mirás algunos, te fijás en lo que más te importa (precio, consumo, espacio) y te quedás con uno que "te sirve". Eso es la racionalidad limitada: elegir un curso de acción satisfactorio, no el máximo.
+Además, no es lo mismo decidir algo que se repite y tiene una regla (reponer stock) que algo único (mudarte a otro país). La primera es programada; la segunda no programada, y cuanto más excepcional y difícil de deshacer, más arriba se decide.
 
 ## Explicación para el parcial
 Datos, información, conocimiento
 
-Datos
-: hechos sueltos. 
-Información
-: datos procesados con significado para quien decide. 
-Conocimiento
-: información interpretada con experiencia, que permite actuar. La información tiene 
-valor
- cuando reduce la incertidumbre y mejora la decisión más de lo que cuesta obtenerla.
+Dato: representación simbólica de un atributo. Información: lo que se transforma con un tratamiento adecuado. Conocimiento: lo que se produce, y que vuelve a ser información para producir nuevo conocimiento. La información no tiene valor en sí misma: el valor lo da el usuario que la necesita. Debe cumplir requisitos de oportunidad y validez; el exceso es tan perjudicial como la carencia (sobrecarga de información, Wurman).
 
 Análisis de problemas
 
-Problema = desviación entre lo que es y lo que debería ser. Pasos: 
-enunciado de la desviación
- → 
-especificación
- (qué, dónde, cuándo, cuánto; qué es y qué no es) → 
-posibles causas
- → 
-probar las causas
- → 
-verificar la causa más probable
-. Problemas 
-bien estructurados
- (claros, conocidos, información completa) vs 
-mal estructurados
- (nuevos, ambiguos, información incompleta).
+Hay un problema cuando existe una discrepancia entre el estado real y el deseado, presión o necesidad de actuar y recursos para hacerlo. Problemas bien estructurados (información clara, evidente y relacionada) vs mal estructurados (caminos a la solución no explícitos). Fases: enunciado de la desviación → especificación → desarrollo de posibles causas (lo que ES y lo que NO ES) → probar las causas → verificar la causa probable (prueba de coherencia lógica, verificación de la realidad, verificación de resultados).
 
-Proceso de decisión (Robbins)
+Modelo racional (8 pasos)
 
-1 identificar el problema, 2 identificar criterios, 3 ponderar criterios, 4 desarrollar alternativas, 5 evaluar alternativas, 6 elegir, 7 implementar, 8 evaluar resultados.
+Tomar decisiones es "un proceso más complejo y amplio que simplemente elegir entre alternativas" (Robbins). El modelo racional o tradicional, "el proceso ideal": 1 identificación y definición del problema, 2 criterios de decisión (obligatorios y deseables), 3 asignación de ponderadores, 4 definir todas las alternativas, 5 valorarlas, 6 escoger la mejor, 7 convertir la decisión en acción efectiva, 8 revisar, controlar y evaluar los resultados.
 
-Modelos
+Racionalidad limitada: la racionalidad total se dificulta por falta o exceso de información, poca claridad en las metas, tiempo disponible o competencias del decisor; se escoge un curso de acción satisfactorio o lo bastante bueno. Dimensiones: maximizar (la mejor posible), satisfacer (la primera mínimamente aceptable), optimizar (equilibrio entre todas). (La crítica de Herbert Simon al modelo racional se ve en UT10, fuera de la 1ª revisión.)
 
-- 
-Racional
- — supuestos: problema claro y sin ambigüedad; un objetivo único y bien definido; se conocen todas las alternativas y sus consecuencias; preferencias claras y constantes; sin restricciones de tiempo ni costo; se elige la alternativa de máximo rendimiento.
-- 
-Racionalidad limitada
- (Herbert Simon): la capacidad de procesar información es limitada; se simplifica el problema y se elige la primera alternativa 
-satisfactoria
- ("satisfacer", no maximizar).
-- 
-Intuición
-: decidir en base a experiencia, sentimientos y juicio acumulado; complementa al análisis.
+Bases para decidir: intuición, experiencia, autoridad, hechos.
 
-Bases para decidir
-: intuición, experiencia, autoridad, hechos.
+Cualidades del decisor
 
-Cualidades del decisor (las "4 competencias")
+Experiencia, buen juicio, creatividad y habilidades cuantitativas según el teórico (la diapositiva muestra tres, sin creatividad; el examen de dic 2022 pidió "las cuatro").
 
-Experiencia
-, 
-buen juicio
-, 
-creatividad
- y 
-habilidades cuantitativas
-. 
-Ojo
-: la cátedra preguntó "4 competencias"; la diapositiva marca tres como fundamentales (experiencia, buen juicio, habilidades cuantitativas) y la creatividad es la cuarta que completa la lista. Mencionalo así.
+Características y tipos
 
-Características y clasificación
+- Características: efectos futuros, periodicidad, reversibilidad, grado de calidad (condiciones éticas o legales, valores, relaciones jerárquicas) y grado de impacto. Efectos de largo plazo, difícil reversión, mucha calidad o impacto comprometidos → decidir al más alto nivel; las recurrentes, en los niveles bajos.
+- Tipos (teórico UT5): estratégicas (grandes proyecciones); tácticas u operativas (rutinarias, recurrentes, que no afectan de manera relevante); individuales o colectivas; según el grado de certidumbre (mayor incertidumbre → estratégicas; mayor certidumbre → tácticas); programadas (repetitivas, problema bien estructurado, guías o procedimientos); no programadas (reestructurar, abandonar una línea, definir una estrategia de producto).
 
-- 
-Características
-: efectos futuros (cuánto compromete el futuro), reversibilidad, impacto (sobre otras áreas), calidad (valores, ética, relaciones humanas en juego), periodicidad (frecuente o excepcional). Cuanto más efectos futuros, menos reversible, más impacto y más rara, más alto el nivel que decide.
-- 
-Por nivel
-: estratégicas (alta dirección, largo plazo), tácticas (mandos medios), operativas (día a día).
-- 
-Por quién decide
-: individuales o colectivas (grupales).
-- 
-Por el grado de conocimiento
-: 
-certeza
- (se conoce el resultado), 
-riesgo
- (se conocen probabilidades), 
-incertidumbre
- (ni siquiera probabilidades).
-- 
-Programadas
- (repetitivas, problemas estructurados, se resuelven con reglas/procedimientos, niveles bajos) vs 
-no programadas
- (únicas, problemas mal estructurados, requieren juicio, 
-alta gerencia
-).
+Pensamiento integrador (Roger Martin) vs convencional
 
-Pensamiento integrador (Roger Martin)
-
-El pensador 
-convencional
- reduce el problema, considera pocos factores, supone relaciones lineales, divide el problema en partes y acepta el "o esto o aquello". El 
-integrador
- considera 
-más factores relevantes
-, admite 
-relaciones no lineales y multidireccionales
-, ve el 
-problema completo
- (la arquitectura entera) y busca una 
-solución creativa superadora
- que integre modelos opuestos en vez de elegir uno.
+El pensamiento convencional sigue el principio del tercio excluso: solo se puede escoger uno de los dos lados de la disyunción ("esto o aquello"); su versión extrema es el maniqueísmo, que divide todo en dos polos. El integrador usa la "mente oponible" (como el pulgar oponible): integra en lugar de dividir, unifica ideas opuestas y genera una idea superior a cualquiera de ellas, sin renunciar a las ventajas de cada alternativa. El material concluye que, con la experiencia, se pueden usar ambos modelos tomando lo mejor de cada uno.
 
 ## Cómo se resuelve en el parcial
-- 
-"¿Qué tipo de decisión fue?"
- (caso): clasificala con TODOS los criterios, uno por línea: estratégica/táctica/operativa; programada/no programada; certeza/riesgo/incertidumbre; individual/colectiva; y las características (efectos futuros, reversibilidad, impacto, calidad, periodicidad). Cada uno con el hecho del caso que lo justifica.
+- "¿Qué tipo de decisión fue?" (caso): clasificala con varios criterios, uno por línea: estratégica o táctica u operativa; programada o no programada; grado de certidumbre; individual o colectiva; y las características (efectos futuros, periodicidad, reversibilidad, calidad, impacto). Cada uno con el hecho del caso que lo justifica.
 
-- 
-Nivel gerencial
-: no programada + estratégica → alta gerencia.
+- Nivel gerencial: excepcional, poco reversible, con mucho impacto o calidad comprometida → alta gerencia.
 
-- 
-"Definí el problema"
-: escribilo como desviación: "lo que es" vs "lo que debería ser", con datos del caso (ej. "la tasa de reanimación es 16%, se busca 35%").
+- "Definí el problema": escribilo como discrepancia entre el estado real y el deseado, con datos del caso (ej. "la tasa de reanimación es 16%, se busca 35%"), y mencioná la necesidad de actuar y los recursos.
 
-- 
-Integrador vs convencional
-: definí ambos (Roger Martin) → mostrá en el caso si consideraron muchos factores, relaciones entre ellos y una solución que combina cosas → concluí.
+- Integrador vs convencional: definí ambos (tercio excluso vs integrar ideas opuestas, Roger Martin) → mostrá en el caso si eligieron un lado o generaron una solución que integra las dos opciones → concluí.
 
-- 
-Teórica supuestos del modelo racional
-: listá los 6 y cerrá con la crítica de Simon (racionalidad limitada).
+- Teórica sobre el modelo racional: los 8 pasos y lo que supone (definir bien el problema y los criterios, conocer todas las alternativas, elegir la mejor), y cerrá con la racionalidad limitada del teórico UT5 (causas y criterio de satisfacer).
 
 ## Trampas típicas
-- 
-Clasificar una decisión solo en un criterio ("es estratégica") y cortar: la pauta espera varias características.
+- Clasificar una decisión solo con un criterio ("es estratégica") y cortar: conviene sumar varios tipos y características.
 
-- 
-Confundir 
-riesgo
- (hay probabilidades) con 
-incertidumbre
- (no las hay).
+- Usar la tríada certeza, riesgo e incertidumbre: el material de UT5 habla de decisiones según el grado de certidumbre (mayor incertidumbre → estratégicas; mayor certidumbre → tácticas).
 
-- 
-Decir que las decisiones no programadas las toma el nivel operativo.
+- Decir que las decisiones no programadas las toma el nivel operativo.
 
-- 
-Olvidar que "satisfacer" es de Simon y no del modelo racional.
+- Atribuir a Robbins los 8 pasos: el material lo cita para definir qué es tomar decisiones; los pasos son los del modelo racional del teórico.
 
-- 
-En las 4 competencias, poner solo tres sin aclarar lo de la creatividad.
+- En las 4 competencias, poner solo tres sin aclarar lo de la creatividad.
 
 ## Ejercicio resuelto
-En plena crisis bancaria, una empresa con obligaciones negociables que vencen decide pagarlas en fecha aunque el mercado esté cerrado y todas las demás emisoras incumplan, para no perder la confianza de los inversores. ¿Qué tipo de decisión fue? (3 pts)
-Solución:
-- 
-Estratégica
-: compromete la reputación financiera y la posibilidad futura de financiarse.
-- 
-No programada
-: situación excepcional, sin procedimiento previo; por eso la toma la 
-alta gerencia
- (directorio y gerente general).
-- 
-En condiciones de incertidumbre
-: no había forma de asignar probabilidades a cómo reaccionaría el mercado.
-- 
-Características: 
-efectos futuros
- altos (condiciona toda la financiación posterior), 
-baja reversibilidad
- (un default no se deshace), 
-impacto
- alto sobre finanzas y comercial, 
-calidad
-: en juego valores éticos (cumplir la palabra), 
-periodicidad
-: excepcional.
-- 
-Colectiva (directorio) y basada en hechos y juicio más que en un cálculo racional completo.
+Letra: En plena crisis bancaria, una empresa con obligaciones negociables que vencen decide pagarlas en fecha aunque el mercado esté cerrado y todas las demás emisoras incumplan, para no perder la confianza de los inversores. ¿Qué tipo de decisión fue? (3 pts)
+
+Solución: - Estratégica: de grandes proyecciones; compromete la reputación financiera y la posibilidad futura de financiarse.
+- No programada: situación excepcional, sin procedimiento previo; por periodicidad y poca reversibilidad la toma la alta gerencia (directorio y gerente general).
+- Alto grado de incertidumbre: nadie sabía cómo reaccionaría el mercado; las decisiones de mayor incertidumbre son las que se relacionan con las estratégicas.
+- Características: efectos futuros altos (condiciona toda la financiación posterior), baja reversibilidad (un default no se deshace), impacto alto sobre finanzas y comercial, calidad: en juego valores éticos (cumplir la palabra), periodicidad: excepcional.
+- Colectiva (directorio) y basada en los hechos y el buen juicio más que en un cálculo racional completo.
 
 ## Cómo aparece en la prueba
-- C7 (3/4): Caso · Tipo de decisión (o definición del problema y tipo de pensador). Clasificar una decisión puntual del caso: tipo, nivel gerencial y condiciones (2019, 3 pts; 2024, 3 pts) o definir el problema como desviación y decir si la solución fue de pensadores tradicionales o integradores (2022, 3 pts). Consejo: Clasificala en todos los ejes: por nivel (estratégica), por estructura (no programada), por conocimiento (riesgo o incertidumbre), individual o colectiva, y sus características (efectos futuros, reversibilidad, impacto, calidad, periodicidad). Con 3 puntos, cada eje bien justificado suma.
+- C7 (3/4): Caso · Tipo de decisión (o definición del problema y tipo de pensador). Clasificar una decisión puntual del caso: tipo, nivel gerencial y condiciones (2019, 3 pts; 2024, 3 pts) o definir el problema como desviación y decir si la solución fue de pensadores tradicionales o integradores (2022, 3 pts). Consejo: Clasificala con los tipos del teórico de UT5: estratégica o táctica u operativa, programada o no programada, según el grado de certidumbre, individual o colectiva, y sus características (efectos futuros, reversibilidad, impacto, calidad, periodicidad). Con 3 puntos, cada eje bien justificado suma.
 - T5 (3/3): Teórica UT5 · Toma de decisiones. Tipos de decisiones (2022), supuestos del modelo racional (2023), competencias del decisor (2024). En los exámenes: racionalidad limitada (dic 2023) y las 4 competencias del decisor (dic 2022). Consejo: Sin repetición en tres años. Lo que falta preguntar: racionalidad limitada, análisis de problemas (pasos), pensamiento integrador en teórica, características de las decisiones. Prepará las cinco listas.
 
 ## Subtema: Datos, información y conocimiento
-"23, 25, 31" son solo números: datos. Si te digo "esas son las temperaturas de lunes, martes y miércoles", ya es información: sabés qué significan. Y si con tu experiencia pensás "va subiendo, mañana hace calor, llevo gorro y agua a la playa", eso es conocimiento: lo usás para decidir. Para decidir bien no alcanza con tener muchos números; hay que saber qué significan y qué hacer con ellos.
+Fuente de la cátedra: UT5 Teórico Toma de Decisiones, sec. 1 y 11 (pág. 3 y 18-20) · Diapositivas UT5 (datos, información y conocimiento; valor de la información)
 
-Concepto
- | 
-Qué es
- | 
-Ejemplo
- | 
+"23, 25, 31" son solo números: datos. Si te digo "esas son las temperaturas de lunes, martes y miércoles", ya es información: esos datos, puestos en un contexto, significan algo. Y lo que producís a partir de esa información, por ejemplo entender que va a hacer calor y qué hacer, es conocimiento. Tener muchísimos datos no alcanza: hay que saber cuáles sirven y dónde buscarlos.
 
-Datos
- | 
-Hechos, cifras o registros aislados, sin procesar ni interpretar
- | 
-"Ventas del local 3: 1.250 unidades"
- | 
+Concepto | Qué es (teórico y diapositiva UT5) | 
 
-Información
- | 
-Datos procesados y organizados que tienen significado para quien decide
- | 
-"El local 3 vendió 20% menos que el mismo mes del año pasado"
- | 
+Dato | Representación simbólica de un atributo; expresiones acerca de los atributos de un hecho en su estado primario, como la materia prima de un proceso productivo | 
 
-Conocimiento
- | 
-Información interpretada con experiencia, criterio y contexto, que permite actuar
- | 
-"La caída se explica por la obra en la calle; conviene reforzar el envío a domicilio hasta que termine"
- | 
+Información | El uso de datos en interacción con un contexto; es lo que se transforma con un tratamiento adecuado. Es el insumo para construir conocimiento | 
 
-La información tiene 
-valor
- cuando 
-reduce la incertidumbre
- y mejora la decisión más de lo que cuesta obtenerla. Atributos de la información útil: oportuna (llega a tiempo), relevante (sirve para la decisión), exacta (confiable), completa en lo necesario y en el formato adecuado.
+Conocimiento | Lo que se produce a partir de la información; a su vez se transforma en información para producir un nuevo conocimiento (UNESCO, 2005) | 
 
-La relación con la toma de decisiones: el decisor necesita pasar de datos a información (procesar) y de información a conocimiento (interpretar). Tener más datos no siempre mejora la decisión: el exceso genera sobrecarga, que conecta con la racionalidad limitada.
+Para la toma de decisiones, la información se debe transformar en conocimiento. La información es "la sangre que vitaliza cada uno de los procesos empresariales": su función es mantener viva la empresa y garantizar decisiones ágiles y oportunas. Junto con el tiempo, es un recurso más que el administrador debe gestionar.
+
+Valor de la información: es un bien de uso o de cambio; el valor lo da siempre el usuario (se le concede un valor subjetivo en la medida en que sea necesaria para un individuo o grupo). Por eso no hay relación directa entre tener información y obtener resultados: importa el uso que se hace de ella.
+
+Exceso de información: es difícil separar la relevante y lograr que cumpla los requisitos de oportunidad y validez. Según Wurman, hay sobrecarga cuando la persona no comprende la información, se siente sobrecogida por la cantidad, no sabe si existe, no sabe dónde encontrarla o sabe dónde está pero no puede acceder. El exceso es tan perjudicial como la carencia.
+
 Ideas clave:
-- Datos: hechos sueltos
-- Información: datos procesados con significado
-- Conocimiento: información interpretada que permite actuar
-- Valor = reduce incertidumbre más de lo que cuesta
+- Dato: representación simbólica de un atributo, estado primario
+- Información: datos en un contexto; insumo del conocimiento
+- El valor de la información lo da el usuario
+- Sobrecarga (Wurman): el exceso es tan perjudicial como la carencia
 
 ## Subtema: Análisis de problemas
-Tu bici hace ruido. Primero decís claramente cuál es el problema: "hace un clic cuando pedaleo, y antes no lo hacía". Después te fijás bien: ¿en qué pedal?, ¿desde cuándo?, ¿solo en subida? ¿Y en la otra bici no pasa? Pensás posibles causas (la cadena, el pedal, el asiento), probás cada una y te quedás con la que explica todo lo que viste. Si arreglás la cadena y el ruido sigue, no era eso.
+Fuente de la cátedra: UT5 Teórico Toma de Decisiones, sec. 2 (pág. 4-5) · Diapositivas UT5 (análisis de los problemas; fases) · Examen dic 2022, múltiple opción 15
 
-Un 
-problema
- es una 
-desviación
- entre lo que 
-es
- (el desempeño real) y lo que 
-debería ser
- (el estándar esperado), cuya causa se desconoce y que importa corregir.
+Tu bici hace ruido. Primero decís con precisión qué pasa y en qué: "hace un clic en el pedal derecho". Después lo especificás bien: qué tiene de particular, qué es parte del problema y qué no. Pensás posibles causas, las probás y te quedás con la más probable. Y antes de dar el problema por resuelto, lo verificás: si cambiás la pieza y el ruido desaparece, era eso.
 
-Pasos del análisis de problemas
-:
+La mayoría de las veces se menosprecia esta etapa y se pasa directamente a decidir, pero se le debe dedicar más tiempo y esfuerzo: encontrar la causa permite saber cuál es el problema. Estamos ante un problema cuando se toma conciencia de una discrepancia entre el estado real y uno deseado, hay una presión o necesidad de actuar y se cuenta con los recursos suficientes para poder hacer algo.
 
-- 
-Enunciar la desviación
-: qué objeto tiene qué defecto, en una frase precisa.
+Problemas bien estructurados: la información que los rodea es clara, evidente, relacionada. Mal estructurados: no aparecen explícitos los caminos para resolverlos. Los problemas difícilmente vienen bien estructurados.
 
-- 
-Especificar
- el problema: qué, dónde, cuándo y cuánto (magnitud), separando lo que 
-es
- de lo que 
-no es
- pero podría ser. Las diferencias entre ambos (qué tiene de distinto lo afectado) orientan la búsqueda.
+Fases del análisis:
 
-- 
-Identificar las causas posibles
-: a partir de las diferencias y de los cambios recientes.
+- Enunciado de la desviación: objeto, persona, proceso o departamento afectado y naturaleza de la desviación.
 
-- 
-Probar las causas
-: ver cuál explica todos los hechos de la especificación.
+- Especificación del problema: definirlo con precisión, encuadrando sus características especiales.
 
-- 
-Verificar la causa más probable
-: confirmarla en la realidad antes de actuar.
+- Desarrollo de posibles causas: diferenciar lo que ES del problema de lo que NO ES; en las características singulares de la desviación está el cambio que produjo los efectos.
 
-Problemas bien estructurados
- (sencillos, conocidos, información completa, objetivo claro) vs 
-mal estructurados
- (nuevos o poco comunes, información ambigua o incompleta). Los primeros se resuelven con decisiones programadas; los segundos requieren no programadas.
+- Probar las posibles causas mediante el cuestionamiento crítico de cada una.
 
-Definir bien el problema es la etapa a la que conviene dedicar más tiempo: resolver con precisión el problema equivocado no sirve. En la revisión 2022 pidieron definir el problema del caso como desviación.
+- Verificar la causa probable con hechos concretos: prueba de coherencia lógica, verificación de la realidad (en el lugar de los hechos) o verificación de resultados (actuar y ver si el problema desaparece).
+
+Impactos y dimensiones: la definición del problema condiciona sus soluciones, y la solución genera impactos que hay que ponderar antes de decidir; conviene compartir opiniones en grupos con distintos puntos de vista.
+
 Ideas clave:
-- Problema = desviación entre lo que es y lo que debería ser
-- Enunciar → especificar → causas posibles → probar → verificar
-- Especificar: qué, dónde, cuándo, cuánto; es / no es
-- Bien estructurados vs mal estructurados
-Mini ejercicio: Un shopping recibía 1,2 millones de visitas mensuales y en los últimos seis meses bajó a 950.000, mientras otros shoppings de la ciudad se mantuvieron. Enunciá la desviación y especificá.
-Solución: Desviación: las visitas mensuales cayeron de 1,2 millones (estándar) a 950.000 (real), un 21%. Especificación: qué (visitas), dónde (este shopping, no los demás), cuándo (últimos seis meses), cuánto (250.000 visitas menos). Lo que no es: no es una caída del sector, porque los otros shoppings se mantuvieron; la causa hay que buscarla en algo propio o de su entorno inmediato.
+- Problema: discrepancia real/deseado + necesidad de actuar + recursos
+- Enunciar → especificar → posibles causas (ES / NO ES) → probar → verificar
+- Verificación: coherencia lógica, realidad, resultados
+- Bien estructurados (información clara) vs mal estructurados
+
+Ejemplo: Un shopping recibía 1,2 millones de visitas mensuales y en los últimos seis meses bajó a 950.000, mientras otros shoppings de la ciudad se mantuvieron. Enunciá la desviación y especificá.
+Resolución: Enunciado de la desviación: las visitas mensuales del shopping cayeron de 1,2 millones a 950.000. Especificación: afecta a este shopping (lo que ES) y no a los demás de la ciudad (lo que NO ES), en los últimos seis meses. Esa diferencia orienta el desarrollo de posibles causas: hay que buscar algo propio del shopping o de su entorno inmediato, y luego probar y verificar la causa más probable.
 
 ## Subtema: Proceso racional de decisión y sus supuestos
-Elegir una computadora "a lo racional" sería así: saber exactamente para qué la querés, decidir qué te importa (precio, memoria, peso) y cuánto importa cada cosa, buscar TODAS las computadoras que existen, compararlas una por una y elegir la mejor de todas. En la vida real nadie tiene tiempo ni información para eso, pero es el modelo "ideal" que sirve de guía.
+Fuente de la cátedra: UT5 Teórico Toma de Decisiones, sec. 3, 4 y 7 (pág. 5-7 y 12-13) · Diapositivas UT5 (modelos de toma de decisiones) · UT10 Teórico, sec. III.2.2 Simon (fuera de la 1ª revisión)
 
-Proceso de toma de decisiones
- (Robbins), 8 pasos:
+Elegir una computadora "a lo racional" sería así: definir bien el problema, decidir qué te importa (precio, memoria, peso) y cuánto importa cada cosa, buscar las alternativas, evaluarlas, elegir la de mejor puntaje, comprarla y después ver si te sirvió. En la vida real casi nunca tenés toda la información ni todo el tiempo, pero es el proceso "ideal" que sirve de guía.
 
-- 
-Identificar el problema.
+"La toma de decisiones es un proceso más complejo y amplio que simplemente elegir entre alternativas: incluye identificar un problema, elegir una alternativa y evaluar la eficacia de dicha solución" (Robbins). El teórico lo toma en su alcance más amplio: desde la definición del problema hasta la evaluación de los resultados.
 
-- 
-Identificar los criterios de decisión.
+El modelo racional o tradicional ("el proceso ideal") sigue pasos predeterminados hasta implementar la solución. Consta de 8 pasos:
 
-- 
-Asignar ponderaciones a los criterios.
+- Identificación y definición del problema (estado actual frente al ideal, necesidad de actuar y recursos; un problema pone en peligro los objetivos, una oportunidad permite superarlos).
 
-- 
-Desarrollar alternativas.
+- Identificación de los criterios de decisión: objetivos obligatorios (criterio absoluto, por ejemplo que el precio no supere un importe) y deseables (por ejemplo, el menor precio).
 
-- 
-Analizar (evaluar) las alternativas.
+- Asignación de ponderadores a los criterios (por ejemplo, de 1 a 10).
 
-- 
-Seleccionar una alternativa.
+- Buscar y definir todas las alternativas.
 
-- 
-Implementar la alternativa.
+- Valorar las alternativas por sus ventajas y desventajas.
 
-- 
-Evaluar la eficacia de la decisión.
+- Escoger la mejor alternativa (la de mayor calificación ponderada), sopesando sus consecuencias.
 
-Supuestos del modelo racional
- (teórica 2023): el decisor es completamente objetivo y lógico, y
+- Convertir la decisión en acción efectiva con un plan de acción.
 
-- 
-el problema es claro y sin ambigüedad;
+- Revisar, controlar y evaluar los resultados.
 
-- 
-hay un objetivo único y bien definido;
+Supuestos: el modelo supone que se puede aplicar una racionalidad total. El teórico UT5 señala lo que lo impide: falta o exceso de información, poca claridad en las metas, tiempo disponible y competencias del decisor. Por eso sus supuestos implícitos son información suficiente, metas claras, tiempo y un decisor capaz de analizar todas las alternativas y elegir la mejor (maximizar). En la UT10 (2ª revisión), la cátedra describe el supuesto que critica Herbert Simon: gerentes que deciden racionalmente, con información completa, analizando todos los datos relevantes y arribando a la mejor decisión.
 
-- 
-se conocen todas las alternativas y sus consecuencias;
-
-- 
-las preferencias son claras;
-
-- 
-las preferencias son constantes y estables;
-
-- 
-no hay restricciones de tiempo ni de costo;
-
-- 
-se elige la alternativa que maximiza el resultado (máximo rendimiento).
-
-Estos supuestos se cumplen razonablemente en problemas bien estructurados y decisiones programadas. En la mayoría de las decisiones gerenciales no se cumplen, y por eso aparece la racionalidad limitada.
 Ideas clave:
-- 8 pasos: problema, criterios, ponderar, alternativas, analizar, elegir, implementar, evaluar
-- Supuestos: problema claro, objetivo único, todas las alternativas, preferencias claras y constantes
-- Sin restricciones de tiempo ni costo; maximizar
-- Aplica mejor a problemas bien estructurados
-Mini ejercicio: Una empresa elige proveedor de software: definió que busca un ERP, fijó criterios (precio 40%, soporte 35%, integración 25%) y ahora compara tres ofertas con esos pesos. ¿En qué pasos está?
-Solución: Ya identificó el problema (paso 1), los criterios (paso 2) y sus ponderaciones (paso 3), y desarrolló alternativas (paso 4). Está en el paso 5: analizar las alternativas. Luego elegirá, implementará y evaluará.
+- Modelo racional = "proceso ideal" con pasos predeterminados
+- 8 pasos: problema, criterios, ponderadores, alternativas, valorar, escoger, acción, evaluar
+- Criterios obligatorios (absolutos) y deseables
+- Supone racionalidad total: información, metas claras, tiempo, decisor capaz; elegir la mejor
+
+Ejemplo: Una empresa elige proveedor de software: definió que busca un ERP, fijó criterios (precio 40%, soporte 35%, integración 25%) y ahora compara tres ofertas con esos pesos. ¿En qué pasos está?
+Resolución: Ya identificó el problema (paso 1), los criterios (paso 2) y sus ponderadores (paso 3), y definió las alternativas (paso 4). Está en el paso 5: valorar las alternativas. Luego escogerá la de mayor calificación ponderada, la convertirá en acción y evaluará los resultados.
 
 ## Subtema: Racionalidad limitada, intuición, bases y cualidades del decisor
-Cuando buscás un regalo para tu mamá, no recorrés todas las tiendas del país: mirás en tres o cuatro y comprás el primero que te parece lindo y te alcanza la plata. No es el "mejor regalo del mundo", pero es suficientemente bueno. Eso es la racionalidad limitada. Y a veces la tía que ya regaló mil cosas lo elige en un segundo "de ojo": eso es intuición, que en realidad es experiencia acumulada.
+Fuente de la cátedra: UT5 Teórico Toma de Decisiones, sec. 4 (bases y cualidades, pág. 7-9) y sec. 6-7 (dimensiones y racionalidad limitada, pág. 12) · Diapositivas UT5 · 1ª revisión 2024, teórica 5 · Examen dic 2023, teórica 6
 
-Racionalidad limitada (Herbert Simon)
-: las personas intentan decidir racionalmente, pero están limitadas por su capacidad de procesar información, por el tiempo, el costo y la información incompleta. Por eso: simplifican el problema, no buscan todas las alternativas y eligen la 
-primera alternativa satisfactoria
- ("satisfacer" en lugar de maximizar). También influyen el compromiso creciente con decisiones previas y la cultura y política de la organización.
+Cuando buscás un regalo para tu mamá, no recorrés todas las tiendas del país: con el tiempo y la información que tenés, elegís algo que sea lo bastante bueno. Eso es la racionalidad limitada. Y hay distintas cosas en las que te podés basar para decidir: una corazonada, lo que te funcionó antes, lo que dice quien tiene la autoridad o los hechos concretos.
 
-Toma de decisiones intuitiva
-: decidir con base en experiencia, sentimientos y juicio acumulado. Tiene formas: basada en experiencia, en valores o ética, en sentimientos o emociones, en cognición (habilidades y capacitación) y en el subconsciente. Complementa al análisis, no lo reemplaza.
+Racionalidad limitada (teórico UT5): en la realidad se dificulta aplicar una racionalidad total, por falta o exceso de información, poca claridad en las metas, tiempo disponible o competencias del tomador de decisiones. Eso lleva a dosificar la racionalidad, con tendencia a no correr riesgos poco fundados, y a escoger un curso de acción satisfactorio o lo bastante bueno, dadas las circunstancias. (En la UT10, 2ª revisión, se presenta como aporte de Herbert Simon.)
 
-Bases para decidir
-: 
-intuición
-, 
-experiencia
-, 
-autoridad
- (se decide porque quien tiene el poder lo dispone) y 
-hechos
- (datos e información objetiva).
+Dimensiones de las decisiones (criterio objetivo): maximizar (elegir la mejor decisión posible), satisfacer (elegir la primera opción mínimamente aceptable) y optimizar (equilibrio entre todas las alternativas).
 
-Cualidades (competencias) del decisor
-: 
-experiencia
-, 
-buen juicio
- (usar la experiencia y el conocimiento para evaluar la información, captar lo importante y ponderarlo), 
-creatividad
- (combinar ideas para lograr un resultado original y útil) y 
-habilidades cuantitativas
- (usar técnicas y modelos para analizar). La diapositiva marca experiencia, buen juicio y habilidades cuantitativas como fundamentales; la creatividad completa las cuatro.
+¿En qué nos basamos para decidir? En la intuición (sin fundamentos reales, se piensa que puede suceder algo si se elige un camino), en la experiencia (reproducir lo que funcionó en situaciones parecidas), en la autoridad (el rol de quien decide; no aconsejable solo para desempeñar un rol, pero necesaria para implementar una solución) y en los hechos (ir al ambiente real, conocer lo que pasó y decidir la solución más recomendable).
+
+Cualidades del decisor: el teórico destaca cuatro competencias de mayor importancia: experiencia (la destreza crece con ella, pero puede ser inadecuada ante problemas nuevos; "que la experiencia de 10 años no sea la de uno repetida diez veces"), buen juicio (habilidad de evaluar información de forma inteligente: sentido común, madurez, razonamiento y experiencia), creatividad (combinar o asociar ideas de manera única para un resultado nuevo y útil; su mayor valor está en el desarrollo de alternativas) y habilidades cuantitativas (programación lineal, líneas de espera, modelos de inventarios; no reemplazan al buen juicio). La diapositiva muestra tres (experiencia, buen juicio y habilidades cuantitativas).
+
 Ideas clave:
-- Simon: capacidad limitada → simplificar y satisfacer
-- Intuición = experiencia y juicio acumulados; complementa el análisis
+- Racionalidad limitada: información, metas, tiempo, competencias → curso satisfactorio
+- Dimensiones: maximizar, satisfacer, optimizar
 - Bases: intuición, experiencia, autoridad, hechos
 - Cualidades: experiencia, buen juicio, creatividad, habilidades cuantitativas
-Mini ejercicio: Una gerenta necesita un local para una sucursal. Visita cuatro opciones de las decenas disponibles y alquila la primera que cumple con metraje, precio y ubicación aceptables. ¿Qué modelo describe su decisión?
-Solución: Racionalidad limitada: no busca todas las alternativas y elige la primera satisfactoria (satisface, no maximiza), por límites de tiempo e información.
+
+Ejemplo: Una gerenta necesita un local para una sucursal. Visita cuatro opciones de las decenas disponibles y alquila la primera que cumple con metraje, precio y ubicación aceptables. ¿Qué modelo describe su decisión?
+Resolución: Racionalidad limitada: por límites de tiempo e información no analiza todas las alternativas y elige la primera mínimamente aceptable. En la dimensión de la decisión, aplica el criterio de satisfacer, no de maximizar.
 
 ## Subtema: Clasificación y características de las decisiones
-Algunas decisiones son como elegir qué desayunar: se repiten, tenés una costumbre y casi no pensás. Otras son como elegir a qué liceo ir: pasa una vez, cambia muchas cosas por años y es difícil volver atrás. Las primeras las puede tomar cualquiera siguiendo una regla; las segundas las toman los "grandes". Y también cambia cuánto sabés del resultado: si sabés seguro, si sabés las chances, o si no tenés ni idea.
+Fuente de la cátedra: UT5 Teórico Toma de Decisiones, sec. 5 (características, pág. 9-10) y sec. 9 (tipos, pág. 16-17) · Diapositivas UT5 · 1ª revisión 2022, teórica 5 · Práctico Tika
 
-Características
- que determinan en qué nivel se toma una decisión:
+Algunas decisiones son como elegir qué desayunar: se repiten y ya tenés una costumbre. Otras son como elegir a qué liceo ir: pasan una vez, cambian muchas cosas por años y es difícil volver atrás. Las primeras se pueden resolver con una regla; las segundas conviene tomarlas "más arriba". Y cuanto más incierto es el resultado, más se parecen a las grandes decisiones.
 
-- 
-Efectos futuros
-: cuánto compromete el futuro y por cuánto tiempo.
+Características (orientan en qué nivel se toma cada decisión):
 
-- 
-Reversibilidad
-: qué tan fácil es deshacerla.
+- Efectos futuros: en qué medida impactará el futuro; con influencia a largo plazo puede ser estratégica, a corto plazo probablemente operativa.
 
-- 
-Impacto
-: cuántas áreas o actividades afecta.
+- Periodicidad: las recurrentes o rutinarias conviene tomarlas en los niveles más bajos; las puntuales o excepcionales, en las altas jerarquías.
 
-- 
-Calidad
-: cuánto involucra relaciones humanas, valores éticos, consideraciones legales o imagen.
+- Reversibilidad: si es muy difícil deshacerla, se recomienda tomarla al más alto nivel.
 
-- 
-Periodicidad
-: si es frecuente o excepcional.
+- Grado de calidad: condiciones éticas o legales, valores de la empresa, relaciones jerárquicas o normas de conducta involucradas; si hay varios, conviene decidir a alto nivel.
 
-Más efectos futuros, menos reversible, más impacto, más calidad en juego y más excepcional → se decide en un nivel más alto.
+- Grado de impacto: grado de afectación a otras actividades, "como la ola expansiva de una explosión"; si es fuerte, al más alto nivel.
 
-Criterio
- | 
-Tipos
- | 
+Tipos de decisiones (clasificadas según su objetivo):
 
-Nivel
- | 
-Estratégicas (alta dirección, largo plazo), tácticas (mandos medios), operativas (día a día)
- | 
+Tipo | Qué son (teórico) | 
 
-Estructura
- | 
-Programadas
-: repetitivas, problemas bien estructurados, se resuelven con procedimientos, reglas o políticas, niveles bajos. 
-No programadas
-: únicas, problemas mal estructurados, requieren juicio y soluciones a la medida, alta gerencia
- | 
+Estratégicas | De grandes proyecciones: reestructuración, nueva línea de negocios, aumento general de salarios | 
 
-Quién decide
- | 
-Individuales o colectivas (grupales)
- | 
+Tácticas u operativas | Rutinarias, recurrentes, que en general no afectan de manera relevante a la organización | 
 
-Conocimiento del resultado
- | 
-Certeza
- (se conoce el resultado de cada alternativa), 
-riesgo
- (se pueden estimar probabilidades), 
-incertidumbre
- (no se conocen ni las probabilidades)
- | 
+Individuales o colectivas | Las toma una persona, o se procesan en grupo por consenso o mayoría (se consideran más efectivas) | 
 
-En el caso (2019 y 2024, 3 pts): clasificá la decisión en 
-todos
- los ejes y justificá cada uno con un hecho.
+Según el grado de certidumbre | Las de mayor incertidumbre presentan más problemas y se relacionan con las estratégicas; las de mayor certidumbre afectan menos y se relacionan con las tácticas | 
+
+Programadas | Repetitivas y rutinarias, con un método definitivo; problema bien estructurado; con guías o procedimientos | 
+
+No programadas | Por ejemplo, reestructurar la organización, abandonar una línea de negocios o definir una estrategia de producto o de mercado | 
+
+En el caso (2019 y 2024): clasificá la decisión en todos los criterios y justificá cada uno con un hecho. El práctico Tika pide un cuadro con periodicidad (puntual o recurrente) y grado (estratégica u operativa).
+
 Ideas clave:
-- Características: efectos futuros, reversibilidad, impacto, calidad, periodicidad
-- Estratégicas, tácticas, operativas
-- Programadas (rutinarias, niveles bajos) vs no programadas (únicas, alta gerencia)
-- Certeza, riesgo (probabilidades), incertidumbre (sin probabilidades)
-Mini ejercicio: El directorio de un shopping decide invertir USD 30 millones en ampliar el edificio y agregar un hotel, algo que nunca había hecho. Clasificá la decisión.
-Solución: Estratégica (alta dirección, largo plazo), no programada (única, problema mal estructurado), colectiva (directorio), bajo incertidumbre o riesgo alto (no hay antecedentes propios para estimar probabilidades). Características: efectos futuros muy prolongados, baja reversibilidad (inversión en infraestructura), alto impacto en todas las áreas, excepcional.
+- Características: efectos futuros, periodicidad, reversibilidad, grado de calidad, grado de impacto
+- Tipos: estratégicas; tácticas u operativas; individuales o colectivas; según certidumbre; programadas y no programadas
+- Excepcional, irreversible, de alto impacto → alto nivel
+- Mayor incertidumbre ↔ estratégicas; mayor certidumbre ↔ tácticas
+
+Ejemplo: El directorio de un shopping decide invertir USD 30 millones en ampliar el edificio y agregar un hotel, algo que nunca había hecho. Clasificá la decisión.
+Resolución: Estratégica (de grandes proyecciones) y no programada (única, sin método previo), colectiva (la toma el directorio) y de alto grado de incertidumbre (no hay antecedentes propios). Características: efectos futuros prolongados, baja reversibilidad (inversión en infraestructura), alto grado de impacto sobre todas las áreas y periodicidad excepcional: por todo eso se toma al más alto nivel.
 
 ## Subtema: Pensamiento integrador (Roger Martin)
-Tus amigos discuten: unos quieren jugar al fútbol y otros a la escondida. El que piensa "normal" dice: "votemos, y los que pierden, a aguantarse". El que piensa "integrador" mira todo lo que quiere cada uno y propone algo nuevo: un juego en el que hay que esconderse y además meter goles. No eligió entre las dos cosas: inventó una tercera que tiene lo mejor de ambas.
+Fuente de la cátedra: UT5 Teórico Toma de Decisiones, sec. 6 (Pensamiento integrador vs. pensamiento convencional, pág. 10-11) · Diapositivas UT5 · 1ª revisión 2022 P6 · Práctico Tika, consigna 7
 
-Roger Martin estudió líderes exitosos y encontró que comparten una forma de pensar: la capacidad de sostener en la mente 
-dos ideas opuestas
- y, en lugar de elegir una, generar una 
-síntesis creativa superior
- a ambas. Compara pensadores convencionales e integradores en cuatro etapas:
+Tus amigos discuten: unos quieren jugar al fútbol y otros a la escondida. El que piensa "normal" dice: "o una cosa o la otra; votemos". El que piensa "integrador" no acepta tener que elegir: propone un juego nuevo que tiene lo mejor de los dos. Como el pulgar oponible, que junto con los otros dedos nos deja hacer cosas que ninguno haría solo.
 
-Etapa
- | 
-Convencional
- | 
-Integrador
- | 
+El teórico UT5 distingue dos grandes corrientes para encarar el proceso: los pensadores tradicionales, cuya expresión más conocida es el modelo racional, y los pensadores integradores, enfoque desarrollado principalmente por Roger Martin.
 
-Relevancia (prominencia)
- | 
-Considera pocos factores; descarta lo que complica
- | 
-Considera más factores relevantes, aunque compliquen
- | 
+- El pensamiento integrador discrepa del modelo mental regido por el "principio del tercio excluso": solo se puede escoger uno de los dos lados de una disyunción ("esto o aquello"), no ambos. Esa forma deja fuera la opción no escogida y la que podría surgir de fusionar alternativas aparentemente contrarias.
 
-Causalidad
- | 
-Relaciones lineales y unidireccionales
- | 
-Relaciones no lineales y multidireccionales
- | 
+- Integrar en lugar de dividir o tener que elegir: unificar dos o tres ideas opuestas para generar una idea superior a cualquiera de ellas, obteniendo las ventajas de una alternativa sin renunciar a las de otras. Es el verdadero pensamiento creativo. Ejemplo del teórico: ¿por qué no satisfacer a los clientes y también a los accionistas sin sacrificar a ninguno?
 
-Arquitectura
- | 
-Divide el problema en partes y las resuelve por separado
- | 
-Ve el problema completo mientras trabaja en las partes
- | 
+- Metáfora: el pulgar oponible; las personas tenemos mentes oponibles que manejan ideas conflictivas para construir una nueva.
 
-Resolución
- | 
-Acepta el "o esto o aquello" (trade-off)
- | 
-Busca una solución creativa que resuelva las tensiones
- | 
+- El modelo más simple de solo dos alternativas es el maniqueísmo (bien y mal, blanco y negro). El modelo tradicional simplifica tanto que no aprecia resultados innovadores y a veces lleva a elegir "lo menos malo".
 
-En el caso (2022, 3 pts): identificá si la solución adoptada eligió entre alternativas (convencional) o combinó modelos opuestos en algo nuevo (integrador), justificando con las cuatro etapas. Como teórica aún no salió: es un candidato.
+La diapositiva lo resume: muestra al directivo un camino para sobrepasar los límites binarios del "o esto o aquello". El teórico concluye que, aplicando el pensamiento integrador, se pueden usar ambos enfoques tomando lo mejor de cada uno. En el caso (2022, 3 pts): mostrá si la solución eligió entre dos opciones (tradicional) o integró opciones opuestas en una nueva (integrador).
+
 Ideas clave:
-- Sostener dos ideas opuestas y sintetizarlas
-- Relevancia: más factores
-- Causalidad: no lineal y multidireccional
-- Arquitectura: ve el todo; resolución: creativa, no trade-off
-Mini ejercicio: Un supermercado dudaba entre mantener solo el local físico o pasarse al 100% online. Diseñó un modelo en que el local funciona también como centro de despacho y los clientes online retiran en 30 minutos. ¿Qué tipo de pensamiento refleja?
-Solución: Integrador: en lugar de elegir entre físico u online (trade-off), combinó ambos modelos en una solución superior, considerando más factores (logística, experiencia de compra, costos) y la arquitectura completa del negocio.
+- Tradicionales (modelo racional) vs integradores (Roger Martin)
+- Rechaza el tercio excluso: no solo "esto o aquello"
+- Integrar ideas opuestas en una superior; mentes oponibles
+- Maniqueísmo: dos polos; lleva a elegir "lo menos malo"
+
+Ejemplo: Un supermercado dudaba entre mantener solo el local físico o pasarse al 100% online. Diseñó un modelo en que el local funciona también como centro de despacho y los clientes online retiran en 30 minutos. ¿Qué tipo de pensamiento refleja?
+Resolución: Integrador: en lugar de aceptar el "o esto o aquello" (solo físico o solo online), unificó los dos modelos opuestos en una idea superior que toma las ventajas de ambos, como plantea Roger Martin.

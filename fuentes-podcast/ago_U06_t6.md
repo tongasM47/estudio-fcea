@@ -1,461 +1,258 @@
 # Administración y Gestión de las Organizaciones II · Unidad 6: Análisis estratégico: FODA, cadena de valor y 5 fuerzas de Porter
 
-Material para la 1ª revisión de octubre 2026 (FCEA-UDELAR). Peso en el parcial según los parciales anteriores: 19% del puntaje, prioridad imprescindible.
-El bloque de más puntaje del caso: 5 pts en 2022, 10 en 2023 (FODA 6 + fuerzas 4) y 12 en 2024 (FODA 6 + fuerzas 6), es decir 29% de los puntos de caso de las cuatro revisiones. No apareció en 2019. Tendencia en alza. Cadena de valor solo en el examen de dic 2023.
+Material de estudio para la 1ª revisión de octubre 2026 (FCEA-UDELAR). TODO el contenido de este documento sale exclusivamente del material de la cátedra (notas, teóricos, diapositivas, guías, ejercicios y soluciones oficiales publicados en EVA). No hay que agregar conceptos, autores, ejemplos ni criterios que no estén acá.
+
+Fuente de la cátedra: UT3 Teórico Estrategia y Planificación Estratégica, sec. 6.4 y 7.1-7.2 (pág. 21-28) · Diapositivas UT3 · Práctico ISUSA · 1ª revisión 2024 P3-P4, 2023 P3-P4, 2022 P2
+
+Peso en la prueba según los parciales anteriores: 19% del puntaje, prioridad imprescindible. El bloque de más puntaje del caso: 5 pts en 2022, 10 en 2023 (FODA 6 + fuerzas 4) y 12 en 2024 (FODA 6 + fuerzas 6), es decir 29% de los puntos de caso de las cuatro revisiones. No apareció en 2019. Tendencia en alza. Cadena de valor solo en el examen de dic 2023.
 
 ## Explicación simple
-Antes de salir a regatear mirás dos cosas. Adentro del barco: ¿la vela está nueva o rota?, ¿la tripulación sabe? Eso son 
-fortalezas y debilidades
- (las controlás vos). Afuera: ¿viene viento a favor o tormenta? Eso son 
-oportunidades y amenazas
- (no las controlás). Eso es el 
-FODA
-.
-Las 
-5 fuerzas de Porter
- son otra forma de mirar afuera, pero solo el "campo de regata": cuántos rivales hay y qué tan duros son, si pueden entrar barcos nuevos, si el que te vende las velas te puede apretar, si los que te contratan pueden bajar el precio, y si la gente puede cambiarse a otra cosa (ir en lancha). Cuanto más fuertes las fuerzas, menos plata queda para vos.
+Antes de salir a regatear mirás dos cosas. Adentro del barco: ¿la vela está nueva o rota?, ¿la tripulación sabe? Eso son fortalezas y debilidades (la situación interna). Afuera: ¿viene viento a favor o tormenta? Eso son oportunidades y amenazas (la situación externa que enfrentás). Eso es el FODA.
+Las 5 fuerzas de Porter son otra forma de mirar afuera, pero solo el "campo de regata": cuántos rivales hay y qué tan duros son, si pueden entrar barcos nuevos, si el que te vende las velas te puede apretar, si los que te contratan pueden bajar el precio, y si la gente puede cambiarse a otra cosa (ir en lancha). Cuanto más fuertes las fuerzas, menos plata queda para vos.
 
 ## Explicación para el parcial
 FODA
 
- | 
-Positivo
- | 
-Negativo
- | 
+ | Positivo | Negativo | 
 
-Interno
- (controlable, de la empresa)
- | 
-Fortalezas
- | 
-Debilidades
- | 
+Situación interna (la empresa y sus áreas funcionales) | Fortalezas | Debilidades | 
 
-Externo
- (entorno, no controlable)
- | 
-Oportunidades
- | 
-Amenazas
- | 
+Situación externa (lo que enfrenta en su entorno) | Oportunidades | Amenazas | 
 
-El test para clasificar: 
-"¿si la empresa desapareciera, este factor seguiría existiendo?"
-. Si sí, es externo (O o A). Si no, es interno (F o D). Ejemplo: "el mercado de ropa online crece" es oportunidad; "tenemos un e-commerce que ya factura 10%" es fortaleza.
+Es una herramienta de fácil uso para una visión rápida de la situación estratégica. Ejemplo: "el mercado de ropa online crece" es oportunidad; "tenemos un e-commerce que ya factura 10%" es fortaleza.
 
 Cadena de valor (Porter)
 
-Descompone la empresa en actividades que agregan valor: 
-primarias
- (logística de entrada, operaciones, logística de salida, marketing y ventas, servicio posventa) y 
-de apoyo
- (infraestructura, gestión de RRHH, desarrollo tecnológico, abastecimiento). Sirve para ubicar dónde está la fortaleza (fuente de ventaja).
+La ventaja competitiva se basa en las actividades que la empresa desempeña con mejor costo o mejor que sus competidores. Primarias: logística interna, operaciones, logística externa, mercadotecnia y ventas, servicio. De apoyo: infraestructura de la empresa, administración de recursos humanos, desarrollo de tecnología, abastecimiento. El margen es la diferencia entre el valor total y el costo de las actividades. Comparar cadenas de competidores ayuda a detectar fortalezas y debilidades.
 
 5 fuerzas de Porter
 
-Determinan el atractivo (rentabilidad potencial) de una industria:
+Determinan las consecuencias de rentabilidad a largo plazo de un mercado o segmento:
 
-- 
-Rivalidad entre competidores existentes
-: alta si hay muchos competidores parecidos, crecimiento lento, producto poco diferenciado, costos fijos altos, barreras de salida.
+- Amenaza de entrada de nuevos competidores: depende de las seis barreras de entrada: economías de escala, diferenciación del producto, inversiones de capital, desventaja en costos independientemente de la escala, acceso a los canales de distribución y política gubernamental.
 
-- 
-Amenaza de nuevos entrantes
-: baja si hay barreras de entrada (economías de escala, inversión alta, marca, acceso a canales, regulación/licencias, curva de experiencia).
+- Rivalidad entre los competidores: más difícil competir donde están muy bien posicionados, son muy numerosos y los costos fijos son altos (guerras de precios, publicidad agresiva, promociones).
 
-- 
-Poder de negociación de los proveedores
-: alto si son pocos, si el insumo es clave o diferenciado, si cambiar de proveedor es caro.
+- Poder de negociación de los proveedores: alto si están bien organizados, tienen fuertes recursos e imponen precio y tamaño del pedido; peor si el insumo es clave, sin sustitutos o con pocos y caros.
 
-- 
-Poder de negociación de los clientes
-: alto si son pocos o compran mucho, si el producto es estándar, si cambiar es barato, si están informados.
+- Poder de negociación de los compradores: alto si están bien organizados, el producto tiene muchos sustitutos, no es muy diferenciado o es de bajo costo para el cliente; más crítico si pueden integrarse hacia atrás.
 
-- 
-Amenaza de productos sustitutos
-: alta si hay otra cosa que cubre la misma necesidad a precio o calidad parecidos.
+- Amenaza de productos sustitutos: el mercado no es atractivo si hay sustitutos reales o potenciales, sobre todo si están más avanzados o entran a precios más bajos.
 
-Diagnóstico final: 
-si las fuerzas son fuertes, la industria es poco atractiva
- (baja rentabilidad); si son débiles, atractiva. La estrategia busca posicionarse donde las fuerzas pegan menos o modificarlas a favor.
+Diagnóstico final: si las fuerzas son fuertes, el mercado es poco atractivo. La estrategia competitiva busca crear una posición defendible frente a esas fuerzas.
 
 ## Cómo se resuelve en el parcial
-- 
-FODA
-: armá una tabla 2×2 o cuatro listas. Cada factor en una línea: 
-factor
- + (párrafo n) + por qué es interno/externo. Respetá el mínimo pedido ("al menos 4 internos y 2 externos", "al menos uno de cada"). Poné uno o dos de más por las dudas, pero no diez.
+- FODA: armá una tabla 2×2 o cuatro listas. Cada factor en una línea: factor + (párrafo n) + por qué es interno/externo. Respetá el mínimo pedido ("al menos 4 internos y 2 externos", "al menos uno de cada"). Poné uno o dos de más por las dudas, pero no diez.
 
-- 
-Antes de escribir cada factor, aplicá el test "¿depende de la empresa?".
+- Antes de escribir cada factor, preguntate si describe la situación interna de la empresa o la situación externa que enfrenta.
 
-- 
-5 fuerzas
-: una por una, con este formato: nombre de la fuerza → evidencia del caso → intensidad (alta / media / baja) → por qué. Cerrá con un 
-diagnóstico global
- (atractivo de la industria) y la 
-situación estratégica
- de la empresa (cómo se defiende de las fuerzas más fuertes).
+- 5 fuerzas: una por una, con este formato: nombre de la fuerza → evidencia del caso → intensidad (alta / media / baja) → por qué. Cerrá con un diagnóstico global (atractivo de la industria) y la situación estratégica de la empresa (cómo se defiende de las fuerzas más fuertes).
 
-- 
-Si el caso no da datos de una fuerza, igual nombrala y razoná con sentido común (ej. sustitutos del ómnibus: auto, avión, videollamada).
+- Si el caso no da datos de una fuerza, igual nombrala y razoná con sentido común (ej. sustitutos del ómnibus: auto, avión, videollamada).
 
 ## Trampas típicas
-- 
-Poner factores externos como fortalezas
-: "el turismo crece" NO es fortaleza, es oportunidad. Es el error más penalizado.
+- Poner factores externos como fortalezas: "el turismo crece" NO es fortaleza, es oportunidad. Es el error más penalizado.
 
-- 
-Poner deseos o estrategias como factores ("podría abrir en Chile" no es oportunidad; "la demanda en Chile crece" sí).
+- Poner deseos o estrategias como factores ("podría abrir en Chile" no es oportunidad; "la demanda en Chile crece" sí).
 
-- 
-No indicar el párrafo cuando lo piden: la pauta lo exige.
+- No indicar el párrafo o el hecho del caso cuando la consigna lo pide.
 
-- 
-En 5 fuerzas, confundir 
-clientes
- con el 
-consumidor final
- cuando la empresa vende a intermediarios (ej. en un shopping los clientes son los locatarios).
+- En 5 fuerzas, confundir clientes con el consumidor final cuando la empresa vende a intermediarios (ej. en un shopping los clientes son los locatarios).
 
-- 
-Olvidarse del diagnóstico final: listar las 5 fuerzas sin concluir resta puntos.
+- Olvidarse del diagnóstico final: listar las 5 fuerzas sin concluir resta puntos.
 
-- 
-Confundir 
-sustituto
- (otra industria que cubre la necesidad) con 
-competidor
- (misma industria).
+- Confundir sustitutos con competidores del mismo sector: son fuerzas distintas.
 
 ## Ejercicio resuelto
-Una empresa uruguaya de cerveza artesanal tiene marca reconocida, planta propia moderna y alta rotación de personal. El consumo de cerveza artesanal crece en la región, pero dos multinacionales lanzaron sus propias líneas "craft" y el precio de la malta importada subió 30%. Hacé un FODA con un factor en cada cuadrante (4 pts).
-Solución:
-Fortaleza
- | 
-Debilidad
- | 
+Letra: Una empresa uruguaya de cerveza artesanal tiene marca reconocida, planta propia moderna y alta rotación de personal. El consumo de cerveza artesanal crece en la región, pero dos multinacionales lanzaron sus propias líneas "craft" y el precio de la malta importada subió 30%. Hacé un FODA con un factor en cada cuadrante (4 pts).
 
-Marca reconocida y planta propia moderna (interno, controlable, positivo).
- | 
-Alta rotación de personal: pierde conocimiento y encarece capacitación (interno, negativo).
- | 
+Solución: Fortaleza | Debilidad | 
+Marca reconocida y planta propia moderna (interno, controlable, positivo). | Alta rotación de personal: pierde conocimiento y encarece capacitación (interno, negativo). | 
+Oportunidad | Amenaza | 
+Crecimiento del consumo artesanal en la región (situación externa favorable). | Multinacionales con líneas craft y suba de la malta importada (externos, negativos). | 
 
-Oportunidad
- | 
-Amenaza
- | 
-
-Crecimiento del consumo artesanal en la región (externo: existiría aunque la empresa no existiera).
- | 
-Multinacionales con líneas craft y suba de la malta importada (externos, negativos).
- | 
-
-Justificación del criterio: F y D dependen de la empresa; O y A son del entorno.
+Justificación del criterio: F y D describen la situación interna; O y A, la situación externa.
 
 ## Cómo aparece en la prueba
-- C3 (3/4): Caso · FODA con factores justificados por párrafo. FODA con 5 factores (2022, 5 pts) o 6 factores (2023 y 2024, 6 pts), con condiciones como "al menos uno de cada categoría" o "4 internos y 2 externos", indicando el párrafo. Consejo: Es el ítem de puntaje más seguro. Hacé una tabla de 2 × 2 y cumplí exactamente la cantidad y las condiciones pedidas (si piden 4 internos y 2 externos, no pongas 3 y 3). Cada factor: frase corta + párrafo. Test para no confundir: si la empresa desapareciera, ¿el factor seguiría existiendo? Si sí, es externo. El error más penalizado es poner como oportunidad algo que ya hace la empresa.
+- C3 (3/4): Caso · FODA con factores justificados por párrafo. FODA con 5 factores (2022, 5 pts) o 6 factores (2023 y 2024, 6 pts), con condiciones como "al menos uno de cada categoría" o "4 internos y 2 externos", indicando el párrafo. Consejo: Es el ítem de puntaje más seguro. Hacé una tabla de 2 × 2 y cumplí exactamente la cantidad y las condiciones pedidas (si piden 4 internos y 2 externos, no pongas 3 y 3). Cada factor: frase corta + párrafo. Para no confundir: F y D describen la situación interna de la empresa; O y A, la situación externa que enfrenta. El error más penalizado es poner como oportunidad algo que ya hace la empresa.
 - C4 (2/4): Caso · 5 fuerzas de Porter y diagnóstico del atractivo. Identificar cada fuerza con información del caso y decir cómo opera (2023, 4 pts); en 2024 (6 pts) además un diagnóstico de la situación estratégica de la empresa. Consejo: Las cinco, siempre en el mismo orden, cada una con intensidad (alta, media, baja), el hecho del caso y el porqué (barreras de entrada, concentración, costos de cambio). Si el caso no da datos de una fuerza, decilo y razonala igual. Terminá con una conclusión: industria atractiva o no, y cómo se protege la empresa.
 
 ## Subtema: FODA: clasificar factores internos y externos
-Antes de un partido, mirás dos cosas. Tu equipo: "tenemos un arquero bárbaro" (fortaleza) y "nos falta un delantero" (debilidad). Y lo que no depende de ustedes: "el rival tiene lesionados" (oportunidad) y "va a llover y la cancha está pesada" (amenaza). Lo tuyo lo podés cambiar; el clima y el rival, no. Si mezclás esas dos cosas, el análisis no sirve.
+Fuente de la cátedra: UT3 Teórico Estrategia y Planificación Estratégica, sec. 1.1 y 6.4 (pág. 3 y 21) · Diapositivas UT3 (Proceso de administración estratégica) · Lectura 1er control: Facultad de Enfermería
 
-El 
-FODA
- cruza dos ejes: interno o externo, y positivo o negativo.
+Antes de un partido mirás dos cosas. Tu equipo: "tenemos un arquero bárbaro" (fortaleza) y "nos falta un delantero" (debilidad). Y lo que viene de afuera: "el rival tiene lesionados" (oportunidad) y "va a llover y la cancha está pesada" (amenaza). Lo primero es de tu equipo; lo segundo, del entorno. Si mezclás las dos cosas, el análisis no sirve.
 
- | 
-Positivo
- | 
-Negativo
- | 
+La matriz FODA es una herramienta muy usada para el análisis de la situación actual: evalúa los puntos fuertes y débiles de la empresa (situación interna) y las oportunidades y amenazas que enfrenta (situación externa). Es de fácil uso para una rápida visión general de la situación estratégica, e incluso permite valorar las distintas áreas funcionales.
 
-Interno (controlable)
- | 
-Fortalezas: recursos y capacidades en que la empresa se destaca
- | 
-Debilidades: recursos o capacidades que faltan o están por debajo
- | 
+ | Positivo | Negativo | 
 
-Externo (no controlable)
- | 
-Oportunidades: tendencias o hechos del entorno que la empresa podría aprovechar
- | 
-Amenazas: tendencias o hechos del entorno que pueden perjudicarla
- | 
+Interno (análisis del ambiente interno) | Fortalezas | Debilidades | 
 
-Test de clasificación
-: "si la empresa desapareciera, ¿el factor seguiría existiendo?". Si sí, es externo. Complemento: ¿la empresa lo controla? Si sí, es interno.
+Externo (análisis del ambiente externo) | Oportunidades | Amenazas | 
 
-Casos frontera frecuentes:
+En el proceso de administración estratégica (diapositiva UT3), el FODA es el "análisis de la situación actual": del análisis del ambiente externo se identifican oportunidades y amenazas, y del ambiente interno, fortalezas y debilidades, como factores estratégicos antes de formular las estrategias.
 
-- 
-"El mercado online crece" → oportunidad. "Tenemos un e-commerce que ya factura 10%" → fortaleza.
+Ejemplos del teórico (caso Otormín): amenazas, la competencia y el poder de negociación de proveedores y adquirentes; oportunidades, el crecimiento esperado del PBI y los beneficios tributarios a la construcción; debilidad, recursos financieros limitados; fortalezas, tecnología, personal capacitado, marketing digital, reputación.
 
-- 
-"Entró un competidor fuerte" → amenaza (externo), aunque la empresa lo sienta en sus ventas.
+La lectura del 1er control muestra un uso real: la Facultad de Enfermería hizo un análisis interno y externo con la matriz FODA (propuesta por Heinz Weihrich), previo análisis PESTEL (político, económico, social, tecnológico, ecológico y legal).
 
-- 
-"Dependemos de un solo proveedor" → debilidad (es una decisión o situación de la empresa). "El proveedor único del país sube precios" → amenaza.
-
-- 
-Un deseo o plan ("podríamos exportar") no es un factor; "la demanda en Brasil crece" sí es oportunidad.
-
-Las oportunidades y amenazas se toman del entorno general y específico (UT1); las fortalezas y debilidades, de los recursos y de la cadena de valor.
 Ideas clave:
-- Interno controlable: F y D; externo no controlable: O y A
-- Test: si la empresa desaparece, ¿sigue existiendo?
-- Un plan o deseo no es un factor
-- Lo que la empresa ya hace es fortaleza, no oportunidad
-Mini ejercicio: Clasificá para un hotel boutique de Colonia: (a) récord de cruceros de turistas argentinos; (b) el 90% de las reservas llega por una sola plataforma online; (c) la puntuación de 9,6 en esa plataforma; (d) nuevas cadenas hoteleras anunciadas en la ciudad.
-Solución: (a) Oportunidad. (b) Debilidad: dependencia de un canal, situación propia. (c) Fortaleza: reputación propia. (d) Amenaza: nuevos competidores.
+- Interno: fortalezas y debilidades; externo: oportunidades y amenazas
+- FODA = análisis de la situación actual en el proceso de administración estratégica
+- Da una rápida visión general de la situación estratégica
+- Enfermería: FODA de Weihrich, previo PESTEL
+
+Ejemplo: Clasificá para un hotel boutique de Colonia: (a) récord de cruceros de turistas argentinos; (b) el 90% de las reservas llega por una sola plataforma online; (c) la puntuación de 9,6 en esa plataforma; (d) nuevas cadenas hoteleras anunciadas en la ciudad.
+Resolución: (a) Oportunidad: hecho del ambiente externo favorable. (b) Debilidad: situación interna de la empresa (su dependencia de un canal). (c) Fortaleza: punto fuerte interno (su reputación). (d) Amenaza: nuevos competidores en el ambiente externo.
 
 ## Subtema: FODA en el caso: consigna, redacción y errores
+Fuente de la cátedra: 1ª revisión 2022 P2, 2023 P3 y 2024 P4 (consignas de FODA) · UT3 Teórico, sec. 6.4 · Práctico ISUSA, consigna 4
+
 Cuando la maestra dice "escribí 6 animales, por lo menos uno de cada continente", no te pone buena nota si escribís 8 animales todos de África. En el parcial pasa igual: si te piden 6 factores con al menos uno de cada tipo y el párrafo donde aparece, eso es exactamente lo que hay que entregar, cada uno con su "dirección" en el texto.
 
-El FODA es el ítem de puntaje más seguro del caso (5 a 6 pts desde 2022). Cómo responder:
+El FODA apareció en el caso de las revisiones 2022 (5 factores, 5 pts), 2023 (6 factores, 6 pts) y 2024 (al menos 4 internos y 2 externos, 6 pts), y en el práctico ISUSA. Cómo responder según las consignas de esas pruebas:
 
-- 
-Leé las condiciones
-: cantidad total (5 o 6), "al menos uno de cada categoría", "4 internos y 2 externos". Cumplilas al pie de la letra: de más no suma, de menos resta.
+- Leé las condiciones: cantidad total, "al menos uno de cada categoría", "al menos 4 internos y 2 externos", "indicando el párrafo". Cumplilas al pie de la letra.
 
-- 
-Tabla 2 × 2
- y en cada celda, factores en frase corta.
+- Tabla 2 × 2 (interno/externo, positivo/negativo) con factores en frase corta.
 
-- 
-Cada factor con evidencia
-: "Marca reconocida con 40 años en el mercado (párr. 2)". Sin párrafo, la pauta no da el puntaje completo.
+- Cada factor con evidencia: el hecho del caso y el párrafo, como pide la consigna de 2023.
 
-- 
-Redactá como estado, no como acción
-: "alta dependencia de importaciones" y no "debería buscar proveedores locales".
+- Clasificá según el marco: fortalezas y debilidades son de la situación interna; oportunidades y amenazas, de la situación externa.
 
-- 
-Un factor, una celda
-: no repitas el mismo hecho como fortaleza y como oportunidad.
+- Un factor, una celda.
 
-Errores más penalizados: poner como oportunidad algo que la empresa ya hace (es fortaleza); poner tendencias externas como fortalezas; inventar factores que no están en el texto; confundir amenaza con debilidad cuando la causa es interna. Si el caso casi no da debilidades, buscá dependencias (un cliente, un proveedor, el fundador), limitaciones de escala o de capacidad y problemas que el propio gerente reconoce.
+Errores a evitar: poner como oportunidad algo que la empresa ya hace o tiene (es interno), poner hechos del entorno como fortalezas, o anotar recomendaciones o planes en lugar de factores. Si el caso casi no da debilidades, buscá lo que el propio texto presenta como problema o limitación de la empresa.
+
 Ideas clave:
-- Cumplir cantidad y condiciones exactas
-- Factor + párrafo
-- Redactar como estado, no como recomendación
-- Debilidades escondidas: dependencias, escala, lo que reconoce el gerente
-Mini ejercicio: Consigna: "FODA con 6 factores, 4 internos y 2 externos, indicando el párrafo". Un estudiante pone 3 fortalezas, 1 debilidad, 1 oportunidad y 1 amenaza. ¿Cumple?
-Solución: Sí: 3 + 1 = 4 internos y 1 + 1 = 2 externos. Si además cada factor tiene su párrafo y está bien clasificado, cumple la consigna. Si hubiera puesto 3 internos y 3 externos, perdería puntaje aunque los factores fueran correctos.
+- Cumplir cantidad y condiciones exactas de la consigna
+- Factor + hecho + párrafo
+- Interno (F, D) vs externo (O, A) según el marco
+- Un factor, una celda; nada de recomendaciones
+
+Ejemplo: Consigna: "FODA con 6 factores, 4 internos y 2 externos, indicando el párrafo". Un estudiante pone 3 fortalezas, 1 debilidad, 1 oportunidad y 1 amenaza. ¿Cumple?
+Resolución: Sí: 3 + 1 = 4 internos y 1 + 1 = 2 externos. Si además cada factor tiene su párrafo y está bien clasificado, cumple la consigna. Si hubiera puesto 3 internos y 3 externos, perdería puntaje aunque los factores fueran correctos.
 
 ## Subtema: Cadena de valor de Porter
-Pensá en una pizzería. Llegan la harina y el queso (logística de entrada), se amasa y hornea (operaciones), se lleva la pizza a tu casa (logística de salida), se hace publicidad y se toman pedidos (marketing y ventas) y si llegó fría te mandan otra (servicio). Detrás de todo están el dueño que organiza, los que contratan y entrenan, el que mejora el horno y el que compra los insumos. Cada paso puede hacer que la pizza valga más o cueste menos.
+Fuente de la cátedra: UT3 Teórico Estrategia y Planificación Estratégica, sec. 7.1 (pág. 21-25) · Diapositivas UT3 (Cadena de valor) · Examen dic 2023, caso Alfajores P4
 
-La 
-cadena de valor
- descompone la empresa en las actividades que crean valor para el cliente, para ver dónde se genera la ventaja competitiva (menor costo o diferenciación). El 
-margen
- es la diferencia entre el valor que el cliente paga y el costo de todas las actividades.
+Pensá en una pizzería. Llegan la harina y el queso y se guardan (logística interna), se amasa y hornea (operaciones), se lleva la pizza a tu casa (logística externa), se hace publicidad y se toman pedidos (mercadotecnia y ventas) y, si hay un problema, te atienden después (servicio). Detrás están el que compra los insumos, el que mejora el horno, el que contrata y entrena y la administración general. En cada paso se puede hacer que la pizza valga más o cueste menos.
 
-Actividades primarias
- | 
-Qué incluyen
- | 
+Porter: una empresa tiene ventaja competitiva cuando tiene mejor posición que sus competidores para asegurarse los clientes y defenderse de las fuerzas competitivas. La ventaja se basa en las actividades que desempeña, y la cadena de valor separa a la empresa en sus actividades estratégicas para comprender el comportamiento de los costos y las fuentes de diferenciación. El valor es lo que los compradores están dispuestos a pagar (se mide por el ingreso total); el margen es la diferencia entre el valor total y el costo de las actividades de valor.
 
-Logística de entrada
- | 
-Recepción, almacenamiento y control de insumos
- | 
+Actividades primarias | Qué comprenden | 
 
-Operaciones
- | 
-Transformar insumos en el producto final
- | 
+Logística interna | Recibo, almacenamiento y distribución de insumos: manejo de materiales, control de inventarios | 
 
-Logística de salida
- | 
-Almacenar y distribuir el producto a los clientes
- | 
+Operaciones | Transformación de insumos en el producto final: maquinado, empaque, ensamblado, pruebas | 
 
-Marketing y ventas
- | 
-Publicidad, promoción, fuerza de ventas, canales, precios
- | 
+Logística externa | Recopilación, almacenamiento y distribución física del producto a los compradores | 
 
-Servicio (posventa)
- | 
-Instalación, reparación, garantía, atención al cliente
- | 
+Mercadotecnia y ventas | Publicidad, promoción, fuerza de ventas, canales, precio | 
 
-Actividades de apoyo
- | 
-Qué incluyen
- | 
+Servicio | Instalación, reparación, entrenamiento, repuestos | 
 
-Infraestructura de la empresa
- | 
-Dirección general, planificación, finanzas, contabilidad, legal
- | 
+Actividades de apoyo | Qué comprenden | 
 
-Gestión de recursos humanos
- | 
-Reclutamiento, capacitación, remuneración
- | 
+Abastecimiento | La función de comprar insumos, no los insumos en sí | 
 
-Desarrollo tecnológico
- | 
-I+D, mejora de procesos y productos, sistemas
- | 
+Desarrollo de tecnología | Esfuerzos por mejorar el producto y el proceso | 
 
-Abastecimiento (compras)
- | 
-Cómo se compran los insumos, no los insumos en sí
- | 
+Administración de RRHH | Búsqueda, contratación, entrenamiento, desarrollo y compensaciones | 
 
-Uso en el caso: ubicar la fortaleza en la actividad concreta ("la ventaja está en operaciones: elaboración artesanal propia") y conectarla con la estrategia genérica.
+Infraestructura de la empresa | Administración general, planeación, finanzas, contabilidad, asuntos legales, calidad; apoya a toda la cadena | 
+
+Los eslabones vinculan actividades (optimización y coordinación), también con las cadenas de proveedores y canales (eslabones verticales). La cadena sirve para analizar fortalezas y debilidades y para diseñar la estructura. Según la diapositiva, la ventaja procede de las capacidades centrales: aptitudes (hacer algo que los demás no pueden, o hacerlo mejor) y activos o recursos (tener algo que los competidores no tienen).
+
 Ideas clave:
-- 5 primarias: logística de entrada, operaciones, logística de salida, marketing y ventas, servicio
-- 4 de apoyo: infraestructura, RRHH, desarrollo tecnológico, abastecimiento
-- Margen = valor pagado − costo de las actividades
-- Sirve para localizar la fuente de la ventaja
-Mini ejercicio: Una empresa de muebles online se destaca porque entrega en 48 horas en todo el país y arma el mueble en la casa sin costo. ¿En qué actividades está su ventaja?
-Solución: Logística de salida (entrega rápida y cobertura nacional) y servicio posventa (armado en domicilio). Son fuentes de diferenciación.
+- Primarias: logística interna, operaciones, logística externa, mercadotecnia y ventas, servicio
+- Apoyo: abastecimiento, desarrollo de tecnología, administración de RRHH, infraestructura
+- Margen = valor total − costo de las actividades de valor
+- Sirve para ver costos y fuentes de diferenciación; eslabones
+
+Ejemplo: Una empresa de muebles online se destaca porque entrega en 48 horas en todo el país y arma el mueble en la casa sin costo. ¿En qué actividades está su ventaja?
+Resolución: Logística externa (distribución física rápida a todo el país) y servicio (armado, que realza el valor del producto). Son fuentes de diferenciación.
 
 ## Subtema: 5 fuerzas: rivalidad y amenaza de nuevos entrantes
-Si abrís un puesto de panchos en una esquina donde ya hay diez puestos iguales y la gente no crece, se van a pelear bajando precios: esa es la rivalidad. Y si poner un puesto es tan fácil como comprar una olla, mañana aparecen cinco más: esa es la amenaza de nuevos entrantes. En cambio, si para vender panchos necesitaras un permiso muy difícil de conseguir, estarías más protegido.
+Fuente de la cátedra: UT3 Teórico Estrategia y Planificación Estratégica, sec. 7.2 (pág. 25-27) · Diapositivas UT3 (Fuerzas competitivas)
 
-Rivalidad entre competidores existentes
-: es alta cuando hay
+Si abrís un puesto de panchos en una esquina donde ya hay diez puestos bien ubicados, se van a pelear con precios y promociones: esa es la rivalidad. Y si poner un puesto es tan fácil como comprar una olla, mañana aparecen cinco más: esa es la amenaza de nuevos competidores. En cambio, si para vender panchos necesitaras un permiso muy difícil, una inversión enorme o acceso a canales que ya tienen otros, estarías más protegido.
 
-- 
-muchos competidores de tamaño parecido,
+Para Porter hay cinco fuerzas que determinan las consecuencias de rentabilidad a largo plazo de un mercado o segmento; la organización debe evaluar sus objetivos y recursos frente a ellas.
 
-- 
-crecimiento lento de la industria (para crecer hay que robarle clientes al otro),
+Amenaza de entrada de nuevos competidores: el mercado no es atractivo según si las barreras de entrada son fáciles o no de franquear. Porter identificó seis barreras de entrada:
 
-- 
-productos poco diferenciados y bajos costos de cambio para el cliente,
+- Economías de escala: los altos volúmenes reducen costos y dificultan entrar con precios bajos.
 
-- 
-costos fijos altos o producto perecedero (presión para vender a cualquier precio),
+- Diferenciación del producto: el entrante debe hacer cuantiosas inversiones para reposicionar a su rival.
 
-- 
-barreras de salida altas (activos específicos, compromisos, factores emocionales).
+- Inversiones de capital: fuertes recursos financieros dan mejor posición frente a competidores más pequeños.
 
-Amenaza de nuevos entrantes
-: es baja cuando hay 
-barreras de entrada
- altas:
+- Desventaja en costos independientemente de la escala: patentes, control de materias primas, localización, subsidios, curva de experiencia.
 
-- 
-economías de escala,
+- Acceso a los canales de distribución: si están bien atendidos por las firmas establecidas, el entrante debe convencerlos con precios y márgenes.
 
-- 
-diferenciación y lealtad a marcas establecidas,
+- Política gubernamental: leyes, normas y requisitos que limitan o impiden la entrada.
 
-- 
-necesidades de capital elevadas,
+Rivalidad entre los competidores: será más difícil competir donde los competidores estén muy bien posicionados, sean muy numerosos y los costos fijos sean altos, porque habrá guerras de precios, campañas publicitarias agresivas, promociones y entrada de nuevos productos.
 
-- 
-costos de cambio para los clientes,
+En el caso, para cada fuerza: intensidad + hecho del caso con párrafo + el factor del teórico que la explica.
 
-- 
-acceso a canales de distribución,
-
-- 
-ventajas de costo independientes de la escala (curva de experiencia, ubicación, acceso a insumos),
-
-- 
-política gubernamental (licencias, concesiones, regulaciones),
-
-- 
-represalia esperada de los establecidos.
-
-En el caso, para cada fuerza: intensidad (alta, media, baja) + hecho del caso con párrafo + el determinante que la explica.
 Ideas clave:
-- Rivalidad alta: muchos iguales, crecimiento lento, poca diferenciación, costos fijos y barreras de salida altos
-- Barreras de entrada: escala, marca, capital, costos de cambio, canales, regulación, experiencia
-- Barreras altas = amenaza de entrada baja
-- Intensidad + hecho + determinante
-Mini ejercicio: Un shopping de Montevideo opera un predio concesionado por la Intendencia hasta 2041, en una ubicación única sobre la terminal de ómnibus. Evaluá la amenaza de nuevos entrantes.
-Solución: Baja: la concesión exclusiva (política gubernamental), la ubicación irreproducible (ventaja de costo independiente de la escala) y la gran inversión necesaria para construir un shopping (necesidad de capital) son barreras de entrada muy altas.
+- 6 barreras: economías de escala, diferenciación, inversiones de capital, costos independientes de la escala, canales, política gubernamental
+- Rivalidad alta: competidores bien posicionados, numerosos, costos fijos altos
+- Barreras difíciles de franquear = menor amenaza de entrada
+- Intensidad + hecho + factor
+
+Ejemplo: Un shopping de Montevideo opera un predio concesionado por la Intendencia hasta 2041, en una ubicación única sobre la terminal de ómnibus. Evaluá la amenaza de nuevos entrantes.
+Resolución: Baja: la concesión exclusiva es una barrera por política gubernamental, la ubicación irreproducible es una desventaja en costos independiente de la escala (localización) y construir un shopping exige fuertes inversiones de capital.
 
 ## Subtema: 5 fuerzas: proveedores, clientes y sustitutos
-Si en tu barrio hay un solo vendedor de pelotas, te cobra lo que quiere: tiene poder. Si hay veinte, podés elegir. Con los clientes pasa lo mismo: si le vendés todo a un solo comprador grande, él te pone el precio. Y los sustitutos son cosas distintas que sirven para lo mismo: si las entradas al cine suben mucho, te quedás viendo una película en casa.
+Fuente de la cátedra: UT3 Teórico Estrategia y Planificación Estratégica, sec. 7.2 (pág. 27-28) · Diapositivas UT3 (Fuerzas competitivas)
 
-Poder de negociación de los proveedores
-: alto cuando
+Si en tu barrio hay un solo vendedor de pelotas, bien organizado y sin competencia, te cobra lo que quiere: tiene poder. Con los clientes pasa lo mismo: si están bien organizados y tienen muchos otros productos para elegir, te bajan el precio. Y los sustitutos son otros productos que pueden reemplazar al tuyo: si son más avanzados o más baratos, te complican.
 
-- 
-son pocos o están más concentrados que la industria que les compra,
+Las otras tres fuerzas según el teórico UT3:
 
-- 
-el insumo es clave o diferenciado y no tiene sustitutos,
+Poder de negociación de los proveedores: un mercado no será atractivo cuando los proveedores estén muy bien organizados gremialmente, tengan fuertes recursos y puedan imponer condiciones de precio y tamaño del pedido. Se complica si los insumos son claves, no tienen sustitutos o son pocos y de alto costo.
 
-- 
-cambiar de proveedor es caro para la empresa,
+Poder de negociación de los compradores: un mercado no será atractivo cuando los clientes están muy bien organizados, el producto tiene varios o muchos sustitutos, no es muy diferenciado o es de bajo costo para el cliente (puede sustituirlo por igual o a muy bajo costo). A mayor organización de los compradores, mayores exigencias de reducción de precios, calidad y servicio, y menores márgenes. Es más crítico si les conviene integrarse hacia atrás.
 
-- 
-la industria no es un cliente importante para ellos,
+Amenaza de ingreso de productos sustitutos: un mercado no es atractivo si existen sustitutos reales o potenciales; se complica si están más avanzados tecnológicamente o pueden entrar a precios más bajos, reduciendo los márgenes de la organización y de la industria.
 
-- 
-pueden integrarse hacia adelante (competir con sus clientes).
+Ojo con quién es el "comprador": es quien le compra a la empresa del caso. En la 1ª revisión 2024 (Tres Cruces), por ejemplo, el caso distingue a los locatarios que arriendan locales y a las empresas de transporte que pagan por usar la terminal.
 
-Poder de negociación de los clientes
-: alto cuando
-
-- 
-son pocos o compran grandes volúmenes,
-
-- 
-el producto es estándar y cambiar de proveedor les cuesta poco,
-
-- 
-están bien informados o son sensibles al precio,
-
-- 
-pueden integrarse hacia atrás (fabricar ellos mismos).
-
-Ojo: el "cliente" es quien le compra a la empresa. Si vende a supermercados o a locatarios, esos son los clientes, no el consumidor final.
-
-Amenaza de productos sustitutos
-: productos de 
-otra industria
- que satisfacen la misma necesidad. Es alta cuando el sustituto tiene buena relación precio-desempeño y cambiar cuesta poco. Pone un techo al precio que puede cobrar la industria. No confundir con un competidor (misma industria).
 Ideas clave:
-- Proveedores fuertes: pocos, insumo clave, cambio caro, amenaza de integración hacia adelante
-- Clientes fuertes: pocos o grandes, producto estándar, cambio barato, informados
-- Cliente = quien le compra a la empresa (puede ser un intermediario)
-- Sustituto = otra industria, misma necesidad; pone techo al precio
-Mini ejercicio: Una fábrica de galletitas vende el 70% de su producción a dos grandes cadenas de supermercados. ¿Cómo es el poder de los clientes?
-Solución: Alto: son pocos, compran grandes volúmenes, pueden reemplazar la marca por otra en la góndola o desarrollar una marca propia (integración hacia atrás). Pueden imponer precios, plazos de pago y promociones.
+- Proveedores fuertes: organizados, con recursos, insumos claves sin sustitutos
+- Compradores fuertes: organizados, producto con sustitutos, poco diferenciado, integración hacia atrás
+- Sustitutos reales o potenciales, más avanzados o más baratos
+- Comprador = quien le compra a la empresa del caso
+
+Ejemplo: Una fábrica de galletitas vende el 70% de su producción a dos grandes cadenas de supermercados, que pueden reemplazarla en la góndola por otras marcas parecidas sin costo. ¿Cómo es el poder de negociación de los compradores?
+Resolución: Alto: los compradores son pocos y están muy organizados (dos cadenas que concentran el 70%), el producto tiene muchos sustitutos en góndola y pueden exigir reducción de precios y más servicio, achicando los márgenes.
 
 ## Subtema: Diagnóstico del atractivo de la industria
-Después de mirar las cinco fuerzas, te preguntás: ¿vale la pena estar en este negocio? Si hay muchos rivales, cualquiera puede entrar, los proveedores te aprietan, los clientes te regatean y hay reemplazos baratos, es como jugar un partido con viento en contra en los dos tiempos: se gana poco. Si pasa lo contrario, es un buen lugar. Y lo inteligente es buscar el rincón de la cancha donde el viento pega menos.
+Fuente de la cátedra: UT3 Teórico Estrategia y Planificación Estratégica, sec. 7.2 y 7.3 (pág. 25-28) · 1ª revisión 2024 P3 (diagnóstico de fuerzas y situación estratégica)
 
-Las 5 fuerzas determinan la 
-rentabilidad potencial
- de la industria: cuanto más fuertes, menos atractiva (el valor creado se lo llevan rivales, clientes, proveedores o sustitutos).
+Después de mirar las cinco fuerzas, te preguntás: ¿es atractivo este negocio? Si hay muchos rivales fuertes, cualquiera puede entrar, los proveedores te aprietan, los clientes te regatean y hay reemplazos, es como jugar con viento en contra los dos tiempos. Y después mirás cómo está parada la empresa para defenderse de esas fuerzas.
 
-Estructura del diagnóstico (2024 pidió "diagnóstico de la situación estratégica", 6 pts):
+Las cinco fuerzas determinan la rentabilidad a largo plazo de un mercado o segmento: cuando son intensas, el mercado no es atractivo. Porter describe la estrategia competitiva como las acciones ofensivas o defensivas de una empresa para crear una posición defendible dentro de la industria, en respuesta a esas cinco fuerzas (t7).
 
-- 
-Las cinco fuerzas en el mismo orden, cada una con intensidad y hecho del caso. Si falta información de una, decilo y razonala.
+Estructura para el diagnóstico (la 1ª revisión 2024 pidió "un breve diagnóstico de cada una, señalando la situación desde un punto de vista estratégico", 6 pts):
 
-- 
-Conclusión sobre el atractivo
-: cuáles fuerzas pesan más y si la industria es atractiva, poco atractiva o intermedia.
+- Las cinco fuerzas, cada una con su intensidad y el hecho del caso.
 
-- 
-Posición de la empresa
-: cómo se protege de las fuerzas fuertes (marca, contratos, ubicación, diferenciación, relaciones con proveedores) o cómo podría modificarlas a su favor.
+- Conclusión sobre el atractivo: cuáles pesan más y si el mercado resulta atractivo o no.
 
-Distinguí siempre la 
-industria
- (atractivo general) de la 
-posición de la empresa
- dentro de ella: una empresa puede ser muy rentable en una industria poco atractiva si tiene una posición defendible. Esto conecta con la elección de la estrategia genérica (t7).
+- Situación de la empresa: qué posición defendible tiene frente a las fuerzas más intensas (barreras que la protegen, diferenciación, costos).
+
+El teórico aclara que la cantidad del valor total creado que se queda cada participante de la cadena (proveedores, empresa y clientes) depende de su fuerza relativa y su poder de negociación: es la dinámica de las cinco fuerzas.
+
 Ideas clave:
-- Fuerzas fuertes = industria poco atractiva
-- Diagnóstico: 5 fuerzas → atractivo → posición de la empresa
-- Si falta información, decirlo y razonar
-- Industria ≠ posición de la empresa
-Mini ejercicio: Industria de delivery de comida en Montevideo: muchas apps parecidas, restaurantes que usan varias a la vez, clientes que comparan precios y cambian con un clic, y la opción de retirar en el local. Diagnóstico breve.
-Solución: Rivalidad alta (muchas apps poco diferenciadas), clientes con alto poder (cambio sin costo, informados), proveedores (restaurantes) con poder medio porque trabajan con varias apps, sustituto relevante (retirar o cocinar). Industria poco atractiva: la rentabilidad depende de lograr escala o diferenciarse con exclusividades.
+- Fuerzas intensas = mercado poco atractivo
+- Diagnóstico: 5 fuerzas → atractivo → situación de la empresa
+- Estrategia competitiva = crear una posición defendible frente a las fuerzas
+- El reparto del valor depende del poder de negociación de cada participante
+
+Ejemplo: Industria de delivery de comida en Montevideo: muchas apps parecidas, restaurantes que usan varias a la vez, clientes que comparan precios y cambian con un clic, y la opción de retirar en el local. Diagnóstico breve.
+Resolución: Rivalidad alta (muchas apps parecidas y bien posicionadas), compradores con poder alto (el servicio es poco diferenciado y cambiar cuesta poco), proveedores (restaurantes) con poder medio porque trabajan con varias apps, y sustituto relevante (retirar en el local o cocinar). Mercado poco atractivo: la empresa necesita una posición defendible, por costos o por diferenciación.

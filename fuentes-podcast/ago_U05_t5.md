@@ -1,561 +1,285 @@
 # Administración y Gestión de las Organizaciones II · Unidad 5: Estrategia: visión, misión, metas y estrategias corporativas (direccionales)
 
-Material para la 1ª revisión de octubre 2026 (FCEA-UDELAR). Peso en el parcial según los parciales anteriores: 11% del puntaje, prioridad imprescindible.
-4 pts de caso los cuatro años: estrategia direccional en 2019, misión en 2022, visión y misión en 2023 y 2024. Es el "fijo" más estable de la revisión. En los exámenes también sale la estrategia corporativa (8 pts).
+Material de estudio para la 1ª revisión de octubre 2026 (FCEA-UDELAR). TODO el contenido de este documento sale exclusivamente del material de la cátedra (notas, teóricos, diapositivas, guías, ejercicios y soluciones oficiales publicados en EVA). No hay que agregar conceptos, autores, ejemplos ni criterios que no estén acá.
+
+Fuente de la cátedra: UT3 Teórico Estrategia y Planificación Estratégica, sec. 1 a 6 (pág. 3-21) · Diapositivas UT3 · 1ª revisión 2024 P2, 2023 P1, 2022 P3, 2019 P5 · Examen dic 2022 MO4 y MO8
+
+Peso en la prueba según los parciales anteriores: 11% del puntaje, prioridad imprescindible. 4 pts de caso los cuatro años: estrategia direccional en 2019, misión en 2022, visión y misión en 2023 y 2024. Es el "fijo" más estable de la revisión. En los exámenes también sale la estrategia corporativa (8 pts).
 
 ## Explicación simple
-Si vas a hacer un viaje en velero, primero tenés que saber 
-a dónde querés llegar
- (la visión: "cruzar al Brasil"), 
-quién sos y para qué salís
- (la misión: "somos un barco de pesca que abastece al puerto con pescado fresco") y 
-qué hitos medibles vas a cumplir
- (las metas: "llegar a Rocha en 3 días"). Después elegís el rumbo: ir más lejos (crecer), quedarte donde estás (estabilidad) o volver a puerto a reparar (reducción).
+Si vas a hacer un viaje en velero, primero tenés que saber a dónde querés llegar (la visión: "cruzar al Brasil"), quién sos y para qué salís (la misión: "somos un barco de pesca que abastece al puerto con pescado fresco") y qué hitos medibles vas a cumplir (las metas: "llegar a Rocha en 3 días"). Después elegís el rumbo: ir más lejos (crecer), quedarte donde estás (estabilidad) o volver a puerto a reparar (reducción).
 En el parcial casi siempre te dan la visión y la misión de una empresa real y te piden que las "critiques": ver si cumplen lo que tienen que cumplir y proponer una mejor.
 
 ## Explicación para el parcial
-Estrategia
- (Porter / Hax): patrón coherente de decisiones que define el propósito de la organización, en qué negocios compite y cómo logra una ventaja sostenible respondiendo a oportunidades y amenazas del entorno y a sus fortalezas y debilidades.
+Estrategia: para Hax, "la dirección intencionada al cambio para conseguir ventajas competitivas sostenibles a largo plazo sobre sus competidores en los diferentes negocios en que participa". Para Porter, desarrollar una amplia fórmula de cómo la empresa va a competir, cuáles deben ser sus objetivos y qué políticas se necesitan; no radica en ser mejor sino en ser diferente. El teórico cita también a Andrews, Chandler y De Kluyver.
 
 Niveles
 
-- 
-Corporativo
-: en qué negocios estar → estrategia 
-direccional
-.
-- 
-Unidad de negocios
-: cómo competir en cada negocio → estrategia 
-competitiva
- (genéricas de Porter).
-- 
-Funcional
-: cómo cada área (marketing, producción, finanzas, RRHH) apoya la competitiva.
+- Corporativo: ¿en qué negocios participar? → estrategia direccional, portafolio y sombrilla corporativa.
+- Unidad de negocios: ¿cómo vamos a competir en cada negocio? → estrategia competitiva.
+- Funcional: ¿cómo utilizamos los recursos de manera óptima en cada área?
 
-Visión: a dónde vamos
+Visión: ¿qué aspiramos a ser?
 
-Imagen del futuro deseado. Atributos: 
-imaginable, deseable, factible, flexible, comunicable
-. Además: 
-concepto enfocado
-, 
-creación de valor
-, 
-propósito noble
-, 
-verosímil
-.
+Imagen de lo que los miembros quieren que la empresa llegue a ser. Comprende un concepto enfocado (premisa de creación de valor), un propósito noble y una probabilidad verosímil de éxito. Según la diapositiva, el enunciado debe ser imaginable, deseable, factible (suficientemente claro para guiar decisiones), flexible y comunicable (en cinco minutos).
 
-Misión: quiénes somos y qué hacemos
+Misión: ¿cómo tenemos que hacer negocios?
 
-Componentes: 
-clientes
-, 
-productos/servicios
-, 
-mercados
- (dónde compite), 
-supervivencia, crecimiento y rentabilidad
-, 
-filosofía
- (valores), 
-concepto propio
- (ventaja distintiva), 
-imagen pública
-, 
-interés en los empleados
-. Debe ser 
-definitoria, identificatoria
- (distingue a la empresa de otras), 
-concisa, accionable y memorable
-.
+El medio que nos lleva a la visión; el propósito o razón para existir. Declaración completa (9 componentes): clientes, productos o servicios, mercados, tecnología, supervivencia, crecimiento y rentabilidad, filosofía, concepto propio, imagen pública, interés en los empleados. Enunciado efectivo: definitorio, identificatorio, conciso, accionable y memorable.
 
-Regla de oro: la visión habla del futuro; la misión, del presente.
+Objetivos, metas y planes
 
-Metas y planes
-
-Metas = resultados deseados. Buenas metas: en términos de 
-resultados
-, 
-medibles
-, con 
-plazo
-, 
-difíciles pero alcanzables
-, 
-escritas y comunicadas
-. Hay 
-metas declaradas
- (lo que la empresa dice) y 
-reales
- (lo que de verdad persigue, se ve en lo que hace). Los 
-planes
- documentan cómo se van a lograr.
+Los objetivos estratégicos llevan la visión y la misión al terreno operativo; pueden ser financieros o no financieros y se miden con indicadores. Metas = resultados deseados; bien diseñadas: en términos de resultados, mensurables, con plazo, difíciles pero alcanzables, escritas y comunicadas. Hay metas declaradas y reales (definidas por los actos). Los planes explican cómo alcanzarlas, con recursos y calendarios.
 
 Estrategias direccionales (nivel corporativo)
 
-- 
-Crecimiento
-:
+- Crecimiento:
+ - Concentración (en la actual línea de productos): penetración en el mercado; crecimiento vertical, integración hacia atrás (proveedores) o hacia adelante (distribuidores); crecimiento horizontal, por desarrollo del mercado (nuevas áreas geográficas) o desarrollo del producto, interno o con adquisiciones y alianzas.
 
-- 
-Concentración
- (en la misma industria): 
-penetración
- de mercado; 
-crecimiento vertical
- hacia atrás (proveedores) o hacia adelante (distribución); 
-crecimiento horizontal
- (nuevos productos, nuevos mercados geográficos o comprar competidores).
+ - Diversificación: concéntrica (relacionada, con sinergias) o de conglomerado (no relacionada).
 
-- 
-Diversificación
-: 
-relacionada
- (otra industria con sinergias) o 
-no relacionada
- (conglomerado).
+- Estabilidad: pausa o proceder con precaución (temporal, para consolidar tras crecer), sin cambios, rentabilidad (no hacer nada nuevo en deterioro, reduciendo gastos discrecionales).
 
-- 
-Estabilidad
-: pausa (proceder con cautela), sin cambio, rentabilidad (sacrificar crecimiento para sostener ganancias).
+- Reducción: de cambio (mejorar la eficiencia reduciendo costos o vendiendo activos), empresa cautiva (cliente protector con contrato de largo plazo), venta total o desinversión (vender una línea), quiebra o liquidación.
 
-- 
-Reducción
-: cambio de rumbo (turnaround), empresa cautiva, venta/desinversión, quiebra o liquidación.
-
-Matriz de Ansoff
-: producto actual/nuevo × mercado actual/nuevo → penetración, desarrollo de mercado, desarrollo de producto, diversificación. 
-Matriz BCG
-: participación relativa × crecimiento del mercado → estrellas, vacas lecheras, signos de interrogación, perros.
+Matriz de Ansoff: producto actual/nuevo × mercado actual/nuevo → penetración, desarrollo de mercado, desarrollo de producto, diversificación. Matriz BCG: participación relativa × tasa de crecimiento del mercado → estrellas, vacas lecheras, interrogantes, perros.
 
 ## Cómo se resuelve en el parcial
-- 
-Análisis crítico de visión
-: transcribí la visión (resumida) → recorré los atributos uno por uno (imaginable, deseable, factible, flexible, comunicable, enfocada, propósito noble) diciendo si cumple y por qué → señalá lo que falta o sobra (¿habla del presente? entonces está mal) → 
-proponé una redacción
-.
+- Análisis crítico de visión: transcribí la visión (resumida) → recorré los atributos uno por uno (imaginable, deseable, factible, flexible, comunicable) y lo que la visión comprende (concepto enfocado, propósito noble, probabilidad verosímil), diciendo si cumple y por qué → señalá lo que falta o sobra (¿habla del presente? entonces está mal) → proponé una redacción.
 
-- 
-Análisis crítico de misión
-: tabla o lista con los 8 componentes y si aparecen (cliente sí/no, producto sí/no, mercado geográfico sí/no...) → evaluá si es definitoria, identificatoria, concisa, accionable, memorable → 
-proponé una redacción
- que agregue lo que falta usando datos del caso.
+- Análisis crítico de misión: tabla o lista con los 9 componentes y si aparecen (cliente sí/no, producto sí/no, mercado geográfico sí/no...) → evaluá si es definitoria, identificatoria, concisa, accionable, memorable → proponé una redacción que agregue lo que falta usando datos del caso.
 
-- 
-Principios éticos / valores
-: van en la "filosofía" de la misión; evaluá si son concretos o genéricos, si se ven en hechos del caso.
+- Principios éticos / valores: van en la "filosofía" de la misión; evaluá si son concretos o genéricos, si se ven en hechos del caso.
 
-- 
-Estrategia direccional
-: nombrá el tipo (crecimiento → concentración → horizontal, por ejemplo) con la cadena completa y justificá con el caso; ubicala en Ansoff.
+- Estrategia direccional: nombrá el tipo (crecimiento → concentración → horizontal, por ejemplo) con la cadena completa y justificá con el caso; ubicala en Ansoff.
 
 ## Trampas típicas
-- 
-Confundir misión y visión
-: si la frase habla de "ser el líder en 2030", es visión; si habla de "brindamos X a Y", es misión.
+- Confundir misión y visión: si la frase habla de "ser el líder en 2030", es visión; si habla de "brindamos X a Y", es misión.
 
-- 
-Criticar sin proponer: casi siempre la pauta da un punto por la 
-redacción sugerida
-.
+- Criticar sin proponer: la consigna de 2023 pedía expresamente sugerir redacciones alternativas.
 
-- 
-Decir "la misión es buena" sin pasar por los componentes: el corrector busca los nombres del marco.
+- Decir "la misión es buena" sin pasar por los componentes: el corrector busca los nombres del marco.
 
-- 
-Estrategia direccional vs competitiva: "diferenciación" NO es direccional; es de unidad de negocios.
+- Estrategia direccional vs competitiva: "diferenciación" NO es direccional; es de unidad de negocios.
 
-- 
-Llamar diversificación a lanzar una línea nueva en la misma industria: eso es concentración (crecimiento horizontal / desarrollo de producto).
+- Llamar diversificación a lanzar una línea nueva en la misma industria: eso es concentración (crecimiento horizontal por desarrollo del producto).
 
 ## Ejercicio resuelto
-Una empresa de lácteos declara como misión: "Ser la empresa láctea más admirada del país". Analizala críticamente y proponé una redacción (4 pts).
-Solución:
-Primero, la frase 
-no es una misión, es una visión
-: describe un futuro deseado ("ser la más admirada"), no lo que la empresa hace hoy.
-Como misión le faltan casi todos los componentes: no dice 
-clientes
- (¿familias, industria, exportación?), 
-productos
- (leche, quesos, yogures), 
-mercados
-, 
-filosofía
-, 
-concepto propio
- (qué la distingue), ni 
-interés en empleados
- o productores. Es concisa y memorable, pero no es 
-definitoria ni identificatoria
-: la podría firmar cualquier láctea. Tampoco es accionable.
-Como visión cumple deseable y comunicable, pero es poco enfocada y difícil de medir.
-Redacción sugerida (misión)
-: "Elaboramos lácteos frescos y quesos de calidad para las familias uruguayas y mercados de la región, con leche de productores locales a quienes acompañamos, cuidando el ambiente y el desarrollo de nuestra gente".
+Letra: Una empresa de lácteos declara como misión: "Ser la empresa láctea más admirada del país". Analizala críticamente y proponé una redacción (4 pts).
+
+Solución: Primero, la frase no es una misión, es una visión: describe un futuro deseado ("ser la más admirada"), no lo que la empresa hace hoy.
+Como misión le faltan casi todos los componentes: no dice clientes (¿familias, industria, exportación?), productos (leche, quesos, yogures), mercados, tecnología, filosofía, concepto propio (qué la distingue), ni interés en empleados o productores. Es concisa y memorable, pero no es definitoria ni identificatoria: la podría firmar cualquier láctea. Tampoco es accionable.
+Como visión cumple deseable y comunicable, pero no es suficientemente clara para guiar decisiones (factible en la diapositiva) ni muestra una figura concreta del futuro (imaginable).
+Redacción sugerida (misión): "Elaboramos lácteos frescos y quesos de calidad para las familias uruguayas y mercados de la región, con leche de productores locales a quienes acompañamos, cuidando el ambiente y el desarrollo de nuestra gente".
 
 ## Cómo aparece en la prueba
-- C2 (3/4): Caso · Análisis crítico de visión y misión (y redacción alternativa). El caso transcribe la visión y la misión de la web (o un texto de la web que parece una misión, 2022) y piden un "análisis crítico" (4 pts los tres años). En 2023 invitan a sugerir redacciones; en 2024 suman los principios éticos. Consejo: Visión: repasá los atributos (imaginable, deseable, factible, enfocada, flexible, comunicable) y decí cuáles cumple y cuáles no. Misión: chequeá componente por componente (clientes, productos, mercados, rentabilidad, filosofía, concepto propio, imagen pública, empleados) y marcá los que faltan. La trampa típica es una "visión" que describe el presente o una "misión" que es solo una declaración de calidad. Cerrá con una redacción propia de una línea.
-- C* (1/4): Caso · Consigna comodín: estrategia direccional, estrategias recientes, cultura o entorno. En 2019 hubo estrategia direccional de crecimiento (4 pts), propuestas estratégicas recientes (3 pts) y tipo de cultura (3 pts). En los tres exámenes apareció la estrategia corporativa o de crecimiento (8 pts) y en feb 2024 entorno general y específico (10 pts). Es la consigna que completa el caso cuando tiene 6 o 7 preguntas. Consejo: Direccional: crecimiento por concentración (vertical u horizontal) o diversificación, con Ansoff si ayuda. Cultura: usá las 7 dimensiones y decí si es fuerte o débil. Entorno: separá general (económico, político-legal, tecnológico, sociocultural, global) de específico (clientes, proveedores, competidores, grupos de presión).
+- C2 (3/4): Caso · Análisis crítico de visión y misión (y redacción alternativa). El caso transcribe la visión y la misión de la web (o un texto de la web que parece una misión, 2022) y piden un "análisis crítico" (4 pts los tres años). En 2023 invitan a sugerir redacciones; en 2024 suman los principios éticos. Consejo: Visión: repasá los atributos de la diapositiva (imaginable, deseable, factible, flexible, comunicable) y lo que comprende según el teórico (concepto enfocado, propósito noble, probabilidad verosímil), y decí cuáles cumple y cuáles no. Misión: chequeá los 9 componentes del teórico (clientes, productos, mercados, tecnología, supervivencia/crecimiento/rentabilidad, filosofía, concepto propio, imagen pública, empleados) y marcá los que faltan. La trampa típica es una "visión" que describe el presente o una "misión" que es solo una declaración de calidad. Cerrá con una redacción propia de una línea.
+- C* (1/4): Caso · Consigna comodín: estrategia direccional, estrategias recientes, cultura o entorno. En 2019 hubo estrategia direccional de crecimiento (4 pts), propuestas estratégicas recientes (3 pts) y tipo de cultura (3 pts). En los tres exámenes apareció la estrategia corporativa o de crecimiento (8 pts) y en feb 2024 entorno general y específico (10 pts). Es la consigna que completa el caso cuando tiene 6 o 7 preguntas. Consejo: Direccional: crecimiento por concentración (vertical u horizontal) o diversificación, con Ansoff si ayuda. Cultura: usá las 7 dimensiones y decí si es fuerte o débil. Entorno: separá general (condiciones económicas, políticas, sociales y tecnológicas; la diapositiva suma demográfico y mundial) de específico (proveedores, clientes, gobierno, medios, sindicatos, grupos de presión, competidores, y en lo interno empleados y accionistas).
 
 ## Subtema: Concepto de estrategia (Porter y Hax) y sus niveles
-Un equipo de básquet tiene que decidir cosas grandes y chicas. La grande: ¿jugamos solo básquet o también armamos un equipo de vóley? Después: en básquet, ¿vamos a ganar corriendo rápido o con jugadores altos? Y por último: ¿qué hace cada uno (el preparador físico, el que analiza videos) para que ese plan funcione? La estrategia es ese conjunto de decisiones coherentes, y se toma en tres pisos: qué deportes, cómo ganar en cada uno y cómo ayuda cada área.
+Fuente de la cátedra: UT3 Teórico Estrategia y Planificación Estratégica, sec. 1 y 2 (pág. 3-6) · Diapositivas UT3 · Lectura 1er control: Porter, ¿Qué es la estrategia? (HBR 2011)
 
-Hax
-: la estrategia es un 
-patrón coherente, unificador e integrador de decisiones
- que determina y revela el propósito de la organización (objetivos de largo plazo, programas de acción, asignación de recursos), selecciona los negocios en que está o estará, busca una 
-ventaja sostenible
- respondiendo a las oportunidades y amenazas del entorno y a sus fortalezas y debilidades, involucra a todos los niveles y define la contribución a sus grupos de interés.
+Un club tiene que decidir cosas grandes y chicas. La grande: ¿jugamos solo básquet o también armamos un equipo de vóley? Después, en básquet: ¿cómo le vamos a ganar a los demás? Y por último: ¿qué hace cada área (preparación física, análisis de video) para que ese plan funcione? La estrategia se decide en esos tres pisos. Y Porter agrega: una buena estrategia no es hacer lo mismo que todos un poco mejor, sino ser diferente y elegir qué no hacer.
 
-Porter
-: estrategia es 
-ser diferente
-: elegir deliberadamente un conjunto de actividades distinto para entregar una mezcla única de valor. Implica elegir qué 
-no
- hacer (trade-offs) y lograr que las actividades encajen entre sí. No es lo mismo que la eficacia operativa (hacer mejor lo mismo que los rivales).
+"Estrategia" viene del griego strategos, "el arte de los generales". La estrategia es un plan global para una posición favorable; la táctica, un plan concreto para una acción específica. Definiciones del teórico UT3:
 
-Nivel
- | 
-Pregunta
- | 
-Estrategias
- | 
+- Hax: la dirección intencionada al cambio para conseguir ventajas competitivas sostenibles a largo plazo sobre sus competidores en los diferentes negocios en que participa (relaciona estrategia con cambio y con creación de ventajas competitivas).
 
-Corporativo
- | 
-¿En qué negocios estar?
- | 
-Direccionales (crecimiento, estabilidad, reducción); Ansoff, BCG
- | 
+- Andrews: patrón de los principales objetivos, propósitos o metas y de las políticas y planes para lograrlos, que definen en qué negocio está o quiere estar la empresa y qué clase de empresa es o quiere ser.
 
-Unidad de negocios
- | 
-¿Cómo competir en cada negocio?
- | 
-Competitivas: genéricas de Porter, Delta, océano azul
- | 
+- Chandler: objetivos a largo plazo y asignación de recursos para lograrlos eficientemente.
 
-Funcional
- | 
-¿Cómo apoya cada área?
- | 
-Marketing, producción, finanzas, RRHH
- | 
+- De Kluyver: posicionamiento para alcanzar una ventaja competitiva sostenible.
 
-En una empresa con un solo negocio, el nivel corporativo y el de negocio se superponen.
+- Porter: la estrategia competitiva es una fórmula de cómo va a competir la empresa, cuáles deben ser sus objetivos y qué políticas necesita; combina fines (metas) y medios (políticas). "No radica en ser mejor en lo que se hace, sino en ser diferente en lo que se hace".
+
+La lectura del 1er control (Porter, 2011) agrega: la eficacia operacional (hacer las mismas actividades mejor que los rivales) no es estrategia; la estrategia es crear una posición única y valiosa con un conjunto diferente de actividades, hacer trade-offs ("elegir lo que no se hará") y lograr calce entre las actividades.
+
+Nivel | Pregunta (teórico) | Estrategias y herramientas | 
+
+Corporativo o empresarial | ¿Cuál es la combinación de negocios adecuada? | Crecimiento, estabilidad, reducción; matrices BCG y McKinsey | 
+
+Unidad de negocios | ¿Cómo vamos a competir en cada negocio? | Liderazgo en costos, diferenciación, enfoque, liderazgo en productos, soluciones para el cliente, sistema de bloqueo, innovación en el valor; fuerzas competitivas, cadena de valor, mapas estratégicos | 
+
+Funcional | ¿Cómo utilizamos los recursos de manera óptima? | Investigación y desarrollo, producción, marketing, recursos humanos, finanzas |
+
 Ideas clave:
-- Hax: patrón coherente de decisiones, propósito, negocios, ventaja sostenible
-- Porter: ser diferente, elegir qué no hacer
-- Estrategia ≠ eficacia operativa
-- Corporativo (qué negocios), negocio (cómo competir), funcional (cómo apoya cada área)
+- Hax: dirección intencionada al cambio para ventajas competitivas sostenibles
+- Porter: ser diferente; combinación de fines (metas) y medios (políticas)
+- Porter 2011: eficacia operacional no es estrategia; trade-offs y calce
+- Niveles: corporativo, unidad de negocios, funcional
 
 ## Subtema: Visión: atributos y análisis crítico
-Si le preguntás a un chico qué quiere ser de grande y te dice "astronauta que viaje a Marte", eso es una visión: una imagen del futuro que te entusiasma y te hace estudiar. Pero una buena visión tiene que poder imaginarse, dar ganas, ser posible y poder contarse en una frase. "Quiero ser el mejor del mundo en todo" no sirve: no se imagina, no se puede lograr y no te dice a qué dedicarte.
+Fuente de la cátedra: UT3 Teórico Estrategia y Planificación Estratégica, sec. 6.1 (pág. 18-19) · Diapositivas UT3 (Visión) · 1ª revisión 2023 P1 y 2024 P2
 
-La 
-visión
- es la imagen del futuro deseado de la organización: 
-a dónde queremos llegar
-. Orienta, motiva y ayuda a coordinar. Atributos de una visión eficaz:
+Si le preguntás a un chico qué quiere ser de grande y te dice "astronauta", eso es una visión: una imagen del futuro que entusiasma. Pero para que sirva tiene que poder imaginarse, dar ganas, guiar las decisiones, dejar lugar a distintos caminos y poder contarse fácil. "Quiero ser el mejor en todo" no sirve: no se imagina ni orienta nada.
 
-Atributo
- | 
-Pregunta de control
- | 
+La visión responde a "¿qué aspiramos a ser?": una imagen de lo que los miembros quieren que la empresa sea o llegue a ser, un "cuadro mental". Según la diapositiva, expresa las aspiraciones y el propósito fundamentales, apelando a los corazones y las mentes de sus miembros.
 
-Imaginable
- | 
-¿Transmite una imagen clara de cómo será el futuro?
- | 
+Comprende (teórico): (1) un concepto enfocado, una premisa de creación de valor que las personas puedan describir como existente; (2) una sensación de propósito noble, algo que valga la pena hacer y consiga el compromiso de la gente; (3) una probabilidad verosímil de éxito.
 
-Deseable
- | 
-¿Atrae a empleados, clientes, accionistas?
- | 
+Un enunciado de visión debe ser (diapositiva UT3):
 
-Factible
- | 
-¿Es realista y alcanzable?
- | 
+Atributo | Qué significa | 
 
-Enfocada
- | 
-¿Es lo bastante clara para guiar decisiones?
- | 
+Imaginable | Muestra una figura de cómo debe ser el futuro | 
 
-Flexible
- | 
-¿Admite iniciativas y respuestas ante cambios?
- | 
+Deseable | Interpreta los intereses de largo plazo de empleados, accionistas y clientes | 
 
-Comunicable
- | 
-¿Se puede explicar en poco tiempo?
- | 
+Factible | Suficientemente clara para guiar la toma de decisiones | 
 
-La cátedra agrega: creación de valor, propósito noble y verosímil.
+Flexible | Da lugar a la iniciativa individual y a respuestas alternativas | 
 
-Análisis crítico
- (4 pts en 2023 y 2024): (1) ¿es realmente una visión o describe el presente (sería misión)? (2) recorré los atributos, diciendo cuáles cumple y cuáles no, con la frase textual; (3) cerrá con una redacción alternativa de una línea. Errores frecuentes de las visiones reales: no tienen horizonte temporal, son genéricas ("ser líderes"), mezclan lo que hacen hoy con lo que quieren ser, o no dicen en qué mercado.
+Comunicable | Fácil de comunicar y entender en cinco minutos | 
+
+Análisis crítico (4 pts en 2023 y 2024): (1) chequeá que sea una aspiración de futuro y no una descripción de lo que la empresa hace (eso es misión); (2) recorré los atributos y lo que comprende, diciendo cuáles cumple con la frase textual; (3) cerrá con una redacción alternativa (la 1ª revisión 2023 lo invitaba explícitamente).
+
 Ideas clave:
-- Visión = futuro deseado, a dónde vamos
-- Atributos: imaginable, deseable, factible, enfocada, flexible, comunicable
-- Primero chequear que no describa el presente
-- Cerrar con redacción propia
-Mini ejercicio: Visión de la web: "Ser la mejor empresa." Hacé un análisis crítico breve.
-Solución: No es imaginable ni enfocada: no dice en qué ni dónde ser la mejor, ni para quién. Es comunicable por lo corta, pero no orienta decisiones ni permite evaluar si es factible. Redacción alternativa: "Ser en 2030 la cadena de ferreterías preferida por los profesionales de la construcción del interior del país".
+- Visión = qué aspiramos a ser; imagen del futuro
+- Comprende: concepto enfocado (creación de valor), propósito noble, probabilidad verosímil de éxito
+- Debe ser: imaginable, deseable, factible, flexible, comunicable
+- Factible = suficientemente clara para guiar decisiones
+
+Ejemplo: Visión de la web: "Ser la mejor empresa." Hacé un análisis crítico breve.
+Resolución: No es imaginable: no muestra cómo sería ese futuro ni en qué ser "la mejor". Tampoco es factible en el sentido de la diapositiva: no es lo bastante clara para guiar decisiones. Le falta el concepto enfocado (qué valor crea) y un propósito noble. Es comunicable por lo corta. Redacción alternativa: "Ser la cadena de ferreterías preferida por los profesionales de la construcción del interior del país".
 
 ## Subtema: Misión: componentes, características y análisis crítico
-La misión es como la presentación que hacés el primer día de clase: "Soy Juan, hago dibujos para mis amigos, me gusta ayudar y soy el que siempre trae lápices para todos". Dice quién sos, qué hacés, para quién y qué te hace distinto, hoy. No dice qué querés ser de grande (eso es la visión). Si tu presentación sirviera para cualquier otro chico de la clase, no te identifica.
+Fuente de la cátedra: UT3 Teórico Estrategia y Planificación Estratégica, sec. 6.2 (pág. 19-20) · Diapositivas UT3 (Misión; ejemplos Conaprole y Tres Cruces) · Examen dic 2022, múltiple opción 8
 
-La 
-misión
- declara la razón de ser actual: 
-quiénes somos, qué hacemos y para quién
-. Componentes a chequear:
+La misión es como la presentación que hacés el primer día de clase: quién sos, qué hacés, para quién y qué te hace distinto. Si tu visión es "a dónde quiero llegar", la misión es "cómo lo voy a hacer". Si tu presentación sirviera para cualquier otro chico de la clase, no te identifica.
 
-- 
-Clientes
-: ¿quiénes son?
+La misión responde a "¿cómo tenemos que hacer negocios?": dice cómo vamos a hacer negocios para satisfacer la visión. La visión es el lugar al que queremos llegar; la misión, el medio que nos lleva (la diapositiva la define como el propósito o razón para existir). Una declaración de misión completa comprende (teórico):
 
-- 
-Productos o servicios
-: ¿qué ofrece?
+- Clientes: ¿quiénes son?
 
-- 
-Mercados
-: ¿dónde compite geográficamente?
+- Productos o servicios: ¿cuáles son los principales?
 
-- 
-Supervivencia, crecimiento y rentabilidad
-: ¿compromiso con la solidez económica?
+- Mercados: ¿en qué región o zona geográfica compite?
 
-- 
-Filosofía
-: valores, creencias, prioridades éticas.
+- Tecnología: ¿está al día en tecnología? (no figura en la diapositiva)
 
-- 
-Concepto propio
-: ¿cuál es su ventaja o capacidad distintiva?
+- Preocupación por la supervivencia, crecimiento y rentabilidad.
 
-- 
-Imagen pública
-: responsabilidad social, ambiental, con la comunidad.
+- Filosofía: ideas, valores, aspiraciones y prioridades éticas.
 
-- 
-Interés en los empleados
-: ¿los considera un activo valioso?
+- Concepto propio: principal ventaja competitiva y capacidades centrales.
 
-Algunos autores (David) agregan 
-tecnología
- como noveno componente; si el caso la menciona, podés señalarla.
+- Preocupación por la imagen pública: sensibilidad a inquietudes sociales y ecológicas.
 
-Características de una buena misión: 
-definitoria
- (dice a qué se dedica), 
-identificatoria
- (la distingue de otras), 
-concisa
-, 
-accionable
- y 
-memorable
-.
+- Interés en los empleados: ¿los considera activos valiosos?
 
-Análisis crítico
-: tabla componente por componente (presente o ausente, con la frase), juicio sobre las características y redacción alternativa. Trampas: una "misión" que es solo una política de calidad, o que sirve para cualquier empresa del rubro (no identificatoria).
+Un enunciado de misión efectivo debe ser: definitorio (define al cliente, la entrega de valor y los medios; describe el modo de hacer negocios), identificatorio (está claro a qué empresa se refiere), conciso (un párrafo simple), accionable (da idea de las acciones involucradas) y memorable.
+
+Análisis crítico: componente por componente (presente o ausente, con la frase), juicio sobre las cinco características y redacción alternativa. La diapositiva muestra como ejemplos la misión de Conaprole y la "misión expandida" de Tres Cruces (frente al usuario, al cliente, al comerciante, a los transportistas, accionistas, personal, proveedores, sociedad y autoridades).
+
 Ideas clave:
-- Misión = presente: quiénes somos y qué hacemos
-- Componentes: clientes, productos, mercados, rentabilidad, filosofía, concepto propio, imagen pública, empleados
-- Definitoria, identificatoria, concisa, accionable, memorable
+- Misión = cómo hacemos negocios para satisfacer la visión; razón para existir
+- 9 componentes en el teórico (la diapositiva omite tecnología)
+- Definitorio, identificatorio, conciso, accionable, memorable
 - Chequear componente por componente y proponer redacción
-Mini ejercicio: Misión publicada: "Brindar productos de excelente calidad con la mejor atención." ¿Qué componentes faltan?
-Solución: Menciona vagamente productos y una filosofía de calidad y atención. Faltan clientes, mercados, rentabilidad, concepto propio, imagen pública y empleados. No es identificatoria (vale para cualquier comercio) ni definitoria (no dice qué productos).
+
+Ejemplo: Misión publicada: "Brindar productos de excelente calidad con la mejor atención." ¿Qué componentes faltan?
+Resolución: Menciona vagamente productos y una filosofía de calidad y atención. Faltan clientes, mercados, tecnología, supervivencia/crecimiento/rentabilidad, concepto propio, imagen pública e interés en los empleados. No es identificatoria (vale para cualquier comercio) ni definitoria (no dice qué productos ni para quién).
 
 ## Subtema: Metas y planes
-"Quiero mejorar en matemática" es un deseo. "Quiero sacarme 10 en el próximo parcial de fracciones, el 20 de octubre" es una meta: dice qué, cuánto y cuándo. Y el plan es cómo lo vas a lograr: hacer 10 ejercicios por día y preguntarle a la maestra los viernes. A veces lo que decís que querés no es lo que realmente buscás: si decís que querés sacarte 10 pero te pasás el día jugando, tu meta real es otra.
+Fuente de la cátedra: UT3 Teórico Estrategia y Planificación Estratégica, sec. 6.3 (pág. 21) · Diapositivas UT3 (Metas; Metas y planes) · Lectura 1er control: Planificación estratégica en la Facultad de Enfermería
 
-Metas
- (objetivos): resultados deseados. Guían las decisiones y son el criterio para medir el desempeño. Pueden ser 
-financieras
- (rentabilidad, ventas) o 
-estratégicas
- (participación de mercado, satisfacción del cliente).
+"Quiero mejorar en matemática" es un deseo. "Quiero sacarme 10 en el próximo parcial, el 20 de octubre" es una meta: está en términos de resultado, se puede medir y tiene plazo. Y el plan dice cómo lo vas a lograr y con qué recursos. A veces lo que decís que querés no es lo que realmente buscás: si decís que querés el 10 pero te pasás el día jugando, tu meta real es otra.
 
-Metas declaradas vs reales
-: las declaradas son las que la organización dice perseguir (web, memoria anual); las reales son las que efectivamente persigue y se ven en lo que hace, lo que premia y en qué gasta.
+Objetivos (teórico): representan el camino que lleva la visión y la misión al terreno operativo. Pueden ser financieros o no financieros y deben medirse con indicadores, identificando relaciones de causa-efecto entre ellos.
 
-Características de metas bien diseñadas
-: escritas en términos de resultados (no de acciones), medibles y cuantificables, con plazo claro, desafiantes pero alcanzables, por escrito y comunicadas a todos.
+Metas (diapositiva UT3): resultados deseados por individuos, grupos y organizaciones enteras; marcan la dirección de las decisiones y son los criterios con que se miden los logros. Se distinguen las metas declaradas (anuncios oficiales que la organización quiere que los interesados consideren sus objetivos) y las metas reales (las que persigue realmente, definidas por los actos de los integrantes).
 
-Planes
-: documentos que describen cómo se lograrán las metas (recursos, cronogramas, acciones). Tipos:
+Características de las metas bien diseñadas: definidas en términos de resultados más que de acciones; mensurables y cuantificables; con plazos claros; difíciles pero alcanzables; establecidas por escrito y comunicadas a todos.
 
-- 
-Por alcance: 
-estratégicos
- (toda la organización) y 
-operativos
- (un área o actividad).
+Pasos para fijar metas: revisar la misión; evaluar los recursos disponibles; determinar las metas coherentes con la misión y con las de otras áreas; escribirlas y comunicarlas; revisar los resultados.
 
-- 
-Por plazo: largo y corto plazo.
+Planes: documentos que explican cómo se van a alcanzar las metas, con la asignación de recursos, calendarios y otras acciones necesarias.
 
-- 
-Por especificidad: 
-específicos
- (metas claras, sin interpretación) y 
-direccionales
- (lineamientos flexibles, para entornos inciertos).
+La lectura del 1er control (Facultad de Enfermería) muestra el paso del "trabajo por tareas" a la "gestión por objetivos": un plan con 4 áreas de resultados clave, objetivos estratégicos y 54 metas, bajado a Planes Operativos Anuales.
 
-- 
-Por frecuencia: 
-de uso único
- (para una situación puntual) y 
-permanentes
- (políticas, reglas y procedimientos para actividades repetidas).
 Ideas clave:
-- Meta = resultado deseado, criterio de desempeño
-- Declaradas (lo que dice) vs reales (lo que hace)
-- Buena meta: resultado, medible, plazo, desafiante y alcanzable, escrita y comunicada
-- Planes: estratégicos/operativos, largo/corto, específicos/direccionales, único/permanente
-Mini ejercicio: Una empresa declara en su web que su meta es "la sustentabilidad ambiental", pero todos los bonos gerenciales dependen del volumen vendido y nunca invirtió en reducir residuos. ¿Qué concepto ilustra?
-Solución: La diferencia entre metas declaradas (sustentabilidad) y reales (volumen de ventas): las reales se ven en lo que la organización premia y en qué gasta.
+- Objetivos: llevan visión y misión al terreno operativo; medidos con indicadores
+- Metas declaradas (lo que anuncia) vs reales (lo que muestran los actos)
+- Buena meta: resultados, mensurable, con plazo, difícil pero alcanzable, escrita y comunicada
+- Plan: cómo se alcanzan las metas (recursos, calendarios, acciones)
+
+Ejemplo: Una empresa declara en su web que su meta es "la sustentabilidad ambiental", pero todos los bonos gerenciales dependen del volumen vendido y nunca invirtió en reducir residuos. ¿Qué concepto ilustra?
+Resolución: Ilustra la diferencia entre metas declaradas (sustentabilidad, anunciada en la web) y metas reales (volumen de ventas): las reales se definen por los actos de los integrantes, en este caso lo que se premia y en qué se invierte.
 
 ## Subtema: Estrategias de crecimiento y matriz de Ansoff
-Un puesto de jugos que va bien puede crecer de varias formas. Vender más jugos a los mismos vecinos. Empezar a cultivar sus propias naranjas (va "hacia atrás", hacia el proveedor). Abrir su propia camioneta de reparto ("hacia adelante", hacia el cliente). Abrir otro puesto en otro barrio o comprarle el puesto al competidor. O meterse en algo distinto, como vender helados (parecido) o alquilar bicicletas (nada que ver).
+Fuente de la cátedra: UT3 Teórico Estrategia y Planificación Estratégica, sec. 3 y 4.1, 4.4 (pág. 6-12) · Diapositivas UT3 (estrategias de nivel corporativo, matriz de Ansoff) · Examen feb 2024, caso GM P4
 
-Estrategias direccionales de 
-crecimiento
- (nivel corporativo):
+Un puesto de jugos que va bien puede crecer de varias formas. Vender más jugos a los mismos vecinos. Empezar a cultivar sus propias naranjas (va "hacia atrás", hacia el proveedor) o tener su propia camioneta de reparto ("hacia adelante", hacia el distribuidor). Llevar sus jugos a otro barrio o sacar jugos nuevos. O meterse en algo distinto, relacionado o no con lo que hace.
 
-- 
-Concentración
- (dentro de la misma industria):
+La estrategia de nivel corporativo comprende la estrategia direccional (crecimiento, estabilidad o reducción), el análisis de portafolio y el "parenting" o sombrilla corporativa. Las estrategias de crecimiento apuntan a crecer en ventas, utilidades, activos o una combinación. Dos estrategias básicas:
 
-- 
-Vertical
-: hacia atrás (asumir funciones del proveedor) o hacia adelante (asumir funciones del distribuidor o llegar al cliente final). Puede ser total o parcial.
+- Concentración (en la actual línea de productos):
+- Penetración en el mercado: más operaciones con los productos actuales en los mercados existentes, mediante mayores fuerzas de marketing.
 
-- 
-Horizontal
-: expandirse en la misma etapa de la cadena: nuevos mercados geográficos, nuevos productos para la misma industria o adquirir competidores.
+- Crecimiento vertical: asumir una función antes desempeñada por un eslabón anterior (proveedor: integración hacia atrás) o posterior (distribuidor: integración hacia adelante) de la cadena.
 
-- 
-Diversificación
- (otra industria):
+- Crecimiento horizontal: desarrollo del mercado (productos actuales en nuevas áreas geográficas) o desarrollo del producto (mejorar o modificar el producto actual); puede lograrse por desarrollo interno o externamente (adquisiciones, alianzas con empresas del mismo sector) y también se usa para la expansión internacional (exportaciones, licencias, franquicias, joint venture, etc.).
 
-- 
-Relacionada (concéntrica)
-: industria distinta pero con sinergias (tecnología, marca, canales).
+- Diversificación: cuando el mercado se estanca. Relacionada o concéntrica (con una posición competitiva fuerte en sectores poco atractivos, usando capacidades propias y generando sinergias) o no relacionada o de conglomerado (industria actual poco atractiva y sin habilidades trasladables; énfasis en la solidez de la inversión).
 
-- 
-No relacionada (conglomerado)
-: sin vínculo operativo, buscando rentabilidad o repartir riesgo.
+El teórico da, para cada variante, las situaciones en que conviene (por ejemplo, integrarse hacia atrás cuando los proveedores son costosos, poco confiables o tienen altos márgenes).
 
-El crecimiento puede ser 
-interno
- (inversión propia) o 
-externo
- (fusiones, adquisiciones, alianzas).
+Matriz de Ansoff ("estrategias de expansión"):
 
-Matriz de Ansoff
- (producto × mercado):
+ | Productos actuales | Productos nuevos | 
 
- | 
-Producto actual
- | 
-Producto nuevo
- | 
+Mercados actuales | Penetración de mercados | Desarrollo de productos | 
 
-Mercado actual
- | 
-Penetración de mercado
- | 
-Desarrollo de producto
- | 
+Mercados nuevos | Desarrollo de mercados | Diversificación |
 
-Mercado nuevo
- | 
-Desarrollo de mercado
- | 
-Diversificación
- | 
-
-La trampa: una línea nueva dentro de la misma industria es concentración horizontal (desarrollo de producto), no diversificación.
 Ideas clave:
-- Concentración: vertical (atrás/adelante) u horizontal (mismo eslabón)
-- Diversificación: relacionada o no relacionada (conglomerado)
-- Ansoff: penetración, desarrollo de mercado, desarrollo de producto, diversificación
-- Línea nueva en la misma industria ≠ diversificación
-Mini ejercicio: Una tienda de alimentos naturales montevideana abre una planta propia para elaborar productos, los vende a otras tiendas y abre un local en Maldonado. ¿Qué direcciones de crecimiento sigue?
-Solución: Elaborar sus propios productos es integración vertical hacia atrás, y venderlos a otras tiendas amplía su rol dentro de la misma industria. El local en Maldonado es concentración horizontal por expansión geográfica (desarrollo de mercado en Ansoff). No hay diversificación: sigue en alimentos naturales.
+- Crecimiento: concentración o diversificación
+- Concentración: penetración, crecimiento vertical (atrás/adelante), horizontal (desarrollo de mercado o de producto)
+- Diversificación: relacionada (concéntrica) o no relacionada (conglomerado)
+- Ansoff: penetración, desarrollo de productos, desarrollo de mercados, diversificación
+
+Ejemplo: Una tienda de alimentos naturales montevideana abre una planta propia para elaborar productos, los vende a otras tiendas y abre un local en Maldonado. ¿Qué direcciones de crecimiento sigue?
+Resolución: Elaborar sus propios productos es crecimiento vertical: integración hacia atrás (asume una función antes desempeñada por proveedores). El local en Maldonado es crecimiento horizontal por desarrollo del mercado (productos actuales en una nueva área geográfica). No hay diversificación: sigue en su línea de alimentos naturales.
 
 ## Subtema: Estabilidad, reducción y matriz BCG
-No siempre hay que crecer. A veces un almacén decide quedarse igual un tiempo porque viene un año raro (estabilidad). Otras veces le va mal y tiene que achicarse: cerrar la sección que pierde plata, venderle el local a otro o, en el peor caso, cerrar. Y si tenés varios negocios, conviene mirar cuáles dan plata sin esfuerzo, cuáles prometen, cuáles son dudosos y cuáles no van a ningún lado.
+Fuente de la cátedra: UT3 Teórico Estrategia y Planificación Estratégica, sec. 4.2, 4.3 y 5 (pág. 11-18) · Diapositivas UT3 (Matriz BCG) · Práctico ISUSA, consigna 3
 
-Estabilidad
- (seguir sin cambios importantes):
+No siempre hay que crecer. A veces una empresa decide quedarse igual un tiempo (estabilidad). Otras veces le va mal y tiene que achicarse: cambiar para ser más eficiente, depender de un gran cliente, vender una parte o, en el peor caso, cerrar. Y si tenés varios negocios, conviene mirar cuáles dan plata sin mucha inversión, cuáles prometen, cuáles son dudosos y cuáles no van a ningún lado.
 
-- 
-Pausa / proceder con cautela
-: tiempo de espera antes de seguir creciendo o reducirse.
+Estabilidad (sin cambios significativos en las orientaciones estratégicas):
 
-- 
-Sin cambio
-: continuar igual porque el entorno es previsible y la posición es cómoda.
+- Pausa / continuar con precaución: decisión temporal, en un ambiente amigable o para consolidar capacidades tras un crecimiento prolongado.
 
-- 
-Rentabilidad (utilidad)
-: sacrificar crecimiento futuro para sostener ganancias en el corto plazo, reduciendo inversiones y gastos.
+- Sin cambio: continuar con las políticas actuales ante un futuro estable.
 
-Reducción
- (achicarse):
+- Rentabilidad: no hacer nada nuevo en una situación de deterioro, buscando utilidades en un contexto de caída de ventas (por ejemplo, reduciendo gastos discrecionales de corto plazo).
 
-- 
-Cambio de rumbo (turnaround)
-: mejorar la eficiencia en dos fases: contracción (recortes) y consolidación.
+Reducción (débil posición competitiva, caída de ventas y pérdidas):
 
-- 
-Empresa cautiva
-: ceder independencia a cambio de seguridad, volviéndose proveedor exclusivo de un gran cliente.
+- De cambio: mejorar la eficiencia operativa (reducción de costos y gastos, venta de activos) ante problemas generalizados pero no críticos.
 
-- 
-Venta o desinversión
-: vender la empresa entera (venta) o una unidad (desinversión).
+- De empresa cautiva: un cliente importante opera como "protector" mediante un contrato de largo plazo.
 
-- 
-Quiebra o liquidación
-: la opción final.
+- De venta total y desinversión: venta de la empresa; si es una línea de negocios, desinversión.
 
-Matriz BCG
- (participación relativa de mercado × tasa de crecimiento del mercado):
+- De quiebra y liquidación: la peor hipótesis.
 
- | 
-Alta participación
- | 
-Baja participación
- | 
+Matriz BCG: analiza una organización con varios negocios como portafolio. Eje vertical: tasa de crecimiento del mercado (atractivo); eje horizontal: participación relativa (participación de la unidad sobre la del mayor competidor: menor que 1 es baja, mayor que 1 es alta; mide la fortaleza competitiva).
 
-Alto crecimiento
- | 
-Estrellas: invertir para mantener
- | 
-Signos de interrogación: invertir selectivamente o abandonar
- | 
+ | Participación alta | Participación baja | 
 
-Bajo crecimiento
- | 
-Vacas lecheras: generan caja que financia a otros
- | 
-Perros: desinvertir o liquidar
- |
+Crecimiento alto | Estrella: buena rentabilidad pero requiere fondos para mantenerse; prioridad en la asignación de recursos | Interrogante: requiere fondos; duda entre invertir para convertirlo en estrella o abandonarlo | 
+
+Crecimiento bajo | Vaca (lechera): generadora de fondos para otras unidades; "ordeñar" y limitar inversiones | Perro: normalmente pierde; una estrategia es deshacerse de él | 
+
+Ciclo de vida típico: interrogante → estrella → vaca → perro. Limitaciones de estas matrices: recomendaciones orientativas, conclusiones simplistas con pocas dimensiones y carácter estático. El teórico presenta también la matriz de McKinsey (9 cuadrantes, 4 posiciones estratégicas).
+
 Ideas clave:
-- Estabilidad: pausa, sin cambio, rentabilidad
-- Reducción: cambio de rumbo, cautiva, venta/desinversión, quiebra/liquidación
-- BCG: participación relativa × crecimiento del mercado
-- Vacas financian a estrellas e interrogantes; perros se desinvierten
-Mini ejercicio: Una textil en pérdidas firma un contrato por el que produce solo para una cadena multinacional, que le fija volúmenes y calidad. ¿Qué estrategia es?
-Solución: Reducción mediante empresa cautiva: cede independencia (depende de un solo cliente que controla condiciones) a cambio de un ingreso seguro.
+- Estabilidad: pausa/precaución, sin cambio, rentabilidad
+- Reducción: de cambio, empresa cautiva, venta total/desinversión, quiebra/liquidación
+- BCG: crecimiento del mercado × participación relativa (vs el mayor competidor)
+- Vacas generan fondos para estrellas e interrogantes; perros, deshacerse
+
+Ejemplo: Una textil en pérdidas firma un contrato por el que produce solo para una cadena multinacional, que le fija volúmenes y calidad. ¿Qué estrategia es?
+Resolución: Reducción de empresa cautiva: con una posición competitiva débil, un cliente importante opera como "protector" mediante un contrato de largo plazo que asegura un nivel de ventas, aunque no se generen utilidades atractivas.

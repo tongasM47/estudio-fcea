@@ -1,268 +1,176 @@
 # Economía Descriptiva · Unidad 6: Utilización del ingreso y ahorro
 
-Material para la 1ª revisión de octubre 2026 (FCEA-UDELAR). Peso en el parcial según los parciales anteriores: 8% del puntaje, prioridad alta.
-5 de 64 preguntas. ANB = INDB − GCF y ahorro por sector (Sociedades: IDB = ahorro; Gobierno: IDB − GCFG, suele ser negativo).
+Material de estudio para la 1ª revisión de octubre 2026 (FCEA-UDELAR). TODO el contenido de este documento sale exclusivamente del material de la cátedra (notas, teóricos, diapositivas, guías, ejercicios y soluciones oficiales publicados en EVA). No hay que agregar conceptos, autores, ejemplos ni criterios que no estén acá.
+
+Fuente de la cátedra: Tomo 1 ED 2026, sección 3.3.1.3 (pág. 58-60), Cuadro 6; sección 3.4.7 (pág. 73)
+
+Peso en la prueba según los parciales anteriores: 8% del puntaje, prioridad alta. 5 de 64 preguntas. ANB = INDB − GCF y ahorro por sector (Sociedades: IDB = ahorro; Gobierno: IDB − GCFG, suele ser negativo).
 
 ## Explicación simple
-Tu ingreso disponible es la plata que te quedó en el bolsillo después de impuestos, aportes, jubilaciones y remesas. Con eso hacés dos cosas: gastar en consumo (comida, ropa, Netflix) o no gastarlo. Lo que no gastás es tu 
-ahorro
-. Así de simple: ahorro = ingreso disponible − consumo.
-Una empresa no "consume" en ese sentido (no come ni va al cine; lo que compra para producir ya se contó como insumo). Entonces todo su ingreso disponible es ahorro. Y el gobierno "consume" los servicios que presta gratis (escuelas, policía): si gasta más de lo que le queda disponible, su ahorro es negativo.
+Tu ingreso disponible es la plata que te queda después de aportes, jubilaciones y transferencias. Con eso hacés dos cosas: consumir o no consumir. Lo que no consumís es tu ahorro: ahorro = ingreso disponible − consumo.
+Una sociedad no hace consumo final: todo su ingreso disponible es ahorro. El Gobierno "consume" en nombre de la sociedad los servicios que produce (seguridad, defensa, educación pública): si ese consumo supera su ingreso disponible, su ahorro es negativo.
 
 ## Explicación para el parcial
 Cuenta de utilización del ingreso disponible
 
-Empleos
- | 
-Recursos
- | 
+Usos | Recursos | 
+Gasto de Consumo Final (GCF)
+Ahorro Bruto (saldo) | Ingreso Disponible Bruto (IDB) | 
 
-Gasto de consumo final
-Ahorro bruto (saldo)
- | 
-Ingreso disponible bruto
- | 
+AB = IDB − GCF. Solo el Gobierno y los Hogares realizan consumo final:
 
-Ahorro bruto = ingreso disponible bruto − gasto de consumo final
-. Por sector:
+- Hogares: AB = IDB − GCFH.
 
-- 
-Hogares
-: ahorro = ID hogares − GCFH.
+- Gobierno: AB = IDB − GCFG, con GCFG = Producción del Gobierno (servicios no de mercado valorados por sus costos). Puede dar negativo.
 
-- 
-Gobierno
-: ahorro = ID gobierno − GCFG. Si es negativo se habla de déficit corriente.
+- Sociedades: no tienen consumo final, su AB = IDB (en otros contextos, "utilidades retenidas" o "no distribuidas").
 
-- 
-Sociedades
-: 
-no tienen consumo final
-, entonces su ahorro bruto = su ingreso disponible bruto (en general lo que retienen de utilidades después de pagar intereses, dividendos e IRAE).
+- Resto del Mundo: no registra consumo final. Su saldo corriente con el exterior cumple un papel parecido al ahorro: recursos reales que el RM pone a disposición de la economía (si es positivo) o que la economía brinda al exterior (si es negativo).
 
-- 
-Total economía
-: ahorro nacional bruto = INDB − GCF = Σ ahorros sectoriales.
-
-El gasto de consumo final del gobierno
-
-GCFG = producción no de mercado del gobierno − ventas (tasas, entradas, servicios cobrados). La producción se mide por costos: CI + RA + CKF. Por eso, por ejemplo, la energía que una intendencia compra a Brasil termina dentro del GCFG: es CI del gobierno, forma parte del costo de su producción y esa producción es lo que el gobierno "consume" en nombre de la sociedad. En cambio, la compra de patrulleros es FBKF del gobierno, y los sueldos de ANTEL o el combustible del BROU son de sociedades.
+Para la economía: INDB = GCF + AB = GCFG + GCFH + AB, y el ANB es la suma de los ahorros de los sectores residentes: ANB = INDB − GCF.
 
 Bruto y neto
 
-Si al ahorro bruto le restás el CKF obtenés el ahorro neto. En el curso se trabaja casi siempre en términos brutos.
+ANN = ANB − CKF. El ahorro puede ser positivo, nulo o negativo, y es la principal fuente de financiamiento de la acumulación: la cuenta de capital empieza con él como recurso.
 
-Lectura
+Qué entra en el GCFG
 
-El ahorro es el puente entre las cuentas corrientes y las de acumulación: la cuenta de capital arranca con el ahorro bruto como recurso y lo compara con la inversión (FBK). Un sector con mucho ahorro y poca inversión le presta al resto; uno con poco ahorro y mucha inversión se endeuda.
+Todo lo que forma parte de la Producción del Gobierno (sus insumos, sus remuneraciones y su CKF) termina en el GCFG. Por ejemplo, los salarios pagados por ANEP o la energía que una Intendencia compra a Brasil y utiliza como insumo. En cambio, un vehículo que compra un Ministerio es FBKF, y las remuneraciones de ANTEL o los insumos del BROU son de sociedades.
 
 ## Cómo se resuelve en el parcial
-- 
-Conseguí el ingreso disponible de cada sector (tema anterior).
-- 
-Restá GCFH a hogares y GCFG a gobierno. A sociedades no les restes nada.
-- 
-Ahorro nacional = suma de los tres o, directo, INDB − GCFH − GCFG.
-- 
-Chequeo: ahorro nacional − FBK = (E − M) + RNFE + TCN.
+- Conseguí el IDB de cada sector (cuenta anterior).
+- Restá GCFH a Hogares y GCFG (= Producción del Gobierno) al Gobierno. A Sociedades no les restes nada.
+- ANB = suma de los ahorros o, directo, INDB − GCFH − GCFG.
+- Chequeo: ANB − FBK = SBP.
 
 ## Trampas típicas
-- 
-Restarle un "consumo" a las sociedades.
-- 
-Usar la producción del gobierno en vez de GCFG (hay que restar las ventas).
-- 
-Confundir ahorro con préstamo neto: el ahorro es antes de invertir.
-- 
-Olvidar que el ahorro de un sector puede ser negativo.
+- Restarles un consumo a las Sociedades.
+- Usar un GCFG distinto de la Producción del Gobierno: en la versión simplificada son iguales.
+- Confundir ahorro con préstamo neto: el ahorro es anterior a la acumulación.
+- Olvidar que el ahorro de un sector (típicamente el Gobierno) puede ser negativo.
+- Poner la compra de vehículos de un Ministerio en el GCFG: es FBKF.
 
 ## Ejercicio resuelto
-Ingresos disponibles: Sociedades 7.000; Gobierno 5.000; Hogares 30.000. GCFH 27.500; producción del gobierno 8.000, de la cual vendió 500. Hallá el ahorro de cada sector y el ahorro nacional bruto.
-Solución:
-GCFG = 8.000 − 500 = 7.500.
-Ahorro sociedades = 
-7.000
- (no consumen). Ahorro gobierno = 5.000 − 7.500 = 
-−2.500
-. Ahorro hogares = 30.000 − 27.500 = 
-2.500
-.
-Ahorro nacional bruto = 7.000 − 2.500 + 2.500 = 
-7.000
- = INDB (42.000) − GCF (35.000).
+Letra: IDB: Sociedades 7.000; Gobierno 5.000; Hogares 30.000. GCFH 27.500. La Producción del Gobierno fue 7.500. Hallá el ahorro de cada sector y el ahorro nacional bruto.
+
+Solución: GCFG = Producción del Gobierno = 7.500.
+AB Sociedades = 7.000 (no consumen). AB Gobierno = 5.000 − 7.500 = −2.500. AB Hogares = 30.000 − 27.500 = 2.500.
+ANB = 7.000 − 2.500 + 2.500 = 7.000 = INDB (42.000) − GCF (35.000).
 
 ## Cómo aparece en la prueba
 - P11 (4/4): Ahorro desde el INDB, o qué se obtiene con el COU. "Si el INDB fue X, el ahorro fue…" (2023) o "a partir del COU es posible conocer…". Consejo: ANB = INDB − GCFH − GCFG. El COU da PIB, VAB, RA pagada por productores residentes, SBC; no da INB, INDB, ni nada por sector institucional.
-- P21 (4/4): Ahorro nacional bruto o saldo corriente con el exterior. ANB (2019, 2024), SCE (2018, 2023). En exámenes: dic-24, jul-25, dic-25. Consejo: ANB = INDB − GCF = suma de ahorros sectoriales (el del Gobierno suele ser negativo). SCE = −(SBC + RX + TCN).
+- P21 (4/4): Ahorro nacional bruto o saldo corriente con el exterior. ANB (2019, 2024), SCE (2018, 2023). En exámenes: dic-24, jul-25, dic-25. Consejo: ANB = INDB − GCF = suma de ahorros sectoriales (el del Gobierno suele ser negativo). SCE = −SBP = −(SBC + RX + TRNC).
 
 ## Subtema: La cuenta de utilización del ingreso disponible
-Cuando cobrás el sueldo (ya con impuestos pagados y ayudas recibidas), hacés dos cosas con esa plata: gastás en lo que consumís en el mes y lo que no gastás queda ahorrado. La cuenta de utilización es exactamente eso para cada sector: ingreso disponible de un lado; consumo y ahorro del otro. Las empresas no "consumen", así que todo su ingreso disponible queda como ahorro.
+Fuente de la cátedra: Tomo 1 ED 2026, sección 3.3.1.3 (pág. 58-60), Cuadro 6; 1ª rev. 2023 (preg. 31)
 
-Usos
- | 
-Recursos
- | 
+Con tu ingreso disponible hacés dos cosas: consumís o no consumís. Lo que no consumís queda ahorrado. La cuenta de utilización es eso para cada sector: ingreso disponible de un lado; consumo y ahorro del otro. Las sociedades no hacen consumo final, así que todo su ingreso disponible queda como ahorro.
 
-Gasto de consumo final
-Ahorro bruto (saldo)
- | 
-Ingreso disponible bruto
- | 
+Usos | Recursos | 
 
-- 
-Solo tienen gasto de consumo final 
-Hogares
- (GCFH) y 
-Gobierno
- (GCFG). Las Sociedades no: su ahorro = su IDB.
+Gasto de Consumo Final (GCF)
+Ahorro Bruto (saldo) | Ingreso Disponible Bruto (IDB) | 
 
-- 
-El saldo (ahorro) 
-puede ser negativo
-: pasa seguido con el Gobierno (déficit corriente).
+- Solo el Gobierno (GCFG) y los Hogares (GCFH) realizan operaciones de consumo final. En las Sociedades, el IDB es igual al ahorro (en otros contextos, "utilidades retenidas").
 
-- 
-La cuenta se construye desde el punto de vista del que recibe y usa el ingreso (en 2023 la cátedra aceptó esa opción y la de "IDB de Sociedades = ahorro").
+- El ahorro bruto puede ser positivo, nulo o negativo (en el Tomo, el Gobierno tiene AB = −450).
 
-- 
-El RM aparece con el saldo corriente con el exterior, que traslada desde la distribución secundaria hacia la cuenta de capital.
+- El Resto del Mundo no tiene consumo final; su saldo corriente con el exterior desempeña una función similar al ahorro: recursos reales que el RM pone a disposición de la economía (si es positivo) o que la economía brinda al exterior (si es negativo).
 
-El ahorro es el puente entre las cuentas corrientes y las de acumulación: es el primer recurso de la cuenta de capital.
+El ahorro es el primer recurso de la cuenta de capital: junto con el SCE financia la acumulación total.
+
 Ideas clave:
-- Recurso: IDB. Usos: GCF y ahorro (saldo)
-- Sociedades no consumen: ahorro = IDB
+- Recurso: IDB. Usos: GCF y Ahorro Bruto (saldo)
+- Sociedades no consumen: AB = IDB
 - El ahorro puede ser negativo
-- El ahorro pasa a la cuenta de capital
+- El RM no consume; su SCE funciona como su ahorro
 
 ## Subtema: GCFH y GCFG: qué entra en cada uno
-El consumo de las familias es fácil: todo lo que compran para usar (comida, ropa, un corte de pelo), sea hecho acá o importado. El consumo del Estado es más raro: el Estado "compra" en nombre de todos los servicios que él mismo produce (clases, patrullaje, hospitales) y los da gratis. Por eso su consumo es lo que le costó producirlos, menos lo poco que cobró.
+Fuente de la cátedra: Tomo 1 ED 2026, sección 3.1.1 (pág. 16-17), sección 3.1.2 (pág. 23-24) y sección 3.3.1.3 (pág. 59); Clase Práctica 2, ejercicio 2; 1ª rev. 2019 (preg. 9) y 2023 (preg. 10)
 
-GCFG = \underbrace{CI + RA + CKF}_{\text{producción no de mercado}} - \text{ventas} 
+El consumo de las familias es lo que compran para satisfacer sus necesidades (comida, una entrada al cine, el dentista, una lavadora), sea producido acá o importado. El consumo del Gobierno es distinto: el Gobierno "consume" en nombre de toda la sociedad los servicios que él mismo produce (seguridad, defensa, educación y salud públicas). Por eso su consumo es igual a lo que le costó producirlos.
 
-Transacción
- | 
-¿Entra en el GCFG?
- | 
+GCFG = \text{Producción}_G = CI_G + RA_G + CKF_G 
 
-Sueldos de maestros y policías
- | 
-Sí (RA del Gobierno)
- | 
+Transacción | ¿Entra en el GCFG? | 
 
-Energía que una intendencia compra a Brasil
- | 
-Sí (CI importado del Gobierno)
- | 
+Salarios pagados por ANEP | Sí (RA del Gobierno; Clase Práctica 2) | 
 
-Desgaste de edificios públicos
- | 
-Sí (CKF)
- | 
+Energía eléctrica que una Intendencia compra a Brasil | Sí (insumo importado del Gobierno; revisión 2023) | 
 
-Patrulleros, ambulancias, computadoras del Estado
- | 
-No: FBKF
- | 
+Desgaste de los activos fijos del Gobierno | Sí (CKF) | 
 
-Jubilaciones, asignaciones
- | 
-No: prestaciones (transferencias)
- | 
+Vehículos del Ministerio del Interior, computadoras del MSP | No: FBKF | 
 
-Intereses de la deuda pública
- | 
-No: rentas de la propiedad
- | 
+Jubilaciones y pensiones | No: prestaciones sociales | 
 
-Sueldos de ANTEL, combustible del BROU
- | 
-No: son sociedades
- | 
+Intereses de la deuda pública | No: rentas de la propiedad | 
 
-GCFH
-: bienes y servicios de consumo nacionales e importados, más lo que los hogares compran al Gobierno (tasas, entradas). No incluye viviendas nuevas (FBKF) ni pagos de intereses.
+Remuneraciones de ANTEL, combustible del BROU | No: son sociedades | 
+
+GCFH: valor de la producción adquirida por los hogares para satisfacer sus necesidades (consumo inmediato, duradero o semiduradero), nacional e importada. En la versión simplificada refleja el gasto en bienes y servicios adquiridos a precios significativos. En la revisión 2019 la clave sobre el GCFG fue: "el valor de los bienes y servicios producidos por el Gobierno y utilizados por la sociedad en su conjunto".
+
 Ideas clave:
-- GCFG = CI + RA + CKF − ventas
-- Patrulleros y equipos: FBKF, no GCFG
+- GCFG = Producción del Gobierno = CI + RA + CKF
+- Bienes de capital del Gobierno: FBKF, no GCFG
 - Jubilaciones e intereses: transferencias y rentas, no GCFG
-- GCFH incluye importados y compras al Gobierno
+- GCFH incluye lo importado
 
 ## Subtema: Ahorro por sector
-Cada sector hace su cuenta: lo que le quedó para usar menos lo que consumió. A las familias les suele sobrar un poco. A las empresas les queda todo lo que no repartieron, porque no consumen. Al Estado muchas veces le falta: gasta en escuelas, hospitales y seguridad más de lo que le queda de impuestos después de pagar jubilaciones e intereses, y ahí su ahorro da negativo.
+Fuente de la cátedra: Tomo 1 ED 2026, sección 3.3.1.3 (pág. 59-60), Cuadro 6
 
-Sector
- | 
-Ahorro bruto
- | 
+Cada sector hace su cuenta: lo que le quedó disponible menos lo que consumió. A las familias les suele sobrar algo. A las sociedades les queda todo, porque no consumen. Al Gobierno muchas veces le falta: el costo de los servicios que presta supera lo que le queda disponible, y ahí su ahorro da negativo.
 
-Sociedades
- | 
-= IDB (no tienen consumo final)
- | 
+Sector | Ahorro Bruto | 
 
-Gobierno
- | 
-= IDB − GCFG (suele ser negativo)
- | 
+Sociedades | = IDB (no tienen consumo final) | 
 
-Hogares
- | 
-= IDB − GCFH
- | 
+Gobierno | = IDB − GCFG (puede ser negativo) | 
 
-Ahorro neto = ahorro bruto − CKF del sector.
+Hogares | = IDB − GCFH | 
 
-Error frecuente con el Gobierno: restar la 
-producción
- en lugar del GCFG (hay que descontar las ventas), o restar también la FBKF (la inversión no es consumo: va en la cuenta de capital).
+En el Cuadro 6 del Tomo: Hogares 1.125 − 1.030 = 95; Gobierno 70 − 520 = −450; Sociedades 1.015. ANB = 660.
 
-El ahorro no es el préstamo neto: ahorrar es no consumir; el PRN aparece después de invertir (cuenta de capital).
+Error frecuente con el Gobierno: restar también su FBKF (la acumulación no es consumo: va en la cuenta de capital).
 
-Control: la suma de los ahorros sectoriales tiene que dar el ANB calculado como INDB − GCF. Si no cierra, revisá el GCFG (ventas) y que no hayas metido una transferencia de capital en algún IDB.
+El ahorro no es el préstamo neto: el ahorro surge de no consumir; el PRN aparece en la cuenta de capital, después de la FBK y las transferencias de capital.
+
+Control: la suma de los ahorros de los sectores residentes tiene que dar el ANB calculado como INDB − GCF.
+
 Ideas clave:
-- Ahorro Soc = IDB Soc
-- Ahorro Gob = IDB Gob − GCFG
-- Ahorro Hog = IDB Hog − GCFH
+- AB Soc = IDB Soc
+- AB Gob = IDB Gob − GCFG
+- AB Hog = IDB Hog − GCFH
 - La FBKF no se resta en el ahorro
-Mini ejercicio: Datos de una economía: IDB de Sociedades 480, de Gobierno 290 y de Hogares 1.440. El Gobierno usó insumos por 100, pagó RA por 350, su CKF fue 60 y vendió servicios a los hogares por 30. El gasto de consumo final de los hogares fue 1.300.
+
+Ejemplo: Datos de una economía: IDB de Sociedades 800, de Gobierno 80 y de Hogares 1.330. El Gobierno utilizó insumos por 100, pagó RA por 350 y su CKF fue 60. El gasto de consumo final de los hogares fue 1.270.
 Calculá el ahorro de cada sector y el ANB.
-Solución: GCFG = 100 + 350 + 60 − 30 = 480. Ahorro Soc = 
-480
-; Gob = 290 − 480 = 
-−190
-; Hog = 1.440 − 1.300 = 
-140
-. ANB = 480 − 190 + 140 = 
-430
-.
+Resolución: GCFG = Producción del Gobierno = 100 + 350 + 60 = 510. AB Soc = 800; Gob = 80 − 510 = −430; Hog = 1.330 − 1.270 = 60. ANB = 800 − 430 + 60 = 430.
 
 ## Subtema: Ahorro nacional bruto e identidades
-El ahorro de todo el país es lo que le quedó sin consumir a todos juntos. Con ese ahorro se paga la inversión (máquinas, edificios). Si el ahorro no alcanza, la diferencia la presta el resto del mundo; si sobra, el país le presta al resto del mundo. Es la misma cuenta que en una familia: si querés comprar un auto y no te alcanza lo ahorrado, pedís prestado.
+Fuente de la cátedra: Tomo 1 ED 2026, sección 3.3.1.3 (pág. 59) y secciones 3.4.7 y 3.4.8 (pág. 73-75); 1ª rev. 2019 (preg. 19) y 2023 (preg. 8)
 
-ANB = INDB - GCF = \sum \text{ahorros sectoriales} 
+El ahorro de todo el país es lo que le quedó sin consumir a todos juntos. Con ese ahorro se financia la acumulación (máquinas, edificios, existencias). Si el ahorro no alcanza, la diferencia la financia el resto del mundo; si sobra, el país le presta al resto del mundo.
 
-con  GCF = GCFH + GCFG  (el del COU, si te dan el COU y el INDB).
+ANB = INDB - GCF = \sum \text{ahorros de los residentes}, \qquad ANN = ANB - CKF 
 
-Relación con la inversión y el exterior:
+con  GCF = GCFH + GCFG  (se pueden tomar del COU).
 
- ANB - FBK = SCC = -SCE \qquad ANB + TK_{netas} - FBK = PRN_{eco} 
+Relación con la acumulación y el exterior (Tomo, sección 3.4.8):
 
-- 
-Si ANB < FBK, la economía tiene déficit corriente y el RM la financia (SCE > 0).
+ PRN = ANN + CKF + TRNK - FBK = SBP + TRNK \quad\Rightarrow\quad ANB - FBK = SBP = -SCE 
 
-- 
-Un ANB positivo no garantiza capacidad de financiamiento: depende de la FBK (2019: "a pesar de ser positivo, la economía tuvo necesidad de financiamiento").
+- Si ANB < FBK, la economía tiene déficit en cuenta corriente y el RM la financia (SCE > 0). El ejemplo del Tomo: una represa construida con materiales importados y crédito externo aumenta la inversión sin cambiar el ahorro.
 
-- 
-Ahorro nacional neto = ANB − CKF total.
+- Un ANB positivo no garantiza capacidad de financiamiento (revisión 2019: "a pesar de ser positivo, la economía tuvo necesidad de financiamiento").
+
+- En una economía cerrada el ahorro generado internamente iguala necesariamente a la inversión.
+
 Ideas clave:
 - ANB = INDB − GCF = Σ ahorros
-- ANB − FBK = SCC = −SCE
+- ANB − FBK = SBP = −SCE
 - ANB > 0 no implica capacidad de financiamiento
-- Con el COU: GCF = GCFH + GCFG de sus columnas
-Mini ejercicio: Con un COU donde GCFH = 880 y GCFG = 300, se sabe que el INDB fue 1.500 y la FBK 290. ¿ANB? ¿Cuánto le prestó la economía al RM (sin transferencias de capital)?
-Solución: ANB = 1.500 − 1.180 = 
-320
-. PRN = 320 − 290 = 
-30
-: la economía le prestó 30 al RM (SCE = −30).
+- ANN = ANB − CKF
+
+Ejemplo: Con un COU donde GCFH = 850 y GCFG = 330, se sabe que el INDB fue 1.500 y la FBK 290. No hubo transferencias de capital. ¿ANB? ¿Cuál fue el PRN de la economía y el SCE?
+Resolución: ANB = 1.500 − 1.180 = 320. PRN = 320 − 290 = 30 = SBP: la economía tuvo capacidad de financiamiento frente al RM. SCE = −SBP = −30.

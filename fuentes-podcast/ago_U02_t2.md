@@ -1,324 +1,185 @@
 # Administración y Gestión de las Organizaciones II · Unidad 2: Goleman (inteligencia emocional) y Kotter (el gerente como agente de cambio)
 
-Material para la 1ª revisión de octubre 2026 (FCEA-UDELAR). Peso en el parcial según los parciales anteriores: 5% del puntaje, prioridad media.
-Goleman en la teórica 2022 y 2024 (y en la múltiple opción de dic 2022). Kotter nunca apareció en lo relevado.
+Material de estudio para la 1ª revisión de octubre 2026 (FCEA-UDELAR). TODO el contenido de este documento sale exclusivamente del material de la cátedra (notas, teóricos, diapositivas, guías, ejercicios y soluciones oficiales publicados en EVA). No hay que agregar conceptos, autores, ejemplos ni criterios que no estén acá.
+
+Fuente de la cátedra: UT1 Teórico Función Gerencial 2023, sec. 1.1.2 b y d (Kotter, Goleman) · Diapositivas UT1 · 1ª revisión 2024 T1, 2022 T2 · Examen dic 2022 MO1
+
+Peso en la prueba según los parciales anteriores: 5% del puntaje, prioridad media. Goleman en la teórica 2022 y 2024 (y en la múltiple opción de dic 2022). Kotter nunca apareció en lo relevado.
 
 ## Explicación simple
-Imaginá dos jugadores de fútbol igual de técnicos. Uno se calienta, insulta al árbitro y lo echan; el otro se banca la presión, entiende al compañero que está mal y arenga al equipo. El segundo tiene 
-inteligencia emocional
-: sabe manejar sus emociones y las de los demás. Goleman dice que eso pesa tanto como el talento técnico para liderar.
-Kotter piensa en otra cosa: el mundo cambia (tecnología, competencia, ética) y el gerente tiene que 
-mover a la organización
-. Para eso propone una receta de 8 pasos, como una escalera: si te salteás un escalón, te caés.
+Imaginá dos jugadores de fútbol igual de técnicos. Uno se calienta, insulta al árbitro y lo echan; el otro se banca la presión, entiende al compañero que está mal y arenga al equipo. El segundo tiene inteligencia emocional: sabe manejar sus emociones y las de los demás. Goleman dice que el coeficiente intelectual no es lo único que cuenta: también la inteligencia emocional.
+Kotter piensa en otra cosa: el mundo cambia (tecnología, competencia, ética) y el gerente tiene que mover a la organización. Para eso propone una receta de 8 pasos, como una escalera: si te salteás un escalón, te caés.
 
 ## Explicación para el parcial
 Daniel Goleman: inteligencia emocional
 
-Toma la idea de 
-Salovey y Mayer
-: capacidad de reconocer los sentimientos propios y ajenos, motivarse y manejar bien las emociones en uno mismo y en las relaciones. Goleman sostiene que, en puestos de liderazgo, la inteligencia emocional distingue a los mejores más que el CI o la técnica. Son 
-5 capacidades
-, las tres primeras personales (cómo me manejo yo) y las dos últimas sociales (cómo manejo las relaciones):
+Salovey y Mayer la definen como "la capacidad de controlar y regular los sentimientos de uno mismo y de los demás, y utilizarlos como guía del pensamiento y la acción". Goleman adapta ese modelo al mundo laboral: el CI no es lo único a considerar. Propone 5 capacidades; las tres primeras forman la competencia personal y las dos últimas la social:
 
-Capacidad
- | 
-Qué es
- | 
-Competencias asociadas
- | 
+Capacidad | Qué es (teórico UT1) | Competencias asociadas | 
 
-Conciencia de sí mismo
- | 
-Conocer las propias emociones, fortalezas, límites y su efecto en otros
- | 
-Conciencia emocional, autoevaluación precisa, confianza en uno mismo
- | 
+Conciencia de sí mismo | Saber lo que sentimos y usar nuestras preferencias para decidir, con evaluación realista de nuestras capacidades | Conciencia emocional, valoración adecuada de uno mismo, confianza en uno mismo | 
 
-Autorregulación
- | 
-Controlar impulsos y estados de ánimo; pensar antes de actuar
- | 
-Autocontrol, confiabilidad, integridad, adaptabilidad, innovación
- | 
+Autorregulación | Manejar las emociones para que faciliten la tarea, demorar la gratificación, recuperarse del estrés | Autocontrol, confiabilidad, integridad, adaptabilidad, innovación | 
 
-Motivación
- | 
-Pasión por el trabajo más allá del dinero o el estatus; persistencia
- | 
-Afán de logro, compromiso, iniciativa, optimismo
- | 
+Motivación | Usar nuestras preferencias más profundas para ir hacia los objetivos, tomar iniciativas y perseverar | Motivación de logro, compromiso, iniciativa, optimismo | 
 
-Empatía
- | 
-Entender el estado emocional de los demás y tratarlos según eso
- | 
-Comprensión de los demás, orientación al servicio, aprovechar la diversidad, conciencia política
- | 
+Empatía | Darse cuenta de lo que sienten los demás y ponerse en su lugar | Comprensión de los demás, desarrollar a otros, orientación hacia el servicio, aprovechamiento de la diversidad, conciencia política | 
 
-Habilidades sociales
- | 
-Manejar relaciones y construir redes; encontrar terreno común
- | 
-Influencia, comunicación, liderazgo, catalizador del cambio, resolución de conflictos, colaboración, habilidades de equipo
- | 
+Habilidades sociales | Manejar bien las emociones en las relaciones; persuadir, dirigir, negociar, cooperar | Influencia, comunicación, liderazgo, catalizador del cambio, resolución de conflictos, colaboración y cooperación, habilidades de equipo, construir vínculos | 
+
+La inteligencia emocional es el potencial; la competencia emocional es la capacidad adquirida que da un desempeño laboral destacado. El material cita el estudio de Hay/McBer: más del 80% de lo que distingue a los trabajadores "estrella" depende de la inteligencia emocional.
 
 John Kotter: el administrador como agente de cambio
 
-El entorno cambia y obliga a cambiar: 
-tecnología y digitalización
-, 
-amenazas a la seguridad
-, 
-mayor énfasis en la ética
- y 
-aumento de la competencia
-. Kotter propone un proceso de 
-8 pasos
-:
+Cuatro elementos del entorno plantean imperativos para la acción gerencial: cambios tecnológicos (digitalización), amenazas a la seguridad, mayor énfasis en la ética y aumento de la competencia. El "desafío del cambio" es hacer lo correcto en un entorno cambiante, con un proceso de 8 pasos:
 
-- 
-Crear un 
-sentido de urgencia
-.
+- Establecer un sentido de urgencia.
 
-- 
-Formar una 
-coalición orientadora
- (grupo con poder para liderar el cambio).
+- Crear una coalición orientadora (equipo de personas influyentes).
 
-- 
-Desarrollar una 
-visión y una estrategia
-.
+- Crear una visión y estrategia del cambio.
 
-- 
-Comunicar la visión
- del cambio.
+- Comunicar la visión del cambio.
 
-- 
-Eliminar obstáculos
- (empoderar a la gente para actuar).
+- Promover medidas que eliminen los obstáculos (por ejemplo, ayudar a quienes se resisten a ver que el cambio es necesario).
 
-- 
-Generar 
-triunfos de corto plazo
-.
+- Generar triunfos en el corto plazo.
 
-- 
-Consolidar
- las mejoras y generar más cambio.
+- Consolidar las ganancias y generar más cambios.
 
-- 
-Arraigar
- los nuevos enfoques en la 
-cultura
-.
-
-Los pasos 1 a 4 "descongelan", 5 a 7 implantan y el 8 fija. Conecta con UT4: el paso 8 es la "cultura adecuada a la estrategia" de Thompson y Strickland.
+- Arraigar los nuevos enfoques en la cultura organizacional.
 
 ## Cómo se resuelve en el parcial
-- 
-Teórica de Goleman
- ("identificá y analizá 3 de las 5"): definí inteligencia emocional (Goleman, en base a Salovey y Mayer) en dos líneas; después, por cada capacidad: nombre → qué es → 2 o 3 competencias asociadas → un ejemplo gerencial de una línea. Aclará que las 3 primeras son personales y las 2 últimas sociales.
+- Teórica de Goleman ("identificá y analizá 3 de las 5"): definí inteligencia emocional con la frase de Salovey y Mayer que adapta Goleman; después, por cada capacidad: nombre → qué es → 2 o 3 competencias asociadas → un ejemplo gerencial de una línea. Aclará que las 3 primeras son personales y las 2 últimas sociales.
 
-- 
-Si piden las 5, hacé lo mismo más corto (una fila por capacidad).
+- Si piden las 5, hacé lo mismo más corto (una fila por capacidad).
 
-- 
-Kotter en un caso
-: identificá qué cambio del entorno empuja (tecnología, competencia, ética, seguridad) y ubicá los pasos que se ven en el caso con la cita ("formó un equipo con los jefes de área = coalición orientadora").
+- Kotter en un caso: identificá qué elemento del entorno empuja (cambios tecnológicos, amenazas a la seguridad, énfasis en la ética, aumento de la competencia) y ubicá los pasos que se ven en el caso con la cita ("formó un equipo con los jefes de área = coalición orientadora").
 
 ## Trampas típicas
-- 
-Confundir 
-autorregulación
- (controlarse uno) con 
-habilidades sociales
- (manejar las relaciones).
+- Confundir autorregulación (controlarse uno) con habilidades sociales (manejar las relaciones).
 
-- 
-Decir que la 
-motivación
- de Goleman es motivar a otros: es la automotivación, el impulso de logro propio. Motivar a otros va en habilidades sociales/liderazgo.
+- Decir que la motivación de Goleman es motivar a otros: es usar las propias preferencias para ir hacia los objetivos (motivación de logro, compromiso, iniciativa, optimismo). Inspirar y dirigir a otros es liderazgo, dentro de habilidades sociales.
 
-- 
-Olvidarse de nombrar a Salovey y Mayer como base: es un punto fácil.
+- Olvidarse de nombrar a Salovey y Mayer como base: es un punto fácil.
 
-- 
-Poner los pasos de Kotter desordenados: el orden importa (primero urgencia, último cultura).
+- Poner los pasos de Kotter desordenados: el orden importa (primero urgencia, último cultura).
 
 ## Ejercicio resuelto
-Identificá y analizá 3 de las 5 capacidades de la inteligencia emocional según Goleman (3 pts).
-Solución:
-Goleman, a partir de Salovey y Mayer, define la inteligencia emocional como la capacidad de reconocer las emociones propias y ajenas, motivarse y manejar las emociones en uno mismo y en las relaciones. Propone 5 capacidades: tres personales y dos sociales.
-- 
-Autorregulación
- (personal): controlar impulsos y redirigir estados de ánimo negativos, pensar antes de actuar. Competencias: autocontrol, confiabilidad, integridad, adaptabilidad, innovación. Ej.: el gerente que ante una crisis no descarga su enojo en el equipo y decide con calma.
-- 
-Empatía
- (social): comprender el estado emocional de los demás y tratarlos en consecuencia. Competencias: comprensión de los demás, orientación al servicio, aprovechar la diversidad, conciencia política. Ej.: negociar con un sindicato entendiendo sus temores.
-- 
-Habilidades sociales
- (social): manejar relaciones, construir redes, encontrar puntos en común. Competencias: influencia, comunicación, liderazgo, catalizar el cambio, resolver conflictos, colaboración y trabajo en equipo. Ej.: lograr que dos áreas enfrentadas trabajen en un proyecto común.
+Letra: Identificá y analizá 3 de las 5 capacidades de la inteligencia emocional según Goleman (3 pts).
+
+Solución: Salovey y Mayer definen la inteligencia emocional como la capacidad de controlar y regular los sentimientos propios y de los demás y usarlos como guía del pensamiento y la acción; Goleman la lleva al trabajo con 5 capacidades: tres personales y dos sociales.
+- Autorregulación (personal): manejar las emociones para que faciliten la tarea y no interfieran, demorar la gratificación, recuperarse del estrés. Competencias: autocontrol, confiabilidad, integridad, adaptabilidad, innovación. Ej.: el gerente que ante una crisis no descarga su enojo en el equipo.
+- Empatía (social): darse cuenta de lo que sienten los demás y ponerse en su lugar. Competencias: comprensión de los demás, desarrollar a otros, orientación hacia el servicio, aprovechamiento de la diversidad, conciencia política. Ej.: negociar con un sindicato entendiendo sus temores.
+- Habilidades sociales (social): manejar bien las emociones en las relaciones, persuadir, dirigir, negociar y cooperar. Competencias: influencia, comunicación, liderazgo, catalizador del cambio, resolución de conflictos, colaboración y cooperación, habilidades de equipo, construir vínculos. Ej.: lograr que dos áreas enfrentadas trabajen en un proyecto común.
 
 ## Cómo aparece en la prueba
 - T1 (3/3): Teórica UT1 · Función gerencial. Goleman (5 capacidades en 2022, 3 de 5 en 2024), compatibilidad Hellriegel y Luthans (2023), cómo afecta el entorno a los gerentes y vectores de la diversidad de género (las dos en 2022). En los exámenes: 4 competencias de Hellriegel. Consejo: Rota entre Goleman, Hellriegel-Luthans, entorno/cultura y género. Llevá memorizadas las listas y una frase por ítem. Goleman salió 2 de 3 años.
 
 ## Subtema: Inteligencia emocional: concepto y capacidades personales
-Hay chicos que se saben todas las tablas pero cuando pierden un partido tiran la pelota y se van llorando. Y hay otros que se dan cuenta de que están enojados, respiran, y siguen jugando con ganas. Eso segundo es inteligencia emocional: darte cuenta de lo que sentís, controlarlo y seguir motivado aunque nadie te dé un premio. Goleman dice que para ser buen jefe esto importa tanto o más que ser "inteligente" en el sentido de las notas.
+Fuente de la cátedra: UT1 Teórico Función Gerencial 2023, sec. 1.1.2 d (Goleman, cuadro 1) · Diapositivas UT1 (Goleman)
 
-Goleman retoma el concepto de 
-Salovey y Mayer
-: la inteligencia emocional es la capacidad de reconocer los sentimientos propios y ajenos, motivarse y manejar bien las emociones en uno mismo y en las relaciones. Sostiene que en los puestos de liderazgo es lo que más distingue a los mejores, por encima del CI y de la pericia técnica.
+Hay chicos que se saben todas las tablas pero cuando pierden un partido tiran la pelota y se van llorando. Y hay otros que se dan cuenta de que están enojados, respiran, y siguen jugando con ganas. Eso segundo es inteligencia emocional: saber lo que sentís, manejarlo y seguir persiguiendo tus objetivos aunque haya contratiempos. Goleman dice que el coeficiente intelectual no es lo único que cuenta: el intelecto necesita de la inteligencia emocional para funcionar bien.
 
-Las 5 capacidades se dividen en 
-personales
- (cómo me manejo yo) y 
-sociales
- (cómo manejo las relaciones). Las personales son tres:
+Goleman plantea que, en cierto modo, tenemos dos clases de inteligencia, la racional y la emocional, y que el coeficiente intelectual no es lo único a considerar. Los psicólogos P. Salovey y J. Mayer definieron la inteligencia emocional como "la capacidad de controlar y regular los sentimientos de uno mismo y de los demás, y utilizarlos como guía del pensamiento y la acción". Goleman adaptó ese modelo al mundo laboral con cinco capacidades emocionales y sociales básicas. En el cuadro del teórico, las tres primeras forman la competencia personal (cómo nos relacionamos con nosotros mismos):
 
-Capacidad
- | 
-Qué es
- | 
-Señales en un gerente
- | 
+Capacidad | Qué es (teórico UT1) | Competencias emocionales | 
 
-Conciencia de sí mismo
- | 
-Conocer las propias emociones, fortalezas, límites y su efecto en otros
- | 
-Autoevaluación realista, confianza en sí mismo, humor autocrítico
- | 
+Conciencia de sí mismo | Saber lo que estamos sintiendo y usar nuestras preferencias para decidir, con una evaluación realista de nuestras capacidades y confianza en nosotros mismos | Conciencia emocional, valoración adecuada de uno mismo, confianza en uno mismo | 
 
-Autorregulación
- | 
-Controlar o redirigir impulsos y estados de ánimo; pensar antes de actuar
- | 
-No explota con el equipo, es confiable e íntegro, se adapta y acepta lo nuevo
- | 
+Autorregulación | Manejar las emociones para que faciliten la tarea y no interfieran; demorar la gratificación; recuperarse pronto del estrés emocional | Autocontrol, confiabilidad, integridad, adaptabilidad, innovación | 
 
-Motivación
- | 
-Pasión por trabajar por razones que van más allá del dinero o el estatus
- | 
-Afán de logro, compromiso, iniciativa, optimismo ante el fracaso
- | 
+Motivación | Usar nuestras preferencias más profundas para encaminarnos hacia nuestros objetivos, tomar iniciativas, ser más eficaces y perseverar pese a contratiempos y frustraciones | Motivación de logro, compromiso, iniciativa, optimismo | 
 
-Trampa del parcial: la 
-motivación
- de Goleman es 
-automotivación
-, no motivar a otros.
+La inteligencia emocional es un potencial; la competencia emocional es "una capacidad adquirida basada en la inteligencia emocional que da lugar a un desempeño laboral destacado". Ojo: la capacidad "motivación" habla de los objetivos propios, no de motivar al equipo.
+
 Ideas clave:
-- Base: Salovey y Mayer
-- 5 capacidades: 3 personales y 2 sociales
+- Base: Salovey y Mayer (controlar y regular sentimientos propios y ajenos)
+- 5 capacidades: 3 de competencia personal y 2 de competencia social
 - Personales: conciencia de sí mismo, autorregulación, motivación
-- Motivación = automotivación, no motivar a otros
-Mini ejercicio: Una jefa reconoce: "sé que cuando estoy cansada me pongo impaciente, así que las reuniones difíciles las hago a primera hora". ¿Qué capacidades de Goleman muestra?
-Solución: Conciencia de sí mismo (conoce su estado y su efecto en los demás) y autorregulación (organiza su agenda para no actuar por impulso).
+- Competencia emocional = capacidad adquirida sobre la IE que da desempeño destacado
+
+Ejemplo: Una jefa reconoce: "sé que cuando estoy cansada me pongo impaciente, así que las reuniones difíciles las hago a primera hora". ¿Qué capacidades de Goleman muestra?
+Resolución: Conciencia de sí mismo (sabe lo que siente y conoce sus límites) y autorregulación (maneja sus emociones para que no interfieran con la tarea, organizando la agenda).
 
 ## Subtema: Capacidades sociales: empatía y habilidades sociales
-Tu amigo llega callado al recreo. El que tiene empatía se da cuenta de que algo le pasa y le pregunta, en vez de hacerle un chiste. Y después hay otro chico que logra que todo el grupo se ponga de acuerdo en a qué jugar, sin peleas: ese tiene habilidades sociales. Las dos cosas son para "afuera": una es entender a los demás y la otra es saber llevar el grupo para un lado.
+Fuente de la cátedra: UT1 Teórico Función Gerencial 2023, sec. 1.1.2 d (competencia social, cuadro 1; estudio Hay/McBer) · Diapositivas UT1
 
-Las dos capacidades 
-sociales
- de Goleman:
+Tu amigo llega callado al recreo. El que tiene empatía se da cuenta de que algo le pasa y le pregunta, en vez de hacerle un chiste. Y hay otro chico que logra que todo el grupo se ponga de acuerdo en a qué jugar, sin peleas: ese tiene habilidades sociales. Las dos cosas son "hacia afuera": una es darte cuenta de lo que sienten los demás y la otra es manejar bien las relaciones.
 
-- 
-Empatía
-: entender el estado emocional de los demás y tratarlos según sus reacciones. Competencias: comprensión de los demás, orientación al servicio, aprovechar la diversidad y conciencia política (leer las corrientes de poder de un grupo). En un gerente: retener talento, entender al cliente, trabajar con equipos de culturas distintas.
+Las dos capacidades que forman la competencia social (cómo nos relacionamos con los demás):
 
-- 
-Habilidades sociales
-: manejar relaciones y construir redes, encontrar un terreno común. Competencias: influencia, comunicación, liderazgo, catalizador del cambio, resolución de conflictos, colaboración y habilidades de equipo. Es la capacidad que "cosecha" las otras cuatro: quien se conoce, se controla, está motivado y entiende a otros puede conducirlos.
+- Empatía: darse cuenta de lo que están sintiendo las personas, ser capaces de ponerse en su lugar y cultivar la relación con una amplia diversidad de personas. Competencias: comprensión de los demás, desarrollar a otros, orientación hacia el servicio, aprovechamiento de la diversidad y conciencia política (darse cuenta de las corrientes emocionales y de las relaciones de poder de un grupo).
 
-Diferencia clave: la empatía es 
-comprender
- al otro; las habilidades sociales son 
-actuar
- sobre la relación (persuadir, coordinar, resolver). Motivar al equipo o liderar un cambio va en habilidades sociales, no en la capacidad "motivación".
+- Habilidades sociales: manejar bien las emociones en las relaciones, interpretar las situaciones y las redes sociales, interactuar fluidamente y usar estas habilidades para persuadir, dirigir, negociar, resolver disputas, cooperar y trabajar en equipo. Competencias: influencia, comunicación, liderazgo, catalizador del cambio, resolución de conflictos, colaboración y cooperación, habilidades de equipo y construir vínculos.
 
-Para la teórica ("identificá y analizá 3 de las 5"): nombre, definición, 2 o 3 competencias y un ejemplo gerencial por capacidad, aclarando si es personal o social.
+El teórico cita una investigación de Hay/McBer en 286 empresas: más del 80% de las habilidades que distinguen a los trabajadores "estrella" de los promedio dependen de la inteligencia emocional y no de habilidades estrictamente cognitivas.
+
+Para la teórica ("identificá y analizá 3 de las 5"): nombre, qué es según el teórico, dos o tres competencias y un ejemplo gerencial por capacidad.
+
 Ideas clave:
-- Sociales: empatía y habilidades sociales
-- Empatía = comprender al otro (servicio, diversidad, conciencia política)
-- Habilidades sociales = actuar sobre la relación (influencia, liderazgo, conflictos, cambio)
-- Motivar a otros va en habilidades sociales
-Mini ejercicio: Un gerente nota que una vendedora rinde menos desde que volvió de la licencia maternal, habla con ella y le reorganiza el horario. Luego logra que el equipo acepte el cambio de turnos sin conflictos. ¿Qué capacidades muestra?
-Solución: Empatía: percibe el estado de la vendedora y actúa según eso (comprensión de los demás). Habilidades sociales: logra el acuerdo del equipo y evita el conflicto (influencia, resolución de conflictos).
+- Competencia social: empatía y habilidades sociales
+- Empatía: comprensión de los demás, desarrollar a otros, servicio, diversidad, conciencia política
+- Habilidades sociales: influencia, comunicación, liderazgo, cambio, conflictos, colaboración, equipo, vínculos
+- Hay/McBer: más del 80% de lo que distingue a los "estrella" es IE
+
+Ejemplo: Un gerente nota que una vendedora rinde menos desde que volvió de la licencia maternal, habla con ella y le reorganiza el horario. Luego logra que el equipo acepte el cambio de turnos sin conflictos. ¿Qué capacidades muestra?
+Resolución: Empatía: se da cuenta de lo que le pasa a la vendedora y se pone en su lugar (comprensión de los demás). Habilidades sociales: logra el acuerdo del equipo y evita el conflicto (influencia, resolución de conflictos).
 
 ## Subtema: Kotter: el entorno que obliga a cambiar
+Fuente de la cátedra: UT1 Teórico Función Gerencial 2023, sec. 1.1.2 b (Kotter) · Diapositivas UT1 (Kotter: cambios y efectos)
+
 Si en tu barrio abren un supermercado grande, el almacén de la esquina no puede seguir igual: tiene que aceptar tarjetas, hacer envíos o traer productos distintos. Nadie le pide permiso al almacenero; el mundo cambia y él tiene que moverse. Kotter dice que el jefe tiene que ser el que empuja esos cambios adentro de la empresa, porque si espera a que el cambio llegue solo, ya es tarde.
 
-Kotter presenta al administrador como 
-agente de cambio
-: el entorno se mueve y la organización tiene que adaptarse, y el gerente es quien conduce ese proceso. Las fuerzas del entorno que la cátedra destaca son:
+Los desarrollos de Kotter se enfocan en el "desafío del cambio", que consiste en "hacer lo correcto en un entorno cambiante". Parte de una serie de elementos que caracterizan el entorno gerencial y plantean verdaderos imperativos para la acción gerencial. La diapositiva de UT1 muestra cada cambio con sus efectos:
 
-- 
-Tecnología y digitalización
-: nuevas formas de producir, vender y comunicarse (comercio electrónico, automatización, trabajo remoto).
+Cambio | Efectos (diapositiva UT1) | 
 
-- 
-Amenazas a la seguridad
-: riesgos sanitarios, ciberataques, desastres, inseguridad; exigen planes de contingencia.
+Cambios tecnológicos (digitalización) | Desplazamiento de los límites de la organización, centros de trabajo virtuales, personal más flexible, horarios flexibles, empleados facultados | 
 
-- 
-Mayor énfasis en la ética
-: la sociedad exige transparencia, responsabilidad y conducta íntegra.
+Amenazas a la seguridad | Administración de riesgos, equilibrio entre trabajo y vida privada, trabajo reestructurado, preocupaciones de discriminación y de globalización, ayuda a los empleados | 
 
-- 
-Aumento de la competencia
-: competidores globales y nuevos modelos de negocio.
+Mayor énfasis en la ética de la organización y de la administración | Redefinición de los valores, cultivo renovado de la confianza, mayor responsabilidad | 
 
-Kotter explica que la mayoría de los cambios fracasan por errores típicos: no crear urgencia, no formar una coalición con poder, subestimar la visión, no comunicarla, dejar obstáculos en pie, no planificar triunfos cortos, declarar la victoria antes de tiempo y no anclar el cambio en la cultura. Los 8 pasos son la respuesta a esos errores.
+Aumento de la competencia | Servicio a clientes, innovación, globalización, eficiencia y productividad | 
+
+Estos elementos requieren el ejercicio de un liderazgo claro del gerente como agente de cambio, con apertura a la innovación y conduciendo los procesos de cambio organizacional. Kotter destaca el rol del gerente como promotor o líder del cambio e identifica un proceso de 8 pasos (t2.4).
+
 Ideas clave:
-- Gerente = agente de cambio
-- Fuerzas: tecnología, seguridad, ética, competencia
-- Los 8 pasos responden a 8 errores típicos
-- Declarar la victoria antes de tiempo es un error clásico
+- Gerente = agente de cambio, promotor o líder del cambio
+- Desafío del cambio: hacer lo correcto en un entorno cambiante
+- Cambios: tecnológicos, seguridad, ética, competencia
+- Cada cambio tiene efectos (ej.: competencia → servicio a clientes, innovación, eficiencia)
 
 ## Subtema: Kotter: los 8 pasos del cambio
+Fuente de la cátedra: UT1 Teórico Función Gerencial 2023, sec. 1.1.2 b (8 pasos) · Diapositivas UT1 · Práctico Lavender Tea Room, consigna 3
+
 Si querés que tu familia empiece a separar la basura para reciclar, primero tenés que convencerlos de que es urgente. Después buscás aliados (tu hermana que te apoya), explicás el plan, sacás lo que molesta (ponés los tachos a mano), festejás la primera semana que sale bien, sumás más cosas (el compost) y al final ya es "lo que hacemos en esta casa". Esos son, en chiquito, los 8 pasos de Kotter.
 
-- 
-Crear un sentido de urgencia
-: mostrar por qué no cambiar es peligroso (datos del mercado, crisis, oportunidades).
+Los 8 pasos de Kotter según el teórico de UT1:
 
-- 
-Formar una coalición orientadora
-: un grupo con poder, credibilidad y liderazgo para conducir el cambio.
+- Establecer un sentido de urgencia que facilite la promoción del cambio: los directores y gerentes deben "comprar" el cambio; hay que dedicar tiempo y energía a construir la urgencia antes de pasar al siguiente paso.
 
-- 
-Desarrollar una visión y una estrategia
-: a dónde se quiere llegar y cómo.
+- Crear una coalición orientadora que dé sustento al cambio: un equipo de personas influyentes que trabajen en la continua construcción de la urgencia.
 
-- 
-Comunicar la visión del cambio
-: por todos los canales y con el ejemplo de la coalición.
+- Crear una visión y estrategia del cambio que todos puedan entender y recordar.
 
-- 
-Eliminar obstáculos
- (empoderar): cambiar sistemas o estructuras que traban y alentar a arriesgar.
+- Comunicar la visión del cambio frecuentemente, cada vez que se pueda, para que esté presente en la mente de todos.
 
-- 
-Generar triunfos de corto plazo
-: logros visibles que den credibilidad y reconozcan a quienes los hicieron posibles.
+- Promover medidas que eliminen los obstáculos: por ejemplo, identificar a quienes se resisten y ayudarlos a ver que el cambio es necesario.
 
-- 
-Consolidar las mejoras y generar más cambio
-: usar la credibilidad ganada para ir por más.
+- Generar triunfos en el corto plazo: nada motiva más que los éxitos palpables.
 
-- 
-Arraigar los nuevos enfoques en la cultura
-: que lo nuevo pase a ser "cómo se hacen las cosas aquí".
+- Consolidar las ganancias y generar más cambios: cada victoria es una oportunidad para aprender qué salió bien y qué mejorar.
 
-Lectura en tres bloques: 1 a 4 preparan (descongelar), 5 a 7 implantan, 8 fija. El orden importa. El paso 8 conecta con la 
-cultura adecuada a la estrategia
- de Thompson y Strickland (UT4).
+- Arraigar los nuevos enfoques en la cultura organizacional: esfuerzos continuos para que el cambio se vea en todos los aspectos de la organización.
+
+El orden importa: el teórico remarca que la urgencia debe construirse antes de avanzar. En el práctico Lavender se pide identificar el "desafío del cambio" de la gerenta.
+
 Ideas clave:
-- Urgencia → coalición → visión → comunicar → obstáculos → triunfos cortos → consolidar → cultura
-- 1-4 preparan, 5-7 implantan, 8 fija
-- Paso 8 = cultura adecuada (Thompson y Strickland)
-Mini ejercicio: Una cooperativa de ahorro quiere digitalizar sus trámites. El gerente formó un comité con los jefes de sucursal y el presidente del consejo, y ya definieron que en 2027 el 80% de las operaciones serán online. ¿En qué paso están y cuál sigue?
-Solución: Formaron la coalición orientadora (paso 2) y desarrollaron la visión y la estrategia (paso 3). El siguiente es comunicar la visión del cambio a todos los funcionarios y socios (paso 4).
+- Urgencia → coalición → visión → comunicar → eliminar obstáculos → triunfos cortos → consolidar → cultura
+- La urgencia se construye antes de pasar al paso 2
+- Paso 5: identificar a quienes se resisten y ayudarlos a ver la necesidad del cambio
+
+Ejemplo: Una cooperativa de ahorro quiere digitalizar sus trámites. El gerente formó un comité con los jefes de sucursal y el presidente del consejo, y ya definieron que en 2027 el 80% de las operaciones serán online. ¿En qué paso están y cuál sigue?
+Resolución: Formaron la coalición orientadora (paso 2) y desarrollaron la visión y la estrategia (paso 3). El siguiente es comunicar la visión del cambio a todos los funcionarios y socios (paso 4).

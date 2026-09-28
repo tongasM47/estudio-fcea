@@ -1,448 +1,207 @@
 # Administración y Gestión de las Organizaciones II · Unidad 4: Mintzberg: la organización como sistema de flujos y sus configuraciones
 
-Material para la 1ª revisión de octubre 2026 (FCEA-UDELAR). Peso en el parcial según los parciales anteriores: 7% del puntaje, prioridad alta.
-Solo en la teórica, pero en las tres revisiones con teórica conocida (2022, 2023, 2024). Nunca en el caso. El conteo 3/4 es porque falta la teórica de 2019.
+Material de estudio para la 1ª revisión de octubre 2026 (FCEA-UDELAR). TODO el contenido de este documento sale exclusivamente del material de la cátedra (notas, teóricos, diapositivas, guías, ejercicios y soluciones oficiales publicados en EVA). No hay que agregar conceptos, autores, ejemplos ni criterios que no estén acá.
+
+Fuente de la cátedra: UT2 Teórico Flujos de Mintzberg 2023 (pág. 2-10) · Diapositivas UT2 · Práctico Progo · 1ª revisión 2024 T2, 2023 T1, 2022 T4 · Examen dic 2022 MO3 y MO5
+
+Peso en la prueba según los parciales anteriores: 7% del puntaje, prioridad alta. Solo en la teórica, pero en las tres revisiones con teórica conocida (2022, 2023, 2024). Nunca en el caso. El conteo 3/4 es porque falta la teórica de 2019.
 
 ## Explicación simple
-Mirá un hospital desde arriba, como si fuera un hormiguero. Hay caminos oficiales (el organigrama: quién manda a quién), hay caminos por donde pasan los papeles y los pacientes todos los días, hay atajos que la gente usa aunque no estén en ningún plano (el café donde se enteran de todo), hay grupitos que trabajan juntos siempre, y a veces hay que armar una reunión especial para decidir algo raro que nunca pasó. Mintzberg dice que la organización es todo eso a la vez: 
-flujos
-.
-Además, según qué parte del hormiguero manda y cómo se coordinan, salen distintos "tipos de hormiguero": las 
-configuraciones
-.
+Mirá un hospital desde arriba, como si fuera un hormiguero. Hay caminos oficiales (el organigrama: quién manda a quién), hay caminos por donde pasan los papeles y los pacientes todos los días, hay atajos que la gente usa aunque no estén en ningún plano (el café donde se enteran de todo), hay grupitos que trabajan juntos siempre, y a veces hay que decidir algo para una situación puntual que no se había previsto. Mintzberg dice que la organización es todo eso a la vez: flujos.
+Además, según qué parte del hormiguero manda y cómo se coordinan, salen distintos "tipos de hormiguero": las configuraciones.
 
 ## Explicación para el parcial
-Las 6 partes de la organización
+Partes y mecanismos (vistos en AYGO I)
 
-- 
-Cúpula estratégica
-: la alta dirección.
-- 
-Línea media
-: gerentes intermedios que unen cúpula y base.
-- 
-Núcleo operativo
-: quienes hacen el trabajo básico (producen, atienden).
-- 
-Tecnoestructura
-: analistas que estandarizan el trabajo de otros (planificación, calidad, métodos).
-- 
-Staff de apoyo
-: unidades que dan servicios indirectos (jurídica, cafetería, informática).
-- 
-Ideología
-: tradiciones y creencias que le dan vida a la estructura.
+El teórico de UT2 da por vistas las cinco partes: núcleo de operaciones (centro operativo), cumbre o ápice estratégico, línea media, tecnoestructura y staff de apoyo. Los mecanismos de coordinación: ajuste mutuo (comunicación informal, autogestión), supervisión directa y normalización (trabajo programado por procedimientos y reglas).
 
 La organización como sistema de flujos (5 visiones superpuestas)
 
-- 
-Sistema de autoridad formal
-: el organigrama, la cadena de mando.
+- Autoridad formal: el organigrama muestra puestos, división del trabajo, agrupamiento de unidades y dónde se concentra la autoridad; es una representación básica e incompleta, pero condiciona lo informal.
 
-- 
-Sistema de flujos regulados
-: lo que circula de forma planificada y estandarizada: (a) el 
-trabajo operativo
- (materiales, clientes, papeles en el núcleo), (b) la 
-información y decisiones de control
- en sentido vertical (órdenes bajan, informes suben) y (c) la 
-información funcional del staff
- (asesoramiento de tecnoestructura y apoyo a la línea).
+- Flujos regulados o de control: muestran el uso de la estandarización. Tres flujos: (a) trabajo operacional (insumos, transformación y productos en el centro operativo, con documentos y órdenes de trabajo); (b) información y decisiones de control (la información sube por la línea hacia la cúpula y las decisiones bajan como órdenes); (c) información de staff (asesoramiento a la toma de decisiones entre la línea y el staff).
 
-- 
-Sistema de comunicación informal
-: centros de poder no oficiales, redes de comunicación que saltean la jerarquía.
+- Comunicación informal: centros de poder no reconocidos por el funcionamiento formal, que complementan o evitan lo formal; se basa en el ajuste mutuo.
 
-- 
-Sistema de constelaciones de trabajo
-: grupos casi autónomos de pares que trabajan en decisiones de su nivel, más o menos independientes entre sí.
+- Constelaciones de trabajo: grupos medianamente independientes de individuos que trabajan en temas de su incumbencia; combinan lo formal y lo informal.
 
-- 
-Sistema de decisiones ad hoc
-: el flujo de una decisión estratégica 
-para una situación específica
-, no prevista, de principio a fin. Características: responde a algo puntual ("para esto"), no es rutinaria ni programada, no es extrapolable a otras situaciones, atraviesa niveles y áreas (combina autoridad formal, información regulada e informal).
+- Proceso de decisiones ad hoc: decisiones para situaciones específicas, no previstas y no extrapolables a situaciones similares: se toman, actúan y no sirven de referencia futura ("para esto").
 
-Configuraciones
+Metáforas: flujos regulados y autoridad formal como resorte en espiral; lo informal como mármol con vetas; las constelaciones como torta de varios pisos.
 
-Configuración
- | 
-Mecanismo de coordinación
- | 
-Parte clave
- | 
-Ejemplo
- | 
+Configuraciones (cuadro del teórico y la diapositiva)
 
-Empresarial / simple
- | 
-Supervisión directa
- | 
-Cúpula estratégica
- | 
-Pyme con dueño que decide todo
- | 
+Configuración | Mecanismo coordinador | Parte que ejerce presión | Rasgos del teórico | 
 
-Burocracia maquinal
- | 
-Estandarización de procesos de trabajo
- | 
-Tecnoestructura
- | 
-Frigorífico, banco masivo
- | 
+Empresarial o simple | Supervisión directa | Cúpula estratégica | Decisiones centralizadas, pequeñas empresas, poco staff | 
 
-Divisional / diversificada
- | 
-Estandarización de resultados (outputs)
- | 
-Línea media
- | 
-Grupo con divisiones por producto o país
- | 
+Burocracia maquinal | Estandarización por procedimientos | Tecnoestructura | Trabajo programado y regulado, ambientes estables, fuerte autoridad formal | 
 
-Burocracia profesional
- | 
-Estandarización de habilidades (calificaciones)
- | 
-Núcleo operativo
- | 
-Hospital, universidad, estudio contable
- | 
+Divisional o diversificada | Estandarización por resultados | Línea jerárquica | Divisiones independientes con dirección central; multinacionales | 
 
-Adhocracia / innovadora
- | 
-Adaptación mutua
- | 
-Staff de apoyo (ver nota)
- | 
-Agencia de diseño, empresa de software
- | 
+Burocracia profesional | Estandarización por calificaciones | Centro operativo | Profesionales, entornos complejos pero estables, poca planificación | 
 
-Misionera
- | 
-Estandarización de normas (ideología)
- | 
-Ideología
- | 
-ONG, orden religiosa, cooperativa militante
- | 
+Adhocracia o innovadora | Ajuste mutuo | Tecnoestructura | La forma más dinámica y flexible; se adapta a sus proyectos | 
 
-Política
- | 
-Ninguno dominante
- | 
-Ninguna (conflicto)
- | 
-Organización en crisis o luchas internas
- | 
+Misionera | Estandarización por procedimientos (el texto: de reglas o normas) | Cúpula estratégica | Foco en la ideología, división del trabajo difusa | 
 
-Nota sobre la adhocracia
-: en Mintzberg la parte clave es el 
-staff de apoyo
- (en la adhocracia administrativa, junto con el núcleo operativo en la operativa). La diapositiva de la cátedra dice "tecnoestructura". En el parcial poné "staff de apoyo (la diapositiva del curso indica tecnoestructura)" y te cubrís de las dos.
+Política | Ninguno | Ninguna | Solo resalta el poder; problemas de ajuste en sus conflictos |
 
 ## Cómo se resuelve en el parcial
-- 
-"Analizá 3 de las 7 configuraciones"
-: para cada una escribí nombre → mecanismo de coordinación → parte clave → rasgos (centralización, entorno en que funciona, tamaño) → ejemplo uruguayo. Elegí las más fáciles: simple, maquinal y profesional.
+- "Analizá 3 de las 7 configuraciones": para cada una escribí nombre → mecanismo coordinador → parte que ejerce presión → rasgos que da el teórico → ejemplo. Elegí las más fáciles: simple, maquinal y profesional.
 
-- 
-"Flujos regulados"
-: definí el sistema de flujos regulados y describí los tres: trabajo operativo, control vertical (órdenes abajo, informes arriba) e información funcional del staff. Un ejemplo de cada.
+- "Flujos regulados": definí el sistema de flujos regulados y describí los tres: trabajo operacional, información y decisiones de control (información arriba, órdenes abajo) e información de staff. Un ejemplo de cada.
 
-- 
-"Decisiones ad hoc"
-: definí (decisión para una situación específica), listá 3 características (no prevista, no extrapolable, cruza niveles/áreas) y poné un ejemplo concreto (un incendio, una pandemia, una fusión).
+- "Decisiones ad hoc": definí (decisión para una situación específica), listá sus rasgos (situación específica, no prevista, no extrapolable: "para esto") y poné un ejemplo concreto.
 
 ## Trampas típicas
-- 
-Cruzar mecanismos: la 
-maquinal
- estandariza 
-procesos
-; la 
-profesional
- estandariza 
-habilidades
-; la 
-divisional
- estandariza 
-resultados
-.
+- Cruzar mecanismos: la maquinal estandariza por procedimientos; la profesional, por calificaciones; la divisional, por resultados.
 
-- 
-Decir que en la burocracia profesional manda la tecnoestructura: manda el 
-núcleo operativo
- (los profesionales).
+- Decir que en la burocracia profesional manda la tecnoestructura: ejerce presión el centro operativo.
 
-- 
-Confundir comunicación informal con constelaciones: las constelaciones son grupos de trabajo; lo informal son canales y poder no oficiales.
+- Poner una sexta parte ("ideología"): el material nombra cinco partes; la ideología aparece como foco de la configuración misionera.
 
-- 
-Olvidar que las configuraciones son "tipos puros": las empresas reales mezclan.
+- Confundir comunicación informal con constelaciones: las constelaciones son grupos de trabajo que combinan lo formal y lo informal; lo informal son centros de poder no reconocidos.
+
+- Olvidar la limitación que reconoce el material: por su momento histórico el modelo no contempla formas posteriores (tercerizaciones, menos niveles jerárquicos).
 
 ## Ejercicio resuelto
-Explicá tres características del sistema de decisiones ad hoc de Mintzberg y dá un ejemplo (3 pts).
-Solución:
-Mintzberg ve la organización como superposición de flujos; uno de ellos es el 
-sistema de decisiones ad hoc
-: el recorrido completo de una decisión estratégica que surge por una situación específica.
-- 
-Es "para esto"
-: se dispara ante un hecho puntual no previsto, no es rutinario ni programado.
-- 
-No es extrapolable
-: el proceso seguido no sirve como norma para otras situaciones; cada decisión ad hoc tiene su propio recorrido.
-- 
-Atraviesa la estructura
-: involucra distintos niveles y áreas, mezclando autoridad formal, flujos regulados y comunicación informal.
-Ejemplo
-: el incendio de un centro comercial en Navidad obliga a la dirección a decidir en días cómo reabrir, con participación de seguridad, mantenimiento, comercial, locatarios y bomberos. Ese proceso no se vuelve a repetir igual.
+Letra: Explicá tres características del sistema de decisiones ad hoc de Mintzberg y dá un ejemplo (3 pts).
+
+Solución: Mintzberg ve la organización como superposición de flujos; uno de ellos es el proceso de decisiones ad hoc, que mira la toma de decisiones desde una perspectiva más flexible que el flujo regulado.
+- Para situaciones específicas: la decisión se toma ante un caso concreto.
+- No previstas: no responde a una rutina ni a un procedimiento establecido.
+- No extrapolables: se toma, actúa y no puede tomarse como referencia para situaciones futuras similares; es "para esto" y no para otra cosa.
+
+Ejemplo: el incendio de un centro comercial en Navidad obliga a decidir cómo reabrir; lo resuelto responde a esa situación y no queda como regla para otras.
 
 ## Cómo aparece en la prueba
 - T2 (3/3): Teórica UT2 · Mintzberg: flujos y configuraciones. Proceso de decisión ad hoc con ejemplo (2022), sistema de flujos regulados (2023, y también en el examen de dic 2023), 3 de las 7 configuraciones (2024). Consejo: Es la única vía por la que entra la UT2 y nunca falta. Tené clara la tabla de configuraciones (mecanismo de coordinación + parte clave + ejemplo) y los cinco sistemas de flujos con sus rasgos.
 
-## Subtema: Las 6 partes de la organización y los mecanismos de coordinación
-Pensá en una escuela. Arriba está la directora (la cúpula). En el medio, los coordinadores de cada ciclo (línea media). Abajo, los maestros que dan clase todos los días (núcleo operativo). Al costado hay quienes arman los programas y los horarios para todos (tecnoestructura) y quienes dan servicios como la cantina o la limpieza (staff de apoyo). Y todo está envuelto por "cómo somos en esta escuela" (la ideología). Para que todos trabajen juntos, se coordinan de distintas formas: hablando, con órdenes o con reglas.
+## Subtema: Las partes de la organización y los mecanismos de coordinación
+Fuente de la cátedra: UT2 Teórico Flujos de Mintzberg 2023, sec. I (pág. 2, nota 1) y sec. II (pág. 8, nota 11) · Diapositivas UT2
 
-Mintzberg describe 
-6 partes
-:
+Pensá en una escuela. Arriba está la dirección, en el medio los coordinadores, abajo los maestros que dan clase todos los días, y al costado hay quienes arman programas y sistemas para todos y quienes dan servicios de apoyo. Para que todos trabajen juntos se coordinan de distintas formas: hablando entre ellos, con alguien que da órdenes o con reglas y procedimientos escritos. Mintzberg estudió cómo se relacionan esas partes y por dónde circula la información.
 
-Parte
- | 
-Quiénes son
- | 
+Mintzberg investigó las organizaciones desde su morfología, anatomía y funcionamiento: plantea los roles, las partes y sus formas de relacionamiento, para terminar explicando el flujo de la información y el conocimiento hacia los puntos de decisión. Las partes (vistas en AYGO I, nota 1 del teórico UT2) son:
 
-Cúpula estratégica
- | 
-La alta dirección, con visión global
- | 
+- Cúpula o ápice estratégico (la diapositiva y el cuadro de configuraciones dicen "cúpula estratégica").
 
-Línea media
- | 
-Gerentes intermedios que unen cúpula y núcleo por la autoridad formal
- | 
+- Línea media (el cuadro la llama "línea jerárquica").
 
-Núcleo operativo
- | 
-Quienes hacen el trabajo básico: producir bienes o prestar servicios
- | 
+- Núcleo de operaciones (o centro operativo): donde se produce el producto o servicio de la organización.
 
-Tecnoestructura
- | 
-Analistas que diseñan y estandarizan el trabajo de otros (planificación, calidad, ingeniería de procesos, capacitación)
- | 
+- Tecnoestructura: en los flujos de staff propone acciones sobre el proceso que debe aprobar la línea y diseña los sistemas de gestión de la información.
 
-Staff de apoyo
- | 
-Unidades que dan servicios indirectos (jurídica, cafetería, informática, relaciones públicas)
- | 
+- Staff de apoyo.
 
-Ideología
- | 
-Tradiciones y creencias que distinguen a la organización y le dan vida
- | 
+Los vínculos que relacionan las partes son de dos tipos: mecanismos y flujos. Los mecanismos de coordinación (cómo se coordinan las personas para llevar adelante el trabajo, nota 11) son:
 
-Mecanismos de coordinación
-: adaptación mutua (comunicación informal entre pares), supervisión directa (uno da órdenes a otros), y cuatro estandarizaciones: de 
-procesos de trabajo
-, de 
-resultados
- (outputs), de 
-habilidades
- (formación) y de 
-normas
- (valores compartidos). Cada configuración se apoya en uno de ellos, y eso define qué parte es la clave. La idea central de Mintzberg es la 
-consistencia interna
-: mecanismo, parte clave y tipo de descentralización tienen que encajar.
+- Ajuste mutuo: comunicación informal, autogestión.
+
+- Supervisión directa: una persona es responsable por el trabajo de otros; da lugar a la estructura jerárquica.
+
+- Normalización o estandarización: el trabajo está programado y especificado mediante procedimientos y reglas. En el cuadro de configuraciones aparece como estandarización por procedimientos, por resultados y por calificaciones.
+
+En cada configuración predomina un mecanismo coordinador, y por eso el lugar central lo adquiere una de las partes. Las organizaciones efectivas mantienen consistencia interna entre mecanismos, partes, parámetros de diseño y contexto.
+
 Ideas clave:
-- Cúpula, línea media, núcleo operativo, tecnoestructura, staff de apoyo, ideología
-- Tecnoestructura estandariza; staff de apoyo da servicios indirectos
-- 6 mecanismos: adaptación mutua, supervisión directa y 4 estandarizaciones
-- Consistencia interna entre mecanismo y parte clave
-Mini ejercicio: En un hospital: el área de compras, los médicos, el departamento que redacta los protocolos de atención y el comedor del personal. Ubicá cada uno.
-Solución: Compras y comedor: staff de apoyo (servicios indirectos). Médicos: núcleo operativo. Quienes redactan protocolos: tecnoestructura (estandarizan el trabajo de otros).
+- Partes: cúpula estratégica, línea media, núcleo de operaciones, tecnoestructura, staff de apoyo
+- Vínculos entre partes: mecanismos y flujos
+- Mecanismos: ajuste mutuo, supervisión directa, estandarización (procedimientos, resultados, calificaciones)
+- Consistencia interna entre mecanismos, partes, parámetros de diseño y contexto
+
+Ejemplo: En una fábrica de pastas: (a) los operarios que amasan y envasan; (b) el área que diseña los procedimientos que todos deben seguir y el sistema de información de producción; (c) la dirección. Ubicá cada uno entre las partes de Mintzberg.
+Resolución: (a) Núcleo de operaciones: allí se produce el producto. (b) Tecnoestructura: normaliza el trabajo mediante procedimientos y diseña los sistemas de gestión de la información. (c) Cúpula estratégica.
 
 ## Subtema: Sistema de autoridad formal y sistema de flujos regulados
-En una fábrica de alfajores está el "dibujo oficial" de quién manda a quién: eso es la autoridad formal. Y después están las cosas que circulan todos los días por caminos marcados, como en una cinta transportadora: la masa pasa de una máquina a otra, las órdenes bajan del jefe y los informes de cuántos alfajores se hicieron suben. Además, los que diseñan las recetas les pasan instrucciones a los que las fabrican. Todo eso circula de forma prevista: son los flujos regulados.
+Fuente de la cátedra: UT2 Teórico Flujos de Mintzberg 2023, sec. I.1 y I.2 (pág. 3-5) · Diapositivas UT2 · 1ª revisión 2023, teórica 1
 
-Mintzberg propone ver la organización como 
-5 sistemas de flujos superpuestos
-. Los dos primeros son los "oficiales":
+En una fábrica de alfajores está el "dibujo oficial" de quién manda a quién: el organigrama. Y están las cosas que circulan todos los días por caminos marcados: la masa pasa de una máquina a otra, la información sube hasta el jefe y las órdenes bajan, y los que diseñan los sistemas y procedimientos le pasan su asesoramiento a los que producen. Todo eso está previsto: son los flujos regulados.
 
-1. Sistema de autoridad formal
-: el organigrama. Muestra la división del trabajo, las posiciones, la cadena de mando y la supervisión directa. Es la visión más tradicional y la más incompleta.
+Mintzberg analiza la organización como un sistema de flujos: no es la suma de partes aisladas, sino que estas toman valor al relacionarse mediante flujos (movimiento de información, documentación, datos, órdenes, formales o informales). Los dos primeros sistemas son los formales:
 
-2. Sistema de flujos regulados
-: lo que circula de forma 
-planificada, estandarizada y controlada
-. Tiene tres flujos:
+1. Sistema de autoridad formal: se representa con el organigrama, una representación básica e incompleta: no muestra relaciones de poder y comunicación, pero sí la división del trabajo, las posiciones, cómo se agrupan las unidades y en qué órganos está la autoridad formal. Las relaciones informales se ven condicionadas por las formales.
 
-- 
-Flujo de trabajo operativo
-: materiales, clientes, documentos que se mueven por el núcleo operativo (entrada, transformación, salida).
+2. Sistema de flujos regulados o de control: muestra el uso de los mecanismos de estandarización (el organigrama, en cambio, visualiza la supervisión directa). Tiene tres flujos:
 
-- 
-Flujo de información y decisiones de control (vertical)
-: las órdenes e instrucciones bajan; la información de desempeño (informes, retroalimentación) sube. Las decisiones de excepción suben hasta el nivel que puede resolverlas.
+- Flujo de trabajo operacional: en el centro operativo, acompaña el proceso de producción (insumos, transformación, productos o servicios) con documentos, datos, formularios u órdenes de trabajo. Varía según la organización: en un periódico la información y la confección van por caminos separados; en una clínica el usuario es parte del proceso.
 
-- 
-Flujo de información de staff (horizontal)
-: asesoramiento de la tecnoestructura y del staff de apoyo hacia la línea, y datos de la línea hacia ellos.
+- Flujo de información y decisiones de control: la información circula en forma vertical desde el centro operativo hacia la cúpula por la línea jerárquica; las decisiones se toman arriba y se materializan en órdenes que bajan. Muestra la división vertical de la toma de decisiones (por ejemplo, montos de gasto que puede autorizar cada nivel).
 
-Características para la teórica: circula por canales preestablecidos, es previsible y repetitivo, se apoya en la estandarización, conecta las partes de la organización y permite el control. Salió en la revisión 2023 y en el examen de dic 2023.
+- Flujo de información funcional o de staff: comunicación entre la línea y el staff, de contenido de asesoramiento a la toma de decisiones; la tecnoestructura propone acciones que la línea debe aprobar y diseña los sistemas de información.
+
 Ideas clave:
-- Autoridad formal = organigrama, cadena de mando
-- Flujos regulados: operativo, control vertical, staff horizontal
-- Órdenes bajan, información de desempeño sube
-- Regulado = planificado, estandarizado, previsible
+- Autoridad formal = organigrama, representación básica e incompleta
+- Flujos regulados: operacional, información y decisiones de control, información de staff
+- Control: la información sube y las decisiones bajan como órdenes
+- Staff: asesoramiento de la tecnoestructura a la línea
 
 ## Subtema: Comunicación informal, constelaciones de trabajo y decisiones ad hoc
-En la escuela, además de lo oficial, hay chismes que corren en el recreo y alumnos que, sin ser delegados, todos escuchan: esa es la comunicación informal. También hay grupitos que se juntan a hacer los trabajos prácticos y se organizan solos: son como las constelaciones de trabajo. Y un día pasa algo que nunca había pasado, como que se inunda el gimnasio, y hay que decidir todo de cero, con gente de varios lados: eso es una decisión ad hoc.
+Fuente de la cátedra: UT2 Teórico Flujos de Mintzberg 2023, sec. I.3, I.4 y I.6 (pág. 5-7) · Diapositivas UT2 · 1ª revisión 2022, teórica 4 · Práctico Progo
 
-Los otros tres sistemas de flujos muestran lo que el organigrama no ve:
+En la escuela, además de lo oficial, hay alumnos que todos escuchan aunque no sean delegados, y compañeros que se ponen de acuerdo entre ellos sin pasar por la maestra: esa es la comunicación informal. También hay grupitos que se juntan a trabajar en lo suyo, medio por su cuenta: parecido a las constelaciones de trabajo. Y un día pasa algo que nunca había pasado y hay que decidir algo "para esto", que no va a servir de regla para otra vez: eso es una decisión ad hoc.
 
-3. Sistema de comunicación informal
-: centros de poder no oficiales y redes de comunicación que saltean la jerarquía. Complementa y a veces sustituye a los canales formales. Ejemplo: el encargado de depósito que "sabe todo" y al que consultan hasta los gerentes.
+3. Sistema de comunicación informal: desde los estudios de Elton Mayo quedaron en evidencia influencias que Mintzberg llama flujos de comunicación informal: centros de poder no reconocidos por el funcionamiento formal, que no son canales aceptados pero existen, a veces complementando y muchas veces obviando lo formal. Se basa en el ajuste mutuo. Dos compañeros que acuerdan el trabajo obviando a sus jefes sustituyen la supervisión directa por el ajuste mutuo. Lo formal condiciona lo informal y lo informal influye en lo formal.
 
-4. Sistema de constelaciones de trabajo
-: grupos casi autónomos de 
-pares
- que trabajan en decisiones propias de su nivel, relativamente independientes entre sí (camarillas o grupos de trabajo). Cada constelación se ocupa de un tipo de decisión o área funcional.
+4. Constelaciones de trabajo: las comunicaciones de corte informal siguen cierto marco, relacionado con el sistema de autoridad formal. En los niveles superiores suelen formarse grupos de tres directivos horizontales; en los inferiores el factor de unión es la especialización o la funcionalidad. La organización adopta la forma de "un conjunto de constelaciones de trabajo de exclusivos círculos prácticamente independientes de individuos que intentan tomar decisiones adecuadas a su particular nivel jerárquico". Oscilan entre lo formal y lo informal.
 
-5. Sistema de decisiones ad hoc
-: el flujo de una decisión 
-estratégica
- para una situación 
-específica
-, desde que se reconoce el problema hasta que se implanta la solución. Características:
+Metáforas del teórico: los flujos regulados y la autoridad formal, un resorte en espiral; el sistema informal, un mármol con vetas; las constelaciones, una torta de varios pisos.
 
-- 
-Responde a una situación puntual ("ad hoc" = "para esto").
+5. Sistema de proceso de decisiones ad hoc: decisiones que se toman para situaciones específicas, no previstas, y fundamentalmente no extrapolables a situaciones similares: se toman, actúan y no pueden tomarse como referencia para situaciones futuras. Son decisiones "para esto" y no para otra cosa. (La 1ª revisión 2022 pidió sus 3 principales características con un ejemplo.)
 
-- 
-No es rutinaria ni programada, y 
-no es extrapolable
- a otras situaciones.
-
-- 
-Atraviesa niveles y áreas: combina autoridad formal, flujos regulados y comunicación informal.
-
-- 
-Tiene fases: identificación, desarrollo (búsqueda o diseño de soluciones) y selección/autorización.
-
-Para la teórica (salió en 2022): definilo, dá las características y un ejemplo concreto (lanzar un producto, reubicar una planta, responder a una crisis).
 Ideas clave:
-- Informal: poder y comunicación no oficiales
-- Constelaciones: grupos de pares casi autónomos de un mismo nivel
-- Ad hoc: decisión estratégica puntual, no extrapolable
-- Ad hoc atraviesa niveles y combina los otros sistemas
-Mini ejercicio: Por quejas de proveedores, un taller formó un grupo con la auxiliar contable, la jefa de administración y el encargado de depósito para rediseñar el circuito de facturas de compra. ¿Qué sistemas se observan?
-Solución: El grupo de trabajo que analiza el circuito es una constelación de trabajo, y el proceso para resolver este problema puntual refleja una decisión ad hoc (pregunta 5 del examen de dic 2022).
+- Informal: centros de poder no reconocidos; se basa en el ajuste mutuo
+- Constelaciones: círculos casi independientes que deciden sobre su nivel; entre lo formal y lo informal
+- Ad hoc: situación específica, no prevista, no extrapolable ("para esto")
+- Resorte, mármol y torta de varios pisos
+
+Ejemplo: Por quejas de proveedores, un taller formó un grupo con la auxiliar contable, la jefa de administración y el encargado de depósito para rediseñar el circuito de facturas de compra. ¿Qué sistemas se observan?
+Resolución: El grupo de trabajo que analiza el circuito se ve como una constelación de trabajo, y el proceso para resolver este problema puntual refleja una decisión ad hoc (pregunta 5 del examen de dic 2022). El caso es análogo al práctico Progo.
 
 ## Subtema: Configuraciones: empresarial, maquinal y divisional
-En un almacén de barrio, el dueño decide y le dice a cada uno qué hacer: todo pasa por él. En una fábrica de galletitas enorme, cada paso está escrito y medido, y los que escriben esas reglas son los que en realidad mandan. En un grupo con varias empresas (una de lácteos, otra de jugos), cada gerente de empresa maneja lo suyo y la casa central solo le pide resultados. Son tres formas distintas de organizarse.
+Fuente de la cátedra: UT2 Teórico Flujos de Mintzberg 2023, sec. II, configuraciones 1 a 3 (pág. 8-9) · Diapositivas UT2 (cuadro de configuraciones)
 
-Configuración
- | 
-Mecanismo
- | 
-Parte clave
- | 
-Rasgos
- | 
+En un almacén de barrio, el dueño decide y le dice a cada uno qué hacer. En una fábrica de producción en serie, cada paso está programado en procedimientos y los que los diseñan son los que pesan. En un grupo con filiales en varios países, cada división tiene su propia estructura y la dirección central se coordina con ellas por resultados. Son tres configuraciones distintas.
 
-Empresarial (simple)
- | 
-Supervisión directa
- | 
-Cúpula estratégica
- | 
-Poca o nula estructura formal, centralizada en el dueño, flexible; organizaciones jóvenes o chicas, o en crisis. Riesgo: todo depende de una persona
- | 
+Configuración | Mecanismo coordinador | Parte que ejerce presión | Rasgos (teórico UT2) | 
 
-Burocracia maquinal
- | 
-Estandarización de procesos de trabajo
- | 
-Tecnoestructura
- | 
-Tareas rutinarias y muy especializadas, reglas y procedimientos formales, entorno simple y estable, grandes y maduras (producción masiva, bancos, servicios masivos). Eficiente pero rígida
- | 
+Empresarial o simple | Supervisión directa | Cúpula estratégica | Decisiones centralizadas en la cúpula. Ejemplo claro: pequeñas empresas, estructura simple y flexible, sin departamentalización importante en la línea media y con poco staff | 
 
-Divisional (diversificada)
- | 
-Estandarización de resultados (outputs)
- | 
-Línea media
- | 
-Divisiones semiautónomas por producto o mercado bajo una sede central que controla por resultados (metas, rentabilidad); típica de grandes empresas diversificadas
- | 
+Burocracia estructural u organización maquinal | Estandarización por procedimientos | Tecnoestructura | Normaliza el trabajo con procedimientos; clara programación y trabajo operativo regulado; producción en serie; ambientes en general estables; también organizaciones pequeñas con trabajo simple y repetitivo y oficinas gubernamentales con control constante; fuerte componente de autoridad formal | 
 
-Pista para identificar: ¿quién coordina? Si es "el dueño dice a cada uno", empresarial. Si son manuales y procesos escritos por analistas, maquinal. Si la casa matriz fija metas a cada unidad y las deja operar, divisional.
+Divisional o diversificada | Estandarización por resultados | Línea jerárquica (línea media) | Divisiones independientes, cada una con su propia estructura, con sutil coordinación entre sí y una dirección administrativa central; grandes corporaciones con filiales, principalmente con criterios geográficos, como las multinacionales | 
+
+Pista para identificar: ¿quién coordina y cómo? Si el dueño da las órdenes, empresarial; si mandan los procedimientos que diseñan los analistas, maquinal; si hay divisiones independientes coordinadas por resultados, divisional.
+
 Ideas clave:
-- Empresarial: supervisión directa, cúpula
-- Maquinal: estandarización de procesos, tecnoestructura
-- Divisional: estandarización de resultados, línea media
-- Maquinal = entorno simple y estable
-Mini ejercicio: Un grupo uruguayo tiene una cadena de farmacias, una distribuidora y una empresa de cosmética. Cada gerente de empresa decide su operación y el directorio del grupo les exige un EBITDA anual. ¿Qué configuración es?
-Solución: Divisional: divisiones semiautónomas coordinadas por estandarización de resultados (meta de EBITDA), con la línea media (gerentes de división) como parte clave.
+- Empresarial: supervisión directa, cúpula estratégica
+- Maquinal: estandarización por procedimientos, tecnoestructura
+- Divisional: estandarización por resultados, línea jerárquica
+- Maquinal: ambientes estables y trabajo regulado
+
+Ejemplo: Un grupo uruguayo tiene divisiones independientes en tres países, cada una con su propia estructura, y la dirección central les fija metas de resultados. ¿Qué configuración es?
+Resolución: Divisional o diversificada: divisiones independientes con su propia estructura, coordinadas por estandarización por resultados, con la línea jerárquica como parte que ejerce presión y una dirección administrativa central.
 
 ## Subtema: Configuraciones: profesional, adhocracia, misionera y política
-En un hospital, los que saben son los médicos: nadie les dice paso a paso cómo operar, porque ya lo aprendieron en la facultad. En una agencia que inventa campañas de publicidad, cada proyecto es nuevo y el equipo se arregla hablando. En un grupo de voluntarios, lo que los une es creer en lo mismo. Y en una empresa donde los socios se pelean todo el tiempo, nadie coordina y cada uno tira para su lado.
+Fuente de la cátedra: UT2 Teórico Flujos de Mintzberg 2023, sec. II, configuraciones 4 a 7 (pág. 9-10) · Diapositivas UT2 · Examen dic 2022, múltiple opción 3 · 1ª revisión 2024, teórica 2
 
-Configuración
- | 
-Mecanismo
- | 
-Parte clave
- | 
-Rasgos
- | 
+En un hospital, los que saben son los médicos: su formación coordina el trabajo. En una empresa que trabaja por proyectos innovadores, cada proyecto es nuevo y el equipo se arregla ajustándose entre todos. En un grupo que se mueve por una ideología compartida, lo que pesa son las reglas y normas comunes. Y en una organización donde solo importa el poder, nadie coordina y aparecen conflictos.
 
-Burocracia profesional
- | 
-Estandarización de habilidades
- | 
-Núcleo operativo
- | 
-Profesionales formados afuera (universidad) con mucha autonomía; entorno complejo pero estable (hospitales, universidades, estudios contables)
- | 
+Configuración | Mecanismo coordinador | Parte que ejerce presión | Rasgos (teórico UT2) | 
 
-Adhocracia (innovadora)
- | 
-Adaptación mutua
- | 
-Staff de apoyo (la diapositiva del curso indica tecnoestructura)
- | 
-Equipos de proyecto con expertos, estructura orgánica y flexible, entorno dinámico y complejo, innovación (software, agencias, consultoras de diseño)
- | 
+Burocracia profesional | Estandarización por calificaciones | Centro operativo | Entornos complejos pero estables, donde influyen modas, tendencias y hábitos; profesionales que realizan tareas operativas, separadas de las tareas simples y rutinarias; poca planificación | 
 
-Misionera
- | 
-Estandarización de normas
- | 
-Ideología
- | 
-Valores compartidos muy fuertes; poca estructura formal (ONG, órdenes religiosas, cooperativas militantes)
- | 
+Adhocracia o innovadora | Ajuste mutuo | Tecnoestructura | Forma innovadora y sumamente orgánica que surge cuando la tecnoestructura hace valer su influencia; asesora en la toma de decisiones y las áreas se coordinan internamente según las necesidades; la forma más dinámica y flexible, adapta la estructura a sus proyectos | 
 
-Política
- | 
-Ninguno dominante
- | 
-Ninguna
- | 
-Predomina el conflicto y el juego de poder; suele ser una etapa transitoria (crisis, fusiones)
- | 
+Misionera | Estandarización por procedimientos (el texto habla de estandarización de las reglas o normas) | Cúpula estratégica | Foco importante en la ideología; división del trabajo "difusa" y poca especialización en los puestos | 
 
-Las configuraciones son 
-tipos puros
-: las organizaciones reales mezclan rasgos, y el valor del modelo está en la consistencia entre mecanismo, parte clave y entorno. En la teórica (3 de 7 en 2024): nombre, mecanismo, parte clave y un ejemplo.
+Política | Ninguno | Ninguna | No resalta ningún atributo salvo el poder; sin mecanismo de coordinación ni estructuración, lo que lleva a problemas de ajuste en sus conflictos internos | 
+
+El teórico aclara que el modelo, por su momento histórico, no contempla formas posteriores (tercerizaciones, menos niveles jerárquicos, autonomía interna), pero sigue vigente para identificar modelos organizacionales y entender su lógica. En la teórica (3 de 7 en 2024): nombre, mecanismo, parte y un rasgo o ejemplo de cada una, siguiendo el cuadro del curso.
+
 Ideas clave:
-- Profesional: estandarización de habilidades, núcleo operativo
-- Adhocracia: adaptación mutua, staff de apoyo (curso: tecnoestructura)
-- Misionera: estandarización de normas, ideología
-- Política: ningún mecanismo ni parte dominante
+- Profesional: estandarización por calificaciones, centro operativo
+- Adhocracia: ajuste mutuo, tecnoestructura (cuadro del curso)
+- Misionera: estandarización (reglas o normas), cúpula estratégica, foco en la ideología
+- Política: sin mecanismo ni parte; solo el poder
