@@ -1,0 +1,83 @@
+/* flashcards */
+.fc-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: stretch;
+    max-width: 720px;
+}
+.fc {
+    min-height: 230px;
+    border-radius: 16px;
+    border: 1px solid var(--line);
+    background: var(--surface);
+    box-shadow: var(--shadow);
+    padding: 22px 24px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+.fc .side {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--c);
+    font-family: var(--f-mono);
+}
+.fc .face {
+    font-family: var(--f-read);
+    font-size: 19px;
+    line-height: 1.55;
+}
+.fc .back {
+    border-top: 1px dashed var(--line);
+    padding-top: 12px;
+    font-size: 17px;
+}
+.fc-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: var(--muted);
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.rate {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+.rate button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--line);
+    background: var(--surface);
+    cursor: pointer;
+    font-weight: 700;
+}
+.rate .r0 {
+    color: var(--bad);
+}
+.rate .r1 {
+    color: var(--ink);
+}
+.rate .r2 {
+    color: var(--good);
+}
+.rate small {
+    display: block;
+    font-weight: 500;
+    color: var(--muted);
+    font-size: 11px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .fc {
+        transition: transform 0.15s ease;
+    }
+    .fc:active {
+        transform: scale(0.99);
+    }
+}
