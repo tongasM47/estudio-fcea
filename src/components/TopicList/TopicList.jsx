@@ -26,6 +26,11 @@ function Topic({ subject, topic, index, open, onCards, onQuiz, data }) {
             </summary>
             {isOpen && (
                 <div className="tbody">
+                    {topic.src && (
+                        <p className="src-ref">
+                            <span>Fuente de la cátedra:</span> <Html as="span" html={topic.src} />
+                        </p>
+                    )}
                     {hasPodcasts(subject) && (
                         <div className="sec">
                             <h4>Podcast de la unidad</h4>
