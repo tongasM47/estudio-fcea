@@ -6,7 +6,7 @@ import PlanPage from "./pages/PlanPage/PlanPage.jsx";
 import SubjectPage from "./pages/SubjectPage/SubjectPage.jsx";
 import TodayPage from "./pages/TodayPage/TodayPage.jsx";
 
-const TASK_TAB = { topic: "temas", cards: "cards", quiz: "quiz", exam: "exams", errors: "errors", gen: "gen" };
+const TASK_TAB = { analysis: "analisis", topic: "temas", cards: "cards", quiz: "quiz", exam: "exams", errors: "errors", gen: "gen" };
 
 function routeFromHash() {
     const h = (window.location.hash || "").slice(1);
