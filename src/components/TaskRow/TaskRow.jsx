@@ -3,7 +3,7 @@ import { subjectColor } from "../../data/subjects.js";
 import { useProgress } from "../../context/ProgressContext.jsx";
 import "./TaskRow.css";
 
-const KIND_LABEL = { topic: "Tema", cards: "Flashcards", quiz: "Preguntas", exam: "Parcial", errors: "Errores", gen: "Generador" };
+const KIND_LABEL = { analysis: "Análisis", topic: "Tema", cards: "Flashcards", quiz: "Preguntas", exam: "Parcial", errors: "Errores", gen: "Generador" };
 
 // Una tarea del plan: checkbox + botón que abre el recurso correspondiente.
 function TaskRow({ task, onOpen }) {
