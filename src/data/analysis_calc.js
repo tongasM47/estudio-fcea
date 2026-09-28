@@ -93,15 +93,15 @@ const analysis = {
 <li><strong>Taylor al revés</strong> es el que más se reinventa: suma \(g(0)+g'(0)+g''(0)\) (2023-mayo 2024), \(Q(1)\) del polinomio de \(g\) (octubre 2024-octubre 2025), afirmaciones sobre extremos (mayo 2026, nuevo).</li>
 <li><strong>Derivada de la inversa con datos:</strong> \(g=(f^{-1})^3\) (2023, 2024), \(f+4f^{-1}\), \(x\,f^{-1}(x)\), \((f^{-1})^2+f\), \(L(f^{-1})\) pidiendo \(g(2)+g'(2)\) (octubre 2025), \(\sqrt{f^{-1}}\) (mayo 2026). Dos veces \(f(a)=a\) (punto fijo), lo que esconde la trampa de evaluar en el punto equivocado.</li>
 <li><strong>\(f\) explícita:</strong> siempre polinomio + \(L\), \(e\), \(\text{Arctg}\) o racional, evaluada en 0 o 1. Mayo 2026 trajo una decreciente (\(e^{-2x}+e^{-3x}\)) con derivada negativa.</li>
-<li><strong>Series:</strong> la numérica pasó de una geométrica disfrazada a una suma de dos (\(\frac{5+2^n}{3^{n-1}}\), mayo 2026). La de parámetro pasó de \(x\) arriba (2023) a \(x\) abajo, con alternada \((-1)^n\) (octubre 2025) y con potencia impar \(x^{2n+1}\) que da una raíz falsa (mayo 2025).</li>
+<li><strong>Series:</strong> la numérica pasó de una geométrica disfrazada a una suma de dos (\(\frac{5+2^n}{3^{n-1}}\), mayo 2026). La de parámetro pasó de \(x\) arriba (2023) a \(x\) abajo, con \((-1)^n\) (octubre 2025) y con potencia impar \(x^{2n+1}\) que da una raíz falsa (mayo 2025).</li>
 <li>Opciones que nunca fueron correctas en V1: "no es invertible", "ninguna de las otras", "diverge", "ni inyectiva ni sobreyectiva". Solo miramos la versión 1: en las otras versiones pueden serlo, así que no las descartes a ciegas.</li>
 </ul>`,
     beyond: String.raw`<p>Todo lo que entró en 7 pruebas está cubierto por los 10 moldes. Lo del programa que no apareció y conviene tener a mano (1 a 1,5 h en total, después de lo imprescindible):</p>
 <ul>
-<li>Desarrollo de \((1+x)^\alpha\) y \(\sqrt{1+x}\): no salió nunca, pero es el candidato natural para un límite nuevo (20 min).</li>
-<li>Derivadas de \(\text{Arcsen}\) y \(\text{Arccos}\) y restricción de \(\text{sen}\) (no solo \(\cos\)): la P3 podría venir con \(\text{sen}\) o \(-\text{sen}\) (20 min).</li>
-<li>Extremos con \(f''(0)=0\) (criterio con la primera derivada no nula), por si la P9 de extremos se complica (20 min).</li>
-<li>Series que divergen por \(|r|\ge1\) o que arrancan en \(n=2\): nunca fue la respuesta, pero un cambio de datos lo vuelve posible (15 min).</li>
+<li>Ejercicios 4.1 a 4.3 de las Notas (Taylor de \(\frac1{1-x}\), \(L(1+x^2)\), \(e^x+3x^2-1\) y límites con \(x^4\) abajo): no salieron tal cual, pero son la práctica que propone la cátedra (20 min).</li>
+<li>Derivadas de \(\text{Arcsen}\) y \(\text{Arccos}\) (Notas 3.2.2, clase virtual 9) y restricción de \(\text{sen}\) (no solo \(\cos\)): la P3 podría venir con \(\text{sen}\) o \(-\text{sen}\) (20 min).</li>
+<li>Extremos con \(f''(0)=0\) (Observación 12 de las Notas: la primera derivada no nula decide), por si la P9 de extremos se complica (20 min).</li>
+<li>Series que no convergen (diverge si \(r\ge1\), oscila si \(r\le-1\), Notas 1.2.2) o que arrancan en \(n=2\): nunca fue la respuesta, pero un cambio de datos lo vuelve posible (15 min).</li>
 </ul>`,
     strategy: String.raw`<ol>
 <li><strong>Primera pasada (≈50 min), lo mecánico:</strong> P3 (recorrido, 3 min), P7 (\(f\) explícita, 5 min), P8 y P10 (series, 6 min cada una), P1 (inversa, verificá con un punto), P4 (a trozos, dibujá las dos ramas).</li>
@@ -115,7 +115,7 @@ const analysis = {
 <li><strong>Lun 28/09 (2 h):</strong> derivada de la inversa (t4): las 7 P6 y las 7 P7. Escribite la regla \((f^{-1})'(b)=1/f'(f^{-1}(b))\) hasta que salga sola.</li>
 <li><strong>Mar 29/09 (2 h):</strong> series (t8): las 14 preguntas, siempre con "primer término sobre \(1-r\)" y chequeo de \(|r|\lt1\).</li>
 <li><strong>Mié 30/09 (2 h):</strong> funciones (t3 y t2): inversas explícitas, recorridos de \(\cos\), \(\text{sen}\), \(\text{Arctg}\) en el círculo, funciones a trozos.</li>
-<li><strong>Jue 01/10 (2 h):</strong> Taylor al revés (t7) en sus 3 variantes + 1 h de "más allá" (\((1+x)^\alpha\), \(\text{sen}\) restringido, extremos).</li>
+<li><strong>Jue 01/10 (2 h):</strong> Taylor al revés (t7) en sus 3 variantes + 1 h de "más allá" (Ejercicios 4.1 a 4.10 de las Notas, \(\text{sen}\) restringido, extremos).</li>
 <li><strong>Vie 02/10 (2,5 h):</strong> Parcial modelo 1 con reloj (2 h) y corrección con la lista de errores.</li>
 <li><strong>Sáb 03/10 (2,5 h):</strong> Parcial modelo 2 con reloj y corrección; si sobra, una revisión real que no hayas hecho (mayo 2023, mayo 2024 u octubre 2024, desde el PDF).</li>
 <li><strong>Dom 04/10 (1 h):</strong> solo flashcards de desarrollos y fórmulas, repaso de la lista de errores. Nada nuevo; dormir bien.</li>

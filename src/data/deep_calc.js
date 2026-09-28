@@ -5,11 +5,12 @@ const deep = {
             {
                 id: "t1.1",
                 title: String.raw`Exponencial y logaritmo`,
+                src: String.raw`Notas C1B 2026, cap. 2, Ejemplos 22 y 27 (pág. 34 y 38-39); clase virtual 6 (e y L inversas); propiedades de potencias: clase virtual 1`,
                 eli5: String.raw`<p>Pensá en una planta que cada día crece un poco más rápido que el anterior: eso es \( e^x \). Nunca tiene tamaño cero ni negativo, aunque vayas muy para atrás en el tiempo se hace chiquitita pero sigue ahí. El logaritmo \( L \) es el botón de "deshacer": le decís el tamaño de la planta y te contesta cuánto tiempo pasó. Por eso \( L \) solo acepta tamaños positivos (no existe una planta de tamaño \( -3 \)) y puede devolver cualquier tiempo, incluso negativo.</p>`,
                 explain: String.raw`<p>\( e^x \) y \( L(x) \) son inversas: \( e^{L(x)}=x \) para \( x\gt0 \) y \( L(e^x)=x \) para todo \( x \). Las dos son <strong>estrictamente crecientes</strong>.</p>
 <ul>
 <li>Límites que se usan para recorridos: \( e^x\to0^+ \) cuando \( x\to-\infty \); \( L(x)\to-\infty \) cuando \( x\to0^+ \); las dos van a \( +\infty \) cuando \( x\to+\infty \).</li>
-<li>Propiedades: \( L(ab)=L(a)+L(b) \), \( L(a/b)=L(a)-L(b) \), \( L(a^k)=k\,L(a) \), \( e^{a+b}=e^ae^b \), \( e^{kL(a)}=a^k \).</li>
+<li>Propiedades de potencias (clase virtual 1): \( a^na^m=a^{n+m} \), \( (a^n)^m=a^{nm} \), \( a^{-n}=\frac1{a^n} \), \( \sqrt a=a^{1/2} \). Con ellas: \( e^{a+b}=e^ae^b \) y \( e^{kL(a)}=\left(e^{L(a)}\right)^k=a^k \).</li>
 </ul>
 <p><strong>Transformaciones.</strong> Para \( a\,e^{bx+c}+d \) o \( a\,L(bx+c)+d \):</p>
 <ul>
@@ -17,7 +18,7 @@ const deep = {
 <li>La imagen de \( e^{u} \) (con \( u \) recorriendo todo \( \mathbb R \)) es \( (0,+\infty) \); sumar \( d \) la corre a \( (d,+\infty) \) y multiplicar por un negativo la da vuelta: \( 3-e^{x} \) tiene imagen \( (-\infty,3) \).</li>
 <li>La imagen de \( L(u) \) con \( u \) recorriendo \( (0,+\infty) \) es \( \mathbb R \), y sigue siendo \( \mathbb R \) después de multiplicar por una constante no nula y sumar.</li>
 </ul>`,
-                keys: [String.raw`\( e^x\gt0 \) siempre; \( L \) solo existe para argumento positivo`, String.raw`\( e^x \) y \( L \) son crecientes e inversas una de la otra`, String.raw`\( L(a^k)=k\,L(a) \) y \( e^{kL(a)}=a^k \)`, String.raw`Sumar una constante corre la imagen; multiplicar por un negativo la da vuelta`],
+                keys: [String.raw`\( e^x\gt0 \) siempre; \( L \) solo existe para argumento positivo`, String.raw`\( e^x \) y \( L \) son crecientes e inversas una de la otra`, String.raw`\( e^{L(x)}=x \), \( L(e^x)=x \) y \( e^{kL(a)}=a^k \)`, String.raw`Sumar una constante corre la imagen; multiplicar por un negativo la da vuelta`],
                 example: {
                     q: String.raw`Dominio e imagen de \( f(x)=2-e^{x-1} \).`,
                     sol: String.raw`Dominio \( \mathbb R \). Como \( e^{x-1} \) recorre \( (0,+\infty) \), \( -e^{x-1} \) recorre \( (-\infty,0) \) y \( f \) recorre \( (-\infty,2) \).`,
@@ -26,6 +27,7 @@ const deep = {
             {
                 id: "t1.2",
                 title: String.raw`Trigonométricas y Arctg`,
+                src: String.raw`Notas C1B 2026, cap. 3, sec. 3.1 y 3.2.1 (pág. 47-54) y tabla 3.1.4; clases virtuales 7, 8 y 9`,
                 eli5: String.raw`<p>Imaginá que das vueltas en una calesita de radio 1. El coseno te dice cuánto estás corrido a la derecha del centro y el seno cuánto estás arriba. Como la calesita gira siempre igual, los valores se repiten en cada vuelta: por eso seno y coseno no son inyectivas en todo \( \mathbb R \). El Arctg es otra cosa: es como un ascensor que sube siempre, pero nunca llega a la terraza (\( \pi/2 \)) ni al sótano (\( -\pi/2 \)).</p>`,
                 explain: String.raw`<table>
 <tr><th>\( x \)</th><th>\( 0 \)</th><th>\( \pi/2 \)</th><th>\( \pi \)</th><th>\( 3\pi/2 \)</th><th>\( 2\pi \)</th></tr>
@@ -48,6 +50,7 @@ const deep = {
             {
                 id: "t1.3",
                 title: String.raw`Reglas de derivación y cadena`,
+                src: String.raw`Reglas de derivación de Cálculo 1A que usan las Notas C1B 2026 (cap. 2 y 3, pág. 40 y 50-54); clase virtual 7 (regla de la cadena) y 8 (derivada de tg por cociente)`,
                 eli5: String.raw`<p>Pensá en tres engranajes conectados. Si el de afuera gira 3 veces por cada vuelta del del medio, y el del medio gira 2 veces por cada vuelta del de adentro, entonces el de afuera da \( 3\times2=6 \) vueltas por cada vuelta del de adentro. La regla de la cadena es eso: cuando una función está adentro de otra, las velocidades de cambio se multiplican. Si te olvidás de un engranaje, la cuenta te da mal.</p>`,
                 explain: String.raw`<table>
 <tr><th>\( h \)</th><th>\( h' \)</th></tr>
@@ -71,6 +74,7 @@ const deep = {
             {
                 id: "t1.4",
                 title: String.raw`Parábolas: vértice y recorrido en un trozo`,
+                src: String.raw`Clase virtual 4 (funciones por intervalos: vértice, concavidad, raíces) y 5 (completar cuadrado); Notas C1B 2026, Ejemplos 12 y 21 (pág. 25-33)`,
                 eli5: String.raw`<p>Una parábola con \( a\gt0 \) es un tobogán en forma de U: bajás hasta el fondo y después subís. Si solo te quedás con el pedazo que está a la izquierda del fondo, siempre vas bajando, y nunca pasás dos veces por la misma altura. Pero si tu pedazo incluye el fondo, bajás y volvés a subir, y hay alturas que visitás dos veces. Saber dónde está el fondo (el vértice) es todo el secreto.</p>`,
                 explain: String.raw`<p>Para \( ax^2+bx+c \): vértice en \( x_v=-\frac{b}{2a} \), con valor \( y_v=f(x_v) \). Completando cuadrado queda \( a(x-x_v)^2+y_v \).</p>
 <ul>
@@ -94,6 +98,7 @@ const deep = {
             {
                 id: "t2.1",
                 title: String.raw`Inyectiva: definición y cómo probarla`,
+                src: String.raw`Notas C1B 2026, sec. 2.1.2, Definición 2.3 y Teorema 2.1 (pág. 27-30); clase virtual 4`,
                 eli5: String.raw`<p>Pensá en un salón de clase donde cada alumno se sienta en una silla. La función es inyectiva si nunca hay dos alumnos en la misma silla: cada silla ocupada tiene un único dueño. Si encontrás dos alumnos distintos sentados en la misma silla, se terminó: no es inyectiva, no hace falta revisar a nadie más. Las sillas vacías no importan para esto (eso es otra propiedad).</p>`,
                 explain: String.raw`<p>\( f:A\to B \) es <strong>inyectiva</strong> si \( x_1\neq x_2 \Rightarrow f(x_1)\neq f(x_2) \). La forma equivalente, más cómoda para probar, es \( f(x_1)=f(x_2)\Rightarrow x_1=x_2 \).</p>
 <ul>
@@ -111,6 +116,7 @@ const deep = {
             {
                 id: "t2.2",
                 title: String.raw`Sobreyectiva y el papel del codominio`,
+                src: String.raw`Notas C1B 2026, sec. 2.1.1, Definiciones 2.1 y 2.2 (pág. 25-27); clases virtuales 3 y 4; 1ª rev. mayo y octubre 2023 (sobreyectiva si U es)`,
                 eli5: String.raw`<p>El codominio es la lista de invitados a una fiesta, y la imagen es la gente que efectivamente vino. La función es sobreyectiva si vinieron todos los de la lista. Fijate que la misma fiesta (la misma fórmula) puede ser un éxito o un fracaso según qué lista hayas escrito: si invitaste de más, falta gente. Por eso no alcanza con mirar la fórmula: hay que mirar qué codominio te dieron.</p>`,
                 explain: String.raw`<p>\( f:A\to B \) es <strong>sobreyectiva</strong> si su imagen \( f(A) \) es todo \( B \); dicho de otra forma, si para cada \( y\in B \) la ecuación \( f(x)=y \) tiene alguna solución en \( A \).</p>
 <ul>
@@ -128,6 +134,7 @@ const deep = {
             {
                 id: "t2.3",
                 title: String.raw`Biyectiva e inversa`,
+                src: String.raw`Notas C1B 2026, sec. 2.1.3 (pág. 30-34), Ejemplos 21, 22 y 28; clase virtual 4`,
                 eli5: String.raw`<p>Un baile de parejas perfecto: cada chica baila con exactamente un chico, ningún chico baila con dos, y no queda nadie sentado. Eso es una biyección. Y como las parejas son perfectas, se puede leer al revés: si te dicen el chico, sabés sin dudar cuál es la chica. Esa lectura al revés es la función inversa. Por eso, cuando te preguntan si una función tiene inversa, en realidad te están preguntando si el baile es perfecto.</p>`,
                 explain: String.raw`<p>\( f:A\to B \) es <strong>biyectiva</strong> si es inyectiva y sobreyectiva. Es exactamente la condición para que exista \( f^{-1}:B\to A \).</p>
 <p><strong>Criterio práctico en \( \mathbb R \):</strong> si \( f:\mathbb R\to\mathbb R \) es continua, estrictamente monótona y sus límites en \( -\infty \) y \( +\infty \) son \( \mp\infty \) (o \( \pm\infty \)), es biyectiva. Ejemplos: \( x^3 \), \( x^3+2x \), \( x+e^x \).</p>
@@ -148,6 +155,7 @@ const deep = {
             {
                 id: "t2.4",
                 title: String.raw`Método gráfico y monotonía`,
+                src: String.raw`Notas C1B 2026, recuadro de la pág. 34 (rectas horizontales y proyección sobre el eje oy) y Teorema 2.1 (pág. 30); clases virtuales 4 y 6`,
                 eli5: String.raw`<p>Pasá un láser horizontal por el gráfico, subiéndolo de a poco. Si en alguna altura el láser toca la curva dos veces, la función no es inyectiva. Si en alguna altura no toca nada, no es sobreyectiva. La derivada ayuda a saber cómo se mueve la curva: si es siempre positiva, la curva solo sube, y un láser nunca la puede tocar dos veces.</p>`,
                 explain: String.raw`<ul>
 <li><strong>Recta horizontal:</strong> inyectiva si cada recta \( y=c \) corta al gráfico a lo sumo una vez; sobreyectiva (sobre \( B \)) si cada \( y=c \) con \( c\in B \) lo corta al menos una vez.</li>
@@ -165,6 +173,7 @@ const deep = {
             {
                 id: "t2.5",
                 title: String.raw`Funciones a trozos (molde P4)`,
+                src: String.raw`Clase virtual 4 (funciones definidas por intervalos); Notas C1B 2026, Ejercicios 2.2-2.12 (pág. 41-44); 1as revisiones 2023-2026, ejercicio a trozos`,
                 eli5: String.raw`<p>Una ruta hecha de dos tramos de empresas distintas. Para que nunca pases dos veces por la misma altura, cada tramo tiene que ir siempre para el mismo lado, y además los dos tramos no pueden compartir alturas. Para que pases por todas las alturas, entre los dos tramos tienen que cubrirlas todas, sin dejar un agujero. Se revisa cada tramo por separado y después se comparan.</p>`,
                 explain: String.raw`<p>Receta para \( f:\mathbb R\to\mathbb R \) con dos ramas separadas en \( x=c \):</p>
 <ol>
@@ -192,6 +201,7 @@ const deep = {
             {
                 id: "t3.1",
                 title: String.raw`Qué es la inversa y cuándo existe`,
+                src: String.raw`Notas C1B 2026, sec. 2.2.1 y 2.2.2, Definición 2.6 (pág. 35-37); clases virtuales 5 y 6`,
                 eli5: String.raw`<p>Pensá en un traductor que pasa palabras de español a inglés. Para poder traducir de vuelta sin dudas, cada palabra en español tiene que tener su propia palabra en inglés (nada de dos palabras con la misma traducción) y todas las palabras inglesas de la lista tienen que usarse. Si pasa eso, el diccionario se puede leer al revés: esa lectura al revés es la función inversa. Ida y vuelta te deja donde empezaste.</p>`,
                 explain: String.raw`<p>\( f:A\to B \) tiene inversa \( f^{-1}:B\to A \) si y solo si es <strong>biyectiva</strong>. En ese caso:</p>
 <ul>
@@ -211,6 +221,7 @@ const deep = {
             {
                 id: "t3.2",
                 title: String.raw`Despejar con logaritmo y exponencial`,
+                src: String.raw`Notas C1B 2026, Ejemplos 23 y 27 (pág. 35 y 38-39), Ejercicios 2.6 y 2.10 (pág. 42-44); clases virtuales 6 y 7`,
                 eli5: String.raw`<p>Armar un regalo: primero lo metés en una caja, después lo envolvés, después le ponés un moño. Para desarmarlo hacés lo mismo al revés: primero sacás el moño, después el papel, al final abrís la caja. Despejar una inversa es eso: la última operación que le hizo \( f \) a la \( x \) es la primera que tenés que deshacer. Una suma se deshace restando, un producto dividiendo, una exponencial con logaritmo.</p>`,
                 explain: String.raw`<p>Se escribe \( y=f(x) \) y se despeja \( x \) deshaciendo las operaciones de afuera hacia adentro.</p>
 <table>
@@ -220,7 +231,7 @@ const deep = {
 </table>
 <p>Ejemplo: \( y=1+e^{2-x} \Rightarrow e^{2-x}=y-1 \Rightarrow 2-x=L(y-1) \Rightarrow x=2-L(y-1) \).</p>
 <p><strong>Siempre verificá con un punto</strong>: elegí \( x \) cómodo (el que anula el exponente o hace 1 el argumento del \( L \)), calculá \( y=f(x) \) y fijate qué opción devuelve ese \( x \). Las opciones falsas del parcial cambian un signo dentro del \( L \) o del exponente, y el punto las descarta en segundos.</p>
-<p>Ojo con los signos adentro del exponente: en \( e^{3-2x} \) despejar da \( 3-2x=L(y) \) y recién después \( x=\frac{3-L(y)}{2} \). Si el codominio que te dan no coincide con la imagen (por ejemplo \( e^x+2 \) con codominio \( \mathbb R \), cuando la imagen es \( (2,+\infty) \)), la fórmula existe pero la función no es invertible entre esos conjuntos: la respuesta es \"no es invertible\".</p>`,
+<p>Ojo con los signos adentro del exponente: en \( e^{3-2x} \) despejar da \( 3-2x=L(y) \) y recién después \( x=\frac{3-L(y)}{2} \). Si el codominio que te dan no coincide con la imagen (por ejemplo \( e^x+2 \) con codominio \( \mathbb R \), cuando la imagen es \( (2,+\infty) \)), la fórmula existe pero la función no es invertible entre esos conjuntos: la respuesta es "no es invertible".</p>`,
                 keys: [String.raw`Deshacer de afuera hacia adentro`, String.raw`\( e^{u}=v \Rightarrow u=L(v) \); \( L(u)=v \Rightarrow u=e^{v} \)`, String.raw`Verificar con el punto que anula el exponente o da \( L(1) \)`, String.raw`Si la imagen no coincide con el codominio, no es invertible`],
                 example: {
                     q: String.raw`\( f:\mathbb R\to(0,+\infty) \), \( f(x)=e^{3-2x} \). Hallá \( f^{-1} \).`,
@@ -230,6 +241,7 @@ const deep = {
             {
                 id: "t3.3",
                 title: String.raw`Despejar con raíces y cuadráticas: el signo`,
+                src: String.raw`Notas C1B 2026, Ejemplo 24 (pág. 35-36), Ejercicios 2.5, 2.8, 2.9 y 2.15; clases virtuales 5 (completar cuadrado) y 6 (Ej. 2.9)`,
                 eli5: String.raw`<p>Si te digo "pensé un número y al elevarlo al cuadrado me dio 9", no sabés si pensé 3 o \( -3 \): hay dos candidatos. Para decidir necesitás una pista extra, por ejemplo "el número era negativo". En las inversas con cuadrados esa pista es el dominio de \( f \): te dice de qué lado del vértice vivían los \( x \), y por lo tanto qué signo lleva la raíz.</p>`,
                 explain: String.raw`<p>Con \( f(x)=a(x-h)^2+k \) en un dominio que está de un solo lado de \( h \):</p>
 \[ (x-h)^2=\frac{y-k}{a}\ \Rightarrow\ x=h\pm\sqrt{\frac{y-k}{a}} \]
@@ -249,6 +261,7 @@ const deep = {
             {
                 id: "t3.4",
                 title: String.raw`Dominio y recorrido de la inversa`,
+                src: String.raw`Notas C1B 2026, Definición 2.6 (pág. 35), Teorema 2.2 (pág. 38), Ejercicios 2.13, 2.14 y 2.18; clase virtual 7`,
                 eli5: String.raw`<p>La inversa hace el camino de vuelta. Si \( f \) arrancaba en tu casa (el dominio) y llegaba a la escuela (la imagen), \( f^{-1} \) arranca en la escuela y termina en tu casa. Por eso, para saber desde dónde arranca la inversa, alcanza con saber hasta dónde llegaba \( f \). Y si en el mapa pusiste una escuela a la que en realidad nunca llegás, la vuelta no se puede hacer.</p>`,
                 explain: String.raw`<ul>
 <li>\( \text{Dom}(f^{-1})=B \) (codominio de \( f \)) y \( \text{Rec}(f^{-1})=A \) (dominio de \( f \)).</li>
@@ -266,6 +279,7 @@ const deep = {
             {
                 id: "t3.5",
                 title: String.raw`Coseno y seno restringidos (molde P3)`,
+                src: String.raw`Notas C1B 2026, sec. 3.1 y 3.2 (pág. 47-55); 1ª rev. mayo 2026, ej. 3 (resuelto en la clase virtual 9); 1ª rev. octubre 2024 y octubre 2025, ej. 3`,
                 eli5: String.raw`<p>En una calesita, si mirás una vuelta entera pasás dos veces por cada altura (una subiendo y otra bajando). Pero si mirás solo un cuarto o media vuelta, siempre en el mismo sentido, cada altura aparece una sola vez. El único detalle es si el caballito del principio y el del final están incluidos: eso decide si ponés corchete o paréntesis en los extremos.</p>`,
                 explain: String.raw`<p>Molde: \( f:I\to U \) con \( \pm\cos \) o \( \pm\text{sen} \) en un intervalo donde es monótona. Ya es inyectiva; hay que elegir \( U=f(I) \).</p>
 <ol>
@@ -290,6 +304,7 @@ const deep = {
             {
                 id: "t3.6",
                 title: String.raw`Arctg restringida e inversas trigonométricas`,
+                src: String.raw`Notas C1B 2026, sec. 3.2.1 y 3.2.2 (pág. 54-55), Ejercicios 3.1, 3.3 y 3.4; clases virtuales 8 y 9; 1ª rev. mayo 2024, ej. 3. Arcsen y Arccos: Notas 3.2.2 y clase virtual 9, no aparecieron en ninguna 1ª revisión 2023-2026`,
                 eli5: String.raw`<p>Muchos ángulos distintos tienen la misma pendiente (la tangente se repite cada media vuelta). Para que la pregunta "¿qué ángulo tiene esta pendiente?" tenga una sola respuesta, se elige una ventana fija de ángulos, entre \( -90^\circ \) y \( 90^\circ \). La respuesta de esa ventana es el \( \text{Arctg} \). Con el seno y el coseno se hace lo mismo, cada uno con su ventana.</p>`,
                 explain: String.raw`<table>
 <tr><th>Inversa</th><th>de</th><th>Dominio</th><th>Recorrido</th><th>Derivada</th></tr>
@@ -311,17 +326,18 @@ const deep = {
             {
                 id: "t4.1",
                 title: String.raw`La fórmula y de dónde sale`,
+                src: String.raw`Notas C1B 2026, Teorema 2.3 y Observación 7 (pág. 39-40); clase virtual 6 (x al cubo y tangente vertical)`,
                 eli5: String.raw`<p>Si 1 dólar son 40 pesos, entonces 1 peso es \( \frac1{40} \) de dólar: el cambio "de vuelta" es el recíproco del cambio "de ida". La derivada mide cuánto cambia la salida por cada unidad que cambia la entrada. La inversa hace el viaje de vuelta, así que su derivada es el recíproco: si \( f \) multiplica los cambios por 4, \( f^{-1} \) los divide por 4. Lo único delicado es mirar el tipo de cambio en el lugar correcto.</p>`,
                 explain: String.raw`<p>Si \( f \) es derivable e invertible, \( f(a)=b \) y \( f'(a)\neq0 \):</p>
 \[ (f^{-1})'(b)=\frac{1}{f'(a)}=\frac{1}{f'\big(f^{-1}(b)\big)} \]
-<p><strong>De dónde sale:</strong> derivando \( f(f^{-1}(x))=x \) con la cadena queda \( f'(f^{-1}(x))\cdot(f^{-1})'(x)=1 \).</p>
+<p><strong>De dónde sale</strong> (Teorema 2.3 de las Notas): el gráfico de \( f^{-1} \) es el simétrico del de \( f \) respecto de la recta \( y=x \), así que las rectas tangentes en \( (a,b) \) y en \( (b,a) \) también son simétricas y sus pendientes son números inversos.</p>
 <ul>
 <li>Se evalúa \( f' \) en \( a=f^{-1}(b) \), <strong>nunca en \( b \)</strong>. Es la trampa número uno del parcial.</li>
 <li>Si \( f'(a)=0 \), \( f^{-1} \) no es derivable en \( b \) (tangente vertical). Ejemplo: \( f(x)=x^3 \) en \( a=0 \).</li>
 <li>Gráficamente: la tangente a \( f \) en \( (a,b) \) con pendiente \( m \) se refleja en la tangente a \( f^{-1} \) en \( (b,a) \) con pendiente \( \frac1m \). El signo se conserva: \( f \) decreciente da \( (f^{-1})' \) negativa.</li>
 </ul>
 <p>Cuando te dan datos en dos puntos (por ejemplo \( f(1)=3 \) y \( f(3)=1 \)), antes de usar la fórmula escribí "\( f^{-1}(b)=\ ? \)" y buscá cuál dato lo contesta.</p>`,
-                keys: [String.raw`\( (f^{-1})'(b)=1/f'(a) \) con \( f(a)=b \)`, String.raw`Se deriva \( f(f^{-1}(x))=x \)`, String.raw`\( f' \) se evalúa en \( a \), no en \( b \)`, String.raw`\( f'(a)=0 \): la inversa no es derivable en \( b \)`, String.raw`El signo de la derivada se conserva`],
+                keys: [String.raw`\( (f^{-1})'(b)=1/f'(a) \) con \( f(a)=b \)`, String.raw`Sale de la simetría respecto de \( y=x \) (Teorema 2.3)`, String.raw`\( f' \) se evalúa en \( a \), no en \( b \)`, String.raw`\( f'(a)=0 \): la inversa no es derivable en \( b \)`, String.raw`El signo de la derivada se conserva`],
                 example: {
                     q: String.raw`\( f(2)=4 \), \( f(4)=2 \), \( f'(2)=3 \), \( f'(4)=5 \). Calculá \( (f^{-1})'(4) \).`,
                     sol: String.raw`\( f^{-1}(4)=2 \) (porque \( f(2)=4 \)). Entonces \( (f^{-1})'(4)=\frac1{f'(2)}=\frac13 \), no \( \frac15 \).`,
@@ -330,6 +346,7 @@ const deep = {
             {
                 id: "t4.2",
                 title: String.raw`f explícita: inversa y su derivada en un punto (P7)`,
+                src: String.raw`Notas C1B 2026, Ejemplo 28 (pág. 40-41) y Ejercicio 2.18; clases virtuales 6 y 7; 1as revisiones 2023-2026, ejercicio de f explícita`,
                 eli5: String.raw`<p>Te dan una máquina que transforma números y te preguntan de qué número salió cierto resultado, sin darte el manual para desarmarla. El truco es probar con los números más fáciles, 0 y 1: casi siempre uno de los dos da justo el resultado de las opciones. Una vez que sabés de dónde salió, la "velocidad de vuelta" es uno sobre la velocidad de la máquina en ese número.</p>`,
                 explain: String.raw`<p>Molde: "\( f:A\to B \), \( f(x)=\ldots \), invertible. Entonces:" y opciones del tipo "\( f^{-1}(c)=a \) y \( (f^{-1})'(c)=\ldots \)".</p>
 <ol>
@@ -348,6 +365,7 @@ const deep = {
             {
                 id: "t4.3",
                 title: String.raw`Composiciones con potencias y raíces`,
+                src: String.raw`Notas C1B 2026, Ejercicio 2.19 (pág. 46, resuelto en la clase virtual 7); 1ª rev. octubre 2023, ej. 4, y mayo 2026, ej. 6`,
                 eli5: String.raw`<p>Una cebolla tiene capas: para llegar al centro las sacás de afuera hacia adentro. Si \( g \) es "la inversa y después al cubo", la capa de afuera es el cubo y la de adentro es la inversa. Derivás la capa de afuera (dejando adentro lo que había), y multiplicás por la derivada de la capa de adentro. La de adentro es la derivada de la inversa, que ya sabés calcular.</p>`,
                 explain: String.raw`<p>Con \( f(a)=b \) y \( f'(a) \) como datos, y \( (f^{-1})'(b)=\frac1{f'(a)} \):</p>
 <table>
@@ -370,6 +388,7 @@ const deep = {
             {
                 id: "t4.4",
                 title: String.raw`Composiciones con L, exponencial, productos y cocientes`,
+                src: String.raw`Notas C1B 2026, Ejercicio 2.19 c (pág. 46); 1ª rev. octubre 2024, ej. 2, y octubre 2025, ej. 6`,
                 eli5: String.raw`<p>Es la misma idea de la cebolla, pero ahora la capa de afuera es un logaritmo, una exponencial, o la inversa aparece multiplicada por otra cosa. Para cada disfraz hay una regla de derivar que ya conocés (la del \( L \), la del producto, la del cociente). Lo único nuevo es que, cada vez que aparece la derivada de la inversa, la reemplazás por "uno sobre la derivada de \( f \) en el punto de origen".</p>`,
                 explain: String.raw`<table>
 <tr><th>\( g(x) \)</th><th>\( g'(b) \) (con \( f(a)=b \))</th></tr>
@@ -391,6 +410,7 @@ const deep = {
             {
                 id: "t4.5",
                 title: String.raw`Sumas y combinaciones de f y f⁻¹`,
+                src: String.raw`Notas C1B 2026, Teorema 2.3 (pág. 39-40); 1ª rev. mayo 2023, ej. 3, y mayo 2025, ej. 8`,
                 eli5: String.raw`<p>Cuando \( g \) es una suma, cada sumando se deriva por separado, como cuando dos personas empujan un auto y sumás sus fuerzas. La parte con \( f^{-1} \) usa la regla de la inversa; la parte con \( f \) se deriva normal. Lo que hay que vigilar es en qué punto evaluás cada parte: los dos sumandos se evalúan en el mismo \( x \), pero la derivada de \( f \) que necesitás puede no ser la del dato.</p>`,
                 explain: String.raw`<p>Para \( g(x)=\alpha\,f(x)+\beta\,f^{-1}(x)+h(x) \) evaluada en \( b \):</p>
 \[ g'(b)=\alpha\,f'(b)+\frac{\beta}{f'(a)}+h'(b) \]
@@ -412,17 +432,18 @@ const deep = {
             {
                 id: "t5.1",
                 title: String.raw`Definición del polinomio de Taylor`,
+                src: String.raw`Notas C1B 2026, sec. 4.2, Teorema 4.2 (pág. 60), Ejemplos 31 y 32 (pág. 60-61); clase virtual 9`,
                 eli5: String.raw`<p>Querés copiar una curva con una regla flexible, pero solo cerca de un punto. Primero la ponés a la misma altura que la curva. Después le das la misma inclinación. Después la doblás con la misma curvatura. Cada paso la parece más a la curva cerca de ese punto. El polinomio de Taylor es eso: un polinomio que copia la altura, la inclinación, la curvatura (y así) de la función en 0.</p>`,
                 explain: String.raw`<p>El polinomio de Taylor de orden \( n \) de \( f \) en 0 es</p>
 \[ P_n(x)=\sum_{k=0}^{n}\frac{f^{(k)}(0)}{k!}x^k=f(0)+f'(0)x+\frac{f''(0)}{2}x^2+\frac{f'''(0)}{6}x^3+\dots \]
 <ul>
 <li>Coeficiente de \( x^k \): \( a_k=\frac{f^{(k)}(0)}{k!} \). Al revés: \( f^{(k)}(0)=k!\,a_k \).</li>
-<li>Cumple \( f(x)=P_n(x)+o(x^n) \): la diferencia, dividida \( x^n \), tiende a 0.</li>
-<li><strong>Unicidad:</strong> si encontrás un polinomio \( Q \) de grado \( \le n \) con \( f(x)=Q(x)+o(x^n) \), entonces \( Q \) es el Taylor. Por eso se puede calcular sustituyendo, sumando y multiplicando desarrollos conocidos, sin derivar.</li>
+<li>Teorema de Taylor: \( f(x)=P_n(x)+R_n(x) \), con \( \lim_{x\to0}\frac{R_n(x)}{x^n}=0 \). El resto \( R_n(x) \) es un infinitésimo de mayor orden que \( x^n \).</li>
+<li>Los coeficientes salen de derivar en 0, como en el Ejemplo 32 de las Notas (\( e^x \)) y en los Ejercicios 4.1 y 4.2.</li>
 <li>El Taylor de un polinomio es el mismo polinomio cortado en el orden pedido.</li>
 <li>"Orden \( n \)" no significa "grado \( n \)": el Taylor de orden 3 de \( \cos x \) es \( 1-\frac{x^2}2 \), de grado 2.</li>
 </ul>`,
-                keys: [String.raw`\( a_k=f^{(k)}(0)/k! \)`, String.raw`\( f=P_n+o(x^n) \)`, String.raw`Unicidad: cualquier camino que dé \( f=Q+o(x^n) \) sirve`, String.raw`Orden no es lo mismo que grado`],
+                keys: [String.raw`\( a_k=f^{(k)}(0)/k! \)`, String.raw`\( f(x)=P_n(x)+R_n(x) \), con \( R_n(x)/x^n\to0 \)`, String.raw`Los coeficientes salen de derivar en 0`, String.raw`Orden no es lo mismo que grado`],
                 example: {
                     q: String.raw`\( f(0)=2 \), \( f'(0)=-1 \), \( f''(0)=6 \). Escribí \( P_2 \).`,
                     sol: String.raw`\( P_2(x)=2-x+\frac62x^2=2-x+3x^2 \).`,
@@ -431,6 +452,7 @@ const deep = {
             {
                 id: "t5.2",
                 title: String.raw`Desarrollos notables de memoria`,
+                src: String.raw`Notas C1B 2026, Ejemplo 32 (pág. 61), Ejercicios 4.1 y 4.2 (pág. 66) y sus soluciones (pág. 121)`,
                 eli5: String.raw`<p>Así como sabés de memoria que \( 7\times8=56 \) y no lo recalculás cada vez, hay cinco o seis desarrollos que conviene saber de memoria. En la prueba no hay materiales, y todos los límites y ejercicios de Taylor se arman a partir de ellos. Si los sabés sin dudar, cada ejercicio se reduce a sumar y restar coeficientes. Es la inversión de tiempo que más rinde en toda la materia.</p>`,
                 explain: String.raw`<table>
 <tr><th>Función</th><th>Desarrollo en 0 (hasta orden 3)</th></tr>
@@ -440,27 +462,28 @@ const deep = {
 <tr><td>\( L(1+x) \)</td><td>\( x-\frac{x^2}2+\frac{x^3}3 \)</td></tr>
 <tr><td>\( \text{Arctg}\,x \)</td><td>\( x-\frac{x^3}3 \)</td></tr>
 <tr><td>\( \frac1{1-x} \)</td><td>\( 1+x+x^2+x^3 \)</td></tr>
-<tr><td>\( \sqrt{1+x} \)</td><td>\( 1+\frac x2-\frac{x^2}8+\frac{x^3}{16} \)</td></tr>
 </table>
-<p><strong>Para recordarlos:</strong> \( e^x \) lleva factoriales y todos los signos \( + \). \( \text{sen} \) y \( \cos \) llevan factoriales, solo impares o solo pares, signos alternados. \( L(1+x) \) y \( \text{Arctg} \) llevan denominadores 1, 2, 3 (sin factorial); \( \text{Arctg} \) solo impares. Sale un par útil: \( \text{sen}\,x-\text{Arctg}\,x=\frac{x^3}6+o(x^3) \).</p>
-<p>\( (1+x)^\alpha=1+\alpha x+\frac{\alpha(\alpha-1)}2x^2+\dots \) incluye \( \sqrt{1+x} \) (\( \alpha=\frac12 \)) y \( \frac1{1+x} \) (\( \alpha=-1 \)).</p>
+<p><strong>Para recordarlos:</strong> \( e^x \) lleva factoriales y todos los signos \( + \). \( \text{sen} \) y \( \cos \) llevan factoriales, solo impares o solo pares, signos alternados. \( L(1+x) \) y \( \text{Arctg} \) llevan denominadores 1, 2, 3 (sin factorial); \( \text{Arctg} \) solo impares. Sale un par útil: \( \text{sen}\,x-\text{Arctg}\,x=\frac{x^3}6+R_3(x) \).</p>
+<p>Todos salen de calcular \( f(0),f'(0),f''(0),f'''(0) \) y usar la fórmula de Taylor: es lo que hacen el Ejemplo 32 y los Ejercicios 4.1 y 4.2 de las Notas (en las soluciones está, por ejemplo, \( \text{Arctg}\,x=x-\frac{x^3}3 \) hasta orden 3, y \( \frac1{1-x}=1+x+x^2 \) hasta orden 2).</p>
 <p>Una forma de fijarlos: escribí la tabla todos los días antes de estudiar, sin mirar, hasta que salga en menos de un minuto. En la prueba, antes de empezar los límites, anotá en un costado los desarrollos que vas a usar con las sustituciones ya hechas. Así separás el trabajo de memoria del trabajo de cuentas.</p>`,
-                keys: [String.raw`\( e^x \) y \( \text{sen} \), \( \cos \): factoriales`, String.raw`\( L(1+x) \) y \( \text{Arctg} \): denominadores \( 1,2,3 \) sin factorial`, String.raw`\( \text{sen} \) y \( \text{Arctg} \) difieren en el cúbico: \( \frac16 \) contra \( \frac13 \)`, String.raw`\( (1+x)^\alpha \) cubre raíces y recíprocos`],
+                keys: [String.raw`\( e^x \) y \( \text{sen} \), \( \cos \): factoriales`, String.raw`\( L(1+x) \) y \( \text{Arctg} \): denominadores \( 1,2,3 \) sin factorial`, String.raw`\( \text{sen} \) y \( \text{Arctg} \) difieren en el cúbico: \( \frac16 \) contra \( \frac13 \)`, String.raw`\( \frac1{1-x}=1+x+x^2+x^3+\dots \) (Ej. 4.1 a)`],
                 example: {
                     q: String.raw`Desarrollá \( \frac1{1+x} \) hasta orden 3.`,
-                    sol: String.raw`Con \( \alpha=-1 \), o cambiando \( x \) por \( -x \) en \( \frac1{1-x} \): \( 1-x+x^2-x^3 \).`,
+                    sol: String.raw`Derivando: \( f(0)=1 \), \( f'(0)=-1 \), \( f''(0)=2 \), \( f'''(0)=-6 \), así que \( 1-x+\frac22x^2-\frac66x^3=1-x+x^2-x^3 \) (lo mismo que cambiar \( x \) por \( -x \) en \( \frac1{1-x} \)).`,
                 },
             },
             {
                 id: "t5.3",
                 title: String.raw`Sustitución: u = ax, u = −x, u = x²`,
+                src: String.raw`Notas C1B 2026, Ejercicios 4.1 d y 4.3 (pág. 66-67); regla de la cadena (clase virtual 7)`,
                 eli5: String.raw`<p>Tenés una receta para una persona y cocinás para el doble. No todos los ingredientes se multiplican igual: en Taylor, el término con \( x \) se multiplica por 2, el de \( x^2 \) por 4, el de \( x^3 \) por 8. Eso pasa cuando cambiás \( x \) por \( 2x \): cada potencia arrastra su propio factor. Si te olvidás de elevar el 2, el plato sale mal.</p>`,
-                explain: String.raw`<p>Si \( f(u)=a_0+a_1u+a_2u^2+a_3u^3+o(u^3) \) y \( u=cx \), entonces</p>
-\[ f(cx)=a_0+a_1c\,x+a_2c^2x^2+a_3c^3x^3+o(x^3) \]
+                explain: String.raw`<p>Si \( f(u)=a_0+a_1u+a_2u^2+a_3u^3+R_3(u) \) y \( u=cx \), entonces</p>
+\[ f(cx)=a_0+a_1c\,x+a_2c^2x^2+a_3c^3x^3+R_3(x) \]
+<p>Es lo mismo que derivar: si \( g(x)=f(cx) \), por la regla de la cadena \( g^{(k)}(0)=c^k f^{(k)}(0) \), así que el coeficiente de \( x^k \) queda multiplicado por \( c^k \).</p>
 <ul>
 <li>\( e^{-2x}=1-2x+2x^2-\frac43x^3 \); \( L(1+3x)=3x-\frac92x^2+9x^3 \); \( \cos(3x)=1-\frac92x^2 \).</li>
 <li>\( u=-x \) cambia el signo de las potencias impares: \( L(1-x)=-x-\frac{x^2}2-\frac{x^3}3 \) (todos negativos).</li>
-<li>\( u=x^2 \): cada potencia se duplica. \( e^{x^2}=1+x^2+\frac{x^4}2+o(x^4) \); \( \cos(x^2)=1-\frac{x^4}2+o(x^4) \). Un desarrollo de orden 2 en \( u \) ya da orden 4 en \( x \).</li>
+<li>\( u=x^2 \): cada potencia se duplica. \( e^{x^2}=1+x^2+\frac{x^4}2+R_4(x) \); \( \cos(x^2)=1-\frac{x^4}2+R_4(x) \). Un desarrollo de orden 2 en \( u \) ya da orden 4 en \( x \). Se puede comprobar derivando, como en el Ejercicio 4.1 d de las Notas: el Taylor de orden 2 de \( L(1+x^2) \) es \( x^2 \).</li>
 </ul>
 <p>Truco de control: el coeficiente de \( x^k \) en \( f(cx) \) es \( c^k \) por el coeficiente original. Si en tu cuenta un \( c \) no quedó elevado a la potencia correcta, hay error.</p>
 <p>Cuando la sustitución lleva signo y número a la vez (\( u=-2x \)), hacé las dos cosas en cada término: \( (-2x)^2=4x^2 \) (positivo) y \( (-2x)^3=-8x^3 \) (negativo). Por eso \( e^{-2x}=1-2x+2x^2-\frac43x^3 \) alterna signos y \( L(1-2x)=-2x-2x^2-\frac83x^3 \) queda todo negativo.</p>`,
@@ -472,33 +495,31 @@ const deep = {
             },
             {
                 id: "t5.4",
-                title: String.raw`Notación o chica`,
-                eli5: String.raw`<p>Cuando contás millones de pesos, los centavos no importan: son "chiquitos comparados con" lo que estás contando. La o chica es exactamente eso. Escribir \( o(x^2) \) quiere decir "algo que, cerca de 0, es muchísimo más chico que \( x^2 \)". Es la forma de tirar los centavos sin mentir: dejás anotado que había algo, pero que no va a cambiar el resultado.</p>`,
-                explain: String.raw`<p>\( g(x)=o(x^n) \) cuando \( x\to0 \) significa \( \lim_{x\to0}\frac{g(x)}{x^n}=0 \).</p>
+                title: String.raw`El resto de Taylor e infinitésimos`,
+                src: String.raw`Notas C1B 2026, Observaciones 9, 10 y 11 (pág. 58-60), Teoremas 4.1 y 4.2, Ejemplo 33 (pág. 62)`,
+                eli5: String.raw`<p>Cuando contás millones de pesos, los centavos no cambian la cuenta: son chiquitos comparados con lo que estás midiendo. El resto \( R_n(x) \) del Teorema de Taylor es eso: la diferencia entre la función y su polinomio, que cerca de 0 es muchísimo más chica que \( x^n \). No se tira sin avisar: se anota \( R_n(x) \) y se sabe que, dividido \( x^n \), se va a 0.</p>`,
+                explain: String.raw`<p><strong>Infinitésimos</strong> (Notas, Observación 10): \( f \) es un infinitésimo en \( a \) si \( \lim_{x\to a}f(x)=0 \). Si \( f \) y \( g \) son infinitésimos en \( a \) y \( \lim_{x\to a}\frac{f(x)}{g(x)}=0 \), \( f \) es de <strong>mayor orden</strong> que \( g \): se acerca a cero más rápido.</p>
 <ul>
-<li>Ejemplos: \( x^3=o(x^2) \), \( x^4=o(x^2) \), pero \( x^2 \) no es \( o(x^2) \) ni \( o(x^3) \).</li>
-<li>\( o(x^n)\pm o(x^n)=o(x^n) \) (no se cancelan: "algo chico menos algo chico" sigue siendo chico).</li>
-<li>\( c\cdot o(x^n)=o(x^n) \) para \( c\neq0 \) constante.</li>
-<li>\( x^k\cdot o(x^n)=o(x^{n+k}) \) y \( \frac{o(x^n)}{x^k}=o(x^{n-k}) \).</li>
-<li>\( o(x^n)+o(x^m)=o(x^{\min(n,m)}) \): manda el más grueso.</li>
-<li>Si \( m\gt n \), todo \( o(x^m) \) es también \( o(x^n) \).</li>
+<li>En 0: \( x^3 \) es de mayor orden que \( x^2 \) (\( \frac{x^3}{x^2}=x\to0 \)); \( 2x^2 \) no es de mayor orden que \( x^2 \) (el cociente da 2).</li>
+<li>Suma de infinitésimos de distinto orden es equivalente al de menor orden: si \( f \) es de mayor orden que \( g \), \( f+g\sim g \).</li>
 </ul>
-<p>Por qué importa en los límites: si el numerador es \( c\,x^k+o(x^k) \) y el denominador \( x^k \), el límite es \( c \), porque \( \frac{o(x^k)}{x^k}\to0 \).</p>
-<p>En la práctica, la o chica es la etiqueta que te recuerda hasta dónde es confiable tu cuenta. Si escribís \( \text{sen}\,x=x+o(x^2) \), podés usarlo en un límite con \( x^2 \) abajo, pero no con \( x^3 \). Y como \( o(x^2)-o(x^2) \) no es 0, dos restos nunca se cancelan entre sí: si tu numerador quedó solo con restos, te faltó desarrollar más.</p>`,
-                keys: [String.raw`\( g=o(x^n) \iff g/x^n\to0 \)`, String.raw`\( o(x^n)-o(x^n)=o(x^n) \), no 0`, String.raw`\( x^k\,o(x^n)=o(x^{n+k}) \)`, String.raw`En una suma manda la o de menor exponente`],
+<p><strong>El resto de Taylor</strong> (Teorema 4.2 y Observación 11): \( f(x)=P_n(x)+R_n(x) \) con \( \lim_{x\to0}\frac{R_n(x)}{x^n}=0 \), o sea que \( R_n(x) \) es un infinitésimo de mayor orden que \( x^n \).</p>
+<p>Por qué importa en los límites (Ejemplo 33 de las Notas): si el numerador queda \( c\,x^k+R_k(x) \) y el denominador es \( x^k \), el límite es \( c+\lim\frac{R_k(x)}{x^k}=c \). Si en cambio usaste un desarrollo de orden menor que \( k \), te queda un resto que dividido \( x^k \) no sabés a qué tiende: hay que desarrollar más.</p>`,
+                keys: [String.raw`Infinitésimo en \( a \): \( \lim_{x\to a}f(x)=0 \)`, String.raw`\( f \) de mayor orden que \( g \): \( f/g\to0 \)`, String.raw`Suma de infinitésimos de distinto orden: equivale al de menor orden`, String.raw`\( R_n(x)/x^n\to0 \): el resto no cambia el límite`],
                 example: {
-                    q: String.raw`Simplificá \( x\cdot\big(x^2+o(x^2)\big)+o(x^4) \).`,
-                    sol: String.raw`\( x^3+o(x^3)+o(x^4)=x^3+o(x^3) \).`,
+                    q: String.raw`Calculá \( \lim_{x\to0}\frac{e^x-1-x}{x^2} \) escribiendo el resto.`,
+                    sol: String.raw`\( e^x=1+x+\frac{x^2}2+R_2(x) \). El numerador queda \( \frac{x^2}2+R_2(x) \) y \( \frac{\frac{x^2}2+R_2(x)}{x^2}=\frac12+\frac{R_2(x)}{x^2}\to\frac12 \) (Ejemplo 33 de las Notas).`,
                 },
             },
             {
                 id: "t5.5",
                 title: String.raw`Productos de desarrollos y orden necesario`,
+                src: String.raw`Notas C1B 2026, Ejercicios 4.5 b y 4.6 (pág. 67) y sus soluciones (pág. 121-122)`,
                 eli5: String.raw`<p>Multiplicar dos desarrollos es como multiplicar dos listas de compras: cada cosa de una lista con cada cosa de la otra. Pero como solo te interesan los productos hasta cierto tamaño (el orden), podés tirar desde el principio las combinaciones que se pasan. Si uno de los factores ya arranca con \( x \), al otro le alcanza con un orden menos.</p>`,
                 explain: String.raw`<p>Para el Taylor de orden \( n \) de \( f\cdot g \): multiplicás los desarrollos y descartás todo término de grado mayor que \( n \).</p>
 <ul>
-<li>\( e^x\,\text{sen}\,x=(1+x+\frac{x^2}2)(x-\frac{x^3}6)+o(x^3)=x+x^2+\frac{x^3}3+o(x^3) \).</li>
-<li>\( e^x\cos x=(1+x+\frac{x^2}2)(1-\frac{x^2}2)+o(x^2)=1+x+o(x^2) \): los \( x^2 \) se cancelan.</li>
+<li>\( e^x\,\text{sen}\,x=(1+x+\frac{x^2}2)(x-\frac{x^3}6)+R_3(x)=x+x^2+\frac{x^3}3+R_3(x) \).</li>
+<li>\( e^x\cos x=(1+x+\frac{x^2}2)(1-\frac{x^2}2)+R_2(x)=1+x+R_2(x) \): los \( x^2 \) se cancelan.</li>
 <li><strong>Factor \( x^k \) adelante:</strong> para \( x^k\,g(x) \) hasta orden \( n \), a \( g \) le alcanza con orden \( n-k \). \( x\,L(1+x) \) hasta orden 3 pide \( L \) hasta orden 2: \( x^2-\frac{x^3}2 \).</li>
 <li>Si un factor arranca en \( x^m \) (como \( \text{sen}\,x \)), el otro necesita solo orden \( n-m \).</li>
 </ul>
@@ -515,12 +536,13 @@ const deep = {
             {
                 id: "t6.1",
                 title: String.raw`Elegir el orden de desarrollo`,
+                src: String.raw`Notas C1B 2026, Ejemplo 33 (pág. 62) y Observación 10 (pág. 59); clase virtual 9`,
                 eli5: String.raw`<p>Si un juez mide el salto en milímetros, vos también tenés que medir por lo menos en milímetros: si medís en metros, no vas a poder decir quién ganó. En un límite con \( x^3 \) abajo, el "juez" mide hasta \( x^3 \). Si desarrollás el numerador solo hasta \( x^2 \), te falta precisión y no podés concluir. Desarrollar de más no hace daño: esos términos se van solos.</p>`,
-                explain: String.raw`<p>Para \( \lim_{x\to0}\frac{N(x)}{x^k} \): desarrollá <strong>cada función del numerador hasta orden \( k \)</strong>. Todo lo que tirás es \( o(x^k) \), y \( \frac{o(x^k)}{x^k}\to0 \).</p>
+                explain: String.raw`<p>Para \( \lim_{x\to0}\frac{N(x)}{x^k} \): desarrollá <strong>cada función del numerador hasta orden \( k \)</strong>. Todo lo que tirás es \( R_k(x) \), y \( \frac{R_k(x)}{x^k}\to0 \).</p>
 <ul>
 <li>Si una función aparece multiplicada por \( x^m \), le alcanza con orden \( k-m \): en \( x\,\text{sen}\,x \) con \( x^4 \) abajo, \( \text{sen} \) hasta orden 3.</li>
 <li>Con sustitución \( u=x^2 \), cada orden en \( u \) vale doble en \( x \): para \( L(1+x^2) \) con \( x^4 \) abajo, alcanza \( L(1+u)=u-\frac{u^2}2 \).</li>
-<li>Si desarrollás de menos, te queda un \( o(x^j) \) con \( j\lt k \) dividido \( x^k \): <strong>no se puede concluir</strong>. Hay que volver y agregar términos.</li>
+<li>Si desarrollás de menos, te queda un \( R_j(x) \) con \( j\lt k \) dividido \( x^k \): <strong>no se puede concluir</strong>. Hay que volver y agregar términos.</li>
 </ul>
 <p>Después de sumar, mirá el primer término no nulo \( c\,x^m \):</p>
 <table>
@@ -538,6 +560,7 @@ const deep = {
             {
                 id: "t6.2",
                 title: String.raw`Cancelaciones y términos sueltos`,
+                src: String.raw`Notas C1B 2026, Ejemplo 33 (pág. 62) y Ejercicio 4.3 (pág. 66-67)`,
                 eli5: String.raw`<p>Imaginá una balanza con muchas pesas de distintos tamaños de cada lado. Las pesas grandes (las constantes y los \( x \)) se equilibran entre sí y desaparecen. Lo que decide hacia dónde se inclina la balanza es la primera pesa chica que queda sin pareja. En los límites pasa lo mismo: los términos grandes se cancelan a propósito, y el resultado sale del primer término que sobrevive.</p>`,
                 explain: String.raw`<p>Los numeradores del parcial están armados para que las constantes y (casi siempre) los \( x \) se cancelen. Los "términos sueltos" (\( -1 \), \( -2x \), \( +x^2 \), \( -\frac{x^2}2 \)) están ahí justamente para eso.</p>
 <ol>
@@ -556,6 +579,7 @@ const deep = {
             {
                 id: "t6.3",
                 title: String.raw`Límites con x² abajo (molde P2)`,
+                src: String.raw`Notas C1B 2026, Ejercicio 4.3 (pág. 66-67); 1as revisiones 2023-2026, primer límite`,
                 eli5: String.raw`<p>Es el mismo juego de siempre, pero con la regla más corta: solo te importan las pesas hasta el tamaño \( x^2 \). Desarrollás cada función hasta \( x^2 \), sumás los coeficientes de \( x^2 \) con su signo y ese número es la respuesta. El único peligro es equivocarte al elevar al cuadrado el número que acompaña a la \( x \). Con práctica, estos límites salen en tres o cuatro renglones.</p>`,
                 explain: String.raw`<p>Desarrollos hasta orden 2 que más aparecen:</p>
 <table>
@@ -579,6 +603,7 @@ const deep = {
             {
                 id: "t6.4",
                 title: String.raw`Límites con x³ abajo (molde P5)`,
+                src: String.raw`Notas C1B 2026, Ejercicios 4.3 d, 4.6 b y 4.9 (pág. 67-68); 1ª rev. mayo 2024, octubre 2024 y mayo 2026, segundo límite`,
                 eli5: String.raw`<p>Ahora el juez mide más fino: hasta \( x^3 \). Hay que llevar una columna más en la cuenta, y los números de esa columna son más traicioneros (factoriales, cubos). La buena noticia es que en estos ejercicios casi todo lo de grado 1 y 2 se cancela: si ves que no se cancela, es señal de un error antes de llegar al final.</p>`,
                 explain: String.raw`<p>Términos cúbicos que hay que tener a mano:</p>
 <table>
@@ -602,6 +627,7 @@ const deep = {
             {
                 id: "t6.5",
                 title: String.raw`Casos x⁴ y denominadores que no son potencias`,
+                src: String.raw`Notas C1B 2026, Ejercicio 4.3 c (pág. 67, denominador x a la 4); 1ª rev. mayo 2023, ej. 1`,
                 eli5: String.raw`<p>A veces el juez mide todavía más fino (\( x^4 \)), o en vez de un reloj simple usa un reloj armado con piezas (\( x\,\text{sen}\,x \) en lugar de \( x^2 \)). En el primer caso agregás una columna más. En el segundo, desarrollás también el denominador y te quedás con su primer término: \( x\,\text{sen}\,x \) se porta como \( x^2 \) cerca de 0.</p>`,
                 explain: String.raw`<p><strong>Denominador \( x^4 \)</strong> (salió en mayo 2023): hacen falta términos de grado 4.</p>
 <ul>
@@ -609,10 +635,10 @@ const deep = {
 </ul>
 <p><strong>Denominador que no es potencia</strong> (\( x\,\text{sen}\,x \), \( x^2\text{Arctg}\,x \), \( 1-\cos x \)): desarrollalo y quedate con el primer término, que es de la forma \( d\,x^k \). Después el límite es \( \frac{c}{d} \), donde \( c\,x^k \) es el primer término del numerador.</p>
 <ul>
-<li>\( x\,\text{sen}\,x=x^2+o(x^2) \) y \( x^2\,\text{Arctg}\,x=x^3+o(x^3) \).</li>
-<li>Ejemplo: \( \frac{1-\cos x}{x\,\text{sen}\,x}=\frac{\frac{x^2}2+o(x^2)}{x^2+o(x^2)}\to\frac12 \).</li>
+<li>\( x\,\text{sen}\,x=x^2+R_2(x) \) y \( x^2\,\text{Arctg}\,x=x^3+R_3(x) \).</li>
+<li>Ejemplo: \( \frac{1-\cos x}{x\,\text{sen}\,x}=\frac{\frac{x^2}2+R_2(x)}{x^2+R_2(x)}\to\frac12 \).</li>
 </ul>
-<p>Los candidatos para un límite "nuevo" son estos: \( x^4 \), \( (1+x)^\alpha \), o un denominador que haya que desarrollar.</p>
+<p>Los candidatos para un límite "nuevo" son estos: \( x^4 \) (como en mayo 2023 y en el Ejercicio 4.3 c de las Notas) o un denominador que haya que desarrollar.</p>
 <p>Cuando el denominador es un producto (\( x\,\text{sen}\,x \)), no hace falta desarrollarlo de más: su primer término ya decide la potencia \( k \), y el numerador se desarrolla hasta ese mismo \( k \). Si el límite con \( x^4 \) te da un número raro, revisá especialmente el \( \frac{x^4}{24} \) del coseno, que es el término que más se olvida.</p>`,
                 keys: [String.raw`\( \cos x \) hasta \( x^4 \): \( +\frac{x^4}{24} \)`, String.raw`\( x\,\text{sen}\,x=x^2-\frac{x^4}6+\dots \)`, String.raw`Denominador no monomio: desarrollalo y usá su primer término`, String.raw`\( \frac{c\,x^k+\dots}{d\,x^k+\dots}\to\frac cd \)`],
                 example: {
@@ -625,6 +651,7 @@ const deep = {
             {
                 id: "t7.1",
                 title: String.raw`Leer f(0), f'(0) y f''(0) del polinomio`,
+                src: String.raw`Notas C1B 2026, Ejemplo 34 (pág. 62-63) y Ejercicios 4.4 a y 4.5 a (pág. 67)`,
                 eli5: String.raw`<p>El polinomio de Taylor es como la ficha técnica de la función en 0: el primer número es la altura, el segundo la inclinación, el tercero dice cuánto se curva. Pero el tercero viene "dividido entre 2" de fábrica. Si alguien te pregunta la curvatura verdadera (\( f''(0) \)), tenés que multiplicar ese número por 2. Olvidarse del 2 es el error más común de todo el tema.</p>`,
                 explain: String.raw`<p>Si \( P(x)=a_0+a_1x+a_2x^2 \) es el Taylor de orden 2 de \( f \) en 0:</p>
 \[ f(0)=a_0,\qquad f'(0)=a_1,\qquad f''(0)=2a_2 \]
@@ -644,6 +671,7 @@ const deep = {
             {
                 id: "t7.2",
                 title: String.raw`Extremos relativos en 0`,
+                src: String.raw`Notas C1B 2026, sec. 4.2.1 (pág. 63-66): Teorema 4.3, Casos 1 y 2, Observación 12, Ejemplos 35 y 36; Ejercicios 4.4 b, 4.5 c y 4.8`,
                 eli5: String.raw`<p>Parado en la punta de una montaña, el piso está horizontal y todo alrededor está más abajo: eso es un máximo. En el fondo de un pozo, piso horizontal y todo alrededor más arriba: mínimo. Si el piso está inclinado, no estás ni en la punta ni en el fondo, estás en una ladera. El polinomio de Taylor te dice justo eso: si hay término con \( x \), estás en una ladera; si no lo hay, el signo del \( x^2 \) te dice si es pozo o montaña.</p>`,
                 explain: String.raw`<table>
 <tr><th>Condición</th><th>Conclusión en 0</th></tr>
@@ -663,6 +691,7 @@ const deep = {
             {
                 id: "t7.3",
                 title: String.raw`Combinaciones con f y f': el polinomio Q de g`,
+                src: String.raw`Notas C1B 2026, Ejemplo 34 (pág. 62-63) y Ejercicio 4.5 (pág. 67); 1ª rev. octubre 2024, mayo y octubre 2025, ejercicio de Taylor`,
                 eli5: String.raw`<p>Te dan la ficha técnica de \( f \) y te piden la de otra función armada con \( f \) y su derivada. No necesitás saber quién es \( f \): alcanza con los tres números de la ficha. Derivás \( g \) con las reglas de siempre y cada vez que aparece \( f(0) \), \( f'(0) \) o \( f''(0) \), lo reemplazás por el número que leíste del polinomio.</p>`,
                 explain: String.raw`<p>Molde de octubre 2024 a octubre 2025: dan \( P \) de orden 2 de \( f \), definen \( g \) y piden \( Q(1) \), donde \( Q \) es el Taylor de orden 1 de \( g \). Como \( Q(x)=g(0)+g'(0)x \), queda \( Q(1)=g(0)+g'(0) \).</p>
 <table>
@@ -682,7 +711,8 @@ const deep = {
             {
                 id: "t7.4",
                 title: String.raw`Composiciones: L(f), 1/f, e^f, f², √f`,
-                eli5: String.raw`<p>Ahora \( f \) está adentro de otra función, como un regalo dentro de una caja. Para saber cómo cambia la caja, usás la regla de la cadena: derivada de la caja evaluada en lo que hay adentro, por la derivada de lo de adentro. Otra forma, a veces más cómoda: si \( f(0)=1 \), escribís \( f=1+u \) con \( u \) chiquito, y usás el desarrollo que ya sabés de \( L(1+u) \) o de \( e^u \).</p>`,
+                src: String.raw`Notas C1B 2026, Ejemplo 34 (pág. 62-63); 1ª rev. octubre 2023 y mayo 2024 (L de f), octubre 2024 (1/f), mayo 2025 (cociente f prima sobre f)`,
+                eli5: String.raw`<p>Ahora \( f \) está adentro de otra función, como un regalo dentro de una caja. Para saber cómo cambia la caja, usás la regla de la cadena: derivada de la caja evaluada en lo que hay adentro, por la derivada de lo de adentro.</p>`,
                 explain: String.raw`<table>
 <tr><th>\( g \)</th><th>\( g'(0) \)</th><th>\( g''(0) \)</th></tr>
 <tr><td>\( L(f) \)</td><td>\( \frac{f'(0)}{f(0)} \)</td><td>\( \frac{f''(0)f(0)-f'(0)^2}{f(0)^2} \)</td></tr>
@@ -691,10 +721,10 @@ const deep = {
 <tr><td>\( f^2 \)</td><td>\( 2f(0)f'(0) \)</td><td>\( 2\left(f'(0)^2+f(0)f''(0)\right) \)</td></tr>
 <tr><td>\( \sqrt f \)</td><td>\( \frac{f'(0)}{2\sqrt{f(0)}} \)</td><td>(rara vez se pide)</td></tr>
 </table>
-<p><strong>Por sustitución</strong>, con \( P=1+u \) y \( u=2x-x^2 \): \( L(f)=u-\frac{u^2}2+o(x^2)=2x-x^2-2x^2=2x-3x^2 \). Al elevar \( u \) al cuadrado solo te quedás con los términos de grado \( \le2 \).</p>
+<p>Ejemplo: \( P=1+2x-x^2 \) y \( g=L(f) \): \( g(0)=L(1)=0 \), \( g'(0)=\frac{2}{1}=2 \), \( g''(0)=\frac{(-2)\cdot1-2^2}{1^2}=-6 \), así que el Taylor de orden 2 de \( g \) es \( 2x-3x^2 \).</p>
 <p>\( f^2 \) conviene hacerlo multiplicando: \( (3-x+2x^2)^2=9-6x+(1+12)x^2+\dots \). No es "elevar cada coeficiente al cuadrado".</p>
-<p>Elegí el camino según la \( g \): para \( \frac1f \) y \( \sqrt f \) conviene la fórmula de la derivada (solo piden orden 1); para \( L(f) \) y \( e^{f} \) con orden 2, la sustitución suele ser más corta y con menos riesgo de olvidar un término. Si \( f(0)\neq1 \) en \( L(f) \), la constante sale afuera: \( L(f)=L(f(0))+L\!\left(1+\frac{f-f(0)}{f(0)}\right) \).</p>`,
-                keys: [String.raw`\( (L f)'(0)=f'(0)/f(0) \)`, String.raw`\( (e^f)''(0)=e^{f(0)}(f''(0)+f'(0)^2) \)`, String.raw`\( f=1+u \): usá \( L(1+u) \) o \( e^u \) conocidos`, String.raw`\( f^2 \): multiplicá polinomios, no eleves coeficientes`],
+<p>En todos los casos el camino es el del Ejemplo 34 de las Notas: derivar \( g \) con la regla de la cadena (o del producto) y reemplazar \( f(0) \), \( f'(0) \) y \( f''(0) \). Para \( \frac1f \) y \( \sqrt f \) alcanza con \( g'(0) \) (solo piden orden 1); para \( L(f) \) y \( e^{f} \) con orden 2 hace falta también \( g''(0) \).</p>`,
+                keys: [String.raw`\( (L f)'(0)=f'(0)/f(0) \)`, String.raw`\( (e^f)''(0)=e^{f(0)}(f''(0)+f'(0)^2) \)`, String.raw`Derivá con la cadena y reemplazá \( f(0),f'(0),f''(0) \)`, String.raw`\( f^2 \): multiplicá polinomios, no eleves coeficientes`],
                 example: {
                     q: String.raw`\( P(x)=2+4x+x^2 \), \( g=\frac1f \). Calculá \( Q(1) \) (Taylor de orden 1 de \( g \)).`,
                     sol: String.raw`\( g(0)=\frac12 \), \( g'(0)=-\frac{4}{4}=-1 \). \( Q(1)=\frac12-1=-\frac12 \).`,
@@ -703,6 +733,7 @@ const deep = {
             {
                 id: "t7.5",
                 title: String.raw`Combinaciones con funciones conocidas`,
+                src: String.raw`Notas C1B 2026, Ejercicio 4.10 (pág. 68); 1ª rev. mayo 2026, ej. 9`,
                 eli5: String.raw`<p>Te dan la ficha técnica de \( f \) y te piden la de "\( f \) menos un coseno" o "\( f \) más un logaritmo". Como el coseno y el logaritmo ya tienen ficha conocida (su desarrollo de Taylor), se restan o suman ficha con ficha, número con número. Es como sumar dos listas de precios: cada renglón con su renglón. Después, con la ficha nueva, contestás lo que te pregunten.</p>`,
                 explain: String.raw`<p>Si \( g=f\pm c\,h \) con \( h \) conocida, su Taylor es \( P\pm c\,T_h \), donde \( T_h \) es el desarrollo de \( h \) hasta el mismo orden. Si \( g=f\cdot h \), se multiplican y se corta.</p>
 <ul>
@@ -723,17 +754,17 @@ const deep = {
             {
                 id: "t8.1",
                 title: String.raw`Qué es una serie y cuándo converge`,
-                eli5: String.raw`<p>Tenés una torta. Te comés la mitad; después la mitad de lo que queda; después la mitad de eso, y así para siempre. Aunque comas infinitas veces, nunca vas a comer más de una torta: la cantidad total se acerca a 1. Una serie es sumar infinitos números. A veces, como con la torta, el total se acerca a un número fijo (converge). Otras veces el total crece sin freno o no se decide (diverge).</p>`,
+                src: String.raw`Notas C1B 2026, sec. 1.1.3 y 1.2.1, Definición 1.4 (pág. 14-17); clase virtual 2`,
+                eli5: String.raw`<p>Tenés una torta. Te comés la mitad; después la mitad de lo que queda; después la mitad de eso, y así para siempre. Aunque comas infinitas veces, nunca vas a comer más de una torta: la cantidad total se acerca a 1. Una serie es sumar infinitos números. A veces, como con la torta, el total se acerca a un número fijo (converge). Otras veces el total crece sin freno (diverge) o no se decide (oscila).</p>`,
                 explain: String.raw`<p>Dada una sucesión \( a_n \), la serie \( \sum_{n=n_0}^{\infty}a_n \) es el límite de las <strong>sumas parciales</strong></p>
 \[ S_N=a_{n_0}+a_{n_0+1}+\dots+a_N,\qquad \sum_{n=n_0}^{\infty}a_n=\lim_{N\to\infty}S_N \]
 <ul>
-<li>Si ese límite es un número finito, la serie <strong>converge</strong> a ese número. Si es \( \pm\infty \) o no existe, <strong>diverge</strong>.</li>
-<li><strong>Condición necesaria:</strong> si la serie converge, entonces \( a_n\to0 \). Al revés no vale: que \( a_n\to0 \) no garantiza convergencia. Pero sirve para descartar: si \( a_n\not\to0 \), la serie diverge seguro.</li>
-<li>Cambiar, agregar o sacar una cantidad finita de términos no cambia si converge o no (sí cambia el valor de la suma).</li>
+<li>Si ese límite es un número real \( L \), la serie <strong>converge</strong> a \( L \). Si es \( \infty \), la serie <strong>diverge</strong>. Si no existe, la serie <strong>oscila</strong> (Notas, Definición 1.4).</li>
+<li>Si la suma no arranca en \( n=0 \), se resta lo que sobra: \( \sum_{n=1}^{\infty}x^n=\sum_{n=0}^{\infty}x^n-1=\frac{x}{1-x} \) (Notas, Ejemplo 8 y Observación 4).</li>
 <li>Si \( \sum a_n=A \) y \( \sum b_n=B \), entonces \( \sum(\alpha a_n+\beta b_n)=\alpha A+\beta B \).</li>
 </ul>
 <p>En el parcial todas las series son geométricas (o suma de dos geométricas), así que la definición sirve sobre todo para entender por qué funciona la fórmula y por qué el índice inicial importa.</p>`,
-                keys: [String.raw`Serie = límite de las sumas parciales \( S_N \)`, String.raw`Converge si ese límite es finito`, String.raw`Si converge, \( a_n\to0 \); si \( a_n\not\to0 \), diverge`, String.raw`La suma es lineal: se pueden separar y sacar constantes`],
+                keys: [String.raw`Serie = límite de las sumas parciales \( S_N \)`, String.raw`Converge si ese límite es finito`, String.raw`Límite \( \infty \): diverge; límite que no existe: oscila`, String.raw`La suma es lineal: se pueden separar y sacar constantes`],
                 example: {
                     q: String.raw`\( S_3 \) de \( \sum_{n=1}^\infty\frac1{2^n} \) y el valor de la serie.`,
                     sol: String.raw`\( S_3=\frac12+\frac14+\frac18=\frac78 \). Las sumas parciales son \( 1-\frac1{2^N}\to1 \): la serie vale 1.`,
@@ -742,6 +773,7 @@ const deep = {
             {
                 id: "t8.2",
                 title: String.raw`Serie geométrica: fórmula, convergencia y divergencia`,
+                src: String.raw`Notas C1B 2026, sec. 1.2.2 (pág. 17-18); clases virtuales 2 y 3`,
                 eli5: String.raw`<p>En una serie geométrica cada término es el anterior multiplicado siempre por el mismo número \( r \), como una pelota que en cada rebote sube una fracción fija del rebote anterior. Si la fracción es menor que 1, los rebotes se achican y la altura total recorrida es finita. Si es 1 o más, los rebotes no se achican y la suma se va al infinito (o, con signos que alternan, nunca se queda quieta).</p>`,
                 explain: String.raw`<p>\( \sum_{n=0}^{\infty}r^n \) tiene sumas parciales \( S_N=\frac{1-r^{N+1}}{1-r} \) (para \( r\neq1 \)). De ahí:</p>
 \[ \sum_{n=0}^{\infty}c\,r^n=\frac{c}{1-r}\quad\text{si } |r|\lt1 \]
@@ -749,13 +781,13 @@ const deep = {
 <tr><th>\( r \)</th><th>Comportamiento</th></tr>
 <tr><td>\( |r|\lt1 \)</td><td>converge a \( \frac{\text{primer término}}{1-r} \)</td></tr>
 <tr><td>\( r\ge1 \)</td><td>diverge a \( +\infty \) (con \( c\gt0 \))</td></tr>
-<tr><td>\( r=-1 \)</td><td>oscila (\( 1,0,1,0,\dots \)): diverge</td></tr>
-<tr><td>\( r\lt-1 \)</td><td>oscila con amplitud creciente: diverge</td></tr>
+<tr><td>\( r=-1 \)</td><td>oscila (\( 1,0,1,0,\dots \))</td></tr>
+<tr><td>\( r\lt-1 \)</td><td>oscila</td></tr>
 </table>
 <p><strong>Trampa:</strong> la fórmula \( \frac{c}{1-r} \) da un número aunque \( |r|\ge1 \): con \( r=\frac54 \) daría \( -4 \). Ese número no significa nada; la serie diverge. Por eso "Converge a \( -4 \)" puede aparecer como opción.</p>
 <p>Con \( r \) negativo (\( (-\frac13)^n \)), la fórmula funciona igual si \( |r|\lt1 \): \( \frac{1}{1+\frac13}=\frac34 \).</p>
-<p>Antes de aplicar la fórmula, anotá \( r \) y compará su valor absoluto con 1. Es un segundo de trabajo y evita la trampa más frecuente de las opciones. En el parcial la numérica nunca dio \"Diverge\" en V1, pero si cambian los datos puede serlo.</p>`,
-                keys: [String.raw`\( \sum c\,r^n=\frac{\text{primer término}}{1-r} \) si \( |r|\lt1 \)`, String.raw`\( |r|\ge1 \): diverge, aunque la fórmula dé un número`, String.raw`\( r=-1 \) oscila y diverge`, String.raw`\( r \) negativo con \( |r|\lt1 \) converge igual`],
+<p>Antes de aplicar la fórmula, anotá \( r \) y compará su valor absoluto con 1. Es un segundo de trabajo y evita la trampa más frecuente de las opciones. En el parcial la numérica nunca dio "Diverge" en V1, pero si cambian los datos puede serlo.</p>`,
+                keys: [String.raw`\( \sum c\,r^n=\frac{\text{primer término}}{1-r} \) si \( |r|\lt1 \)`, String.raw`\( r\ge1 \): diverge; \( r\le-1 \): oscila (la fórmula no vale)`, String.raw`\( r=-1 \): oscila`, String.raw`\( r \) negativo con \( |r|\lt1 \) converge igual`],
                 example: {
                     q: String.raw`\( \sum_{n=0}^\infty\left(\frac54\right)^n \)`,
                     sol: String.raw`\( r=\frac54\gt1 \): diverge. La fórmula daría \( \frac1{1-5/4}=-4 \), absurdo para una suma de positivos.`,
@@ -764,16 +796,17 @@ const deep = {
             {
                 id: "t8.3",
                 title: String.raw`Índice inicial y primer término`,
+                src: String.raw`Notas C1B 2026, Ejemplo 8 y Observación 4 (pág. 18-19); clase virtual 3 (serie que no empieza en 0)`,
                 eli5: String.raw`<p>La fórmula de la serie geométrica es "primer término dividido \( 1-r \)". El error es creer que el primer término siempre es 1 o siempre es \( c \). Depende de desde dónde empezás a contar: si la fila empieza en la posición 3, el primero de la fila es el que está en la posición 3. Mirá el número de abajo del \( \sum \) y reemplazalo: ese es tu primer término.</p>`,
                 explain: String.raw`\[ \sum_{n=n_0}^{\infty}c\,r^n=\frac{c\,r^{n_0}}{1-r}=\frac{\text{término con } n=n_0}{1-r} \]
-<p>El método más seguro: <strong>sustituí \( n=n_0 \) en la expresión tal como está</strong> (sin reacomodar) para obtener el primer término, calculá \( r \) como cociente entre dos términos seguidos, y dividí.</p>
+<p>El método más seguro: <strong>sustituí \( n=n_0 \) en la expresión tal como está</strong> (sin reacomodar) para obtener el primer término, calculá \( r \) (la base que queda elevada a la \( n \)), y dividí.</p>
 <ul>
 <li>\( \sum_{n=2}^\infty\left(\frac13\right)^n \): primer término \( \frac19 \), \( r=\frac13 \): \( \frac{1/9}{2/3}=\frac16 \).</li>
 <li>\( \sum_{n=1}^\infty\frac3{4^n} \): primer término \( \frac34 \), \( r=\frac14 \): \( \frac{3/4}{3/4}=1 \).</li>
 <li>\( \sum_{n=0}^\infty\left(\frac12\right)^{n+2} \): primer término \( \frac14 \), \( r=\frac12 \): \( \frac12 \).</li>
 </ul>
 <p>Relación útil: \( \sum_{n=1}^\infty=\sum_{n=0}^\infty-(\text{término } n=0) \). Si \( \sum_{n=0}^\infty\left(\frac25\right)^n=\frac53 \), entonces \( \sum_{n=1}^\infty\left(\frac25\right)^n=\frac53-1=\frac23 \).</p>
-<p>El índice inicial no cambia si converge o diverge; solo cambia el valor.</p>
+<p>Como en el Ejemplo 8 de las Notas, cambiar el índice inicial resta (o suma) algunos términos: cambia el valor, no si converge.</p>
 <p>Si preferís reacomodar, hacelo con cuidado: \( \sum_{n=2}^\infty r^n=r^2\sum_{m=0}^\infty r^m \) (cambio \( m=n-2 \)). Es el mismo resultado, pero con más pasos donde equivocarse. Sustituir \( n=n_0 \) directamente en la expresión original es lo más rápido y lo que menos errores produce.</p>`,
                 keys: [String.raw`Primer término: sustituí \( n=n_0 \) tal como está`, String.raw`\( \frac{1}{1-r} \) solo si arranca en 0 y el término es \( r^n \)`, String.raw`\( \sum_{n\ge1}=\sum_{n\ge0}-a_0 \)`, String.raw`El índice cambia el valor, no la convergencia`],
                 example: {
@@ -784,16 +817,17 @@ const deep = {
             {
                 id: "t8.4",
                 title: String.raw`Reacomodar exponentes (series disfrazadas)`,
-                eli5: String.raw`<p>A veces la serie geométrica viene disfrazada: exponentes corridos (\( n+1 \), \( n-1 \)), potencias dobles (\( 3^{2n} \)) o cuadrados de potencias (\( (2^n)^2 \)). Por debajo del disfraz siempre hay un "algo a la \( n \)". Sacarle el disfraz es reescribir cada potencia como un número fijo por "algo a la \( n \)". Y si no querés sacar el disfraz, mirá cuánto se multiplica cada término respecto del anterior: eso es \( r \).</p>`,
+                src: String.raw`Notas C1B 2026, Ejemplo 9 (pág. 19) y Ejercicio 1.3 (pág. 20); propiedades de potencias: clase virtual 1; clase virtual 2 (ejemplo 3)`,
+                eli5: String.raw`<p>A veces la serie geométrica viene disfrazada: exponentes corridos (\( n+1 \), \( n-1 \)), potencias dobles (\( 3^{2n} \)) o cuadrados de potencias (\( (2^n)^2 \)). Por debajo del disfraz siempre hay un "algo a la \( n \)". Sacarle el disfraz es reescribir cada potencia como un número fijo por "algo a la \( n \)".</p>`,
                 explain: String.raw`<p>Herramientas para encontrar \( r \):</p>
 <ul>
 <li>\( a^{n+k}=a^k\cdot a^n \) y \( a^{n-k}=\frac{a^n}{a^k} \): \( 3^{n+1}=3\cdot3^n \), \( \frac1{5^{n-1}}=5\cdot\left(\frac15\right)^n \).</li>
 <li>\( a^{2n}=(a^2)^n \): \( 3^{2n}=9^n \), \( 2^{3n}=8^n \). Y \( (2^n)^2=4^n \) (no \( 2^{n^2} \)).</li>
 <li>Juntá todo en \( \left(\frac{\text{arriba}}{\text{abajo}}\right)^n \): \( \frac{4^n}{3^{2n+1}}=\frac13\left(\frac49\right)^n \).</li>
-<li>Atajo: \( r=\frac{a_{n+1}}{a_n} \). Con potencias, \( r \) es el cociente de las bases "por cada \( n \)": en \( \frac{2^{n+1}}{5^{n-1}} \), \( r=\frac25 \).</li>
+<li>Con potencias corridas, \( r \) es el cociente de las bases: \( \frac{2^{n+1}}{5^{n-1}}=\frac{2\cdot2^n}{5^n/5}=10\left(\frac25\right)^n \), así que \( r=\frac25 \).</li>
 </ul>
 <p>Después: primer término sustituyendo \( n=n_0 \), chequeo \( |r|\lt1 \), fórmula. Ejemplo: \( \sum_{n=0}^\infty\frac{2^{n+1}}{5^{n-1}} \): primer término \( \frac{2}{5^{-1}}=10 \), \( r=\frac25 \), suma \( \frac{10}{3/5}=\frac{50}3 \).</p>
-<p>Si \( |r|\ge1 \) la respuesta es "Diverge", aunque entre las opciones esté el número que da la fórmula.</p>
+<p>Si \( r\ge1 \) la respuesta es "Diverge" (y si \( r\le-1 \), la serie oscila), aunque entre las opciones esté el número que da la fórmula.</p>
 <p>En el parcial el término general suele venir como cociente de dos potencias con exponentes corridos. No hace falta llevarlo a la forma \( c\,r^n \): alcanza con saber \( r \) (cociente de bases) y el primer término (sustituyendo \( n=n_0 \)). Dejá la simplificación de fracciones para el final.</p>`,
                 keys: [String.raw`\( a^{n+k}=a^k a^n \); \( a^{2n}=(a^2)^n \)`, String.raw`\( (2^n)^2=4^n \), no \( 2^{n^2} \)`, String.raw`\( r \) = cociente de bases por cada \( n \)`, String.raw`Primer término con \( n=n_0 \) sin reacomodar`],
                 example: {
@@ -804,6 +838,7 @@ const deep = {
             {
                 id: "t8.5",
                 title: String.raw`Suma de dos geométricas`,
+                src: String.raw`Notas C1B 2026, Ejercicio 1.3 f y g (pág. 20); clases virtuales 2 (ejemplo 2) y 3 (Ej. 1.3 f); 1ª rev. mayo 2026, ej. 8`,
                 eli5: String.raw`<p>Si en un mismo canasto echás manzanas de dos árboles, el total es lo que dio un árbol más lo que dio el otro. Una fracción con una suma arriba se puede partir en dos fracciones, y cada una es una serie geométrica con su propio \( r \). Se calcula cada una por separado y se suman. Pero ojo: si uno de los árboles da infinitas manzanas, el canasto se desborda, no importa lo que haga el otro.</p>`,
                 explain: String.raw`<p>Si el término general es \( \frac{A+B}{C} \), separás: \( \sum\frac{A}{C}+\sum\frac{B}{C} \).</p>
 <ul>
@@ -814,7 +849,7 @@ const deep = {
 <p>Ejemplo (mayo 2026): \( \sum_{n=1}^\infty\frac{5+2^n}{3^{n-1}}=\sum\frac5{3^{n-1}}+\sum\frac{2^n}{3^{n-1}}=\frac{5}{2/3}+\frac{2}{1/3}=\frac{15}2+6=\frac{27}2 \).</p>
 <p>Con resta o con \( (-1)^n \) funciona igual: \( \sum_{n=1}^\infty\frac{2^n+(-1)^n}{5^n}=\frac{2/5}{3/5}+\frac{-1/5}{6/5}=\frac23-\frac16=\frac12 \). La parte con \( (-1)^n \) tiene \( r=-\frac15 \) y primer término negativo.</p>
 <p>Las opciones falsas suelen ser la suma de una sola de las partes o el resultado de usar un solo \( r \) para las dos.</p>
-<p>En la prueba, escribí las dos series por separado en renglones distintos, cada una con su \( r \), su primer término y su resultado, y recién al final sumalas. Controlá que las dos cumplen \( |r|\lt1 \): alcanza con que una no lo cumpla para que la respuesta sea \"Diverge\".</p>`,
+<p>En la prueba, escribí las dos series por separado en renglones distintos, cada una con su \( r \), su primer término y su resultado, y recién al final sumalas. Controlá que las dos cumplen \( |r|\lt1 \): alcanza con que una no lo cumpla para que la serie no converja ("Diverge" si esa parte tiene \( r\ge1 \)).</p>`,
                 keys: [String.raw`Separá en dos geométricas y sumá los resultados`, String.raw`Cada parte con su primer término y su \( r \)`, String.raw`Una diverge: el total diverge`, String.raw`\( (-1)^n \) da \( r \) negativo`],
                 example: {
                     q: String.raw`\( \sum_{n=0}^\infty\frac{2^n+3^n}{6^n} \)`,
@@ -824,6 +859,7 @@ const deep = {
             {
                 id: "t8.6",
                 title: String.raw`Series con parámetro y la condición |r| < 1`,
+                src: String.raw`Notas C1B 2026, Ejercicios 1.4-1.10 (pág. 20-21); clase virtual 3 (Ej. 1.6 y 1.9)`,
                 eli5: String.raw`<p>Ahora la pelota que rebota tiene un número desconocido \( x \) en su fracción de rebote, y te dicen cuánto recorrió en total. Armás la ecuación "primer término dividido \( 1-r \) igual al total" y despejás \( x \). Pero cuidado: a veces la ecuación da una solución con la que la pelota rebotaría cada vez más alto. Esa solución es trucha, porque con ella la suma nunca habría dado un número. Hay que tirarla.</p>`,
                 explain: String.raw`<p>Molde P10: "Si \( \sum\ldots=S \), entonces:" con \( x \) en la base.</p>
 <ol>
@@ -834,7 +870,7 @@ const deep = {
 <p>Ejemplo: \( \sum_{n=0}^\infty\frac2{x^{2n+1}}=\frac34 \). Primer término \( \frac2x \), \( r=\frac1{x^2} \). \( \frac{2/x}{1-1/x^2}=\frac{2x}{x^2-1}=\frac34 \Rightarrow 3x^2-8x-3=0 \Rightarrow x=3 \) o \( x=-\frac13 \). Con \( x=-\frac13 \), \( r=9 \): se descarta. Respuesta: \( x=3 \).</p>
 <p>A veces las dos soluciones sirven: \( \sum_{n=0}^\infty\frac1{x^{2n}}=\frac43 \) da \( x^2=4 \), y con \( x=\pm2 \) queda \( r=\frac14 \) en los dos casos.</p>
 <p><strong>Dominio de convergencia:</strong> \( \sum\frac{(x-1)^n}{3^n} \) converge si \( \left|\frac{x-1}3\right|\lt1 \iff -2\lt x\lt4 \) (abierto).</p>
-<p>Cuando \( x \) está en el denominador (\( r=\frac1x \), \( \frac1{x^2} \)), la condición \( |r|\lt1 \) se traduce en \( |x|\gt1 \): las soluciones con \( |x|\le1 \) se descartan. En octubre 2025 apareció una alternada, \( \frac{(-1)^n}{x^{n+1}} \), donde \( r=-\frac1x \): el signo cambia la ecuación pero no la condición.</p>`,
+<p>Cuando \( x \) está en el denominador (\( r=\frac1x \), \( \frac1{x^2} \)), la condición \( |r|\lt1 \) se traduce en \( |x|\gt1 \): las soluciones con \( |x|\le1 \) se descartan. En octubre 2025 apareció una con \( (-1)^n \), \( \frac{(-1)^n}{x^{n+1}} \), donde \( r=-\frac1x \): el signo cambia la ecuación pero no la condición.</p>`,
                 keys: [String.raw`Primer término sobre \( 1-r \) igual al dato`, String.raw`Siempre chequear \( |r|\lt1 \) con cada solución`, String.raw`Con \( x \) abajo, \( r=\frac1x \) o \( \frac1{x^2} \)`, String.raw`El conjunto de convergencia es un intervalo abierto`],
                 example: {
                     q: String.raw`\( \sum_{n=0}^\infty\frac{x^n}{2^n}=3 \)`,
@@ -847,8 +883,8 @@ const deep = {
         {
             t: "t1",
             s: "t1.1",
-            q: String.raw`\( L(ab) \), \( L(a/b) \) y \( L(a^k) \)`,
-            a: String.raw`\( L(a)+L(b) \), \( L(a)-L(b) \) y \( k\,L(a) \) (con \( a,b\gt0 \))`,
+            q: String.raw`Inversa de \( f:\mathbb R\to(0,+\infty) \), \( f(x)=e^x \)`,
+            a: String.raw`\( f^{-1}:(0,+\infty)\to\mathbb R \), \( f^{-1}(x)=L(x) \) (Notas, Ejemplo 27)`,
         },
         {
             t: "t1",
@@ -1099,8 +1135,8 @@ const deep = {
         {
             t: "t2",
             s: "t2.3",
-            q: String.raw`Composición de biyectivas`,
-            a: String.raw`Es biyectiva, y \( (g\circ f)^{-1}=f^{-1}\circ g^{-1} \)`,
+            q: String.raw`Dominio \( A \) y codominio \( B \) para que \( f(x)=e^x \) sea biyectiva`,
+            a: String.raw`\( A=\mathbb R \), \( B=(0,+\infty) \); también \( A=[0,+\infty) \), \( B=[1,+\infty) \) (Notas, Ejemplo 22)`,
         },
         {
             t: "t2",
@@ -1429,8 +1465,8 @@ const deep = {
         {
             t: "t4",
             s: "t4.1",
-            q: String.raw`¿Qué se deriva para deducir la fórmula?`,
-            a: String.raw`\( f(f^{-1}(x))=x \), con la regla de la cadena`,
+            q: String.raw`¿De dónde sale el "uno sobre" en la derivada de la inversa?`,
+            a: String.raw`Los gráficos de \( f \) y \( f^{-1} \) son simétricos respecto de \( y=x \): las tangentes en \( (a,b) \) y \( (b,a) \) también, y sus pendientes son números inversos (Teorema 2.3)`,
         },
         {
             t: "t4",
@@ -1633,14 +1669,14 @@ const deep = {
         {
             t: "t5",
             s: "t5.1",
-            q: String.raw`¿Qué dice la unicidad del Taylor?`,
-            a: String.raw`Si \( f=Q+o(x^n) \) con \( Q \) de grado \( \le n \), \( Q \) es el Taylor de orden \( n \)`,
+            q: String.raw`¿Qué es \( R_n(x) \) en el Teorema de Taylor?`,
+            a: String.raw`El resto: \( R_n(x)=f(x)-P_n(x) \), que cumple \( \lim_{x\to0}\frac{R_n(x)}{x^n}=0 \)`,
         },
         {
             t: "t5",
             s: "t5.1",
             q: String.raw`\( \lim_{x\to0}\frac{f(x)-P_n(x)}{x^n} \)`,
-            a: String.raw`0: el resto es \( o(x^n) \)`,
+            a: String.raw`0: es lo que garantiza el Teorema de Taylor para el resto \( R_n(x) \)`,
         },
         {
             t: "t5",
@@ -1651,8 +1687,8 @@ const deep = {
         {
             t: "t5",
             s: "t5.2",
-            q: String.raw`\( \sqrt{1+x} \) hasta orden 2`,
-            a: String.raw`\( 1+\frac x2-\frac{x^2}8 \)`,
+            q: String.raw`Taylor de orden 2 en 0 de \( L(1+x^2) \)`,
+            a: String.raw`\( x^2 \) (Notas, Ejercicio 4.1 d)`,
         },
         {
             t: "t5",
@@ -1669,8 +1705,8 @@ const deep = {
         {
             t: "t5",
             s: "t5.2",
-            q: String.raw`\( (1+x)^\alpha \) hasta orden 2`,
-            a: String.raw`\( 1+\alpha x+\frac{\alpha(\alpha-1)}2x^2 \)`,
+            q: String.raw`Taylor de orden 2 en 0 de \( e^x+3x^2-1 \)`,
+            a: String.raw`\( x+\frac72x^2 \) (Notas, Ejercicio 4.1 c)`,
         },
         {
             t: "t5",
@@ -1735,37 +1771,37 @@ const deep = {
         {
             t: "t5",
             s: "t5.4",
-            q: String.raw`¿Es \( x^3=o(x^2) \)?`,
+            q: String.raw`¿Cuándo \( f \) es un infinitésimo en \( a \)?`,
+            a: String.raw`Cuando \( \lim_{x\to a}f(x)=0 \) (Notas, Observación 10)`,
+        },
+        {
+            t: "t5",
+            s: "t5.4",
+            q: String.raw`\( f \) y \( g \) infinitésimos en \( a \): ¿cuándo \( f \) es de mayor orden que \( g \)?`,
+            a: String.raw`Cuando \( \lim_{x\to a}\frac{f(x)}{g(x)}=0 \): \( f \) se acerca a cero más rápido`,
+        },
+        {
+            t: "t5",
+            s: "t5.4",
+            q: String.raw`¿Es \( x^3 \) un infinitésimo de mayor orden que \( x^2 \) en 0?`,
             a: String.raw`Sí: \( \frac{x^3}{x^2}=x\to0 \)`,
         },
         {
             t: "t5",
             s: "t5.4",
-            q: String.raw`\( o(x^2)-o(x^2) \)`,
-            a: String.raw`\( o(x^2) \) (no es 0)`,
+            q: String.raw`Suma de infinitésimos de distinto orden`,
+            a: String.raw`Es equivalente al de menor orden: si \( f \) es de mayor orden que \( g \), \( f+g\sim g \)`,
         },
         {
             t: "t5",
             s: "t5.4",
-            q: String.raw`\( x^2\cdot o(x) \)`,
-            a: String.raw`\( o(x^3) \)`,
+            q: String.raw`¿Qué se sabe del resto \( R_2(x) \) del Taylor de orden 2 en 0?`,
+            a: String.raw`Que es un infinitésimo de mayor orden que \( x^2 \): \( \lim_{x\to0}\frac{R_2(x)}{x^2}=0 \)`,
         },
         {
             t: "t5",
             s: "t5.4",
-            q: String.raw`\( o(x^2)+o(x^3) \)`,
-            a: String.raw`\( o(x^2) \): manda el exponente menor`,
-        },
-        {
-            t: "t5",
-            s: "t5.4",
-            q: String.raw`\( \frac{o(x^3)}{x^2} \) cuando \( x\to0 \)`,
-            a: String.raw`\( o(x)\to0 \)`,
-        },
-        {
-            t: "t5",
-            s: "t5.4",
-            q: String.raw`¿Es \( 2x^2=o(x^2) \)?`,
+            q: String.raw`¿Es \( 2x^2 \) un infinitésimo de mayor orden que \( x^2 \) en 0?`,
             a: String.raw`No: \( \frac{2x^2}{x^2}=2\not\to0 \)`,
         },
         {
@@ -1814,7 +1850,7 @@ const deep = {
             t: "t6",
             s: "t6.1",
             q: String.raw`\( x\,g(x) \) en un numerador con \( x^3 \) abajo: ¿orden de \( g \)?`,
-            a: String.raw`2: \( x\cdot o(x^2)=o(x^3) \)`,
+            a: String.raw`2: \( x\cdot R_2(x) \) dividido \( x^3 \) es \( \frac{R_2(x)}{x^2}\to0 \)`,
         },
         {
             t: "t6",
@@ -1825,7 +1861,7 @@ const deep = {
         {
             t: "t6",
             s: "t6.1",
-            q: String.raw`Numerador \( c\,x^m+o(x^m) \), denominador \( x^k \), con \( m\lt k \)`,
+            q: String.raw`Numerador \( c\,x^m+R_m(x) \), denominador \( x^k \), con \( m\lt k \)`,
             a: String.raw`El límite es infinito o no existe (con \( k-m \) impar, signos distintos a cada lado)`,
         },
         {
@@ -2126,7 +2162,7 @@ const deep = {
             t: "t7",
             s: "t7.4",
             q: String.raw`\( P=1+2x-x^2 \), \( g=L(f) \): polinomio de orden 2`,
-            a: String.raw`\( u=2x-x^2 \): \( u-\frac{u^2}2=2x-3x^2 \)`,
+            a: String.raw`\( g(0)=0 \), \( g'(0)=\frac{f'(0)}{f(0)}=2 \), \( g''(0)=\frac{f''(0)f(0)-f'(0)^2}{f(0)^2}=-6 \): \( 2x-3x^2 \)`,
         },
         {
             t: "t7",
@@ -2179,14 +2215,14 @@ const deep = {
         {
             t: "t8",
             s: "t8.1",
-            q: String.raw`Condición necesaria de convergencia`,
-            a: String.raw`\( a_n\to0 \). Si no se cumple, la serie diverge`,
+            q: String.raw`Si \( \lim S_n=\infty \), ¿qué se dice de la serie?`,
+            a: String.raw`Que diverge (Notas, Definición 1.4)`,
         },
         {
             t: "t8",
             s: "t8.1",
-            q: String.raw`¿\( a_n\to0 \) alcanza para converger?`,
-            a: String.raw`No: es necesaria pero no suficiente`,
+            q: String.raw`Si \( \lim S_n \) no existe, ¿qué se dice de la serie?`,
+            a: String.raw`Que oscila. Ejemplo: \( \sum(-1)^n \), con sumas parciales \( 1,0,1,0,\dots \)`,
         },
         {
             t: "t8",
@@ -2203,8 +2239,8 @@ const deep = {
         {
             t: "t8",
             s: "t8.1",
-            q: String.raw`¿Sacar los primeros 10 términos cambia la convergencia?`,
-            a: String.raw`No; cambia el valor de la suma, no si converge`,
+            q: String.raw`\( \sum_{n=1}^\infty x^n \) con \( -1\lt x\lt1 \)`,
+            a: String.raw`\( \frac{x}{1-x} \) (Notas, Observación 4)`,
         },
         {
             t: "t8",
@@ -2222,7 +2258,7 @@ const deep = {
             t: "t8",
             s: "t8.2",
             q: String.raw`\( \sum_{n=0}^\infty(-1)^n \)`,
-            a: String.raw`Diverge: las sumas parciales oscilan entre 1 y 0`,
+            a: String.raw`Oscila: las sumas parciales van \( 1,0,1,0,\dots \) y no tienen límite`,
         },
         {
             t: "t8",
@@ -2317,8 +2353,8 @@ const deep = {
         {
             t: "t8",
             s: "t8.4",
-            q: String.raw`Atajo para encontrar \( r \)`,
-            a: String.raw`\( \frac{a_{n+1}}{a_n} \)`,
+            q: String.raw`\( \sum_{n=s}^\infty x^n \) con \( -1\lt x\lt1 \)`,
+            a: String.raw`\( \frac{x^s}{1-x} \): se saca \( x^s \) de factor común (clase virtual 3)`,
         },
         {
             t: "t8",
@@ -2416,7 +2452,7 @@ const deep = {
             q: String.raw`\( e^{2L(3)} \) es igual a:`,
             opts: [String.raw`\( 6 \)`, String.raw`\( e^6 \)`, String.raw`\( 3^e \)`, String.raw`\( 9 \)`],
             ans: 3,
-            exp: String.raw`\( 2L(3)=L(3^2)=L(9) \) y \( e^{L(9)}=9 \). El 6 multiplica en vez de elevar y \( e^6 \) olvida que \( e \) y \( L \) se cancelan.`,
+            exp: String.raw`\( e^{2L(3)}=\left(e^{L(3)}\right)^2=3^2=9 \), usando \( (a^n)^m=a^{nm} \) y \( e^{L(x)}=x \). El 6 multiplica en vez de elevar y \( e^6 \) olvida que \( e \) y \( L \) se cancelan.`,
         },
         {
             t: "t1",
@@ -2621,10 +2657,10 @@ const deep = {
         {
             t: "t2",
             s: "t2.3",
-            q: String.raw`Si \( f:A\to B \) y \( g:B\to C \) son biyectivas, entonces \( g\circ f:A\to C \):`,
-            opts: [String.raw`es inyectiva pero puede no ser sobreyectiva`, String.raw`es sobreyectiva pero puede no ser inyectiva`, String.raw`puede no ser ni inyectiva ni sobreyectiva`, String.raw`es biyectiva`],
-            ans: 3,
-            exp: String.raw`La composición de inyectivas es inyectiva y la de sobreyectivas es sobreyectiva. Su inversa es \( f^{-1}\circ g^{-1} \).`,
+            q: String.raw`Se quiere que \( f(x)=e^x \) sea biyectiva de \( [0,+\infty) \) en \( B \). Entonces \( B \) es:`,
+            opts: [String.raw`\( (0,+\infty) \)`, String.raw`\( [1,+\infty) \)`, String.raw`\( [0,+\infty) \)`, String.raw`\( (1,+\infty) \)`],
+            ans: 1,
+            exp: String.raw`\( e^x \) es estrictamente creciente, así que en \( [0,+\infty) \) va de \( e^0=1 \) (incluido) hacia \( +\infty \): el recorrido es \( [1,+\infty) \) (Notas, Ejemplo 22). \( (0,+\infty) \) es el recorrido con dominio \( \mathbb R \) y \( (1,+\infty) \) deja afuera \( f(0)=1 \).`,
         },
         {
             t: "t2",
@@ -3216,7 +3252,7 @@ const deep = {
             q: String.raw`Si \( P_3 \) es el polinomio de Taylor de orden 3 de \( f \) en 0, entonces \( \lim_{x\to0}\frac{f(x)-P_3(x)}{x^3} \) es:`,
             opts: [String.raw`\( \frac{f'''(0)}6 \)`, String.raw`\( 1 \)`, String.raw`no se puede saber sin conocer \( f \)`, String.raw`\( 0 \)`],
             ans: 3,
-            exp: String.raw`Por definición \( f(x)-P_3(x)=o(x^3) \), y dividido \( x^3 \) tiende a 0. Es la propiedad que justifica todos los límites con Taylor.`,
+            exp: String.raw`Por el Teorema de Taylor, \( f(x)-P_3(x)=R_3(x) \) y \( \lim_{x\to0}\frac{R_3(x)}{x^3}=0 \). Es la propiedad que justifica todos los límites con Taylor.`,
         },
         {
             t: "t5",
@@ -3229,10 +3265,10 @@ const deep = {
         {
             t: "t5",
             s: "t5.2",
-            q: String.raw`El polinomio de Taylor de orden 2 en 0 de \( \sqrt{1+x} \) es:`,
-            opts: [String.raw`\( 1+\frac x2+\frac{x^2}8 \)`, String.raw`\( 1+\frac x2-\frac{x^2}4 \)`, String.raw`\( 1+\frac x2-\frac{x^2}8 \)`, String.raw`\( 1+x-\frac{x^2}2 \)`],
-            ans: 2,
-            exp: String.raw`Con \( \alpha=\frac12 \): \( \frac{\alpha(\alpha-1)}2=\frac{\frac12\cdot(-\frac12)}2=-\frac18 \). \( -\frac{x^2}4 \) olvida dividir entre 2 y \( 1+x-\frac{x^2}2 \) es el principio de \( L(1+x) \) con un 1 de más.`,
+            q: String.raw`El polinomio de Taylor de orden 2 en 0 de \( f(x)=e^x+3x^2-1 \) es:`,
+            opts: [String.raw`\( 1+x+\frac72x^2 \)`, String.raw`\( x+\frac72x^2 \)`, String.raw`\( x+7x^2 \)`, String.raw`\( x+4x^2 \)`],
+            ans: 1,
+            exp: String.raw`\( f(0)=0 \), \( f'(0)=1 \), \( f''(0)=1+6=7 \): \( P_2(x)=x+\frac72x^2 \) (Notas, Ejercicio 4.1 c). La primera olvida el \( -1 \), \( 7x^2 \) no divide \( f''(0) \) entre 2 y \( 4x^2 \) toma 1 como coeficiente de \( x^2 \) en \( e^x \).`,
         },
         {
             t: "t5",
@@ -3240,20 +3276,20 @@ const deep = {
             q: String.raw`El polinomio de Taylor de orden 3 en 0 de \( \frac1{1+x} \) es:`,
             opts: [String.raw`\( 1-x+x^2-x^3 \)`, String.raw`\( 1+x+x^2+x^3 \)`, String.raw`\( 1-x+\frac{x^2}2-\frac{x^3}6 \)`, String.raw`\( x-\frac{x^2}2+\frac{x^3}3 \)`],
             ans: 0,
-            exp: String.raw`Es la geométrica \( \frac1{1-u} \) con \( u=-x \): \( 1-x+x^2-x^3 \). La opción con factoriales es \( e^{-x} \) y la que empieza en \( x \) es \( L(1+x) \).`,
+            exp: String.raw`Derivando: \( f(0)=1 \), \( f'(0)=-1 \), \( f''(0)=2 \), \( f'''(0)=-6 \), así que \( P_3=1-x+x^2-x^3 \). La opción con factoriales es \( e^{-x} \) y la que empieza en \( x \) es \( L(1+x) \).`,
         },
         {
             t: "t5",
             s: "t5.2",
             q: String.raw`¿Cuál de estos desarrollos hasta orden 3 en 0 es INCORRECTO?`,
-            opts: [String.raw`\( \cos x=1-\frac{x^2}2+o(x^3) \)`, String.raw`\( L(1+x)=x-\frac{x^2}2+\frac{x^3}3+o(x^3) \)`, String.raw`\( \text{Arctg}\,x=x-\frac{x^3}3+o(x^3) \)`, String.raw`\( e^x=1+x+x^2+\frac{x^3}6+o(x^3) \)`],
+            opts: [String.raw`\( \cos x=1-\frac{x^2}2+R_3(x) \)`, String.raw`\( L(1+x)=x-\frac{x^2}2+\frac{x^3}3+R_3(x) \)`, String.raw`\( \text{Arctg}\,x=x-\frac{x^3}3+R_3(x) \)`, String.raw`\( e^x=1+x+x^2+\frac{x^3}6+R_3(x) \)`],
             ans: 3,
-            exp: String.raw`En \( e^x \) el término de grado 2 es \( \frac{x^2}{2} \), no \( x^2 \). El coseno sí puede escribirse con \( o(x^3) \) porque su término cúbico es 0.`,
+            exp: String.raw`En \( e^x \) el término de grado 2 es \( \frac{x^2}{2} \), no \( x^2 \). El coseno sí puede escribirse con \( R_3(x) \) porque su término cúbico es 0.`,
         },
         {
             t: "t5",
             s: "t5.2",
-            q: String.raw`\( \text{sen}\,x-\text{Arctg}\,x=c\,x^3+o(x^3) \). Entonces \( c \) vale:`,
+            q: String.raw`\( \text{sen}\,x-\text{Arctg}\,x=c\,x^3+R_3(x) \). Entonces \( c \) vale:`,
             opts: [String.raw`\( -\frac16 \)`, String.raw`\( \frac16 \)`, String.raw`\( \frac12 \)`, String.raw`\( 0 \)`],
             ans: 1,
             exp: String.raw`\( \left(x-\frac{x^3}6\right)-\left(x-\frac{x^3}3\right)=\left(-\frac16+\frac13\right)x^3=\frac16x^3 \). \( 0 \) sale de creer que los dos cúbicos son iguales.`,
@@ -3280,7 +3316,7 @@ const deep = {
             q: String.raw`El polinomio de Taylor de orden 4 en 0 de \( e^{x^2} \) es:`,
             opts: [String.raw`\( 1+x^2+\frac{x^4}{24} \)`, String.raw`\( 1+x+\frac{x^2}2+\frac{x^3}6+\frac{x^4}{24} \)`, String.raw`\( 1+x^2+x^4 \)`, String.raw`\( 1+x^2+\frac{x^4}2 \)`],
             ans: 3,
-            exp: String.raw`\( e^u=1+u+\frac{u^2}2+o(u^2) \) con \( u=x^2 \): \( 1+x^2+\frac{x^4}2+o(x^4) \). La opción con \( \frac{x^4}{24} \) toma el coeficiente de \( x^4 \) de \( e^x \), que corresponde a \( u^4=x^8 \).`,
+            exp: String.raw`\( e^u=1+u+\frac{u^2}2+R_2(u) \) con \( u=x^2 \): \( 1+x^2+\frac{x^4}2+R_4(x) \). La opción con \( \frac{x^4}{24} \) toma el coeficiente de \( x^4 \) de \( e^x \), que corresponde a \( u^4=x^8 \).`,
         },
         {
             t: "t5",
@@ -3301,34 +3337,34 @@ const deep = {
         {
             t: "t5",
             s: "t5.4",
-            q: String.raw`Cuando \( x\to0 \), ¿cuál de estas afirmaciones es verdadera?`,
-            opts: [String.raw`\( x^3=o(x^2) \)`, String.raw`\( x^2=o(x^3) \)`, String.raw`\( x=o(x) \)`, String.raw`\( 2x^2=o(x^2) \)`],
+            q: String.raw`Cuando \( x\to0 \), ¿cuál de estos es un infinitésimo de mayor orden que \( x^2 \)?`,
+            opts: [String.raw`\( x^3 \)`, String.raw`\( x \)`, String.raw`\( 2x^2 \)`, String.raw`\( x^2+x \)`],
             ans: 0,
-            exp: String.raw`\( \frac{x^3}{x^2}=x\to0 \). En las otras el cociente no tiende a 0: \( \frac{x^2}{x^3}=\frac1x \), \( \frac xx=1 \), \( \frac{2x^2}{x^2}=2 \).`,
+            exp: String.raw`\( \frac{x^3}{x^2}=x\to0 \). En las otras el cociente no tiende a 0: \( \frac{x}{x^2}=\frac1x \), \( \frac{2x^2}{x^2}=2 \), \( \frac{x^2+x}{x^2}=1+\frac1x \).`,
         },
         {
             t: "t5",
             s: "t5.4",
-            q: String.raw`\( o(x^2)+o(x^3) \) es igual a:`,
-            opts: [String.raw`\( o(x^3) \)`, String.raw`\( o(x^5) \)`, String.raw`\( 0 \)`, String.raw`\( o(x^2) \)`],
-            ans: 3,
-            exp: String.raw`Un \( o(x^3) \) es también \( o(x^2) \), así que la suma es \( o(x^2) \). No se puede garantizar \( o(x^3) \): el primer sumando podría ser, por ejemplo, \( x^{2{,}5} \).`,
-        },
-        {
-            t: "t5",
-            s: "t5.4",
-            q: String.raw`\( x^2\cdot o(x) \) es igual a:`,
-            opts: [String.raw`\( o(x^2) \) pero no \( o(x^3) \)`, String.raw`\( o(x^3) \)`, String.raw`\( o(x) \) pero no \( o(x^2) \)`, String.raw`\( x^2 \)`],
+            q: String.raw`Si \( f \) es un infinitésimo en 0 de mayor orden que \( g \), cerca de 0 la suma \( f+g \) es equivalente a:`,
+            opts: [String.raw`\( f \)`, String.raw`\( g \)`, String.raw`\( f\cdot g \)`, String.raw`\( 0 \)`],
             ans: 1,
-            exp: String.raw`\( \frac{x^2\,o(x)}{x^3}=\frac{o(x)}{x}\to0 \): es \( o(x^3) \). Multiplicar por \( x^k \) suma \( k \) al exponente.`,
+            exp: String.raw`La suma de infinitésimos de distinto orden es equivalente al de menor orden (Notas, Observación 10): \( f+g\sim g \). Es lo que se usa para decir que el resto de Taylor no cambia el límite.`,
         },
         {
             t: "t5",
             s: "t5.4",
-            q: String.raw`Si \( g(x)=o(x^3) \), entonces \( \lim_{x\to0}\frac{g(x)}{x^2} \) es:`,
+            q: String.raw`Si \( e^x=1+x+\frac{x^2}2+R_2(x) \), ¿qué asegura el Teorema de Taylor sobre \( R_2(x) \)?`,
+            opts: [String.raw`\( R_2(x)=0 \) para todo \( x \)`, String.raw`\( \lim_{x\to0}\frac{R_2(x)}{x^2}=0 \)`, String.raw`\( \lim_{x\to0}R_2(x)=1 \)`, String.raw`\( R_2(x)=\frac{x^3}{6} \) exactamente`],
+            ans: 1,
+            exp: String.raw`El resto no es 0 (\( e^x \) no es un polinomio) ni exactamente \( \frac{x^3}6 \): lo que se sabe es que es un infinitésimo de mayor orden que \( x^2 \) (Teorema 4.2). Tiende a 0, no a 1.`,
+        },
+        {
+            t: "t5",
+            s: "t5.4",
+            q: String.raw`Si \( \lim_{x\to0}\frac{R_3(x)}{x^3}=0 \), entonces \( \lim_{x\to0}\frac{R_3(x)}{x^2} \) es:`,
             opts: [String.raw`\( 1 \)`, String.raw`\( +\infty \)`, String.raw`\( 0 \)`, String.raw`no se puede saber`],
             ans: 2,
-            exp: String.raw`\( \frac{g(x)}{x^2}=x\cdot\frac{g(x)}{x^3} \), producto de dos cosas que tienden a 0. Un \( o(x^3) \) es "aún más chico" que \( x^2 \).`,
+            exp: String.raw`\( \frac{R_3(x)}{x^2}=x\cdot\frac{R_3(x)}{x^3} \), producto de dos cosas que tienden a 0. Un infinitésimo de mayor orden que \( x^3 \) también lo es respecto de \( x^2 \).`,
         },
         {
             t: "t5",
@@ -3352,7 +3388,7 @@ const deep = {
             q: String.raw`Para obtener el Taylor de orden 4 de \( x^2\cos x \), ¿hasta qué orden alcanza con desarrollar \( \cos x \)?`,
             opts: [String.raw`\( 4 \)`, String.raw`\( 2 \)`, String.raw`\( 6 \)`, String.raw`\( 1 \)`],
             ans: 1,
-            exp: String.raw`\( x^2\cdot o(x^2)=o(x^4) \): con \( \cos x=1-\frac{x^2}2+o(x^2) \) queda \( x^2-\frac{x^4}2+o(x^4) \). Desarrollar más no cambia nada.`,
+            exp: String.raw`Con \( \cos x=1-\frac{x^2}2+R_2(x) \) queda \( x^2\cos x=x^2-\frac{x^4}2+x^2R_2(x) \), y \( \frac{x^2R_2(x)}{x^4}=\frac{R_2(x)}{x^2}\to0 \). Desarrollar más no cambia nada.`,
         },
         {
             t: "t5",
@@ -3360,7 +3396,7 @@ const deep = {
             q: String.raw`El polinomio de Taylor de orden 2 en 0 de \( e^x\cos x \) es:`,
             opts: [String.raw`\( 1+x+x^2 \)`, String.raw`\( 1+x-\frac{x^2}2 \)`, String.raw`\( 1+x \)`, String.raw`\( 1+x+\frac{x^2}2 \)`],
             ans: 2,
-            exp: String.raw`\( (1+x+\frac{x^2}2)(1-\frac{x^2}2)=1+x+\frac{x^2}2-\frac{x^2}2+o(x^2)=1+x+o(x^2) \). \( 1+x+x^2 \) suma los \( x^2 \) en vez de restarlos.`,
+            exp: String.raw`\( (1+x+\frac{x^2}2)(1-\frac{x^2}2)=1+x+\frac{x^2}2-\frac{x^2}2+R_2(x)=1+x+R_2(x) \). \( 1+x+x^2 \) suma los \( x^2 \) en vez de restarlos.`,
         },
         {
             t: "t6",
@@ -3368,7 +3404,7 @@ const deep = {
             q: String.raw`Para calcular \( \lim_{x\to0}\frac{x(e^x-1)-x^2}{x^3} \), ¿hasta qué orden alcanza con desarrollar \( e^x \)?`,
             opts: [String.raw`\( 2 \)`, String.raw`\( 3 \)`, String.raw`\( 1 \)`, String.raw`\( 4 \)`],
             ans: 0,
-            exp: String.raw`\( e^x \) aparece multiplicada por \( x \), así que un resto \( o(x^2) \) en \( e^x \) se vuelve \( o(x^3) \), suficiente para \( x^3 \) abajo. Con orden 1 quedaría \( x\cdot o(x)=o(x^2) \), que no alcanza.`,
+            exp: String.raw`\( e^x \) aparece multiplicada por \( x \), así que el resto \( R_2(x) \) de \( e^x \) queda como \( x\,R_2(x) \), y \( \frac{x\,R_2(x)}{x^3}=\frac{R_2(x)}{x^2}\to0 \): alcanza para \( x^3 \) abajo. Con orden 1 quedaría \( \frac{x\,R_1(x)}{x^3}=\frac{R_1(x)}{x^2} \), que no se sabe a qué tiende.`,
         },
         {
             t: "t6",
@@ -3376,15 +3412,15 @@ const deep = {
             q: String.raw`En \( \lim_{x\to0}\frac{x\,\text{sen}\,x-x^2}{x^4} \), ¿hasta qué orden hay que desarrollar \( \text{sen}\,x \)?`,
             opts: [String.raw`\( 4 \)`, String.raw`\( 1 \)`, String.raw`\( 2 \)`, String.raw`\( 3 \)`],
             ans: 3,
-            exp: String.raw`Hay un \( x \) adelante: con \( \text{sen}\,x=x-\frac{x^3}6+o(x^3) \) queda \( x\,o(x^3)=o(x^4) \). Orden 2 da lo mismo que orden 1 (el seno no tiene término cuadrático) y no alcanza.`,
+            exp: String.raw`Hay un \( x \) adelante: con \( \text{sen}\,x=x-\frac{x^3}6+R_3(x) \) queda \( x\,R_3(x) \), y \( \frac{x\,R_3(x)}{x^4}=\frac{R_3(x)}{x^3}\to0 \). Orden 2 da lo mismo que orden 1 (el seno no tiene término cuadrático) y no alcanza.`,
         },
         {
             t: "t6",
             s: "t6.1",
-            q: String.raw`En un límite con \( x^2 \) en el denominador desarrollaste \( e^{-x}=1-x+o(x) \) y el numerador te quedó \( o(x) \). Entonces:`,
+            q: String.raw`En un límite con \( x^2 \) en el denominador desarrollaste \( e^{-x}=1-x+R_1(x) \) y el numerador te quedó \( R_1(x) \). Entonces:`,
             opts: [String.raw`el límite es 0`, String.raw`no podés concluir: hay que desarrollar hasta orden 2`, String.raw`el límite es infinito`, String.raw`el límite no existe`],
             ans: 1,
-            exp: String.raw`\( \frac{o(x)}{x^2} \) puede tender a cualquier cosa: no hay información. Con \( x^2 \) abajo hay que desarrollar hasta orden 2.`,
+            exp: String.raw`\( \frac{R_1(x)}{x^2} \) puede tender a cualquier cosa: no hay información. Con \( x^2 \) abajo hay que desarrollar hasta orden 2.`,
         },
         {
             t: "t6",
@@ -3392,7 +3428,7 @@ const deep = {
             q: String.raw`\( \lim_{x\to0}\frac{e^x-1-x}{x^3} \) es igual a:`,
             opts: [String.raw`\( \frac16 \)`, String.raw`\( \frac12 \)`, String.raw`no existe (tiende a \( +\infty \) por la derecha y a \( -\infty \) por la izquierda)`, String.raw`\( 0 \)`],
             ans: 2,
-            exp: String.raw`\( e^x-1-x=\frac{x^2}2+o(x^2) \): el primer término no nulo es de grado 2 y el denominador de grado 3. Queda \( \frac{1}{2x} \), que no tiene límite. \( \frac16 \) es el coeficiente cúbico, que no decide nada acá.`,
+            exp: String.raw`\( e^x-1-x=\frac{x^2}2+R_2(x) \): el primer término no nulo es de grado 2 y el denominador de grado 3. Queda \( \frac{1}{2x} \), que no tiene límite. \( \frac16 \) es el coeficiente cúbico, que no decide nada acá.`,
         },
         {
             t: "t6",
@@ -3400,7 +3436,7 @@ const deep = {
             q: String.raw`\( \lim_{x\to0}\frac{L(1+x^2)-x^2}{x^4} \) es igual a:`,
             opts: [String.raw`\( -\frac12 \)`, String.raw`\( \frac12 \)`, String.raw`\( 0 \)`, String.raw`\( -\frac14 \)`],
             ans: 0,
-            exp: String.raw`\( L(1+u)=u-\frac{u^2}2+o(u^2) \) con \( u=x^2 \): \( x^2-\frac{x^4}2+o(x^4) \). Menos \( x^2 \): \( -\frac{x^4}2 \). Límite \( -\frac12 \).`,
+            exp: String.raw`\( L(1+u)=u-\frac{u^2}2+R_2(u) \) con \( u=x^2 \): \( x^2-\frac{x^4}2+R_4(x) \). Menos \( x^2 \): \( -\frac{x^4}2 \). Límite \( -\frac12 \).`,
         },
         {
             t: "t6",
@@ -3416,7 +3452,7 @@ const deep = {
             q: String.raw`\( \lim_{x\to0}\frac{\cos x-1+\frac{x^2}{2}}{x^2} \) es igual a:`,
             opts: [String.raw`\( \frac1{24} \)`, String.raw`\( 0 \)`, String.raw`\( -\frac12 \)`, String.raw`\( 1 \)`],
             ans: 1,
-            exp: String.raw`\( \cos x-1+\frac{x^2}2=\frac{x^4}{24}+o(x^4) \): el primer no nulo es de grado 4 y el denominador de grado 2. El límite es 0. \( \frac1{24} \) sería con \( x^4 \) abajo.`,
+            exp: String.raw`\( \cos x-1+\frac{x^2}2=\frac{x^4}{24}+R_4(x) \): el primer no nulo es de grado 4 y el denominador de grado 2. El límite es 0. \( \frac1{24} \) sería con \( x^4 \) abajo.`,
         },
         {
             t: "t6",
@@ -3464,7 +3500,7 @@ const deep = {
             q: String.raw`\( \lim_{x\to0}\frac{\text{sen}(2x)-L(1+2x)}{x^2} \) es igual a:`,
             opts: [String.raw`\( 2 \)`, String.raw`\( -2 \)`, String.raw`\( 1 \)`, String.raw`\( 4 \)`],
             ans: 0,
-            exp: String.raw`\( \text{sen}(2x)=2x+o(x^2) \) y \( L(1+2x)=2x-2x^2 \). La resta da \( 2x^2 \). \( -2 \) olvida que restar \( -2x^2 \) suma.`,
+            exp: String.raw`\( \text{sen}(2x)=2x+R_2(x) \) y \( L(1+2x)=2x-2x^2 \). La resta da \( 2x^2 \). \( -2 \) olvida que restar \( -2x^2 \) suma.`,
         },
         {
             t: "t6",
@@ -3472,7 +3508,7 @@ const deep = {
             q: String.raw`\( \lim_{x\to0}\frac{\text{Arctg}(2x)-2x\,e^{x}}{x^2} \) es igual a:`,
             opts: [String.raw`\( 2 \)`, String.raw`\( -1 \)`, String.raw`\( 0 \)`, String.raw`\( -2 \)`],
             ans: 3,
-            exp: String.raw`\( \text{Arctg}(2x)=2x+o(x^2) \), \( 2x\,e^x=2x(1+x)+o(x^2)=2x+2x^2 \). Resta: \( -2x^2 \).`,
+            exp: String.raw`\( \text{Arctg}(2x)=2x+R_2(x) \), \( 2x\,e^x=2x(1+x)+R_2(x)=2x+2x^2 \). Resta: \( -2x^2 \).`,
         },
         {
             t: "t6",
@@ -3488,7 +3524,7 @@ const deep = {
             q: String.raw`\( \lim_{x\to0}\frac{L(1-x)+\text{sen}(x)}{x^2} \) es igual a:`,
             opts: [String.raw`\( \frac12 \)`, String.raw`\( -1 \)`, String.raw`\( -\frac12 \)`, String.raw`\( 0 \)`],
             ans: 2,
-            exp: String.raw`\( L(1-x)=-x-\frac{x^2}2 \) y \( \text{sen}\,x=x+o(x^2) \). Suma: \( -\frac{x^2}2 \). \( \frac12 \) toma el cuadrático de \( L(1-x) \) con signo \( + \).`,
+            exp: String.raw`\( L(1-x)=-x-\frac{x^2}2 \) y \( \text{sen}\,x=x+R_2(x) \). Suma: \( -\frac{x^2}2 \). \( \frac12 \) toma el cuadrático de \( L(1-x) \) con signo \( + \).`,
         },
         {
             t: "t6",
@@ -3552,7 +3588,7 @@ const deep = {
             q: String.raw`\( \lim_{x\to0}\frac{\cos(x)-1+\frac{x^2}{2}}{x^4} \) es igual a:`,
             opts: [String.raw`\( -\frac1{24} \)`, String.raw`\( \frac1{12} \)`, String.raw`\( \frac1{24} \)`, String.raw`\( 0 \)`],
             ans: 2,
-            exp: String.raw`\( \cos x=1-\frac{x^2}2+\frac{x^4}{24}+o(x^4) \). Con los sueltos queda \( \frac{x^4}{24} \).`,
+            exp: String.raw`\( \cos x=1-\frac{x^2}2+\frac{x^4}{24}+R_4(x) \). Con los sueltos queda \( \frac{x^4}{24} \).`,
         },
         {
             t: "t6",
@@ -3568,7 +3604,7 @@ const deep = {
             q: String.raw`\( \lim_{x\to0}\frac{x\,L(1+x)-x^2+\frac{x^3}{2}}{x^4} \) es igual a:`,
             opts: [String.raw`\( \frac14 \)`, String.raw`\( -\frac13 \)`, String.raw`\( \frac12 \)`, String.raw`\( \frac13 \)`],
             ans: 3,
-            exp: String.raw`\( x\,L(1+x)=x^2-\frac{x^3}2+\frac{x^4}3+o(x^4) \). Con los sueltos queda \( \frac{x^4}3 \). \( \frac14 \) toma el término de grado 4 de \( L \), que acá daría \( x^5 \).`,
+            exp: String.raw`\( x\,L(1+x)=x^2-\frac{x^3}2+\frac{x^4}3+R_4(x) \). Con los sueltos queda \( \frac{x^4}3 \). \( \frac14 \) toma el término de grado 4 de \( L \), que acá daría \( x^5 \).`,
         },
         {
             t: "t6",
@@ -3576,7 +3612,7 @@ const deep = {
             q: String.raw`\( \lim_{x\to0}\frac{1-\cos(x)}{x\,\text{sen}(x)} \) es igual a:`,
             opts: [String.raw`\( 1 \)`, String.raw`\( \frac12 \)`, String.raw`\( 0 \)`, String.raw`\( 2 \)`],
             ans: 1,
-            exp: String.raw`Numerador: \( \frac{x^2}2+o(x^2) \). Denominador: \( x(x+o(x))=x^2+o(x^2) \). El cociente tiende a \( \frac{1/2}{1}=\frac12 \).`,
+            exp: String.raw`Numerador: \( \frac{x^2}2+R_2(x) \). Denominador: \( x(x+R_1(x))=x^2+R_2(x) \). El cociente tiende a \( \frac{1/2}{1}=\frac12 \).`,
         },
         {
             t: "t6",
@@ -3584,7 +3620,7 @@ const deep = {
             q: String.raw`\( \lim_{x\to0}\frac{\text{sen}(x)-x}{x^2\,\text{Arctg}(x)} \) es igual a:`,
             opts: [String.raw`\( -\frac13 \)`, String.raw`\( \frac16 \)`, String.raw`\( -\frac16 \)`, String.raw`\( 0 \)`],
             ans: 2,
-            exp: String.raw`Numerador: \( -\frac{x^3}6+o(x^3) \). Denominador: \( x^2(x+o(x))=x^3+o(x^3) \). Límite \( -\frac16 \). \( -\frac13 \) toma el cúbico del Arctg por error.`,
+            exp: String.raw`Numerador: \( -\frac{x^3}6+R_3(x) \). Denominador: \( x^2(x+R_1(x))=x^3+R_3(x) \). Límite \( -\frac16 \). \( -\frac13 \) toma el cúbico del Arctg por error.`,
         },
         {
             t: "t7",
@@ -3672,7 +3708,7 @@ const deep = {
             q: String.raw`Sea \( f \) tal que su polinomio de Taylor de orden 2 en 0 es \( P(x)=1+x-x^2 \). Sea \( g(x)=f(x)-\text{sen}(x) \). Afirmaciones: (1) \( f \) tiene en \( x=0 \) un máximo relativo. (2) \( g \) tiene en \( x=0 \) un máximo relativo.`,
             opts: [String.raw`Ambas son verdaderas`, String.raw`Solo (1) es verdadera`, String.raw`Solo (2) es verdadera`, String.raw`Ambas son falsas`],
             ans: 2,
-            exp: String.raw`(1) \( f'(0)=1\neq0 \): no hay extremo, falsa. (2) \( g=1+x-x^2-x+o(x^2)=1-x^2 \): \( g'(0)=0 \), \( g''(0)=-2 \), máximo. Verdadera.`,
+            exp: String.raw`(1) \( f'(0)=1\neq0 \): no hay extremo, falsa. (2) \( g=1+x-x^2-x+R_2(x)=1-x^2 \): \( g'(0)=0 \), \( g''(0)=-2 \), máximo. Verdadera.`,
         },
         {
             t: "t7",
@@ -3712,7 +3748,7 @@ const deep = {
             q: String.raw`Sea \( f \) tal que su polinomio de Taylor de orden 2 en 0 es \( P(x)=1+2x-x^2 \). Sea \( g(x)=L\big(f(x)\big) \). Entonces \( g(0)+g'(0)+g''(0) \) es:`,
             opts: [String.raw`\( -4 \)`, String.raw`\( -1 \)`, String.raw`\( 1 \)`, String.raw`\( -6 \)`],
             ans: 0,
-            exp: String.raw`Con \( u=2x-x^2 \): \( L(1+u)=u-\frac{u^2}2=2x-x^2-2x^2=2x-3x^2 \). \( g(0)=0 \), \( g'(0)=2 \), \( g''(0)=-6 \). Suma \( -4 \). El \( -1 \) usa \( -3 \) como \( g''(0) \).`,
+            exp: String.raw`\( f(0)=1 \), \( f'(0)=2 \), \( f''(0)=-2 \). \( g(0)=L(1)=0 \), \( g'(0)=\frac{f'(0)}{f(0)}=2 \), \( g''(0)=\frac{f''(0)f(0)-f'(0)^2}{f(0)^2}=\frac{-2-4}{1}=-6 \). Suma \( -4 \). El \( -1 \) usa \( -3 \) como \( g''(0) \).`,
         },
         {
             t: "t7",
@@ -3752,7 +3788,7 @@ const deep = {
             q: String.raw`Sea \( f \) tal que su polinomio de Taylor de orden 2 en 0 es \( P(x)=1+x+2x^2 \). Sea \( g(x)=f(x)-e^{x} \). Entonces \( g''(0) \) es:`,
             opts: [String.raw`\( \frac32 \)`, String.raw`\( 4 \)`, String.raw`\( 1 \)`, String.raw`\( 3 \)`],
             ans: 3,
-            exp: String.raw`\( g=1+x+2x^2-(1+x+\frac{x^2}2)=\frac32x^2+o(x^2) \), así que \( g''(0)=2\cdot\frac32=3 \). \( \frac32 \) es el coeficiente.`,
+            exp: String.raw`\( g=1+x+2x^2-(1+x+\frac{x^2}2)=\frac32x^2+R_2(x) \), así que \( g''(0)=2\cdot\frac32=3 \). \( \frac32 \) es el coeficiente.`,
         },
         {
             t: "t7",
@@ -3776,7 +3812,7 @@ const deep = {
             q: String.raw`Sea \( f \) tal que su polinomio de Taylor de orden 2 en 0 es \( P(x)=1-2x^2 \). Sea \( g(x)=f(x)\cos(x) \). Entonces \( g''(0) \) es:`,
             opts: [String.raw`\( -5 \)`, String.raw`\( -\frac52 \)`, String.raw`\( -4 \)`, String.raw`\( -3 \)`],
             ans: 0,
-            exp: String.raw`\( (1-2x^2)(1-\frac{x^2}2)=1-\frac52x^2+o(x^2) \), así que \( g''(0)=-5 \). \( -4 \) ignora el coseno, \( -\frac52 \) es el coeficiente y \( -3 \) usa \( \cos x=1+\frac{x^2}2 \) (signo cambiado).`,
+            exp: String.raw`\( (1-2x^2)(1-\frac{x^2}2)=1-\frac52x^2+R_2(x) \), así que \( g''(0)=-5 \). \( -4 \) ignora el coseno, \( -\frac52 \) es el coeficiente y \( -3 \) usa \( \cos x=1+\frac{x^2}2 \) (signo cambiado).`,
         },
         {
             t: "t8",
@@ -3789,10 +3825,10 @@ const deep = {
         {
             t: "t8",
             s: "t8.1",
-            q: String.raw`La serie \( \sum_{n=1}^{\infty}\frac{n}{n+1} \):`,
-            opts: [String.raw`converge a 1`, String.raw`diverge, porque su término general no tiende a 0`, String.raw`converge, porque \( \frac{n}{n+1}\lt1 \)`, String.raw`es geométrica de razón 1`],
-            ans: 1,
-            exp: String.raw`\( \frac{n}{n+1}\to1\neq0 \): falla la condición necesaria, así que diverge. Que cada término sea menor que 1 no dice nada: sumás infinitos números cercanos a 1.`,
+            q: String.raw`Según la definición de las Notas, si las sumas parciales \( S_n \) de una serie no tienen límite, la serie:`,
+            opts: [String.raw`converge`, String.raw`diverge`, String.raw`oscila`, String.raw`converge a 0`],
+            ans: 2,
+            exp: String.raw`Definición 1.4 de las Notas: si \( \lim S_n=L\in\mathbb R \) la serie converge, si \( \lim S_n=\infty \) diverge y si el límite no existe, oscila.`,
         },
         {
             t: "t8",
@@ -3805,10 +3841,10 @@ const deep = {
         {
             t: "t8",
             s: "t8.1",
-            q: String.raw`Sobre la condición "\( a_n\to0 \)" para una serie \( \sum a_n \):`,
-            opts: [String.raw`es necesaria pero no suficiente para que converja`, String.raw`es suficiente pero no necesaria`, String.raw`es necesaria y suficiente`, String.raw`no tiene relación con la convergencia`],
-            ans: 0,
-            exp: String.raw`Si la serie converge, \( a_n\to0 \) (necesaria). Pero hay series con \( a_n\to0 \) que divergen, como \( \sum\frac1n \) (no es suficiente).`,
+            q: String.raw`Las sumas parciales de \( \sum_{n=0}^{\infty}1 \) son:`,
+            opts: [String.raw`\( S_n=n \) y la serie converge`, String.raw`\( S_n=n+1 \) y la serie diverge`, String.raw`\( S_n=1 \) y la serie converge a 1`, String.raw`\( S_n=n+1 \) y la serie oscila`],
+            ans: 1,
+            exp: String.raw`\( S_n=1+1+\dots+1 \) (\( n+1 \) sumandos) \( =n+1\to+\infty \): la serie diverge (Notas, sec. 1.2.2, caso \( x=1 \); clase virtual 2). No oscila: el límite existe y es \( +\infty \).`,
         },
         {
             t: "t8",
@@ -3830,9 +3866,9 @@ const deep = {
             t: "t8",
             s: "t8.2",
             q: String.raw`La serie \( \sum_{n=0}^{\infty}(-1)^n \):`,
-            opts: [String.raw`Converge a \( \frac12 \)`, String.raw`Converge a \( 0 \)`, String.raw`Diverge`, String.raw`Converge a \( 1 \)`],
+            opts: [String.raw`Converge a \( \frac12 \)`, String.raw`Converge a \( 0 \)`, String.raw`Oscila`, String.raw`Converge a \( 1 \)`],
             ans: 2,
-            exp: String.raw`Las sumas parciales son \( 1,0,1,0,\dots \): no tienen límite. \( \frac12 \) es lo que da la fórmula con \( r=-1 \), que no vale porque \( |r|=1 \).`,
+            exp: String.raw`Las sumas parciales son \( 1,0,1,0,\dots \): no tienen límite y la serie oscila (Notas: si \( x\le-1 \), \( \sum x^n \) oscila). \( \frac12 \) es lo que da la fórmula con \( r=-1 \), que no vale porque \( |r|=1 \).`,
         },
         {
             t: "t8",
@@ -3848,7 +3884,7 @@ const deep = {
             q: String.raw`La serie geométrica \( \sum_{n=0}^{\infty}r^n \) converge si y solo si:`,
             opts: [String.raw`\( 0\lt r\lt1 \)`, String.raw`\( r\lt1 \)`, String.raw`\( -1\le r\le1 \)`, String.raw`\( -1\lt r\lt1 \)`],
             ans: 3,
-            exp: String.raw`Converge exactamente cuando \( |r|\lt1 \), incluidos los \( r \) negativos. Con \( r=\pm1 \) diverge (suma infinitos 1, u oscila), y con \( r\lt-1 \) también.`,
+            exp: String.raw`Converge exactamente cuando \( |r|\lt1 \), incluidos los \( r \) negativos. Con \( r\ge1 \) diverge (con \( r=1 \) suma infinitos 1) y con \( r\le-1 \) oscila.`,
         },
         {
             t: "t8",

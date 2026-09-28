@@ -29,9 +29,9 @@ const models = [
                 q: String.raw`\( \lim_{x\to0}\frac{\cos(2x)+L(1+2x)-1-2x}{x^2} \) es igual a:`,
                 opts: [String.raw`\( -2 \)`, String.raw`\( 0 \)`, String.raw`\( -4 \)`, String.raw`\( -3 \)`],
                 ans: 2,
-                sol: String.raw`<p>\(\cos(2x)=1-\frac{(2x)^2}{2}+o(x^2)=1-2x^2+o(x^2)\).</p>
-<p>\(L(1+2x)=2x-\frac{(2x)^2}{2}+o(x^2)=2x-2x^2+o(x^2)\).</p>
-<p>Numerador: \(1-2x^2+2x-2x^2-1-2x=-4x^2+o(x^2)\). El límite es \(-4\).</p>
+                sol: String.raw`<p>\(\cos(2x)=1-\frac{(2x)^2}{2}+R_2(x)=1-2x^2+R_2(x)\).</p>
+<p>\(L(1+2x)=2x-\frac{(2x)^2}{2}+R_2(x)=2x-2x^2+R_2(x)\).</p>
+<p>Numerador: \(1-2x^2+2x-2x^2-1-2x=-4x^2+R_2(x)\). El límite es \(-4\).</p>
 <p>Si tomás \(\frac{(2x)^2}{2}\) como \(x^2\) en uno de los dos desarrollos te da \(-3\); si lo hacés en los dos, \(-2\).</p>`,
             },
             {
@@ -62,9 +62,9 @@ const models = [
                 q: String.raw`\( \lim_{x\to0}\frac{L(1+2x)-2\,\text{sen}(x)+2x^2}{x^3} \) es igual a:`,
                 opts: [String.raw`\( \frac83 \)`, String.raw`\( \frac73 \)`, String.raw`\( 2 \)`, String.raw`\( 3 \)`],
                 ans: 3,
-                sol: String.raw`<p>\(L(1+2x)=2x-\frac{(2x)^2}2+\frac{(2x)^3}3+o(x^3)=2x-2x^2+\frac83x^3+o(x^3)\).</p>
-<p>\(2\,\text{sen}(x)=2x-\frac{2x^3}{6}+o(x^3)=2x-\frac13x^3+o(x^3)\).</p>
-<p>Numerador: \(2x-2x^2+\frac83x^3-2x+\frac13x^3+2x^2=3x^3+o(x^3)\). El límite es 3.</p>
+                sol: String.raw`<p>\(L(1+2x)=2x-\frac{(2x)^2}2+\frac{(2x)^3}3+R_3(x)=2x-2x^2+\frac83x^3+R_3(x)\).</p>
+<p>\(2\,\text{sen}(x)=2x-\frac{2x^3}{6}+R_3(x)=2x-\frac13x^3+R_3(x)\).</p>
+<p>Numerador: \(2x-2x^2+\frac83x^3-2x+\frac13x^3+2x^2=3x^3+R_3(x)\). El límite es 3.</p>
 <p>Olvidar el término cúbico del seno da \(\frac83\); restarlo con el signo cambiado da \(\frac73\).</p>`,
             },
             {
@@ -142,8 +142,8 @@ const models = [
                     String.raw`\( f \) no es invertible`,
                 ],
                 ans: 2,
-                sol: String.raw`<p>Para \(x\ge1\), \(L(x^2)=2L(x)\) crece desde 0, así que \(f\) decrece desde \(f(1)=2\) hacia \(-\infty\): es biyectiva sobre \((-\infty,2]\).</p>
-<p>Despejo: \(y=2-2L(x)\Rightarrow L(x)=\frac{2-y}2\Rightarrow x=e^{1-\frac y2}\).</p>
+                sol: String.raw`<p>Para \(x\ge1\), \(x^2\) crece desde 1, así que \(L(x^2)\) crece desde 0 y \(f\) decrece desde \(f(1)=2\) hacia \(-\infty\): es biyectiva sobre \((-\infty,2]\).</p>
+<p>Despejo: \(y=2-L(x^2)\Rightarrow L(x^2)=2-y\Rightarrow x^2=e^{2-y}\Rightarrow x=\sqrt{e^{2-y}}=e^{1-\frac y2}\) (signo + porque \(x\ge1\); \(\sqrt a=a^{1/2}\)).</p>
 <p>Chequeo: \(f(1)=2\) y \(e^{1-1}=1\). \(e^{\frac{y-2}2}\) tiene el signo del exponente cambiado; \(\frac{e^{2-y}}2\) divide afuera del exponencial.</p>`,
             },
             {
@@ -151,9 +151,9 @@ const models = [
                 q: String.raw`\( \lim_{x\to0}\frac{e^{-2x}-\cos(x)+2x}{x^2} \) es igual a:`,
                 opts: [String.raw`\( \frac52 \)`, String.raw`\( \frac32 \)`, String.raw`\( 2 \)`, String.raw`\( -\frac52 \)`],
                 ans: 0,
-                sol: String.raw`<p>\(e^{-2x}=1-2x+\frac{(-2x)^2}2+o(x^2)=1-2x+2x^2+o(x^2)\).</p>
-<p>\(\cos(x)=1-\frac{x^2}2+o(x^2)\).</p>
-<p>Numerador: \(1-2x+2x^2-1+\frac{x^2}2+2x=\frac52x^2+o(x^2)\). El límite es \(\frac52\).</p>
+                sol: String.raw`<p>\(e^{-2x}=1-2x+\frac{(-2x)^2}2+R_2(x)=1-2x+2x^2+R_2(x)\).</p>
+<p>\(\cos(x)=1-\frac{x^2}2+R_2(x)\).</p>
+<p>Numerador: \(1-2x+2x^2-1+\frac{x^2}2+2x=\frac52x^2+R_2(x)\). El límite es \(\frac52\).</p>
 <p>Restar mal el \(-\frac{x^2}2\) del coseno da \(\frac32\).</p>`,
             },
             {
@@ -183,8 +183,8 @@ const models = [
                 q: String.raw`\( \lim_{x\to0}\frac{\text{Arctg}(2x)-\text{sen}(2x)}{x^3} \) es igual a:`,
                 opts: [String.raw`\( \frac43 \)`, String.raw`\( -\frac83 \)`, String.raw`\( -\frac43 \)`, String.raw`\( 0 \)`],
                 ans: 2,
-                sol: String.raw`<p>\(\text{Arctg}(2x)=2x-\frac{(2x)^3}{3}+o(x^3)=2x-\frac83x^3+o(x^3)\).</p>
-<p>\(\text{sen}(2x)=2x-\frac{(2x)^3}{6}+o(x^3)=2x-\frac43x^3+o(x^3)\).</p>
+                sol: String.raw`<p>\(\text{Arctg}(2x)=2x-\frac{(2x)^3}{3}+R_3(x)=2x-\frac83x^3+R_3(x)\).</p>
+<p>\(\text{sen}(2x)=2x-\frac{(2x)^3}{6}+R_3(x)=2x-\frac43x^3+R_3(x)\).</p>
 <p>Numerador: \(-\frac83x^3+\frac43x^3=-\frac43x^3\). El límite es \(-\frac43\).</p>
 <p>\(\frac43\) es el signo cambiado; \(-\frac83\) sale de olvidar el cúbico del seno; 0 de cortar los desarrollos en orden 1.</p>`,
             },
@@ -222,7 +222,7 @@ const models = [
                 sol: String.raw`<p>Separo: \(\sum_{n=1}^\infty\frac{2^n}{3^{n+1}}+\sum_{n=1}^\infty\frac{(-1)^n}{3^{n+1}}\).</p>
 <p>Primera: primer término \(\frac29\), razón \(\frac23\). Suma \(\frac{2/9}{1/3}=\frac23\).</p>
 <p>Segunda: primer término \(-\frac19\), razón \(-\frac13\). Suma \(\frac{-1/9}{4/3}=-\frac1{12}\).</p>
-<p>Total: \(\frac23-\frac1{12}=\frac7{12}\). Olvidar el 3 extra del denominador da \(\frac74\); sumar el \(\frac1{12}\) en vez de restarlo (signo de la alternada) da \(\frac34\).</p>`,
+<p>Total: \(\frac23-\frac1{12}=\frac7{12}\). Olvidar el 3 extra del denominador da \(\frac74\); sumar el \(\frac1{12}\) en vez de restarlo (signo de la parte con \((-1)^n\)) da \(\frac34\).</p>`,
             },
             {
                 t: "t7",
@@ -230,7 +230,7 @@ const models = [
                 opts: [String.raw`Ambas son verdaderas`, String.raw`Solo (1) es verdadera`, String.raw`Solo (2) es verdadera`, String.raw`Ambas son falsas`],
                 ans: 2,
                 sol: String.raw`<p>(1): \(f'(0)=1\neq0\) (coeficiente de \(x\)), así que en 0 no hay extremo. Falsa. El \(-x^2\) no alcanza: primero tiene que anularse la derivada.</p>
-<p>(2): \(L(1+x)=x-\frac{x^2}2+o(x^2)\), entonces el polinomio de \(g\) es \(1+x-x^2-x+\frac{x^2}2=1-\frac{x^2}2\). \(g'(0)=0\) y \(g''(0)=-1\lt0\): máximo relativo. Verdadera.</p>`,
+<p>(2): \(L(1+x)=x-\frac{x^2}2+R_2(x)\), entonces el polinomio de \(g\) es \(1+x-x^2-x+\frac{x^2}2=1-\frac{x^2}2\). \(g'(0)=0\) y \(g''(0)=-1\lt0\): máximo relativo. Verdadera.</p>`,
             },
             {
                 t: "t8",

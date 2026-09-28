@@ -32,14 +32,14 @@ const models = [
             },
             {
                 t: "t5",
-                q: String.raw`El salario de Julián sube de US$ 10 a US$ 20 por hora (el tiempo libre es un bien normal). El gráfico del problema se resume en esta tabla:<br><table><tr><th>Punto</th><th>Qué es</th><th>Tiempo libre (h)</th><th>Consumo</th></tr><tr><td>A</td><td>Óptimo inicial (salario 10)</td><td>14</td><td>100</td></tr><tr><td>C</td><td>Tangencia de la curva de indiferencia inicial con una recta de pendiente −20</td><td>11</td><td>170</td></tr><tr><td>B</td><td>Óptimo final (salario 20)</td><td>15</td><td>180</td></tr></table>¿Cuál afirmación describe correctamente la descomposición?`,
+                q: String.raw`El salario de Julián sube de US$ 10 a US$ 20 por hora. El gráfico del problema se resume en esta tabla:<br><table><tr><th>Punto</th><th>Qué es</th><th>Tiempo libre (h)</th><th>Consumo</th></tr><tr><td>A</td><td>Óptimo inicial (salario 10)</td><td>14</td><td>100</td></tr><tr><td>C</td><td>Tangencia de la curva de indiferencia inicial con una recta de pendiente −20</td><td>11</td><td>170</td></tr><tr><td>B</td><td>Óptimo final (salario 20)</td><td>15</td><td>180</td></tr></table>¿Cuál afirmación describe correctamente la descomposición?`,
                 opts: [
                     String.raw`El efecto sustitución lleva de 14 a 15 horas y el efecto ingreso de 15 a 11; domina el efecto sustitución.`,
                     String.raw`El efecto sustitución lleva de 14 a 11 horas y el efecto ingreso de 11 a 15; domina el efecto ingreso y el tiempo libre aumenta 1 hora.`,
-                    String.raw`Como el tiempo libre es normal, los dos efectos reducen el tiempo libre y Julián trabaja más horas.`,
+                    String.raw`Como Julián es más rico y el tiempo libre se encareció, los dos efectos reducen el tiempo libre y trabaja más horas.`,
                 ],
                 ans: 1,
-                sol: String.raw`<p>El efecto sustitución es el movimiento <strong>sobre la curva de indiferencia inicial</strong> hasta la pendiente nueva: de A (14 h) a C (11 h). El tiempo libre se encareció y baja 3 horas.</p><p>El efecto ingreso es el desplazamiento paralelo de C hasta el óptimo final B: de 11 a 15 horas (+4). Con ocio normal, estar más rico aumenta el tiempo libre.</p><p>Total: \( -3 + 4 = +1 \). Julián pasa de 14 a 15 h libres: domina el efecto ingreso. Chequeo: \( 10 \times 10 = 100 \) y \( 20 \times 9 = 180 \).</p><p>(A) invierte los tramos. (C) es falsa: con ocio normal, los efectos van en direcciones opuestas ante una suba del salario. Respuesta <strong>B</strong>.</p>`,
+                sol: String.raw`<p>El efecto sustitución es el movimiento <strong>sobre la curva de indiferencia inicial</strong> hasta la pendiente nueva: de A (14 h) a C (11 h). El tiempo libre se encareció y baja 3 horas.</p><p>El efecto ingreso es el desplazamiento paralelo de C hasta el óptimo final B: de 11 a 15 horas (+4). Estar más rico lleva a más tiempo libre (el libro supone que el efecto ingreso no es negativo).</p><p>Total: \( -3 + 4 = +1 \). Julián pasa de 14 a 15 h libres: domina el efecto ingreso. Chequeo: \( 10 \times 10 = 100 \) y \( 20 \times 9 = 180 \).</p><p>(A) invierte los tramos. (C) es falsa: ante una suba del salario, los efectos van en direcciones opuestas. Respuesta <strong>B</strong>.</p>`,
             },
             {
                 t: "t6",
@@ -98,7 +98,7 @@ const models = [
             },
             {
                 t: "t8",
-                q: String.raw`El gráfico (tiempo libre de Ángela en el eje horizontal, fanegas de trigo en el vertical) muestra la frontera factible de la tierra de Bruno, la curva de indiferencia de reserva de Ángela (CI<sub>R</sub>) y la de negociación (CI<sub>N</sub>, más alta). Se marcan cuatro asignaciones:<br><table><tr><th>Asignación</th><th>Tiempo libre (h)</th><th>Producción</th><th>Ángela</th><th>Bruno</th><th>Curva de Ángela</th></tr><tr><td>P</td><td>16</td><td>18 (sobre la frontera)</td><td>8</td><td>10</td><td>CI<sub>R</sub></td></tr><tr><td>Q</td><td>16</td><td>18 (sobre la frontera)</td><td>12</td><td>6</td><td>CI<sub>N</sub></td></tr><tr><td>R</td><td>18</td><td>14 (sobre la frontera)</td><td>6</td><td>8</td><td>CI<sub>R</sub></td></tr><tr><td>S</td><td>16</td><td>16 (debajo de la frontera)</td><td>8</td><td>8</td><td>CI<sub>R</sub></td></tr></table>¿Cuál afirmación es correcta?`,
+                q: String.raw`El gráfico (tiempo libre de Ángela en el eje horizontal, fanegas de trigo en el vertical) muestra la frontera factible de la tierra de Bruno, la curva de indiferencia de reserva de Ángela del caso 2 (CI<sub>R</sub>) y su curva de reserva del caso 3, tras la ley (CI<sub>N</sub>, más alta). Se marcan cuatro asignaciones:<br><table><tr><th>Asignación</th><th>Tiempo libre (h)</th><th>Producción</th><th>Ángela</th><th>Bruno</th><th>Curva de Ángela</th></tr><tr><td>P</td><td>16</td><td>18 (sobre la frontera)</td><td>8</td><td>10</td><td>CI<sub>R</sub></td></tr><tr><td>Q</td><td>16</td><td>18 (sobre la frontera)</td><td>12</td><td>6</td><td>CI<sub>N</sub></td></tr><tr><td>R</td><td>18</td><td>14 (sobre la frontera)</td><td>6</td><td>8</td><td>CI<sub>R</sub></td></tr><tr><td>S</td><td>16</td><td>16 (debajo de la frontera)</td><td>8</td><td>8</td><td>CI<sub>R</sub></td></tr></table>¿Cuál afirmación es correcta?`,
                 opts: [
                     String.raw`P es una mejora paretiana respecto de R y también respecto de S.`,
                     String.raw`Q es una mejora paretiana respecto de P, porque Ángela recibe 4 fanegas más trabajando las mismas horas.`,
@@ -150,14 +150,14 @@ const models = [
             },
             {
                 t: "t5",
-                q: String.raw`Por una crisis del sector, el salario de Martina <strong>baja</strong> de US$ 20 a US$ 15 por hora. El tiempo libre es un bien normal. El gráfico se resume así:<br><table><tr><th>Punto</th><th>Qué es</th><th>Tiempo libre (h)</th></tr><tr><td>A</td><td>Óptimo inicial (salario 20)</td><td>14</td></tr><tr><td>C</td><td>Tangencia de la curva de indiferencia inicial con una recta de pendiente −15</td><td>15</td></tr><tr><td>B</td><td>Óptimo final (salario 15)</td><td>13</td></tr></table>¿Cuál afirmación es correcta?`,
+                q: String.raw`Por una crisis del sector, el salario de Martina <strong>baja</strong> de US$ 20 a US$ 15 por hora. Suponé, como el libro, que el efecto ingreso no es negativo. El gráfico se resume así:<br><table><tr><th>Punto</th><th>Qué es</th><th>Tiempo libre (h)</th></tr><tr><td>A</td><td>Óptimo inicial (salario 20)</td><td>14</td></tr><tr><td>C</td><td>Tangencia de la curva de indiferencia inicial con una recta de pendiente −15</td><td>15</td></tr><tr><td>B</td><td>Óptimo final (salario 15)</td><td>13</td></tr></table>¿Cuál afirmación es correcta?`,
                 opts: [
                     String.raw`Como el salario bajó, los dos efectos reducen el tiempo libre y Martina trabaja 1 hora más.`,
                     String.raw`El efecto sustitución reduce el tiempo libre de 14 a 13 horas y el efecto ingreso lo aumenta de 13 a 15; domina el efecto sustitución.`,
                     String.raw`El efecto sustitución aumenta el tiempo libre de 14 a 15 horas y el efecto ingreso lo reduce de 15 a 13; domina el efecto ingreso y Martina trabaja 1 hora más.`,
                 ],
                 ans: 2,
-                sol: String.raw`<p>Con un salario menor, el tiempo libre se abarata: el efecto sustitución (sobre la curva inicial, de A a C) lo <strong>aumenta</strong>, de 14 a 15 h.</p><p>Martina es más pobre y, con ocio normal, el efecto ingreso (de C a B) lo <strong>reduce</strong>, de 15 a 13 h.</p><p>Total: \( +1 - 2 = -1 \). Pasa a 13 h libres (11 h de trabajo): domina el efecto ingreso. Su consumo cae de \( 20 \times 10 = 200 \) a \( 15 \times 11 = 165 \).</p><p>(A) Falsa: los efectos van en sentidos opuestos. (B) invierte el sentido de ambos. Respuesta <strong>C</strong>.</p>`,
+                sol: String.raw`<p>Con un salario menor, el tiempo libre se abarata: el efecto sustitución (sobre la curva inicial, de A a C) lo <strong>aumenta</strong>, de 14 a 15 h.</p><p>Martina es más pobre y el efecto ingreso (de C a B) lo <strong>reduce</strong>, de 15 a 13 h.</p><p>Total: \( +1 - 2 = -1 \). Pasa a 13 h libres (11 h de trabajo): domina el efecto ingreso. Su consumo cae de \( 20 \times 10 = 200 \) a \( 15 \times 11 = 165 \).</p><p>(A) Falsa: los efectos van en sentidos opuestos. (B) invierte el sentido de ambos. Respuesta <strong>C</strong>.</p>`,
             },
             {
                 t: "t6",
@@ -190,7 +190,7 @@ const models = [
                     String.raw`Playa es estrategia dominante para los dos trucks, porque es donde más ganan cuando el otro va al Centro.`,
                 ],
                 ans: 1,
-                sol: String.raw`<p>(P, C): el 1 en C obtiene 2 &lt; 8 y el 2 en P obtiene 3 &lt; 6. Es Nash. (C, P): el 1 en P obtiene 3 &lt; 7 y el 2 en C obtiene 2 &lt; 9. Es Nash. (P, P) y (C, C) no lo son.</p><p>De (8, 6) a (7, 9): el 1 pierde 1 y el 2 gana 3. El 2 puede compensar al 1 con un monto entre 1 y 3 y los dos quedan mejor.</p><p>(A) Falsa: hay dos equilibrios (juego de anticoordinación). (C) Falsa: si el otro va a Playa, cada uno prefiere Centro (7 &gt; 3 para el 1; 6 &gt; 3 para el 2). Respuesta <strong>B</strong>.</p>`,
+                sol: String.raw`<p>(P, C): el 1 en C obtiene 2 &lt; 8 y el 2 en P obtiene 3 &lt; 6. Es Nash. (C, P): el 1 en P obtiene 3 &lt; 7 y el 2 en C obtiene 2 &lt; 9. Es Nash. (P, P) y (C, C) no lo son.</p><p>De (8, 6) a (7, 9): el 1 pierde 1 y el 2 gana 3. El 2 puede compensar al 1 con un monto entre 1 y 3 y los dos quedan mejor.</p><p>(A) Falsa: hay dos equilibrios, en las celdas cruzadas (como la división del trabajo del libro). (C) Falsa: si el otro va a Playa, cada uno prefiere Centro (7 &gt; 3 para el 1; 6 &gt; 3 para el 2). Respuesta <strong>B</strong>.</p>`,
             },
             {
                 t: "t7",
@@ -208,7 +208,7 @@ const models = [
                 q: String.raw`Bruno es dueño de la tierra y le ofrece a Ángela un contrato de trabajo de "tómalo o déjalo", eligiendo las horas donde TMS = TMT. ¿Cuál afirmación es correcta?`,
                 opts: [
                     String.raw`Ángela obtiene una renta económica positiva, porque acepta el contrato voluntariamente.`,
-                    String.raw`Si mejora la opción de reserva de Ángela (por ejemplo, un subsidio a quien no trabaja), con el mismo tipo de contrato Bruno se queda con menos grano, y la asignación sigue siendo Pareto eficiente.`,
+                    String.raw`Si mejora la opción de reserva de Ángela (por ejemplo, un empleo mejor pago en otro lugar), con el mismo tipo de contrato Bruno se queda con menos grano, y la asignación sigue siendo Pareto eficiente.`,
                     String.raw`El trabajo forzoso nunca puede ser Pareto eficiente, porque Ángela trabaja obligada.`,
                 ],
                 ans: 1,
