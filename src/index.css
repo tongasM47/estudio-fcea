@@ -413,3 +413,7 @@ select {
 .howto li {
     margin-bottom: 4px;
 }
+
+.deckfilter {
+    max-width: min(100%, 520px);
+}
