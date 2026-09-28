@@ -12,7 +12,12 @@ const PODCASTS = {
         t7: { title: "Taylor al revés", min: 17 },
         t8: { title: "Claves de series geométricas", min: 22 },
     },
-    ed: {},
+    ed: {
+        t2: { title: "Claves del Cuadro de Oferta y Utilización", min: 25 },
+        t4: { title: "Claves de producción y generación del ingreso", min: 22 },
+        t5: { title: "Claves de asignación y distribución del ingreso", min: 22 },
+        t7: { title: "Claves de las cuentas de acumulación", min: 21 },
+    },
     micro: {},
     cc: {},
     ago: {},
