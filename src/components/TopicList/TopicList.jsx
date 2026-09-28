@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
 import Html from "../Html/Html.jsx";
 import Note from "../Note/Note.jsx";
+import Subtopic from "../Subtopic/Subtopic.jsx";
 import { useProgress } from "../../context/ProgressContext.jsx";
 import "./TopicList.css";
 
-function Topic({ subject, topic, index, open, onCards, onQuiz }) {
+function Topic({ subject, topic, index, open, onCards, onQuiz, data }) {
     const { state, toggleTopic } = useProgress();
     const [showSolution, setShowSolution] = useState(false);
     const [isOpen, setIsOpen] = useState(open);
@@ -57,6 +58,26 @@ function Topic({ subject, topic, index, open, onCards, onQuiz }) {
                             </div>
                         </div>
                     )}
+                    {topic.subtopics && topic.subtopics.length > 0 && (
+                        <div className="sec">
+                            <h4>Subtemas ({topic.subtopics.length})</h4>
+                            <div className="subtopics">
+                                {topic.subtopics.map((st) => (
+                                    <Subtopic
+                                        key={st.id}
+                                        subject={subject}
+                                        subtopic={st}
+                                        counts={{
+                                            cards: data.flashcards.filter((c) => c.s === st.id).length,
+                                            questions: data.questions.filter((q) => q.s === st.id).length,
+                                        }}
+                                        onCards={onCards}
+                                        onQuiz={onQuiz}
+                                    />
+                                ))}
+                            </div>
+                        </div>
+                    )}
                     <div className="row" style={{ marginTop: 14 }}>
                         <button className={`btn ${seen ? "" : "primary"}`} onClick={() => toggleTopic(`${subject}|${topic.id}`)}>
                             {seen ? "Marcar como pendiente" : "Marcar como estudiado"}
@@ -91,7 +112,16 @@ function TopicList({ subject, data, openTopic, onCards, onQuiz }) {
                 <>
                     {data.notes.length > 0 && <h3 className="listhead">Temas de la revisión, en orden de estudio</h3>}
                     {data.topics.map((topic, i) => (
-                        <Topic key={topic.id} subject={subject} topic={topic} index={i} open={openTopic === topic.id} onCards={onCards} onQuiz={onQuiz} />
+                        <Topic
+                            key={topic.id}
+                            subject={subject}
+                            topic={topic}
+                            index={i}
+                            open={openTopic === topic.id}
+                            onCards={onCards}
+                            onQuiz={onQuiz}
+                            data={data}
+                        />
                     ))}
                 </>
             )}
