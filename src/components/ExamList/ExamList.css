@@ -31,3 +31,8 @@
     background: color-mix(in srgb, var(--c) 15%, var(--surface));
     color: var(--c);
 }
+
+.kind.modelo {
+    background: var(--c);
+    color: var(--surface);
+}

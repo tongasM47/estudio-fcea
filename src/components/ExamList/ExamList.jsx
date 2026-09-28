@@ -22,7 +22,7 @@ function ExamList({ subject, data, onOpen }) {
                     <div key={exam.id} className="examcard">
                         <div>
                             <div className="et">
-                                <span className={`kind ${exam.kind === "real" ? "real" : ""}`}>{exam.kind === "real" ? "real" : "simulacro"}</span>
+                                <span className={`kind ${exam.kind}`}>{exam.kind === "real" ? "real" : exam.kind === "modelo" ? "modelo" : "simulacro"}</span>
                                 {exam.title}
                             </div>
                             <div className="em">
