@@ -1,0 +1,26 @@
+.checklist {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    max-width: 760px;
+}
+.checkitem {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    padding: 10px 12px;
+    border: 1px solid var(--line);
+    border-radius: 9px;
+    background: var(--surface);
+    cursor: pointer;
+}
+.checkitem input {
+    width: 18px;
+    height: 18px;
+    margin-top: 2px;
+    accent-color: var(--good);
+}
+.checkitem.done span {
+    text-decoration: line-through;
+    color: var(--muted);
+}
