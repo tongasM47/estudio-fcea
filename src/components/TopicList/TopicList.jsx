@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import Html from "../Html/Html.jsx";
 import Note from "../Note/Note.jsx";
 import Subtopic from "../Subtopic/Subtopic.jsx";
+import Podcast from "../Podcast/Podcast.jsx";
+import { hasPodcasts, podcastFor } from "../../data/podcasts.js";
 import { useProgress } from "../../context/ProgressContext.jsx";
 import "./TopicList.css";
 
@@ -17,12 +19,19 @@ function Topic({ subject, topic, index, open, onCards, onQuiz, data }) {
                 <span className="num">{String(index + 1).padStart(2, "0")}</span>
                 <span className="tt">{topic.title}</span>
                 <span className="row">
+                    {podcastFor(subject, topic.id) && <span className="pill">podcast</span>}
                     {seen && <span className="pill ok">estudiado</span>}
                     <span className={`pill ${topic.weight}`}>peso {topic.weight}</span>
                 </span>
             </summary>
             {isOpen && (
                 <div className="tbody">
+                    {hasPodcasts(subject) && (
+                        <div className="sec">
+                            <h4>Podcast de la unidad</h4>
+                            <Podcast podcast={podcastFor(subject, topic.id)} />
+                        </div>
+                    )}
                     <div className="sec">
                         <h4>Explicado simple</h4>
                         <Html className="read eli5" html={topic.eli5} />
