@@ -1,3 +1,4 @@
+import Analysis from "../../components/Analysis/Analysis.jsx";
 import Checklist from "../../components/Checklist/Checklist.jsx";
 import ErrorList from "../../components/ErrorList/ErrorList.jsx";
 import ExamList from "../../components/ExamList/ExamList.jsx";
@@ -24,7 +25,9 @@ function SubjectPage({ route, onRoute }) {
     const cards = cardCounts(state, id);
     const left = diffDays(todayStr(), info.date);
 
-    const tabs = [{ id: "temas", label: "Temas", count: data.topics.length + data.notes.length }];
+    const tabs = [];
+    if (data.analysis) tabs.push({ id: "analisis", label: "Análisis de parciales", count: null });
+    tabs.push({ id: "temas", label: "Temas", count: data.topics.length + data.notes.length });
     if (data.flashcards.length) tabs.push({ id: "cards", label: "Flashcards", count: cards.due + cards.fresh });
     if (data.questions.length) tabs.push({ id: "quiz", label: "Preguntas", count: data.questions.length });
     if (data.exercises.length) tabs.push({ id: "ejercicios", label: "Ejercicios", count: data.exercises.length });
@@ -45,6 +48,14 @@ function SubjectPage({ route, onRoute }) {
     else if (route.tab === "errors") body = <ErrorList subject={id} data={data} />;
     else if (route.tab === "ejercicios") body = <Exercises key={id} data={data} />;
     else if (route.tab === "checklist") body = <Checklist subject={id} data={data} />;
+    else if (route.tab === "analisis" && data.analysis)
+        body = (
+            <Analysis
+                data={data}
+                onOpenTopic={(t) => setTab("temas", { topic: t })}
+                onOpenExam={(examId) => onRoute({ ...route, tab: "exams", exam: examId })}
+            />
+        );
     else
         body = (
             <TopicList
