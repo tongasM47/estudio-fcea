@@ -1,0 +1,104 @@
+/* Bloques de los apuntes del 1er semestre */
+.legacy h3 {
+    font-family: var(--f-display);
+    font-size: 18px;
+    margin: 18px 0 6px;
+}
+.legacy h4 {
+    font-family: var(--f-display);
+    font-size: 15px;
+    margin: 16px 0 4px;
+    color: var(--c);
+}
+.legacy table {
+    width: 100%;
+    display: block;
+    overflow-x: auto;
+}
+.legacy .idea,
+.legacy .eli,
+.legacy .trap,
+.legacy .key {
+    border-radius: 10px;
+    padding: 10px 14px;
+    margin: 12px 0;
+    border: 1px solid var(--line);
+    border-left-width: 4px;
+}
+.legacy .idea {
+    background: var(--sunk);
+    border-left-color: var(--accent);
+}
+.legacy .eli {
+    background: color-mix(in srgb, var(--c) 9%, var(--surface));
+    border-left-color: var(--c);
+}
+.legacy .trap {
+    background: var(--bad-bg);
+    border-left-color: var(--bad);
+}
+.legacy .key {
+    background: var(--warn-bg);
+    border-left-color: var(--warn);
+}
+.legacy .tag {
+    display: block;
+    font-family: var(--f-display);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 2px;
+}
+.legacy mark {
+    background: var(--hl);
+    color: inherit;
+    border-radius: 3px;
+    padding: 0 3px;
+}
+.legacy .fml,
+.legacy .fbox .big {
+    font-family: var(--f-mono);
+    font-size: 14px;
+}
+.legacy .fml {
+    background: var(--sunk);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 1px 7px;
+    display: inline-block;
+}
+.legacy .formula-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 10px;
+    margin: 12px 0;
+    font-family: var(--f-display);
+}
+.legacy .fbox {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 12px;
+    background: var(--surface);
+}
+.legacy .fbox .big {
+    font-weight: 600;
+    color: var(--c);
+}
+.legacy .fbox small {
+    display: block;
+    margin-top: 4px;
+    color: var(--muted);
+    font-size: 13px;
+}
+.legacy .steps {
+    padding-left: 22px;
+}
+.legacy .steps li {
+    margin: 6px 0;
+}
+.legacy .tagline {
+    color: var(--muted);
+    font-size: 14px;
+}
