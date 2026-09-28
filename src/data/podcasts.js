@@ -13,12 +13,17 @@ const PODCASTS = {
         t8: { title: "Claves de series geométricas", min: 22 },
     },
     ed: {
+        t1: { title: "Claves del Sistema de Cuentas Nacionales", min: 25 },
         t2: { title: "Claves del Cuadro de Oferta y Utilización", min: 25 },
+        t3: { title: "Claves del PIB para el examen", min: 20 },
         t4: { title: "Claves de producción y generación del ingreso", min: 22 },
         t5: { title: "Claves de asignación y distribución del ingreso", min: 22 },
+        t6: { title: "Claves del ahorro nacional bruto", min: 24 },
         t7: { title: "Claves de las cuentas de acumulación", min: 21 },
     },
-    micro: {},
+    micro: {
+        t6: { title: "Claves de la teoría de juegos", min: 29 },
+    },
     cc: {},
     ago: {},
 };
