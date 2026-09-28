@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import Html from "../Html/Html.jsx";
-import DeckFilter, { itemKey } from "../DeckFilter/DeckFilter.jsx";
+import DeckFilter, { matchesFilter } from "../DeckFilter/DeckFilter.jsx";
 import { CARD_INTERVALS, useProgress } from "../../context/ProgressContext.jsx";
 import { todayStr } from "../../lib/dates.js";
 import { cardBox } from "../../lib/progress.js";
@@ -12,7 +12,7 @@ const NEW_PER_SESSION = 25;
 // Mazo de la sesión: primero las vencidas, después hasta 25 nuevas.
 function buildDeck(state, subject, data, topic, all = false) {
     const today = todayStr();
-    const ids = data.flashcards.map((c, i) => i).filter((i) => !topic || itemKey(data.flashcards[i]) === topic);
+    const ids = data.flashcards.map((c, i) => i).filter((i) => !topic || matchesFilter(data.flashcards[i], topic));
     if (all) return shuffle(ids);
     const due = ids.filter((i) => state.cards[`${subject}|${i}`] && state.cards[`${subject}|${i}`].due <= today);
     const fresh = ids.filter((i) => !state.cards[`${subject}|${i}`]);
@@ -99,7 +99,9 @@ function Flashcards({ subject, data, initialTopic = "" }) {
     const index = deck[pos];
     const card = data.flashcards[index];
     const st = state.cards[`${subject}|${index}`];
-    const cardTopic = data.topics.find((t) => t.id === card.t) || (card.g ? { title: card.g } : null);
+    const parentTopic = data.topics.find((t) => t.id === card.t);
+    const subTopic = parentTopic && card.s ? (parentTopic.subtopics || []).find((st) => st.id === card.s) : null;
+    const cardTopic = parentTopic ? { title: subTopic ? `${parentTopic.title} · ${subTopic.title}` : parentTopic.title } : card.g ? { title: card.g } : null;
 
     return (
         <div className="fc-wrap">
