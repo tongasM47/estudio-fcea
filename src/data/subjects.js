@@ -13,27 +13,50 @@ import legacyCalc1a from "./legacy_calc1a.js";
 import legacyAygo1 from "./legacy_aygo1.js";
 import legacyMicro from "./legacy_micro.js";
 import legacyCc from "./legacy_cc.js";
+import analysisCalc from "./analysis_calc.js";
+import analysisEd from "./analysis_ed.js";
+import analysisMicro from "./analysis_micro.js";
+import analysisCc from "./analysis_cc.js";
+import analysisAgo from "./analysis_ago.js";
+import modelCalc from "./model_calc.js";
+import realCalc from "./real_calc.js";
+import modelEd from "./model_ed.js";
+import modelMicro from "./model_micro.js";
+import modelCc from "./model_cc.js";
+import modelAgo from "./model_ago.js";
 
-// Une contenido nuevo y apuntes anteriores. Las tarjetas y preguntas nuevas van primero
+// Une contenido nuevo, apuntes anteriores, análisis de parciales y parciales modelo. Las tarjetas y preguntas nuevas van primero
 // para que el progreso guardado (por posición) no se corra.
-function combine(base = {}, legacy = {}) {
+function combine(base = {}, legacy = {}, analysis = null, models = []) {
     return {
         topics: base.topics || [],
         notes: legacy.notes || [],
         flashcards: [...(base.flashcards || []), ...(legacy.flashcards || [])],
         questions: [...(base.questions || []), ...(legacy.questions || [])],
-        exams: base.exams || [],
+        exams: [...(base.exams || []), ...models],
+        analysis,
         exercises: legacy.exercises || [],
         checklist: legacy.checklist || [],
     };
 }
 
 export const SUBJECTS = {
-    calc: combine(calc),
-    ed: combine(ed),
-    micro: combine(micro, legacyMicro),
-    cc: combine(cc, legacyCc),
-    ago: combine(ago),
+    calc: combine(
+        {
+            ...calc,
+            exams: [
+                ...[...calc.exams.filter((e) => e.kind === "real"), ...realCalc].sort((x, y) => y.id.localeCompare(x.id)),
+                ...calc.exams.filter((e) => e.kind !== "real"),
+            ],
+        },
+        {},
+        analysisCalc,
+        modelCalc,
+    ),
+    ed: combine(ed, {}, analysisEd, modelEd),
+    micro: combine(micro, legacyMicro, analysisMicro, modelMicro),
+    cc: combine(cc, legacyCc, analysisCc, modelCc),
+    ago: combine(ago, {}, analysisAgo, modelAgo),
     calc1a: combine({}, legacyCalc1a),
     aygo1: combine({}, legacyAygo1),
 };

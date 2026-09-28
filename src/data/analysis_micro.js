@@ -1,0 +1,80 @@
+// Análisis de parciales anteriores de Introducción a la Microeconomía.
+const analysis = {
+    sources: [
+        { label: "1ª revisión mayo 2026 (V1)", kind: "revision", note: "letra V1 completa + solución docx con explicaciones + clave oficial de las 5 versiones. Es la única 1ª revisión del programa actual." },
+        { label: "Examen julio 2026 (V1, V2, V3)", kind: "examen", note: "10 preguntas (7 MO + 3 numéricas), pauta xlsx. Solo cuentan P1-P4, que son de U2-U5; P5-P10 son de unidades 6-8." },
+        { label: "Examen agosto 2026 (V1, V2)", kind: "examen", note: "10 preguntas (7 MO + 3 numéricas), pauta pdf. Solo cuentan P1-P4 (U2-U5)." },
+        { label: "Control de lectura 1 (1er sem. 2026, 4 versiones)", kind: "control", note: "U1-U2: instituciones del capitalismo, producto medio, costo de oportunidad, isocostos. Con solución." },
+        { label: "Control de lectura 2 (2º sem. 2026, 4 versiones)", kind: "control", note: "U1-U2, tu cohorte. Solución escrita solo en el ejercicio de isocostos; en los otros tres la respuesta se deduce (no hay clave)." },
+    ],
+    format: {
+        summary: String.raw`<p>10 preguntas de múltiple opción con <strong>3 opciones</strong>, todas valen lo mismo. Casi todas son "¿cuál afirmación es correcta?" sobre un escenario: un relato con números, una tabla de pagos, una tabla de puntos (tiempo libre, consumo, TMS) o un gráfico. No hay cuentas largas: el cálculo es de una o dos líneas (salario × horas, restar costos, comparar pagos). Lo que se evalúa es interpretar bien la TMS contra la TMT, los equilibrios de Nash y el criterio de Pareto. Las opciones incorrectas suelen tener una sola palabra o sentido invertido ("más" por "menos", "de A a B" por "de B a A").</p>`,
+        rows: [
+            ["Preguntas", "10 múltiple opción, 3 opciones cada una, una sola correcta"],
+            ["Puntaje", "40 puntos, mínimo 16 para aprobar (4 puntos por pregunta)"],
+            ["Penalización", "Correcta +4, incorrecta −1 (25 %), en blanco 0"],
+            ["Duración", "2 horas (12 minutos por pregunta)"],
+            ["Estructura", "Ordenada por unidad: 3 de U3 (trabajo y tiempo libre), 4 de U4 (juegos y preferencias sociales), 3 de U5 (Ángela y Bruno) en mayo 2026. U1-U2 no aparecieron en la revisión, pero sí en los exámenes (isocostos)."],
+            ["Fecha", "Miércoles 14/10/2026, 13:00"],
+        ],
+    },
+    blueprint: [
+        { slot: "P1", t: "t4", title: "Recta de restricción: frontera factible con cambio de salario (o isocosto)", freq: "rev 1/1 · ex 2/2 (isocosto)", difficulty: "baja", what: String.raw`Una trabajadora con salario \(w\) que sube; te dan el óptimo inicial y preguntan qué puntos son factibles antes y después. En los exámenes, en esta misma posición va un isocosto (tecnologías, dominancia, pendiente \(-w/p\)). Es la entrada más probable de U2.`, tip: String.raw`Escribí \(c = w(24-t)\) y probá cada punto con ambos salarios. Una suba del salario pivotea sobre (24, 0), no desplaza en paralelo. Para isocostos: \(E = C/p - (w/p)L\) y primero descartá las dominadas.` },
+        { slot: "P2", t: "t4", title: "TMS contra TMT en una tabla de puntos", freq: "rev 1/1 · ex 1/2", difficulty: "media", what: String.raw`Tabla con tiempo libre, consumo y TMS en varios puntos de la frontera; tenés que decir dónde está el óptimo y hacia dónde se mueve desde los otros puntos.`, tip: String.raw`TMT = salario en toda la frontera. Si TMS &gt; TMT quiere <strong>más</strong> tiempo libre; si TMS &lt; TMT, <strong>menos</strong>. La trampa es el sentido invertido.` },
+        { slot: "P3", t: "t5", title: "Efecto sustitución y efecto ingreso ante un cambio de salario", freq: "rev 1/1 · ex 1/2", difficulty: "media", what: String.raw`Te dan un gráfico (o tres para elegir) con el óptimo inicial, el punto de compensación y el final; tenés que identificar qué tramo es cada efecto y cuál domina.`, tip: String.raw`El sustitución va del óptimo inicial al punto de la <strong>misma</strong> curva de indiferencia con la pendiente nueva; el ingreso, de ahí al final. Suba del salario: sustitución hacia menos ocio; ingreso (ocio normal) hacia más. Mirá solo dónde queda el tiempo libre final.` },
+        { slot: "P4", t: "t6", title: "Armar la matriz de pagos a partir de un relato y buscar estrategias dominantes", freq: "rev 1/1", difficulty: "media", what: String.raw`Un relato con costos y beneficios (esfuerzo, culpa, nota) que tenés que pasar vos a pagos netos.`, tip: String.raw`Armá la matriz en el borrador antes de leer las opciones. Pago neto = beneficio − costo propio. Chequeá la dominancia comparando fila contra fila para cada columna.` },
+        { slot: "P5", t: "t6", title: "Dilema del prisionero y eficiencia de Pareto", freq: "rev 1/1 · ex 2/2", difficulty: "baja", what: String.raw`Juego con estrategia dominante que lleva a un resultado ineficiente (represa, emisiones, tecnología contaminante). Preguntan si el equilibrio es Pareto eficiente y qué asignación lo Pareto-domina.`, tip: String.raw`Pareto <strong>no suma</strong> pagos: una opción que dice "mejora de Pareto porque el total es mayor" es falsa si alguien empeora. Ser equilibrio en dominantes no implica ser eficiente.` },
+        { slot: "P6", t: "t6", title: "Varios equilibrios de Nash, conflicto de intereses y transferencias", freq: "rev 1/1 · ex 1/2", difficulty: "alta", what: String.raw`Matriz con dos equilibrios de Nash que cada jugador prefiere distinto; preguntan quién podría compensar a quién para coordinar.`, tip: String.raw`Calculá cuánto pierde uno y cuánto gana el otro al pasar de un equilibrio al otro. Solo puede pagar el que gana más de lo que el otro pierde, y el monto va entre esas dos cifras.` },
+        { slot: "P7", t: "t7", title: "Juego del ultimátum y preferencias sociales", freq: "rev 1/1", difficulty: "media", what: String.raw`Afirmaciones sobre qué haría una homo economicus, qué revela una oferta alta o un rechazo, y el ultimátum con competencia (dos receptoras).`, tip: String.raw`Una receptora egoísta acepta cualquier monto positivo. Una proponente egoísta puede ofrecer más del mínimo por miedo al rechazo, sin ser altruista. Con más receptoras, se aceptan ofertas más bajas.` },
+        { slot: "P8", t: "t8", title: "Comparar arreglos: trabajo forzoso, contrato de trabajo, arrendamiento", freq: "rev 1/1 · ex 1/2", difficulty: "media", what: String.raw`Afirmaciones conceptuales sobre opción de reserva, poder de negociación, renta económica y eficiencia en cada arreglo.`, tip: String.raw`Tómalo o déjalo (empleo o arrendamiento) lleva a la misma asignación eficiente con Ángela en su curva de reserva (renta 0). La eficiencia depende de las horas (TMS = TMT), no del porcentaje del reparto.` },
+        { slot: "P9", t: "t8", title: "Mejoras paretianas entre asignaciones del gráfico de Ángela y Bruno", freq: "rev 1/1", difficulty: "alta", what: String.raw`Gráfico con la frontera, las curvas de indiferencia de Ángela (reserva, negociación) y varios puntos; preguntan qué asignación es mejora paretiana de otra.`, tip: String.raw`Para Ángela mirá en qué curva de indiferencia está el punto (misma curva = indiferente). Para Bruno, cuánto grano le queda. Mejora paretiana: nadie empeora y al menos uno mejora.` },
+        { slot: "P10", t: "t8", title: "Cálculo de la asignación de Bruno: horas, producción y reparto", freq: "rev 1/1 · ex 1/2", difficulty: "media", what: String.raw`Tabla con tiempo libre, comparación TMS/TMT y producto medio (más el grano de la curva de reserva). Hay que sacar las horas, la producción total y cuánto se queda cada uno.`, tip: String.raw`Horas donde TMS = TMT. Trabajo = 24 − tiempo libre. Producción = producto medio × horas <strong>trabajadas</strong>, no × tiempo libre. Ángela recibe lo de su curva de reserva; Bruno, el resto.` },
+    ],
+    topics: [
+        { t: "t6", name: "Teoría de juegos: dominantes, Nash, dilema del prisionero, Pareto", count: 3, of: 3, share: 27, priority: "imprescindible", note: String.raw`3 de 10 preguntas en mayo (P4, P5, P6) y 1 de las 4 de U1-U5 en julio y en agosto. En todas las versiones.` },
+        { t: "t8", name: "Ángela y Bruno: contratos, renta, Pareto y cálculo de la asignación", count: 3, of: 3, share: 27, priority: "imprescindible", note: String.raw`3 de 10 en mayo (P8, P9, P10) y 1 en julio (arrendamiento) y en agosto (tómalo o déjalo con TMS = TMT). La pregunta numérica siempre es de este tema.` },
+        { t: "t4", name: "Frontera factible, TMS, TMT y elección óptima", count: 2, of: 3, share: 15, priority: "imprescindible", note: String.raw`2 de 10 en mayo (P1, P2) y 1 en agosto (Laura: salario = consumo / horas). Es la base de P3 y de todo U5.` },
+        { t: "t5", name: "Efecto ingreso y efecto sustitución", count: 2, of: 3, share: 12, priority: "alta", note: String.raw`1 en mayo (elegir el gráfico) y 1 en julio (descomponer con α, β, γ). Siempre con gráfico: en la prueba real lo vas a tener que leer.` },
+        { t: "t3", name: "Isocostos, dominancia de tecnologías, costo de oportunidad y renta", count: 2, of: 3, share: 8, priority: "alta", note: String.raw`No salió en mayo, pero fue la P1 de julio y agosto en todas las versiones, y está en los dos controles de lectura. Estimación: 0 o 1 pregunta (inferencia).` },
+        { t: "t7", name: "Preferencias sociales y juego del ultimátum", count: 1, of: 3, share: 8, priority: "media", note: String.raw`1 en mayo (ultimátum con competencia). No aparece en exámenes.` },
+        { t: "t2", name: "Función de producción, producto medio y rendimientos decrecientes", count: 0, of: 3, share: 2, priority: "baja", note: String.raw`Solo en los controles de lectura (producto medio como pendiente del rayo). Riesgo bajo pero no nulo, porque la revisión cubre U1-U5.` },
+        { t: "t1", name: "Capitalismo, empresa capitalista y mercado", count: 0, of: 3, share: 1, priority: "baja", note: String.raw`Solo en los controles (empresa capitalista: propiedad privada + trabajo asalariado + venta con fin de lucro). Cinco minutos de repaso.` },
+    ],
+    trends: String.raw`<p><strong>Advertencia de base:</strong> hay una sola 1ª revisión del programa actual (mayo 2026). La frecuencia se completa con las preguntas de U1-U5 de los exámenes de julio y agosto 2026 (las P1-P4 de cada examen, 4 de 10) y con los dos controles de lectura. Con tan pocas pruebas, el ranking es orientativo.</p>
+<ul>
+<li><strong>Estructura estable:</strong> en las tres pruebas el bloque U2-U5 va en el mismo orden (restricción lineal → trabajo/tiempo libre → juego → Ángela y Bruno). En mayo el reparto fue 3 U3, 4 U4 y 3 U5, sin nada de U1-U2.</li>
+<li><strong>U2 entró en los exámenes:</strong> julio (isocosto con cuatro tecnologías: electricidad en A, dominancia, tasa de sustitución −w/p) y agosto (dos países con precios relativos distintos). Los controles de lectura del 2º semestre también evalúan isocostos, costo de oportunidad (soja, eucalipto, arrendamiento) y producto medio. Es razonable que en octubre salga 1 pregunta de U1-U2, probablemente en P1.</li>
+<li><strong>Variantes de juegos:</strong> dilema del prisionero (represa, emisiones, laguna), coordinación con conflicto de intereses (tecnologías) y anti-coordinación (alojamiento/excursiones, dos equilibrios asimétricos). La novedad de agosto fue un juego sin dominantes con dos equilibrios.</li>
+<li><strong>Ángela y Bruno cada vez más numérico:</strong> mayo pedía leer 9 horas y 6/3 fanegas de una tabla más un gráfico; agosto pidió renta económica (40 − 18 = 22) y si trabajar 8 o 12 horas deja ganancias sin explotar (TMS contra TMT).</li>
+<li><strong>Versiones:</strong> la clave oficial de mayo tiene 5 versiones con respuestas distintas. Las versiones reordenan opciones y cambian números o el sentido (ver julio P2: V1 con efecto sustitución dominante, V2 y V3 con efectos que se cancelan). No memorices letras: resolvé.</li>
+<li><strong>Rarezas detectadas:</strong> la solución docx de mayo no explica P8-P10 (solo da la letra). En P10 la respuesta B (6 y 3 fanegas) depende de leer en el gráfico que la curva de reserva pasa por 3 fanegas en 15 h libres. El control 2 no trae solución escrita en tres de sus cuatro ejercicios.</li>
+</ul>`,
+    beyond: String.raw`<ul>
+<li><strong>Producto medio y marginal (U1-U2, 30 min):</strong> el producto medio es la pendiente del rayo desde el origen y el marginal, la pendiente de la curva. Puntos sobre el mismo rayo tienen igual producto medio (control 1: 300/15 = 20 ⇒ en A, 13 × 20 = 260).</li>
+<li><strong>Costo de oportunidad y renta económica (30 min):</strong> la opción de reserva es el <em>beneficio neto</em> de la mejor alternativa, no su ingreso ni la que no tiene costos. Renta = beneficio del uso elegido − beneficio de la reserva (control 2: 260 − 220 = 40).</li>
+<li><strong>Empresa capitalista y mercado (15 min):</strong> cooperativas, empresas familiares, ONG y empresas públicas no son capitalistas; una feria sí es un mercado; la venta ilegal también.</li>
+<li><strong>Trampa malthusiana y bienes públicos con castigo (20 min):</strong> no aparecieron en ninguna prueba, pero están en el programa. Con flashcards alcanza.</li>
+<li><strong>Negociación y leyes (U5, 20 min):</strong> la curva de negociación (CI<sub>N</sub>), la jornada máxima legal y el paso del trabajo forzoso al contrato. Salen dentro de P8 y P9, no como pregunta aparte.</li>
+</ul>`,
+    strategy: String.raw`<ol>
+<li><strong>Respondé las 10.</strong> Con 3 opciones, adivinar al azar vale en promedio \( \frac13(4) + \frac23(-1) = +0{,}67 \); si descartás una, \( \frac12(4) + \frac12(-1) = +1{,}5 \). Dejar en blanco solo tiene sentido si dudás entre las tres después de trabajarla, y aun así conviene marcar.</li>
+<li><strong>Primera pasada (60 min):</strong> hacé en orden y dejá marcadas las dudosas. P1, P5 y P7 se resuelven en 3-5 minutos; P4, P6 y P10 piden armar una matriz o una cuenta: hacela siempre en el borrador.</li>
+<li><strong>Segunda pasada (40 min):</strong> volvé a las gráficas (P3, P9). Para cada opción preguntate qué palabra la haría falsa: "más/menos", "de A a B/de B a A", "suma de pagos", "siempre", "necesariamente".</li>
+<li><strong>Últimos 20 min:</strong> pasá las respuestas al formulario y chequeá la <strong>cédula y el número de versión</strong>. Si no marcás la versión, te corrigen con la de menor puntaje.</li>
+<li>Para aprobar (16) alcanzan 5 bien y 4 mal (20 − 4 = 16). Asegurá juegos y Ángela y Bruno, que son el 55 % de la prueba.</li>
+</ol>`,
+    studyPlan: String.raw`<ol>
+<li><strong>27/09 al 05/10 (Cálculo y ED van primero):</strong> solo 20 minutos por día de flashcards de Micro (t4, t6, t8), para no arrancar en frío.</li>
+<li><strong>06/10 (2,5 h):</strong> t1 y t2 rápido (1 h, alcanza con la explicación y los controles de lectura) y t3 isocostos y costo de oportunidad (1,5 h): rehacé los dos controles.</li>
+<li><strong>07/10 (3 h):</strong> t4, frontera factible y TMS contra TMT (2 h), más las P1 y P2 de la revisión de mayo y la P2 de agosto. Terminá con 1 h de t5.</li>
+<li><strong>08/10 (3,5 h):</strong> t5, efecto ingreso y sustitución (1 h, con los gráficos de julio P2 V1 y V2) y t6, juegos (2,5 h): armá vos las matrices de mayo P4-P6, julio P3 y agosto P3.</li>
+<li><strong>09/10 (3 h):</strong> t8, Ángela y Bruno (2 h: tómalo o déjalo, arrendamiento, forzoso, lectura de mejoras paretianas en el gráfico) y t7, ultimátum (1 h).</li>
+<li><strong>10/10 (después de ED, 2 h):</strong> flashcards y preguntas conceptuales.</li>
+<li><strong>11/10 (4 h):</strong> revisión de mayo con reloj (2 h) y Parcial modelo 1 (2 h). Corregí con la regla +4/−1.</li>
+<li><strong>12/10 (3,5 h):</strong> Parcial modelo 2 con reloj y repaso de errores; después, simulacro 1 o 2 si te sobra tiempo.</li>
+<li><strong>13/10 (2 h):</strong> solo lo que fallaste: juegos y Ángela y Bruno primero. Nada nuevo.</li>
+<li><strong>14/10 a la mañana (1 h):</strong> repaso de trampas (TMS &gt; TMT ⇒ más ocio; Pareto no suma; producción = PMe × horas trabajadas). La prueba es a las 13:00.</li>
+</ol>`,
+};
+
+export default analysis;

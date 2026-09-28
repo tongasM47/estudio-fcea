@@ -14,7 +14,7 @@ export const EXAMS_INFO = {
             ["Para exonerar", "50 pts entre los dos parciales (el 2º vale 60, mínimo 22)"],
         ],
         strategy:
-            "Las últimas cuatro revisiones repiten los mismos 10 moldes de pregunta. Si dominás cada molde, el parcial es predecible. Confirmá en la letra cuánto resta una respuesta mal antes de adivinar.",
+            "Las últimas siete revisiones (2023 a 2026) repiten los mismos 10 moldes de pregunta. Si dominás cada molde, el parcial es predecible. Confirmá en la letra cuánto resta una respuesta mal antes de adivinar.",
     },
     ed: {
         name: "Economía Descriptiva",
@@ -122,6 +122,7 @@ export const PLAN = [
             { s: "calc", k: "topic", r: "t2", h: 1.5, l: "Inyectiva, sobreyectiva, biyectiva" },
             { s: "calc", k: "topic", r: "t3", h: 1.5, l: "Función inversa" },
             { s: "ed", k: "topic", r: "t1", h: 0.5, l: "Qué es la ED y el SCN (solo leer)" },
+            { s: "calc", k: "analysis", h: 0.5, l: "Leé el análisis de parciales de Cálculo" },
         ],
     },
     {
@@ -131,6 +132,7 @@ export const PLAN = [
             { s: "calc", k: "cards", h: 0.5, l: "Flashcards de Cálculo (las que venzan)" },
             { s: "ed", k: "topic", r: "t2", h: 3, l: "El COU paso a paso" },
             { s: "ed", k: "quiz", h: 0.5, l: "Preguntas del COU" },
+            { s: "ed", k: "analysis", h: 0.5, l: "Leé el análisis de parciales de ED" },
         ],
     },
     {
@@ -181,8 +183,8 @@ export const PLAN = [
         d: "2026-10-04",
         note: "Víspera de Cálculo: nada nuevo, solo simulacros y errores.",
         tasks: [
-            { s: "calc", k: "exam", r: "sim-1", h: 2, l: "Simulacro 1 de Cálculo" },
-            { s: "calc", k: "exam", r: "sim-2", h: 1.5, l: "Simulacro 2 de Cálculo" },
+            { s: "calc", k: "exam", r: "modelo-1", h: 2, l: "Parcial modelo 1 de Cálculo, con reloj" },
+            { s: "calc", k: "exam", r: "modelo-2", h: 1.5, l: "Parcial modelo 2 de Cálculo, con reloj" },
             { s: "calc", k: "errors", h: 1, l: "Última pasada de errores y flashcards" },
             { s: "ed", k: "exam", r: "sim-1", h: 1.5, l: "ED: Módulo 1 del Simulacro 1 (COU)" },
         ],
@@ -204,6 +206,7 @@ export const PLAN = [
             { s: "ed", k: "exam", r: "sim-2", h: 2.5, l: "Simulacro 2 de ED" },
             { s: "micro", k: "topic", r: "t1", h: 1, l: "U1: crecimiento y capitalismo" },
             { s: "micro", k: "topic", r: "t2", h: 1, l: "U1-U2: función de producción y Malthus" },
+            { s: "micro", k: "analysis", h: 0.5, l: "Leé el análisis de parciales de Micro" },
         ],
     },
     {
@@ -213,12 +216,13 @@ export const PLAN = [
             { s: "micro", k: "topic", r: "t3", h: 1.5, l: "U2: costos, renta e isocostos" },
             { s: "micro", k: "topic", r: "t4", h: 2, l: "U3: TMS, frontera factible y óptimo" },
             { s: "ago", k: "topic", r: "t1", h: 1, l: "AYGO: Luthans y Hellriegel" },
+            { s: "ago", k: "analysis", h: 0.5, l: "Leé el análisis de parciales de AYGO II" },
         ],
     },
     {
         d: "2026-10-08",
         tasks: [
-            { s: "ed", k: "quiz", h: 1.5, l: "ED: preguntas conceptuales falladas" },
+            { s: "ed", k: "exam", r: "modelo-1", h: 2, l: "ED: Parcial modelo 1 con reloj" },
             { s: "micro", k: "topic", r: "t5", h: 1.5, l: "U3: efecto ingreso y sustitución" },
             { s: "micro", k: "topic", r: "t6", h: 2, l: "U4: teoría de juegos" },
             { s: "ago", k: "topic", r: "t2", h: 1, l: "AYGO: Goleman y Kotter" },
@@ -228,7 +232,7 @@ export const PLAN = [
         d: "2026-10-09",
         note: "Víspera de ED.",
         tasks: [
-            { s: "ed", k: "errors", h: 2.5, l: "ED: repasá todos tus errores de los simulacros" },
+            { s: "ed", k: "exam", r: "modelo-2", h: 2.5, l: "ED: Parcial modelo 2 y repaso de errores" },
             { s: "micro", k: "topic", r: "t7", h: 1, l: "U4: preferencias sociales y ultimátum" },
             { s: "micro", k: "topic", r: "t8", h: 1.5, l: "U5: Pareto, Ángela y Bruno" },
             { s: "ago", k: "topic", r: "t3", h: 1, l: "AYGO: entorno, cultura y género" },
@@ -247,16 +251,17 @@ export const PLAN = [
         d: "2026-10-11",
         tasks: [
             { s: "micro", k: "exam", r: "rev-2026-05", h: 2, l: "Simulá la 1ª revisión mayo 2026" },
-            { s: "micro", k: "exam", r: "sim-1", h: 1.5, l: "Simulacro 1 de Micro" },
+            { s: "micro", k: "exam", r: "modelo-1", h: 1.5, l: "Parcial modelo 1 de Micro" },
             { s: "cc", k: "topic", r: "t1", h: 1, l: "CC: patrimonio, recursos y fuentes" },
             { s: "cc", k: "topic", r: "t2", h: 1, l: "CC: variaciones patrimoniales" },
             { s: "ago", k: "topic", r: "t4", h: 1, l: "AYGO: Mintzberg" },
+            { s: "cc", k: "analysis", h: 0.5, l: "Leé el análisis de parciales de CC" },
         ],
     },
     {
         d: "2026-10-12",
         tasks: [
-            { s: "micro", k: "exam", r: "sim-2", h: 1.5, l: "Simulacro 2 de Micro" },
+            { s: "micro", k: "exam", r: "modelo-2", h: 1.5, l: "Parcial modelo 2 de Micro" },
             { s: "micro", k: "errors", h: 1, l: "Micro: errores" },
             { s: "cc", k: "topic", r: "t3", h: 1.5, l: "CC: cuentas y partida doble" },
             { s: "cc", k: "topic", r: "t4", h: 1, l: "CC: comprobantes" },
@@ -291,8 +296,9 @@ export const PLAN = [
             { s: "cc", k: "topic", r: "t8", h: 1.5, l: "CC: sueldos y saldo del BPS" },
             { s: "cc", k: "exam", r: "rev-2026-05-t1v1", h: 1, l: "Simulá la 1ª revisión mayo 2026 (1 hora)" },
             { s: "cc", k: "exam", r: "prac-oficial-rev1", h: 2, l: "Práctico oficial de 17 ejercicios" },
-            { s: "cc", k: "exam", r: "sim-cc-1", h: 1, l: "Simulacro de CC" },
+            { s: "cc", k: "exam", r: "modelo-1", h: 1, l: "Parcial modelo 1 de CC (1 hora)" },
             { s: "ago", k: "topic", r: "t8", h: 1, l: "AYGO: implantación (8 componentes)" },
+            { s: "cc", k: "exam", r: "modelo-2", h: 1, l: "Parcial modelo 2 de CC (1 hora)" },
         ],
     },
     {
@@ -302,7 +308,7 @@ export const PLAN = [
         tasks: [
             { s: "ago", k: "topic", r: "t9", h: 1.5, l: "AYGO: toma de decisiones" },
             { s: "ago", k: "exam", r: "rev-2024", h: 1.5, l: "Resolvé el caso Tres Cruces por escrito" },
-            { s: "ago", k: "exam", r: "rev-2023", h: 1.5, l: "Resolvé el caso BAS por escrito" },
+            { s: "ago", k: "exam", r: "modelo-1", h: 1.5, l: "Resolvé el Parcial modelo 1 por escrito" },
             { s: "ago", k: "cards", h: 1, l: "Flashcards de autores y marcos" },
         ],
     },
