@@ -1,0 +1,55 @@
+// Registro de materias.
+// Cada materia combina el contenido nuevo (src/data/<id>.js) con el material del
+// 1er semestre (src/data/legacy_<id>.js) cuando existe.
+// Para sumar una materia nueva: creá su archivo de datos, importalo acá, agregala a
+// SUBJECTS y a un semestre de SEMESTERS, sumá sus datos en EXAMS_INFO (src/data/plan.js)
+// y su color --<id> en src/index.css (en los tres bloques de tema).
+import calc from "./calc.js";
+import ed from "./ed.js";
+import micro from "./micro.js";
+import cc from "./cc.js";
+import ago from "./ago.js";
+import legacyCalc1a from "./legacy_calc1a.js";
+import legacyAygo1 from "./legacy_aygo1.js";
+import legacyMicro from "./legacy_micro.js";
+import legacyCc from "./legacy_cc.js";
+
+// Une contenido nuevo y apuntes anteriores. Las tarjetas y preguntas nuevas van primero
+// para que el progreso guardado (por posición) no se corra.
+function combine(base = {}, legacy = {}) {
+    return {
+        topics: base.topics || [],
+        notes: legacy.notes || [],
+        flashcards: [...(base.flashcards || []), ...(legacy.flashcards || [])],
+        questions: [...(base.questions || []), ...(legacy.questions || [])],
+        exams: base.exams || [],
+        exercises: legacy.exercises || [],
+        checklist: legacy.checklist || [],
+    };
+}
+
+export const SUBJECTS = {
+    calc: combine(calc),
+    ed: combine(ed),
+    micro: combine(micro, legacyMicro),
+    cc: combine(cc, legacyCc),
+    ago: combine(ago),
+    calc1a: combine({}, legacyCalc1a),
+    aygo1: combine({}, legacyAygo1),
+};
+
+// materias con parcial en la ronda actual (cuenta regresiva y plan)
+export const ORDER = ["calc", "ed", "micro", "cc", "ago"];
+
+export const SEMESTERS = [
+    { id: "2026-2", label: "2º semestre 2026", subjects: ["calc", "ed", "micro", "cc", "ago"] },
+    { id: "2026-1", label: "1er semestre 2026", subjects: ["calc1a", "aygo1", "micro", "cc"] },
+];
+
+// orden del menú: las de la ronda actual y después las que solo están en semestres anteriores
+export const NAV = [...ORDER, ...SEMESTERS.flatMap((s) => s.subjects).filter((id, i, all) => !ORDER.includes(id) && all.indexOf(id) === i)];
+
+// mínimo para salvar cada primera revisión de la ronda actual
+export const MINIMUMS = { calc: 8, ed: 18, micro: 16, cc: 12, ago: 14 };
+
+export const subjectColor = (id) => `var(--${id})`;
