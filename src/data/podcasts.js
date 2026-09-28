@@ -2,7 +2,12 @@
 // Para sumar uno: copiá el mp3 a public/audio/<materia>/<tema>.mp3 y agregá la entrada acá.
 // min = duración aproximada en minutos.
 const PODCASTS = {
-    calc: {},
+    calc: {
+        t3: { title: "Claves para dominar la función inversa", min: 23 },
+        t4: { title: "Claves para la derivada de la inversa", min: 26 },
+        t6: { title: "Límites con Taylor para la revisión", min: 16 },
+        t8: { title: "Claves de series geométricas", min: 22 },
+    },
     ed: {},
     micro: {},
     cc: {},
