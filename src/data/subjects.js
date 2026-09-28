@@ -20,6 +20,11 @@ import analysisCc from "./analysis_cc.js";
 import analysisAgo from "./analysis_ago.js";
 import modelCalc from "./model_calc.js";
 import realCalc from "./real_calc.js";
+import deepCalc from "./deep_calc.js";
+import deepEd from "./deep_ed.js";
+import deepMicro from "./deep_micro.js";
+import deepCc from "./deep_cc.js";
+import deepAgo from "./deep_ago.js";
 import modelEd from "./model_ed.js";
 import modelMicro from "./model_micro.js";
 import modelCc from "./model_cc.js";
@@ -27,16 +32,17 @@ import modelAgo from "./model_ago.js";
 
 // Une contenido nuevo, apuntes anteriores, análisis de parciales y parciales modelo. Las tarjetas y preguntas nuevas van primero
 // para que el progreso guardado (por posición) no se corra.
-function combine(base = {}, legacy = {}, analysis = null, models = []) {
+function combine(base = {}, legacy = {}, analysis = null, models = [], deep = null) {
+    const subtopics = (deep && deep.subtopics) || {};
     return {
-        topics: base.topics || [],
+        topics: (base.topics || []).map((t) => ({ ...t, subtopics: subtopics[t.id] || [] })),
         notes: legacy.notes || [],
-        flashcards: [...(base.flashcards || []), ...(legacy.flashcards || [])],
-        questions: [...(base.questions || []), ...(legacy.questions || [])],
+        flashcards: [...(base.flashcards || []), ...(legacy.flashcards || []), ...((deep && deep.flashcards) || [])],
+        questions: [...(base.questions || []), ...(legacy.questions || []), ...((deep && deep.questions) || [])],
         exams: [...(base.exams || []), ...models],
-        analysis,
         exercises: legacy.exercises || [],
         checklist: legacy.checklist || [],
+        analysis,
     };
 }
 
@@ -52,11 +58,12 @@ export const SUBJECTS = {
         {},
         analysisCalc,
         modelCalc,
+        deepCalc,
     ),
-    ed: combine(ed, {}, analysisEd, modelEd),
-    micro: combine(micro, legacyMicro, analysisMicro, modelMicro),
-    cc: combine(cc, legacyCc, analysisCc, modelCc),
-    ago: combine(ago, {}, analysisAgo, modelAgo),
+    ed: combine(ed, {}, analysisEd, modelEd, deepEd),
+    micro: combine(micro, legacyMicro, analysisMicro, modelMicro, deepMicro),
+    cc: combine(cc, legacyCc, analysisCc, modelCc, deepCc),
+    ago: combine(ago, {}, analysisAgo, modelAgo, deepAgo),
     calc1a: combine({}, legacyCalc1a),
     aygo1: combine({}, legacyAygo1),
 };
