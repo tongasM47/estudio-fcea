@@ -1,0 +1,79 @@
+/* questions / exams */
+.numin {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.numin input {
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 7px 10px;
+    width: 180px;
+    background: var(--surface);
+    font-family: var(--f-mono);
+}
+.examtop {
+    position: sticky;
+    top: calc(env(safe-area-inset-top, 0px) + 92px);
+    z-index: 10;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 10px 14px;
+    margin: 14px 0;
+    box-shadow: var(--shadow);
+}
+.timer {
+    font-family: var(--f-mono);
+    font-size: 22px;
+    font-weight: 600;
+}
+.timer.low {
+    color: var(--bad);
+}
+.scorebox {
+    border: 2px solid var(--c);
+    border-radius: 12px;
+    padding: 14px 18px;
+    background: var(--surface);
+    margin: 14px 0;
+}
+.scorebox .big {
+    font-family: var(--f-mono);
+    font-size: 34px;
+    font-weight: 600;
+    color: var(--c);
+}
+.casenote {
+    font-family: var(--f-read);
+    font-size: 16px;
+    line-height: 1.6;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 16px 20px;
+    max-width: 80ch;
+}
+.selfscore {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    font-size: 14px;
+}
+.selfscore input {
+    width: 70px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 5px 8px;
+    background: var(--surface);
+    font-family: var(--f-mono);
+}
