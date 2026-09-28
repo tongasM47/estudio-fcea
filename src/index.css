@@ -417,3 +417,13 @@ select {
 .deckfilter {
     max-width: min(100%, 520px);
 }
+
+.src-ref {
+    margin: 10px 0 4px;
+    font-size: 13px;
+    color: var(--muted);
+}
+.src-ref > span:first-child {
+    font-weight: 700;
+    color: var(--c, var(--ink));
+}
