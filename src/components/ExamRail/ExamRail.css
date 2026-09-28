@@ -1,0 +1,56 @@
+/* exam rail */
+.rail {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 8px;
+    margin: 18px 0 8px;
+}
+.rail .stop {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-top: 4px solid var(--c);
+    border-radius: 10px;
+    padding: 10px 12px;
+    cursor: pointer;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.rail .stop:hover {
+    border-color: var(--c);
+}
+.stop .d {
+    font-family: var(--f-mono);
+    font-size: 12px;
+    color: var(--muted);
+}
+.stop .n {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+}
+.stop .left {
+    font-family: var(--f-mono);
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--c);
+    line-height: 1.1;
+    margin-top: 4px;
+}
+.stop .left small {
+    font-size: 12px;
+    color: var(--muted);
+    font-weight: 500;
+}
+.stop.past {
+    opacity: 0.55;
+}
+@media (max-width: 760px) {
+    .rail {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .rail .stop:last-child {
+        grid-column: 1/-1;
+    }
+}
