@@ -1,0 +1,150 @@
+.sources {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+.source {
+    font-family: var(--f-mono);
+    font-size: 12px;
+    padding: 3px 9px;
+    border-radius: 99px;
+    border: 1px solid var(--line);
+    background: var(--surface);
+    color: var(--muted);
+}
+.source.revision {
+    border-color: var(--c);
+    color: var(--c);
+}
+.an-sec {
+    margin-top: 26px;
+}
+.an-sec > h3 {
+    margin: 0 0 6px;
+}
+.an-facts {
+    margin-top: 10px;
+}
+.ranking {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 10px;
+    max-width: 820px;
+}
+.rank-row {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: var(--surface);
+    padding: 10px 14px;
+}
+.rank-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.rank-name {
+    font-weight: 700;
+    flex: 1;
+    min-width: 0;
+}
+.rank-count {
+    font-size: 12px;
+    color: var(--muted);
+}
+.rank-bar {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 44px auto;
+    gap: 10px;
+    align-items: center;
+    margin-top: 6px;
+}
+.rank-track {
+    height: 10px;
+    background: var(--sunk);
+    border-radius: 99px;
+    overflow: hidden;
+}
+.rank-fill {
+    height: 100%;
+    background: var(--c);
+    border-radius: 99px;
+}
+.rank-pct {
+    font-size: 13px;
+    text-align: right;
+}
+.rank-note {
+    font-size: 13.5px;
+    color: var(--muted);
+    margin-top: 6px;
+}
+.rank-note p {
+    margin: 0;
+}
+.prio,
+.diff {
+    font-family: var(--f-mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 2px 8px;
+    border-radius: 6px;
+    border: 1px solid currentColor;
+    white-space: nowrap;
+}
+.prio.imprescindible,
+.diff.alta {
+    color: var(--bad);
+}
+.prio.alta,
+.diff.media {
+    color: var(--warn);
+}
+.prio.media,
+.prio.baja,
+.diff.baja {
+    color: var(--muted);
+}
+.blueprint {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 760px;
+    font-size: 14px;
+    background: var(--surface);
+}
+.blueprint th,
+.blueprint td {
+    border: 1px solid var(--line);
+    padding: 8px 10px;
+    text-align: left;
+    vertical-align: top;
+}
+.blueprint th {
+    background: var(--sunk);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+.blueprint td p {
+    margin: 0 0 4px;
+}
+.bp-what {
+    color: var(--muted);
+    margin-top: 2px;
+}
+.linkbtn {
+    background: none;
+    border: 0;
+    padding: 0;
+    margin-top: 4px;
+    color: var(--c);
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: left;
+}
+.linkbtn:hover {
+    text-decoration: underline;
+}
