@@ -20,6 +20,11 @@ function Subtopic({ subject, subtopic, counts, onCards, onQuiz }) {
             </summary>
             {open && (
                 <div className="st-body">
+                    {subtopic.src && (
+                        <p className="src-ref">
+                            <span>Fuente de la cátedra:</span> <Html as="span" html={subtopic.src} />
+                        </p>
+                    )}
                     <div className="sec">
                         <h4>Explicado simple</h4>
                         <Html className="read eli5" html={subtopic.eli5} />
