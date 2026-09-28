@@ -1,13 +1,13 @@
 import { useState } from "react";
 import Html from "../Html/Html.jsx";
-import DeckFilter, { itemKey } from "../DeckFilter/DeckFilter.jsx";
+import DeckFilter, { matchesFilter } from "../DeckFilter/DeckFilter.jsx";
 import QuestionOptions from "../QuestionOptions/QuestionOptions.jsx";
 import { useProgress } from "../../context/ProgressContext.jsx";
 import { LETTERS } from "../../lib/format.js";
 
 // Orden: primero las que nunca respondiste o más fallaste.
 function buildOrder(state, subject, data, topic) {
-    const ids = data.questions.map((q, i) => i).filter((i) => !topic || itemKey(data.questions[i]) === topic);
+    const ids = data.questions.map((q, i) => i).filter((i) => !topic || matchesFilter(data.questions[i], topic));
     const score = (i) => {
         const st = state.quiz[`${subject}|${i}`];
         return st ? st.ok - st.bad * 2 : -0.5;
@@ -64,7 +64,9 @@ function Quiz({ subject, data, initialTopic = "" }) {
     }
 
     const q = data.questions[order[pos]];
-    const qTopic = data.topics.find((t) => t.id === q.t) || (q.g ? { title: q.g } : null);
+    const parentTopic = data.topics.find((t) => t.id === q.t);
+    const subTopic = parentTopic && q.s ? (parentTopic.subtopics || []).find((st) => st.id === q.s) : null;
+    const qTopic = parentTopic ? { title: subTopic ? `${parentTopic.title} · ${subTopic.title}` : parentTopic.title } : q.g ? { title: q.g } : null;
     const answered = picked !== null;
 
     return (
