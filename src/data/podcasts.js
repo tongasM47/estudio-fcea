@@ -33,6 +33,10 @@ const PODCASTS = {
     },
     cc: {
         t1: { title: "Igualdad patrimonial y asiento de apertura", min: 19 },
+        t2: { title: "Hechos económicos y variaciones patrimoniales", min: 18 },
+        t4: { title: "Repaso de comprobantes y registros contables", min: 19 },
+        t5: { title: "Claves del porcentaje de utilidad", min: 13 },
+        t7: { title: "Contabilización de cheques y tarjetas", min: 27 },
     },
     ago: {},
 };
