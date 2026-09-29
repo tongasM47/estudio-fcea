@@ -22,7 +22,11 @@ const PODCASTS = {
         t7: { title: "Claves de las cuentas de acumulación", min: 21 },
     },
     micro: {
+        t3: { title: "Isocostos y costo de oportunidad", min: 24 },
+        t4: { title: "El equilibrio entre tiempo libre y salario", min: 25 },
+        t5: { title: "Claves del efecto ingreso y sustitución", min: 15 },
         t6: { title: "Claves de la teoría de juegos", min: 29 },
+        t8: { title: "Por qué un reparto injusto puede ser eficiente", min: 18 },
     },
     cc: {},
     ago: {},
