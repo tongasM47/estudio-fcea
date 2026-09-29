@@ -22,13 +22,18 @@ const PODCASTS = {
         t7: { title: "Claves de las cuentas de acumulación", min: 21 },
     },
     micro: {
+        t1: { title: "El palo de hockey del capitalismo", min: 17 },
+        t2: { title: "La trampa malthusiana y los rendimientos decrecientes", min: 28 },
         t3: { title: "Isocostos y costo de oportunidad", min: 24 },
         t4: { title: "El equilibrio entre tiempo libre y salario", min: 25 },
         t5: { title: "Claves del efecto ingreso y sustitución", min: 15 },
         t6: { title: "Claves de la teoría de juegos", min: 29 },
+        t7: { title: "Preferencias sociales y el dilema del free rider", min: 24 },
         t8: { title: "Por qué un reparto injusto puede ser eficiente", min: 18 },
     },
-    cc: {},
+    cc: {
+        t1: { title: "Igualdad patrimonial y asiento de apertura", min: 19 },
+    },
     ago: {},
 };
 
