@@ -37,11 +37,15 @@ const PODCASTS = {
         t3: { title: "Las cuentas y las reglas de registración", min: 24 },
         t4: { title: "Repaso de comprobantes y registros contables", min: 19 },
         t5: { title: "Claves del porcentaje de utilidad", min: 13 },
+        t6: { title: "Claves para liquidar el IVA sin errores", min: 17 },
         t7: { title: "Contabilización de cheques y tarjetas", min: 27 },
         t8: { title: "Sueldos: liquidación y aportes", min: 27 },
     },
     ago: {
         t6: { title: "FODA, cadena de valor y 5 fuerzas", min: 23 },
+        t7: { title: "Estrategias competitivas", min: 17 },
+        t8: { title: "Claves para la implantación de la estrategia", min: 29 },
+        t9: { title: "Racionalidad limitada y toma de decisiones", min: 16 },
     },
 };
 
