@@ -42,6 +42,10 @@ const PODCASTS = {
         t8: { title: "Sueldos: liquidación y aportes", min: 27 },
     },
     ago: {
+        t1: { title: "El gerente y sus habilidades", min: 16 },
+        t3: { title: "Límites de la función gerencial", min: 24 },
+        t4: { title: "Claves de Mintzberg: flujos y configuraciones", min: 16 },
+        t5: { title: "Visión, misión y estrategias corporativas", min: 27 },
         t6: { title: "FODA, cadena de valor y 5 fuerzas", min: 23 },
         t7: { title: "Estrategias competitivas", min: 17 },
         t8: { title: "Claves para la implantación de la estrategia", min: 29 },
