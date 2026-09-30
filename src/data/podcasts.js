@@ -43,6 +43,7 @@ const PODCASTS = {
     },
     ago: {
         t1: { title: "El gerente y sus habilidades", min: 16 },
+        t2: { title: "Claves de Goleman y Kotter", min: 13 },
         t3: { title: "Límites de la función gerencial", min: 24 },
         t4: { title: "Claves de Mintzberg: flujos y configuraciones", min: 16 },
         t5: { title: "Visión, misión y estrategias corporativas", min: 27 },
